@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **478 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **483 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -36,7 +36,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 
-## 🏛️ Classical / Historical · 465 canonical
+## 🏛️ Classical / Historical · 470 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -489,9 +489,14 @@
 | **Canonical** | **CLiFT: Compressive Light-Field Tokens for Compute Efficient and Adaptive Neural Rendering** | NeurIPS 2025 | Neural rendering acceleration | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0cdc4f2263989c9591e7017ecbdfc30d-Abstract-Conference.html) | — |
 | **Canonical** | **Efficient Rectified Flow for Image Fusion** | NeurIPS 2025 | diffusion/flow acceleration; image generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/212b143b5a5d6b88feb0fb1441b9756e-Abstract-Conference.html) | — |
 | **Canonical** | **Fourier Token Merging: Understanding and Capitalizing Frequency Domain for Efficient Image Generation** | NeurIPS 2025 | image generation acceleration; token reduction | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2235a8ce94c2c95ad5620ec1cb4f9990-Abstract-Conference.html) | — |
+| **Canonical** | **Generative Data Augmentation via Diffusion Distillation, Adversarial Alignment, and Importance Reweighting** | NeurIPS 2025 | diffusion acceleration / efficient training data generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/62e5721247075dd097023d077d8e22f7-Abstract-Conference.html) | — |
 | **Canonical** | **HyRF: Hybrid Radiance Fields for Memory-efficient and High-quality Novel View Synthesis** | NeurIPS 2025 | 3D/scene representation; memory-efficient view synthesis | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1a85a40d16f5142bd056eab5da6debdd-Abstract-Conference.html) | — |
+| **Canonical** | **Learnable Sampler Distillation for Discrete Diffusion Models** | NeurIPS 2025 | discrete diffusion / sampler acceleration | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/657a088c0d3a985a2ef017240c2ad40d-Abstract-Conference.html) | — |
+| **Canonical** | **Re-ttention: Ultra Sparse Visual Generation via Attention Statistical Reshape** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/54191f424e9013fc1d7b923f6e45dff4-Abstract-Conference.html) | — |
+| **Canonical** | **RepLDM: Reprogramming Pretrained Latent Diffusion Models for High-Quality, High-Efficiency, High-Resolution Image Generation** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/58a16bd2eb860f119a07aa98195c7672-Abstract-Conference.html) | — |
 | **Canonical** | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | NeurIPS 2025 | autoregressive video diffusion / streaming generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) | — |
 | **Canonical** | **Towards Better & Faster Autoregressive Image Generation: From the Perspective of Entropy** | NeurIPS 2025 | image generation acceleration; decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2d1c26fa38f31aca8712055758194bac-Abstract-Conference.html) | — |
+| **Canonical** | **Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Generation** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a829e299ebc1c1615ddb09e98fb6ce8-Abstract-Conference.html) | — |
 | **Canonical** | **VORTA: Efficient Video Diffusion via Routing Sparse Attention** | NeurIPS 2025 | video/image generation acceleration / efficient attention / diffusion | [Link](https://arxiv.org/abs/2505.18809) | [Repo](https://github.com/wenhao728/VORTA) |
 | **Canonical** | **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |
 | **Canonical** | **GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning** | RSS 2026 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss22/p093.html) | — |

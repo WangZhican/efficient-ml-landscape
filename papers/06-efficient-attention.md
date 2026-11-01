@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **708 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **717 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -39,7 +39,7 @@
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 
-## 🏛️ Classical / Historical · 692 canonical
+## 🏛️ Classical / Historical · 701 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -674,20 +674,29 @@
 | **Canonical** | **Efficient Large Language Model Inference with Neural Block Linearization** | NeurIPS 2025 | LLM inference acceleration / attention approximation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/088463cd3126aef2002ffc69da42ec59-Abstract-Conference.html) | — |
 | **Canonical** | **Flash Invariant Point Attention** | NeurIPS 2025 | Hardware-efficient attention | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/07ea874e9e4f71ec6680a3574a485a36-Abstract-Conference.html) | — |
 | **Canonical** | **FlashBias: Fast Computation of Attention with Bias** | NeurIPS 2025 | efficient attention; GPU kernel/fusion | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1dc3d70df51a218497529df998a8a8ce-Abstract-Conference.html) | — |
+| **Canonical** | **Graph-KV: Breaking Sequence via Injecting Structural Biases into Large Language Models** | NeurIPS 2025 | KV cache / long-context LLM efficiency | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/62caaa619dfa26bbc6eb7a0c1b8026f1-Abstract-Conference.html) | — |
+| **Canonical** | **JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model** | NeurIPS 2025 | efficient long-context sequence models / MoE | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/638fdcfbbe10b2040b0b2b0dbfb2b2c0-Abstract-Conference.html) | — |
 | **Canonical** | **KeyDiff: Key Similarity-Based KV Cache Eviction for Long-Context LLM Inference in Resource-Constrained Environments** | NeurIPS 2025 | KV cache eviction / resource-constrained long context | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0907335ecf28faf15be54485dbcbe70e-Abstract-Conference.html) | — |
 | **Canonical** | **KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction** | NeurIPS 2025 | KV cache eviction / multi-query reuse | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4eaa4b8f2d08edb3f0af990d56134ea-Abstract-Conference.html) | — |
 | **Canonical** | **Learning to Focus: Causal Attention Distillation via Gradient‐Guided Token Pruning** | NeurIPS 2025 | long-context; token pruning | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/236264ac647eef86b41991d53452fd0b-Abstract-Conference.html) | — |
 | **Canonical** | **Less is More: an Attention-free Sequence Prediction Modeling for Offline Embodied Learning** | NeurIPS 2025 | Embodied policy inference efficiency | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/03e81b3bdb6c0a61093defd319d12203-Abstract-Conference.html) | — |
+| **Canonical** | **LUNA: Efficient and Topology-Agnostic Foundation Model for EEG Signal Analysis** | NeurIPS 2025 | efficient sequence models / attention compression | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/66969a9e6bd7a26dfeccea7227178ca7-Abstract-Conference.html) | — |
 | **Canonical** | **MoBA: Mixture of Block Attention for Long-Context LLMs** | NeurIPS 2025 | KV cache/long-context; efficient attention | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/19eae75beed66321d62272e794a9c2ac-Abstract-Conference.html) | — |
 | **Canonical** | **MonarchAttention: Zero-Shot Conversion to Fast, Hardware-Aware Structured Attention** | NeurIPS 2025 | Efficient attention and GPU kernels | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/050f8591be3874b52fdac4e1060eeb29-Abstract-Conference.html) | — |
 | **Canonical** | **MUSTAFAR: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference** | NeurIPS 2025 | KV pruning / sparse attention kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6ea69f8116b7c01e3c3e43b62e6868fc-Abstract-Conference.html) | — |
+| **Canonical** | **Re-ttention: Ultra Sparse Visual Generation via Attention Statistical Reshape** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/54191f424e9013fc1d7b923f6e45dff4-Abstract-Conference.html) | — |
+| **Canonical** | **RepLDM: Reprogramming Pretrained Latent Diffusion Models for High-Quality, High-Efficiency, High-Resolution Image Generation** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/58a16bd2eb860f119a07aa98195c7672-Abstract-Conference.html) | — |
+| **Canonical** | **RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e36d4049fb0fea195a8267c8dcd0824-Abstract-Conference.html) | — |
 | **Canonical** | **RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing** | NeurIPS 2025 | Mamba and efficient foundation models | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/065c00e902f3f0117d1a4da0a9b0e497-Abstract-Conference.html) | — |
+| **Canonical** | **Rope to Nope and Back Again: A New Hybrid Attention Strategy** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c9ab393551b7a39b4c02d88fe5e7e69-Abstract-Conference.html) | — |
 | **Canonical** | **SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training** | NeurIPS 2025 | low-bit attention kernel / FP4 | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4db397e0f760cc573c681e81a01a3dba-Abstract-Conference.html) | — |
 | **Canonical** | **SALS: Sparse Attention in Latent Space for KV Cache Compression** | NeurIPS 2025 | KV cache compression / sparse attention | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/00a0ebcad584c59dbc439c2af8793638-Abstract-Conference.html) | — |
+| **Canonical** | **SeerAttention: Self-distilled Attention Gating for Efficient Long-context Prefilling** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/50e9dbc4ab68d94f15261ddc26c8ca2b-Abstract-Conference.html) | — |
 | **Canonical** | **SmallKV: Small Model Assisted Compensation of KV Cache Compression for Efficient LLM Inference** | NeurIPS 2025 | KV cache compression / small-model assistance | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/45790132b9f91b5787232e1cbe0712fc-Abstract-Conference.html) | — |
 | **Canonical** | **Spark Transformer: Reactivating Sparsity in Transformer FFN and Attention** | NeurIPS 2025 | sparsity/pruning; Transformer efficiency | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/220d26c7fb478c2a397bd3fef0fe1d6f-Abstract-Conference.html) | — |
 | **Canonical** | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c799b09cc40973ceaa47da50131dc63-Abstract-Conference.html) | — |
 | **Canonical** | **Streaming Attention Approximation via Discrepancy Theory** | NeurIPS 2025 | KV cache/long-context; streaming attention | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1de510838faddd72f79a7a0e9c564f0c-Abstract-Conference.html) | — |
+| **Canonical** | **Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels** | NeurIPS 2025 | GPU kernels / efficient sequence models | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6cb81234ab47027e991728ed7dd76735-Abstract-Conference.html) | — |
 | **Canonical** | **Value-Guided KV Compression for LLMs via Approximated CUR Decomposition** | NeurIPS 2025 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.15038) | — |
 | **Canonical** | **VORTA: Efficient Video Diffusion via Routing Sparse Attention** | NeurIPS 2025 | video/image generation acceleration / efficient attention / diffusion | [Link](https://arxiv.org/abs/2505.18809) | [Repo](https://github.com/wenhao728/VORTA) |
 | **Canonical** | **ZeroS: Zero‑Sum Linear Attention for Efficient Transformers** | NeurIPS 2025 | Linear attention and efficient Transformers | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1363163299a172662dcf0c0f9932acf6-Abstract-Conference.html) | — |

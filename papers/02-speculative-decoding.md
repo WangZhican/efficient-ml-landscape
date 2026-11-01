@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **444 canonical papers** mapped here, plus a broader **17-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **446 canonical papers** mapped here, plus a broader **17-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -26,7 +26,7 @@
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 430 canonical
+## 🏛️ Classical / Historical · 432 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -431,7 +431,9 @@
 | **Canonical** | **SuperInfer** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/07fd64f9316f40193c6a4d87d8afa011-Paper-Conference.pdf) | — |
 | **Canonical** | **SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving** | MLSys 2026 Industry Track | LLM serving; inference accelerator; SRAM-based serving; distributed inference; pipeline parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/9c20f16b05f5e5e70fa07e2a4364b80e-Abstract-Conference.html) | — |
 | **Canonical** | **MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems** | NeurIPS 2015 | distributed training; heterogeneous ML library | [Link](https://arxiv.org/abs/1512.01274) | — |
+| **Canonical** | **Accelerating Diffusion LLMs via Adaptive Parallel Decoding** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4c7d31b2da05a17f15101db5b37a1e24-Abstract-Conference.html) | — |
 | **Canonical** | **Approximately Aligned Decoding** | NeurIPS 2025 | Constrained LLM decoding and speculative methods | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/10beb9c6620e72264b093899a341924d-Abstract-Conference.html) | — |
+| **Canonical** | **CAS-Spec: Cascade Adaptive Self-Speculative Decoding for On-the-Fly Lossless Inference Acceleration of LLMs** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e27f5d8ecd30ac6235892ef97676e78-Abstract-Conference.html) | — |
 | **Canonical** | **EasySpec: Layer-Parallel Speculative Decoding for Efficient Multi-GPU Utilization** | NeurIPS 2025 | speculative decoding / multi-GPU inference / layer parallelism | [Link](https://arxiv.org/abs/2502.02493) | [Repo](https://github.com/Yize-Wu/EasySpec) |
 | **Canonical** | **GRIFFIN: Effective Token Alignment for Faster Speculative Decoding** | NeurIPS 2025 | speculative decoding / draft-model alignment | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b6e67ae290635d0874c4cb43ba2a2cfb-Abstract-Conference.html) | [Repo](https://github.com/hsj576/GRIFFIN) |
 | **Canonical** | **List-Level Distribution Coupling with Applications to Speculative Decoding and Lossy Compression** | NeurIPS 2025 | Speculative decoding and compression | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/088bafc6da5f934cf9acbb361a71bfe5-Abstract-Conference.html) | — |

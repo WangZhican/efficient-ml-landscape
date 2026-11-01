@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **830 canonical papers** mapped here, plus a broader **124-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **832 canonical papers** mapped here, plus a broader **124-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -133,7 +133,7 @@
 | **P0 · Strong** | **Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack** | Fresh / preprint | CPU INT8 inference / PyTorch-TorchAO / TorchInductor | [Link](https://arxiv.org/abs/2608.18182) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 795 canonical
+## 🏛️ Classical / Historical · 797 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -880,12 +880,14 @@
 | **Canonical** | **CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs** | NeurIPS 2025 | quantized LLM inference / GEMM kernel / codebook quantization | [Link](https://arxiv.org/abs/2512.17970) | — |
 | **Canonical** | **DartQuant: Efficient Rotational Distribution Calibration for LLM Quantization** | NeurIPS 2025 | quantization / rotation calibration / efficient PTQ | [Link](https://arxiv.org/abs/2511.04063) | [Repo](https://github.com/CAS-CLab/DartQuant) |
 | **Canonical** | **Efficient semantic uncertainty quantification in language models via diversity-steered sampling** | NeurIPS 2025 | efficient reasoning; uncertainty sampling | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2e49934cac6cb8604b0c67cfa0828718-Abstract-Conference.html) | — |
+| **Canonical** | **PathVQ: Reforming Computational Pathology Foundation Model for Whole Slide Image Analysis via Vector Quantization** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/59f278de1619bdb6b53fd04e8e0976e0-Abstract-Conference.html) | — |
 | **Canonical** | **PolarQuant: Leveraging Polar Transformation for Key Cache Quantization and Decoding Acceleration** | NeurIPS 2025 | KV-cache quantization and LLM decoding acceleration | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/48aa1c882f99f5cdd3c76f7c0ede44a7-Abstract-Conference.html) | — |
 | **Canonical** | **Q-Palette: Fractional-Bit Quantizers Toward Optimal Bit Allocation for Efficient LLM Deployment** | NeurIPS 2025 | quantization / CUDA kernels / efficient LLM deployment | [Link](https://arxiv.org/abs/2509.20214) | [Repo](https://github.com/snu-mllab/Q-Palette) |
 | **Canonical** | **QSCA: Quantization with Self-Compensating Auxiliary for Monocular Depth Estimation** | NeurIPS 2025 | quantization; edge/physical vision | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2d13e0a4097e44b9f167f2e67aa0214a-Abstract-Conference.html) | — |
 | **Canonical** | **QSVD: Efficient Low-rank Approximation for Unified Query-Key-Value Weight Compression in Low-Precision Vision-Language Models** | NeurIPS 2025 | VLM compression and low-precision inference | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/028ef7e68a5ea25fc26cd6abf3a5c147-Abstract-Conference.html) | — |
 | **Canonical** | **RSAVQ: Riemannian Sensitivity-Aware Vector Quantization for Large Language Models** | NeurIPS 2025 | LLM quantization; low-bit deployment | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/022a921af644da887f5930377f9d53d6-Abstract-Conference.html) | — |
 | **Canonical** | **SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training** | NeurIPS 2025 | low-bit attention kernel / FP4 | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4db397e0f760cc573c681e81a01a3dba-Abstract-Conference.html) | — |
+| **Canonical** | **Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Generation** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a829e299ebc1c1615ddb09e98fb6ce8-Abstract-Conference.html) | — |
 | **Canonical** | **Atom: Low-bit Quantization for Efficient and Accurate LLM Serving** | OSDI 2024 | quantization; LLM serving | [Link](https://arxiv.org/abs/2310.19102) | — |
 | **Canonical** | **ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping** | OSDI 2026 | arbitrary-precision quantized LLM runtime | [Link](https://www.usenix.org/system/files/osdi26-liu-yao.pdf) | — |
 | **Canonical** | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | [Link](https://arxiv.org/abs/2506.06095) | — |

@@ -116306,6 +116306,94 @@
     ]
   },
   {
+    "title": "A Token is Worth over 1,000 Tokens: Efficient Knowledge Distillation through Low-Rank Clone",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1791",
+    "official_id": "NEURIPS2025:4d6938f94ab47d32128c239a4bfedae0",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d6938f94ab47d32128c239a4bfedae0-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Low-Rank Clone directly targets compute-efficient SLM pretraining via soft pruning and activation cloning, reporting comparable performance with 20B tokens and over 1,000x training efficiency. This is a core model-compression/training-efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Accelerated Sampling from Masked Diffusion Models via Entropy Bounded Unmasking",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1874",
+    "official_id": "NEURIPS2025:510e22f4a2da5212a64f1591736e2eaf",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/510e22f4a2da5212a64f1591736e2eaf-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "EB-Sampler adaptively unmasks multiple tokens per function evaluation in masked diffusion LLMs, reporting roughly 2-3x faster sampling without quality loss. This is a core diffusion-LLM decoding paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Accelerating Block Coordinate Descent for LLM Finetuning via Landscape Expansion",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1894",
+    "official_id": "NEURIPS2025:51c6e143b5da2bd6e4a618d8a5d7f38b",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/51c6e143b5da2bd6e4a618d8a5d7f38b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The method targets memory-constrained LLM fine-tuning by accelerating block coordinate descent through landscape expansion. This is a core training-efficiency/optimizer paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Accelerating Diffusion LLMs via Adaptive Parallel Decoding",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1763",
+    "official_id": "NEURIPS2025:4c7d31b2da05a17f15101db5b37a1e24",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4c7d31b2da05a17f15101db5b37a1e24-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper directly accelerates diffusion-LLM generation through adaptive parallel decoding, auxiliary autoregressive mixing, KV caching, and masked-input reduction, with throughput-quality tradeoffs. This is a core speculative/diffusion decoding contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Accelerating Visual-Policy Learning through Parallel Differentiable Simulation",
     "venue": "NeurIPS 2025",
     "topic": "efficient Physical-AI policy learning",
@@ -116324,6 +116412,50 @@
     "tracking_tier": "Canonical",
     "directions": [
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ACCO: Accumulate While You Communicate for Communication-Overlapped Sharded LLM Training",
+    "venue": "NeurIPS 2025",
+    "topic": "distributed LLM training / communication efficiency",
+    "arxiv": "",
+    "doi": "10.52202/085713-2329",
+    "official_id": "NEURIPS2025:6454dcd80b5373daaa97e53ce32c78a1",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6454dcd80b5373daaa97e53ce32c78a1-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports reduced GPU idle time, memory efficiency, heterogeneous scaling, and faster training than ZeRO-1, directly addressing distributed LLM training efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Accurate and Efficient Low-Rank Model Merging in Core Space",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2066",
+    "official_id": "NEURIPS2025:5913278289e8de3e8f9ac22b47f3ae06",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5913278289e8de3e8f9ac22b47f3ae06-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The method merges LoRA/low-rank adaptations accurately in a compact core space, directly improving parameter-efficient adaptation and model composition. This is a core efficient-adaptation paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -116412,6 +116544,27 @@
     ]
   },
   {
+    "title": "Ada-R1: Hybrid-CoT via Bi-Level Adaptive Reasoning Optimization",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1986",
+    "official_id": "NEURIPS2025:558da25ef295121e2d79209a95e45436",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/558da25ef295121e2d79209a95e45436-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Ada-R1 adaptively allocates long-chain reasoning only to problems that benefit, directly targeting inference overhead while preserving accuracy. This is a core efficient-reasoning paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning",
     "venue": "NeurIPS 2025",
     "topic": "parameter-efficient fine-tuning",
@@ -116497,6 +116650,27 @@
     ]
   },
   {
+    "title": "Analog Foundation Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2044",
+    "official_id": "NEURIPS2025:580baa016b012f8d3ea27b9ac758cee1",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/580baa016b012f8d3ea27b9ac758cee1-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The work adapts LLMs for noisy low-precision analog in-memory hardware while retaining 4-bit-baseline performance, enabling energy-efficient inference. This is a core hardware/low-precision contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Approximately Aligned Decoding",
     "venue": "NeurIPS 2025",
     "topic": "Constrained LLM decoding and speculative methods",
@@ -116515,6 +116689,48 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "Ask a Strong LLM Judge when Your Reward Model is Uncertain",
+    "venue": "NeurIPS 2025",
+    "topic": "cost-efficient RLHF / reward-model routing",
+    "arxiv": "",
+    "doi": "10.52202/085713-2506",
+    "official_id": "NEURIPS2025:6c312cf14321a99ae3788a41593cf2bd",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6c312cf14321a99ae3788a41593cf2bd-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper directly reduces expensive LLM-judge calls through uncertainty-based routing and demonstrates better results than random routing at the same cost, a clear cost-efficient alignment contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Atom of Thoughts for Markov LLM Test-Time Scaling",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient reasoning / test-time inference",
+    "arxiv": "",
+    "doi": "10.52202/085713-2481",
+    "official_id": "NEURIPS2025:6b1018f844177088c380e1143d55cdfb",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6b1018f844177088c380e1143d55cdfb-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract explicitly identifies accumulated history as wasted compute and proposes a plug-in decomposition-contraction process to improve reasoning efficiency during test-time scaling.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -116587,6 +116803,28 @@
     ]
   },
   {
+    "title": "Balanced Token Pruning: Accelerating Vision Language Models Beyond Local Optimization",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2103",
+    "official_id": "NEURIPS2025:5aab3631d0d3131281fb88265db69480",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5aab3631d0d3131281fb88265db69480-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The method directly reduces LVLM visual-token overhead with balanced token pruning beyond local optimization, targeting dynamic high-resolution inputs. This is a core multimodal inference-efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Beyond Attention or Similarity: Maximizing Conditional Diversity for Token Pruning in MLLMs",
     "venue": "NeurIPS 2025",
     "topic": "MLLM serving; visual-token pruning",
@@ -116608,6 +116846,50 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Bifrost-1: Bridging Multimodal LLMs and Diffusion Models with Patch-level CLIP Latents",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient multimodal generation / diffusion training",
+    "arxiv": "",
+    "doi": "10.52202/085713-2345",
+    "official_id": "NEURIPS2025:651516f9bc689d5508285f0784c0d90b",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/651516f9bc689d5508285f0784c0d90b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports substantially lower training compute while preserving multimodal reasoning and high-fidelity controllable generation, a direct multimodal training-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Bilevel ZOFO: Efficient LLM Fine-Tuning and Meta-Training",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2223",
+    "official_id": "NEURIPS2025:5f999632c48f87cffb214e575581e4a9",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5f999632c48f87cffb214e575581e4a9-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Bilevel ZOFO targets the compute burden of first-order LLM fine-tuning and meta-training with a zeroth-order bilevel optimizer. This is a core efficient-training paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -116651,6 +116933,49 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2137",
+    "official_id": "NEURIPS2025:5c1a8aa04c1a2cf5013f28831870dafa",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f28831870dafa-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "BridgeVLA directly targets efficient VLA manipulation learning through input-output alignment and 3D spatial structure. This is a core protected Physical-AI/VLA efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "CAS-Spec: Cascade Adaptive Self-Speculative Decoding for On-the-Fly Lossless Inference Acceleration of LLMs",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2182",
+    "official_id": "NEURIPS2025:5e27f5d8ecd30ac6235892ef97676e78",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e27f5d8ecd30ac6235892ef97676e78-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "CAS-Spec directly targets lossless on-the-fly LLM inference acceleration via cascaded adaptive self-speculation, addressing limitations of prior self-speculative methods. This is a core speculative-decoding paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
@@ -116739,6 +117064,27 @@
     ]
   },
   {
+    "title": "COALA: Numerically Stable and Efficient Framework for Context-Aware Low-Rank Approximation",
+    "venue": "NeurIPS 2025",
+    "topic": "model compression / low-rank approximation",
+    "arxiv": "",
+    "doi": "10.52202/085713-2388",
+    "official_id": "NEURIPS2025:67022e6927b7887ef56f57d87d42ca84",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/67022e6927b7887ef56f57d87d42ca84-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper directly advances context-aware low-rank compression and handles calibration-memory and numerical-instability bottlenecks that constrain large-model compression workflows.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs",
     "venue": "NeurIPS 2025",
     "topic": "quantized LLM inference / GEMM kernel / codebook quantization",
@@ -116783,6 +117129,27 @@
     ]
   },
   {
+    "title": "Compress Large Language Models via  Collaboration Between Learning and Matrix Approximation",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2027",
+    "official_id": "NEURIPS2025:5752f9fd2d5c40174738d6f02c202e72",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5752f9fd2d5c40174738d6f02c202e72-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The method jointly learns sparse and low-rank matrix approximations for LLM compression, directly targeting weight redundancy and efficient inference. This is a core compression paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "Compress, Gather, and Recompute: REFORMing Long-Context Processing in Transformers",
     "venue": "NeurIPS 2025",
     "topic": "long-context inference / compressed KV / recompute",
@@ -116801,6 +117168,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Conformal Arbitrage: Risk-Controlled Balancing of Competing Objectives in Language Models",
+    "venue": "NeurIPS 2025",
+    "topic": "LLM serving / cost-aware cascades",
+    "arxiv": "",
+    "doi": "10.52202/085713-2364",
+    "official_id": "NEURIPS2025:65a655c5a267f678fd3e897e4137ef53",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/65a655c5a267f678fd3e897e4137ef53-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper explicitly targets economical LLM deployment through cost-matched model routing and an efficient utility-risk frontier, a direct inference-serving optimization contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -116866,6 +117254,51 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "CPPO: Accelerating the Training of Group Relative Policy Optimization-Based Reasoning Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2040",
+    "official_id": "NEURIPS2025:57ec371599f3d4123c9b054ffa3ef0ca",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/57ec371599f3d4123c9b054ffa3ef0ca-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "CPPO prunes low-advantage completions and dynamically allocates questions to accelerate GRPO training, reporting up to 7.98x speedup on GSM8K and 3.48x on Math. This is a core reasoning-training efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "CryptoMoE: Privacy-Preserving and Scalable Mixture of Experts Inference via Balanced Expert Routing",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1927",
+    "official_id": "NEURIPS2025:5340b0c0b76dc0115f5cc91c20c1251d",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5340b0c0b76dc0115f5cc91c20c1251d-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "CryptoMoE provides private MoE inference with balanced routing and secure dispatch/combine protocols, reporting 2.8-3.5x lower end-to-end latency and 3-6x lower communication than a dense baseline. This is a core MoE inference-systems paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -116935,6 +117368,27 @@
     ]
   },
   {
+    "title": "DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2147",
+    "official_id": "NEURIPS2025:5c7695d94aee91daecc62b3832fe824c",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c7695d94aee91daecc62b3832fe824c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "DenoiseRotator targets robustness of semi-structured LLM pruning by concentrating importance across rotations, directly supporting sparse/compressed inference. This is a core pruning paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "Deployment Efficient Reward-Free Exploration with Linear Function Approximation",
     "venue": "NeurIPS 2025",
     "topic": "efficient RL; deployment/runtime",
@@ -116953,6 +117407,71 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "DiEP: Adaptive Mixture-of-Experts Compression through Differentiable Expert Pruning",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1878",
+    "official_id": "NEURIPS2025:511c7fd69db9f1ce7492a57285975849",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/511c7fd69db9f1ce7492a57285975849-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "DiEP performs adaptive layer-wise expert pruning and online expert skipping for MoE compression, retaining about 92% of Mixtral 8x7B performance with half the experts. This is a core MoE compression/efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "Diff-ICMH: Harmonizing Machine and Human Vision in Image Compression with Generative Prior",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2141",
+    "official_id": "NEURIPS2025:5c33e9aedee21daeda9e03f43ec4865d",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c33e9aedee21daeda9e03f43ec4865d-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Diff-ICMH jointly optimizes image compression for human perception and machine analysis with a generative prior. This is a core efficient multimodal/compression contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Diversifying Parallel Ergodic Search: A Signature Kernel Evolution Strategy",
+    "venue": "NeurIPS 2025",
+    "topic": "Physical AI / GPU-parallel robotic planning",
+    "arxiv": "",
+    "doi": "10.52202/085713-2482",
+    "official_id": "NEURIPS2025:6b4067db7f54023ee8f2253a4241f226",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6b4067db7f54023ee8f2253a4241f226-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The method directly improves parallel robotic search with GPU-friendly batched evaluation and reports reduced ergodic cost across 3D quadrotor and control benchmarks, fitting protected Physical-AI systems research.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -117013,6 +117532,27 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "The official abstract reports over 4x speedup versus existing value-guided methods while improving caption fidelity and cross-model generalization; this is a strong multimodal-inference efficiency record.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "DyMU: Dynamic Merging and Virtual Unmerging for Efficient Variable-Length VLMs",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient VLM inference / dynamic visual-token merging",
+    "arxiv": "",
+    "doi": "10.52202/085713-2448",
+    "official_id": "NEURIPS2025:69b7023c2d69e228bb308cb5d4c785f3",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/69b7023c2d69e228bb308cb5d4c785f3-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly targets VLM compute and reports substantial visual-token reductions with comparable task performance in a training-free framework, a core efficient multimodal inference contribution.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -117109,6 +117649,27 @@
     ]
   },
   {
+    "title": "Efficient Multimodal Dataset Distillation via Generative Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient multimodal training / dataset distillation",
+    "arxiv": "",
+    "doi": "10.52202/085713-2280",
+    "official_id": "NEURIPS2025:61fe8926c98a5547c9ad6191b0b654ea",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/61fe8926c98a5547c9ad6191b0b654ea-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports an 18x speedup for multimodal dataset distillation over the state of the art, a direct and substantial training-efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Efficient Part-level 3D Object Generation via Dual Volume Packing",
     "venue": "NeurIPS 2025",
     "topic": "3D generation acceleration; scene/shape representation",
@@ -117127,6 +117688,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Efficient RAW Image Deblurring with Adaptive Frequency Modulation",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient vision models / image restoration",
+    "arxiv": "",
+    "doi": "10.52202/085713-2360",
+    "official_id": "NEURIPS2025:6584512f2e8befbc47a5a2cab85e7071",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6584512f2e8befbc47a5a2cab85e7071-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly reports reduced MACs while improving RAW image deblurring quality, establishing an explicit compute-efficiency result in vision.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -117196,6 +117778,27 @@
     ]
   },
   {
+    "title": "Efficient Verified Unlearning For Distillation",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient model unlearning / distillation",
+    "arxiv": "",
+    "doi": "10.52202/085713-2392",
+    "official_id": "NEURIPS2025:67182d38f943d51ff5f1896841751243",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/67182d38f943d51ff5f1896841751243-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports substantial retraining-overhead reduction and speedups by avoiding complete student retraining after teacher-side unlearning, a direct efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "EfficientNav: Towards On-Device Object-Goal Navigation with Navigation Map Caching and Retrieval",
     "venue": "NeurIPS 2025",
     "topic": "On-device embodied-agent serving",
@@ -117217,6 +117820,27 @@
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Fast Inference for Augmented Large Language Models",
+    "venue": "NeurIPS 2025",
+    "topic": "LLM serving / augmented inference scheduling",
+    "arxiv": "",
+    "doi": "10.52202/085713-2404",
+    "official_id": "NEURIPS2025:679b0e02978404ee569ce2abfb8455cf",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/679b0e02978404ee569ce2abfb8455cf-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper directly optimizes augmented-LLM inference scheduling and reports substantial end-to-end latency and TTFT improvements on a vLLM implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -117261,6 +117885,50 @@
     "directions": [
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Flexible Realignment of Language Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient reasoning / LLM inference",
+    "arxiv": "",
+    "doi": "10.52202/085713-2239",
+    "official_id": "NEURIPS2025:60797b42c939569deb573d8d4b5cc888",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/60797b42c939569deb573d8d4b5cc888-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract reports a 54.63% token-use reduction without performance degradation and adds controllable inference-time realignment. This directly reduces reasoning compute and inference cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "FlowMoE: A Scalable Pipeline Scheduling Framework for Distributed Mixture-of-Experts Training",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1798",
+    "official_id": "NEURIPS2025:4dade38eae8c007f3a564b8ea820664a",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4dade38eae8c007f3a564b8ea820664a-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "FlowMoE schedules MHA, gating, expert computation, all-to-all, and all-reduce pipelines in distributed MoE training, reporting 14-57% lower training time and 10-39% lower energy. This is a core distributed-training systems paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -117327,6 +117995,50 @@
     ]
   },
   {
+    "title": "Generative Data Augmentation via Diffusion Distillation, Adversarial Alignment, and Importance Reweighting",
+    "venue": "NeurIPS 2025",
+    "topic": "diffusion acceleration / efficient training data generation",
+    "arxiv": "",
+    "doi": "10.52202/085713-2301",
+    "official_id": "NEURIPS2025:62e5721247075dd097023d077d8e22f7",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/62e5721247075dd097023d077d8e22f7-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports a one-step distilled diffusion student with over 100x lower per-image generation cost while preserving FID, a direct and substantial generation-acceleration result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Glance2Gaze: Efficient Vision-Language Models from Glance Fusion to Gaze Compression",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient MLLM inference / visual token compression",
+    "arxiv": "",
+    "doi": "10.52202/085713-2340",
+    "official_id": "NEURIPS2025:64ad7b36b497f375ded2e6f15713ed4c",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/64ad7b36b497f375ded2e6f15713ed4c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly targets visual-token compute and reports superior performance at equal or lower computational cost, including high-resolution and video settings; this is a core MLLM efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
     "venue": "NeurIPS 2025",
     "topic": "LLM pretraining efficiency",
@@ -117348,6 +118060,29 @@
     ]
   },
   {
+    "title": "Graph-KV: Breaking Sequence via Injecting Structural Biases into Large Language Models",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache / long-context LLM efficiency",
+    "arxiv": "",
+    "doi": "10.52202/085713-2298",
+    "official_id": "NEURIPS2025:62caaa619dfa26bbc6eb7a0c1b8026f1",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/62caaa619dfa26bbc6eb7a0c1b8026f1-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper uses selective cached-segment attention and structural sparsity to reduce serialized context consumption, directly addressing KV-cache and long-context inference efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "GRIFFIN: Effective Token Alignment for Faster Speculative Decoding",
     "venue": "NeurIPS 2025",
     "topic": "speculative decoding / draft-model alignment",
@@ -117366,6 +118101,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "GSPN-2: Efficient Parallel Sequence Modeling",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1971",
+    "official_id": "NEURIPS2025:550ab405d0addd3de5b70e57b44878df",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/550ab405d0addd3de5b70e57b44878df-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "GSPN-2 jointly redesigns algorithm and GPU system to eliminate thousands of micro-kernel launches, reduce memory traffic, and approach linear-cost parallel sequence modeling. This is a core architecture/kernel efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -117453,6 +118209,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "How to Train Your LLM Web Agent: A Statistical Diagnosis",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1774",
+    "official_id": "NEURIPS2025:4d239452d41ded07139801d7c966c629",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d239452d41ded07139801d7c966c629-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper provides a statistically grounded agent-training pipeline and compute-allocation curve, reporting 45% lower GPU costs alongside improved task success. This is a substantive efficient-agent-training contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -117560,6 +118338,29 @@
     "directions": [
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient long-context sequence models / MoE",
+    "arxiv": "",
+    "doi": "10.52202/085713-2314",
+    "official_id": "NEURIPS2025:638fdcfbbe10b2040b0b2b0dbfb2b2c0",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/638fdcfbbe10b2040b0b2b0dbfb2b2c0-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The abstract explicitly targets the computational burden of long-range genomic dependencies and combines efficient sequential modeling with global attention in a hybrid MoE architecture, making it a core efficient sequence-modeling result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "MoE Systems / Accelerators"
     ]
   },
   {
@@ -117692,6 +118493,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Learnable Sampler Distillation for Discrete Diffusion Models",
+    "venue": "NeurIPS 2025",
+    "topic": "discrete diffusion / sampler acceleration",
+    "arxiv": "",
+    "doi": "10.52202/085713-2358",
+    "official_id": "NEURIPS2025:657a088c0d3a985a2ef017240c2ad40d",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/657a088c0d3a985a2ef017240c2ad40d-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly addresses inefficient discrete-diffusion sampling and reports substantially higher quality with significantly fewer sampling steps across text and image generation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -117828,6 +118651,92 @@
     ]
   },
   {
+    "title": "Loquetier: A Virtualized Multi-LoRA Framework for Unified LLM Fine-tuning and Serving",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2199",
+    "official_id": "NEURIPS2025:5ebc22174f6dff6fa7c2447d0dfa31ea",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5ebc22174f6dff6fa7c2447d0dfa31ea-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Loquetier unifies multi-LoRA fine-tuning and serving through virtualization, directly targeting resource utilization and deployment efficiency. This is a core LLM serving/adaptation systems paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
+    "title": "LUNA: Efficient and Topology-Agnostic Foundation Model for EEG Signal Analysis",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient sequence models / attention compression",
+    "arxiv": "",
+    "doi": "10.52202/085713-2377",
+    "official_id": "NEURIPS2025:66969a9e6bd7a26dfeccea7227178ca7",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/66969a9e6bd7a26dfeccea7227178ca7-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports linear scaling with channel count, 300x fewer FLOPs, and up to 10x lower GPU memory while maintaining competitive results, a substantial compute- and memory-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "MALinZero: Efficient Low-Dimensional Search for Mastering Complex Multi-Agent Planning",
+    "venue": "NeurIPS 2025",
+    "topic": "Physical AI / efficient multi-agent planning",
+    "arxiv": "",
+    "doi": "10.52202/085713-2527",
+    "official_id": "NEURIPS2025:6cd8644fab1f7837acd8298f6360864c",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6cd8644fab1f7837acd8298f6360864c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly targets exponential multi-agent search complexity with a low-dimensional formulation and efficient MCTS, reporting state-of-the-art performance across multi-agent planning benchmarks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Mamba Only Glances Once (MOGO): A Lightweight Framework for Efficient Video Action Detection",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2195",
+    "official_id": "NEURIPS2025:5e88ccc6d03f08e426de9bb918aa1bca",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e88ccc6d03f08e426de9bb918aa1bca-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "MOGO builds efficient video action detection on Mamba's near-linear sequence modeling and introduces a lightweight decoder. This is a core video/sequence-efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning",
     "venue": "NeurIPS 2025",
     "topic": "Scalable multi-agent reinforcement learning",
@@ -117867,6 +118776,49 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "MESS+: Dynamically Learned Inference-Time LLM Routing in Model Zoos with Service Level Guarantees",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1804",
+    "official_id": "NEURIPS2025:4dd1d9b841712bd37b833559f041530c",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4dd1d9b841712bd37b833559f041530c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "MESS+ performs cost-optimal LLM request routing with rigorous SLA guarantees and real-time satisfaction prediction, reporting 2x cost savings. This is a core efficient LLM serving paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
+    "title": "Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training",
+    "venue": "NeurIPS 2025",
+    "topic": "distributed training / communication compression",
+    "arxiv": "",
+    "doi": "10.52202/085713-2421",
+    "official_id": "NEURIPS2025:686433adca9a58adb84b9517ce12a511",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/686433adca9a58adb84b9517ce12a511-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports over 95% communication compression and matching centralized wall-clock convergence on a low-bandwidth network, directly targeting distributed long-context training efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -118002,6 +118954,27 @@
     ]
   },
   {
+    "title": "Multiplication-Free Parallelizable Spiking Neurons with Efficient Spatio-Temporal Dynamics",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2213",
+    "official_id": "NEURIPS2025:5f40a99efedc1148a061d80201949c84",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5f40a99efedc1148a061d80201949c84-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The neuron model removes multiplication and serial temporal dynamics from SNN computation, enabling parallelizable and faster training. This is a core energy/training-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MUSTAFAR: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference",
     "venue": "NeurIPS 2025",
     "topic": "KV pruning / sparse attention kernel",
@@ -118027,6 +119000,27 @@
     ]
   },
   {
+    "title": "On Reasoning Strength Planning in Large Reasoning Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2115",
+    "official_id": "NEURIPS2025:5b26b9e634ba10f6c51c6db7365c4c28",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5b26b9e634ba10f6c51c6db7365c4c28-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper studies adaptive allocation of reasoning-token strength by problem difficulty, directly targeting the inference cost of long reasoning. This is a core efficient-reasoning paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "On scalable and efficient training of diffusion samplers",
     "venue": "NeurIPS 2025",
     "topic": "diffusion/flow acceleration; sample-efficient training",
@@ -118045,6 +119039,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "One Token per Highly Selective Frame: Towards Extreme Compression for Long Video Understanding",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1922",
+    "official_id": "NEURIPS2025:52eb0f34026703c6a1c27693c2ab60dc",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/52eb0f34026703c6a1c27693c2ab60dc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "XComp combines learnable token-level and query-conditioned frame compression, enabling 2-4x more frames with improved performance. This is a core long-video/MLLM efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -118087,6 +119102,49 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries",
+    "venue": "NeurIPS 2025",
+    "topic": "LLM serving / intra-query parallel execution",
+    "arxiv": "",
+    "doi": "10.52202/085713-2497",
+    "official_id": "NEURIPS2025:6bbefc73a187dd42e0dc065b4e7a0615",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6bbefc73a187dd42e0dc065b4e7a0615-Abstract-Datasets_and_Benchmarks_Track.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports up to 5x latency speedups through intra-query parallelism with minimal quality degradation, directly targeting LLM serving pipeline efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "PathVQ: Reforming Computational Pathology Foundation Model for Whole Slide Image Analysis via Vector Quantization",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2086",
+    "official_id": "NEURIPS2025:59f278de1619bdb6b53fd04e8e0976e0",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/59f278de1619bdb6b53fd04e8e0976e0-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "PathVQ uses vector quantization to address scalability and representation cost in pathology foundation models. This is a core quantization/compression contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {
@@ -118152,6 +119210,29 @@
     "directions": [
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "Pragmatic Heterogeneous Collaborative Perception via Generative Communication Mechanism",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1822",
+    "official_id": "NEURIPS2025:4e6e0b561c00b3159b7c1c5cf4b0c9d3",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e6e0b561c00b3159b7c1c5cf4b0c9d3-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "GenComm enables heterogeneous multi-agent perception without retraining core encoders and reports an 81% reduction in computational cost and parameter count for adding agents. This is a core Physical-AI/heterogeneous-systems efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -118308,6 +119389,30 @@
     ]
   },
   {
+    "title": "Re-ttention: Ultra Sparse Visual Generation via Attention Statistical Reshape",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1945",
+    "official_id": "NEURIPS2025:54191f424e9013fc1d7b923f6e45dff4",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/54191f424e9013fc1d7b923f6e45dff4-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Re-ttention exploits diffusion-model temporal redundancy to enable extremely sparse attention in T2I/T2V, using as few as 3.1% of tokens at inference. This is a core video/image generation efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Reasoning Path Compression: Compressing Generation Trajectories for Efficient LLM Reasoning",
     "venue": "NeurIPS 2025",
     "topic": "efficient reasoning / KV cache compression",
@@ -118331,6 +119436,49 @@
     ]
   },
   {
+    "title": "ReMindRAG: Low-Cost LLM-Guided Knowledge Graph Traversal for Efficient RAG",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1793",
+    "official_id": "NEURIPS2025:4d880ba08f6b115bb8d685159bb167eb",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d880ba08f6b115bb8d685159bb167eb-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "ReMindRAG explicitly optimizes RAG effectiveness and cost by using train-free graph traversal and memory replay to reduce prompt tokens and inference time. This is a core efficient-reasoning/RAG contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "REP: Resource-Efficient Prompting for Rehearsal-Free Continual Learning",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2085",
+    "official_id": "NEURIPS2025:59ea33ae3d096f3bcd5026b479710cf8",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/59ea33ae3d096f3bcd5026b479710cf8-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "REP directly reduces computational and memory cost in rehearsal-free continual learning via resource-efficient prompting. This is a core efficient-learning contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ReplaceMe: Network Simplification via Depth Pruning and Transformer Block Linearization",
     "venue": "NeurIPS 2025",
     "topic": "sparsity/pruning; model compression",
@@ -118349,6 +119497,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "RepLDM: Reprogramming Pretrained Latent Diffusion Models for High-Quality, High-Efficiency, High-Resolution Image Generation",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2049",
+    "official_id": "NEURIPS2025:58a16bd2eb860f119a07aa98195c7672",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/58a16bd2eb860f119a07aa98195c7672-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "RepLDM reprograms pretrained latent diffusion models for high-resolution generation and reduces denoising steps through an efficient attention-guided initialization. This is a core diffusion-generation efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -118395,6 +119566,28 @@
     ]
   },
   {
+    "title": "RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1816",
+    "official_id": "NEURIPS2025:4e36d4049fb0fea195a8267c8dcd0824",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e36d4049fb0fea195a8267c8dcd0824-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "RetrievalAttention directly accelerates long-context decoding and reduces KV memory through attention-aware vector retrieval, accessing only 1-3% of data while maintaining near-full attention accuracy. This is a core KV/long-context inference paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Revisiting 1-peer exponential graph for enhancing decentralized learning efficiency",
     "venue": "NeurIPS 2025",
     "topic": "Communication-efficient distributed learning",
@@ -118413,6 +119606,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Reviving DSP for Advanced Theorem Proving in the Era of Reasoning Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient reasoning / neuro-symbolic inference",
+    "arxiv": "",
+    "doi": "10.52202/085713-2484",
+    "official_id": "NEURIPS2025:6b44ee74539ea77d6a0d50d468724371",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6b44ee74539ea77d6a0d50d468724371-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports comparable theorem-proving performance without model training or fine-tuning and with fewer budgets than prior approaches, a direct reasoning-compute efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -118437,6 +119651,27 @@
     ]
   },
   {
+    "title": "RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness",
+    "venue": "NeurIPS 2025",
+    "topic": "parameter-efficient MLLM merging",
+    "arxiv": "",
+    "doi": "10.52202/085713-2390",
+    "official_id": "NEURIPS2025:67101f97dc23fcc10346091181fff6cb",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/67101f97dc23fcc10346091181fff6cb-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The method directly targets efficient merging of parameter-efficient multimodal fine-tuning modules and is training-free, making it a strong model-compression and PEFT contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing",
     "venue": "NeurIPS 2025",
     "topic": "Mamba and efficient foundation models",
@@ -118454,6 +119689,28 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Rope to Nope and Back Again: A New Hybrid Attention Strategy",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2150",
+    "official_id": "NEURIPS2025:5c9ab393551b7a39b4c02d88fe5e7e69",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c9ab393551b7a39b4c02d88fe5e7e69-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The hybrid attention strategy targets long-context LLMs by combining RoPE and NoPE regimes. This is a core long-context/attention architecture contribution for efficient inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
       "Efficient Attention"
     ]
   },
@@ -118523,6 +119780,27 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Sample-Efficient Multi-Round Generative Data Augmentation for Long-Tail Instance Segmentation",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient data generation / diffusion augmentation",
+    "arxiv": "",
+    "doi": "10.52202/085713-2454",
+    "official_id": "NEURIPS2025:69f59f96c3aae0ba9f463e7903715e1e",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/69f59f96c3aae0ba9f463e7903715e1e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports outperforming prior methods while requiring only 6% of their data generation, a substantial sample- and generation-efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -118609,6 +119887,31 @@
     "directions": [
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SeerAttention: Self-distilled Attention Gating for Efficient Long-context Prefilling",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1869",
+    "official_id": "NEURIPS2025:50e9dbc4ab68d94f15261ddc26c8ca2b",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/50e9dbc4ab68d94f15261ddc26c8ca2b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "SeerAttention learns block-level attention sparsity and pairs it with a block-sparse FlashAttention kernel for lower long-context prefill latency. This is a core efficient-attention paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -118840,6 +120143,29 @@
     ]
   },
   {
+    "title": "StreamForest: Efficient Online Video Understanding with Persistent Event Memory",
+    "venue": "NeurIPS 2025",
+    "topic": "streaming MLLM / video memory efficiency",
+    "arxiv": "",
+    "doi": "10.52202/085713-2547",
+    "official_id": "NEURIPS2025:6dd91fec726dbed8915a1fbadd91d1d2",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6dd91fec726dbed8915a1fbadd91d1d2-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly targets real-time streaming video and historical-feature storage constraints with adaptive event memory and extreme visual-token compression, a strong protected streaming-agent efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Streaming Attention Approximation via Discrepancy Theory",
     "venue": "NeurIPS 2025",
     "topic": "KV cache/long-context; streaming attention",
@@ -118859,6 +120185,27 @@
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "StruDiCO: Structured Denoising Diffusion with Gradient-free Inference-stage Boosting for Memory and Time Efficient Combinatorial Optimization",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient diffusion inference / combinatorial optimization",
+    "arxiv": "",
+    "doi": "10.52202/085713-2394",
+    "official_id": "NEURIPS2025:6728fcf94660c59c938319a6833a6073",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6728fcf94660c59c938319a6833a6073-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The abstract explicitly targets memory- and time-efficient diffusion-based optimization and adds lightweight gradient-free inference-stage refinement; retain as a strong algorithmic-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -118883,6 +120230,27 @@
     ]
   },
   {
+    "title": "System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2191",
+    "official_id": "NEURIPS2025:5e66b9f710a8e38351da690f3806cba9",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e66b9f710a8e38351da690f3806cba9-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "System-1.5 targets verbose CoT inefficiency by traversing language and latent spaces with dynamic shortcuts. This is a core efficient-reasoning inference method.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Tail-Optimized Caching for LLM Inference",
     "venue": "NeurIPS 2025",
     "topic": "LLM serving / prompt caching / tail latency",
@@ -118901,6 +120269,91 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "Tapered Off-Policy REINFORCE - Stable and efficient reinforcement learning for large language models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient LLM training / reinforcement learning",
+    "arxiv": "",
+    "doi": "10.52202/085713-2289",
+    "official_id": "NEURIPS2025:6274d57365d7a6be06e58cad30d1b9da",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6274d57365d7a6be06e58cad30d1b9da-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The abstract explicitly targets stable and efficient LLM fine-tuning, leverages positive and negative examples, avoids wasted inference, and reports matching 70B performance with an 8B model; this is a core training-efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Target Speaker Extraction through Comparing Noisy Positive and Negative Audio Enrollments",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient audio models / training convergence",
+    "arxiv": "",
+    "doi": "10.52202/085713-2406",
+    "official_id": "NEURIPS2025:67b0579a7298d9cf39c59404d867bdd7",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/67b0579a7298d9cf39c59404d867bdd7-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports a 60% reduction in optimization steps to reach the target SNR while improving extraction quality, a direct training-efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Teaching Language Models to Reason with Tools",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient reasoning / tool-augmented LLMs",
+    "arxiv": "",
+    "doi": "10.52202/085713-2242",
+    "official_id": "NEURIPS2025:6087df8ad77f2fc8025ee0d861224596",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6087df8ad77f2fc8025ee0d861224596-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports substantial reasoning-token reductions while improving math performance, directly targeting inference-time compute efficiency in tool-augmented reasoning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Temporal In‑Context Fine‑Tuning with Temporal Reasoning for Versatile Control of Video Diffusion Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient video diffusion adaptation",
+    "arxiv": "",
+    "doi": "10.52202/085713-2501",
+    "official_id": "NEURIPS2025:6c03ebd7344bcc0c12c4ba8aa8487c00",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6c03ebd7344bcc0c12c4ba8aa8487c00-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract explicitly targets limited data and compute, reports adaptation with as few as 10-30 samples, and states efficiency in both training and inference for large video-diffusion models.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -118989,6 +120442,29 @@
     ]
   },
   {
+    "title": "Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels",
+    "venue": "NeurIPS 2025",
+    "topic": "GPU kernels / efficient sequence models",
+    "arxiv": "",
+    "doi": "10.52202/085713-2522",
+    "official_id": "NEURIPS2025:6cb81234ab47027e991728ed7dd76735",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6cb81234ab47027e991728ed7dd76735-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly reports custom kernels outperforming optimized Flash Attention, Linear Attention, and Mamba kernels while reducing memory materialization and IO costs for long-context training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Tortoise and Hare Guidance: Accelerating Diffusion Model Inference with Multirate Integration",
     "venue": "NeurIPS 2025",
     "topic": "Diffusion inference acceleration",
@@ -119031,6 +120507,27 @@
     ]
   },
   {
+    "title": "Towards Fully FP8 GEMM LLM Training at Scale",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1896",
+    "official_id": "NEURIPS2025:51ffd0668534ac8db7b4d89fe21d5486",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/51ffd0668534ac8db7b4d89fe21d5486-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper targets stable, fully FP8 GEMM training at LLM scale, reducing reliance on higher-precision fallback kernels. This is a core mixed-precision training and systems contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Towards Unified and Lossless Latent Space for 3D Molecular Latent Diffusion Modeling",
     "venue": "NeurIPS 2025",
     "topic": "diffusion/flow acceleration; scientific ML",
@@ -119049,6 +120546,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Training Language Models to Reason Efficiently",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2032",
+    "official_id": "NEURIPS2025:579b5b84311e122584dedab1d3b7613f",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/579b5b84311e122584dedab1d3b7613f-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper trains reasoning models to minimize unnecessary long-CoT computation with a single efficiency-control hyperparameter while largely preserving accuracy. This is a core efficient-reasoning contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -119118,6 +120636,27 @@
     ]
   },
   {
+    "title": "Uni-Instruct: One-step Diffusion Model through Unified Diffusion Divergence Instruction",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-1914",
+    "official_id": "NEURIPS2025:5297e56ac65ba2bfa70ee9fc4818c042",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5297e56ac65ba2bfa70ee9fc4818c042-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Uni-Instruct unifies one-step diffusion distillation objectives and reports one-step generation outperforming a 79-step teacher on ImageNet-64. This is a core diffusion/flow acceleration and distillation paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "UniGist: Towards General and Hardware-aligned Sequence-level Long Context Compression",
     "venue": "NeurIPS 2025",
     "topic": "KV cache/long-context; hardware-aligned compression",
@@ -119140,6 +120679,27 @@
     ]
   },
   {
+    "title": "Universal Few-shot Spatial Control for Diffusion Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient diffusion adaptation / spatial control",
+    "arxiv": "",
+    "doi": "10.52202/085713-2293",
+    "official_id": "NEURIPS2025:6294a235c0b80f0a2b224375c546c750",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6294a235c0b80f0a2b224375c546c750-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The method reduces adaptation data and training cost for novel diffusion-control conditions, reaching competitive performance with 0.1% of the full training data; this is a substantial sample- and training-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Value-Guided KV Compression for LLMs via Approximated CUR Decomposition",
     "venue": "NeurIPS 2025",
     "topic": "KV cache/long-context / efficient LLM inference",
@@ -119159,6 +120719,51 @@
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Generation",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2099",
+    "official_id": "NEURIPS2025:5a829e299ebc1c1615ddb09e98fb6ce8",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a829e299ebc1c1615ddb09e98fb6ce8-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The paper builds an autoregressive image tokenizer on a frozen vision foundation model using region-adaptive quantization, directly targeting compact visual representations for generation. This is a core visual-token efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction",
+    "venue": "NeurIPS 2025",
+    "topic": "real-time multimodal inference / speech serving",
+    "arxiv": "",
+    "doi": "10.52202/085713-2529",
+    "official_id": "NEURIPS2025:6ce9d51dded7dac82b3b4d3dbb1d73bc",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6ce9d51dded7dac82b3b4d3dbb1d73bc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract explicitly reports more efficient end-to-end speech interaction and faster response by eliminating separate ASR/TTS modules while preserving vision-language capability.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -119208,6 +120813,28 @@
     ]
   },
   {
+    "title": "Why 1 + 1 < 1 in Visual Token Pruning: Beyond Naive Integration via Multi-Objective Balanced Covering",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient MLLM inference / visual-token pruning",
+    "arxiv": "",
+    "doi": "10.52202/085713-2417",
+    "official_id": "NEURIPS2025:6818dcc65fdf3cbd4b05770fb957803e",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6818dcc65fdf3cbd4b05770fb957803e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports a large visual-token reduction with high performance retention and 1.3-1.5x acceleration, directly targeting MLLM inference efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding",
     "venue": "NeurIPS 2025",
     "topic": "speculative decoding / compiler-friendly runtime / latency optimization",
@@ -119228,6 +120855,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "You Only Communicate Once: One-shot Federated Low-Rank Adaptation of MLLM",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient ML",
+    "arxiv": "",
+    "doi": "10.52202/085713-2060",
+    "official_id": "NEURIPS2025:58e6c003c9fb3992265005ff6aef1913",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/58e6c003c9fb3992265005ff6aef1913-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "YOCO enables true one-shot federated MLLM adaptation with low-rank updates, cutting communication to about 0.03% of multi-round FL. This is a core federated/communication-efficiency paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

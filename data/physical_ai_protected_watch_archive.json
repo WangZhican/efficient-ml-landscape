@@ -6716,6 +6716,29 @@
     ]
   },
   {
+    "title": "StateSpaceDiffuser: Bringing Long Context to Diffusion World Models",
+    "venue": "NeurIPS 2025",
+    "topic": "Physical AI / long-context world models",
+    "arxiv": "",
+    "doi": "10.52202/085713-2316",
+    "official_id": "NEURIPS2025:63943ee9fe347f3d95892cf87d9a42e6",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/63943ee9fe347f3d95892cf87d9a42e6-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The paper targets long-context action-conditioned world models and persistent interaction history across navigation and 3D environments, a high-value protected Physical-AI neighborhood; retain for reading while noting no direct latency or compute reduction is reported.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "KV Cache / Long Context",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
     "venue": "arXiv 2026",
     "topic": "llm_systems",
@@ -13004,6 +13027,28 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory",
+    "venue": "NeurIPS 2025",
+    "topic": "Physical AI / streaming 3D perception memory",
+    "arxiv": "",
+    "doi": "10.52202/085713-2344",
+    "official_id": "NEURIPS2025:650db8e1b0b016dc270d51c1476e91cf",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/650db8e1b0b016dc270d51c1476e91cf-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The paper introduces explicit scene memory for streaming 3D perception and reports low training costs, a high-value protected Physical-AI memory neighborhood; retain for reading while noting the abstract does not quantify inference acceleration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -36314,6 +36359,30 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "3DLLM-Mem: Long-Term Spatial-Temporal Memory for Embodied 3D Large Language Model",
+    "venue": "NeurIPS 2025",
+    "topic": "Physical AI / embodied LLM memory",
+    "arxiv": "",
+    "doi": "10.52202/085713-2278",
+    "official_id": "NEURIPS2025:61f527a737e4ba61f3e10d6c3f0c4b55",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/61f527a737e4ba61f3e10d6c3f0c4b55-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The paper introduces explicit memory management and selective fusion for long-horizon embodied agents, a high-value protected Physical-AI memory/runtime neighborhood. Retain for reading while noting that the abstract does not quantify inference acceleration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },

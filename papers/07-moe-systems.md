@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **318 canonical papers** mapped here, plus a broader **18-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **322 canonical papers** mapped here, plus a broader **18-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -27,7 +27,7 @@
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 308 canonical
+## 🏛️ Classical / Historical · 312 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -294,7 +294,11 @@
 | **Canonical** | **ParallelKittens: Systematic and Practical Simplification of Multi-GPU AI Kernels** | MLSys 2026 | GPU kernel/DSL/compilers / distributed training-inference | [Link](https://arxiv.org/abs/2511.13940) | — |
 | **Canonical** | **ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler** | MLSys 2026 | LLM inference profiling / edge runtime observability | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/03dbc11a22e79cd38bea53cf518c2371-Paper-Conference.pdf) | — |
 | **Canonical** | **D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving** | MobiCom 2025 | on-device MoE serving / dynamic scheduling | [Link](https://doi.org/10.1145/3680207.3723493) | — |
+| **Canonical** | **CryptoMoE: Privacy-Preserving and Scalable Mixture of Experts Inference via Balanced Expert Routing** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5340b0c0b76dc0115f5cc91c20c1251d-Abstract-Conference.html) | — |
+| **Canonical** | **DiEP: Adaptive Mixture-of-Experts Compression through Differentiable Expert Pruning** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/511c7fd69db9f1ce7492a57285975849-Abstract-Conference.html) | — |
+| **Canonical** | **FlowMoE: A Scalable Pipeline Scheduling Framework for Distributed Mixture-of-Experts Training** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4dade38eae8c007f3a564b8ea820664a-Abstract-Conference.html) | — |
 | **Canonical** | **FlyLoRA: Boosting Task Decoupling and Parameter Efficiency via Implicit Rank-Wise Mixture-of-Experts** | NeurIPS 2025 | Parameter-efficient fine-tuning and MoE | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0f234479d4be0102b6a9ec5ebf75e881-Abstract-Conference.html) | — |
+| **Canonical** | **JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model** | NeurIPS 2025 | efficient long-context sequence models / MoE | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/638fdcfbbe10b2040b0b2b0dbfb2b2c0-Abstract-Conference.html) | — |
 | **Canonical** | **MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE** | NeurIPS 2025 | MoE inference / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b637af7745d3ad4cb0b9cdaa056ab41e-Abstract-Conference.html) | — |
 | **Canonical** | **FAST: An Efficient Scheduler for All-to-All GPU Communication** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/lei-yiran) | — |
 | **Canonical** | **Sparse Checkpointing for Fast and Reliable MoE Training** | NSDI 2026 | MoE systems / distributed training | [Link](https://www.usenix.org/conference/nsdi26/presentation/gandhi) | — |

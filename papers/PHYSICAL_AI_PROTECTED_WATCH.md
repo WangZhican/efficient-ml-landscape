@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1623 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1626 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -306,6 +306,7 @@
 | **P1 · Watch** | **Steer2Grasp: Inference-Time Embodiment-Aware Steering for Diverse Physically Feasible Grasp Diffusion** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.33546) | — |
 | **P1 · Watch** | **STDArm: Transfer Visuomotor Policy From Static Data Training to Dynamic Robot Manipulation** | RSS 2025 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss21/p147.html) | — |
 | **P1 · Watch** | **STATrack: A Target-Aware Fully Spiking Neural Network for Efficient UAV Tracking** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2603.27493) | — |
+| **P1 · Watch** | **StateSpaceDiffuser: Bringing Long Context to Diffusion World Models** | NeurIPS 2025 | Physical AI / long-context world models | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/63943ee9fe347f3d95892cf87d9a42e6-Abstract-Conference.html) | — |
 | **P1 · Watch** | **StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32648) | — |
 | **P1 · Watch** | **Stateful Worlds, Stateless Elasticity: Exact-State Serving for Interactive World Models** | arXiv 26 | streaming_world | [Link](https://arxiv.org/abs/2607.10389) | — |
 | **P1 · Watch** | **State World Models: Execute the Rules, Generate the Pixels** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26811) | — |
@@ -586,6 +587,7 @@
 | **P1 · Watch** | **PoliFormer: Scaling On-Policy RL with Transformers Results in Masterful Navigators** | CoRL 2024 | VLA/WAM/Physical AI efficiency | [Link](https://proceedings.mlr.press/v270/zeng25a.html) | — |
 | **P1 · Watch** | **PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.02840) | — |
 | **P1 · Watch** | **PointVGGT: Zero-Shot Multiview RGB-D Point Cloud Registration with Visual Geometry Foundation Priors** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.11612) | — |
+| **P1 · Watch** | **Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory** | NeurIPS 2025 | Physical AI / streaming 3D perception memory | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/650db8e1b0b016dc270d51c1476e91cf-Abstract-Conference.html) | — |
 | **P1 · Watch** | **POAM: Probabilistic Online Attentive Mapping for Efficient Robotic Information Gathering** | RSS 2024 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss20/p019.html) | — |
 | **P1 · Watch** | **PMTRM: Pseudo-Memory Temporal Re-encoding Module for Embodied Policy Learning** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.11168) | — |
 | **P1 · Watch** | **PLOP: Particle Filtering for Learning Object Physics from Robot Interaction Videos** | ICRA 2026 | efficient reasoning/agent systems | [Link](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab1285) | — |
@@ -1621,6 +1623,7 @@
 | **P1 · Watch** | **4DMemory: Benchmarking Long-Horizon Spatiotemporal Memory with Harness-Augmented Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32332) | — |
 | **P1 · Watch** | **4Director: Controlling Video World Models with Rigid 3D Geometry** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02160) | — |
 | **P1 · Watch** | **3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.08224) | — |
+| **P1 · Watch** | **3DLLM-Mem: Long-Term Spatial-Temporal Memory for Embodied 3D Large Language Model** | NeurIPS 2025 | Physical AI / embodied LLM memory | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/61f527a737e4ba61f3e10d6c3f0c4b55-Abstract-Conference.html) | — |
 | **P1 · Watch** | **3D Point Tracking with State Space Models** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.34035) | — |
 | **P1 · Watch** | **2D GauSS-MI: Efficient Active Scene Reconstruction with Balanced Visual and Geometric Quality** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.21516) | — |
 | **P1 · Watch** | **2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / agent memory / long-horizon manipulation | [Link](https://arxiv.org/abs/2609.11308) | — |

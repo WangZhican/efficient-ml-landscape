@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **695 canonical papers** mapped here, plus a broader **164-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **699 canonical papers** mapped here, plus a broader **164-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -173,7 +173,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 678 canonical
+## 🏛️ Classical / Historical · 682 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -811,7 +811,9 @@
 | **Canonical** | **Accelerating Visual-Policy Learning through Parallel Differentiable Simulation** | NeurIPS 2025 | efficient Physical-AI policy learning | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4a90cfc130d4f37ecb99f90c3fba9d66-Abstract-Conference.html) | — |
 | **Canonical** | **AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning** | NeurIPS 2025 | VLA/WAM; efficient action generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2843fccca5bedd369a4764848b9bd546-Abstract-Conference.html) | — |
 | **Canonical** | **Aux-Think: Exploring Reasoning Strategies for Data-Efficient Vision-Language Navigation** | NeurIPS 2025 | Physical AI; data-efficient VLA/VLN | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2c90bf5bffe6497730ecade3a3a37458-Abstract-Conference.html) | — |
+| **Canonical** | **BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models** | NeurIPS 2025 | efficient ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f28831870dafa-Abstract-Conference.html) | — |
 | **Canonical** | **CATransformers: Carbon Aware Transformers Through Joint Model-Hardware Optimization** | NeurIPS 2025 | energy efficiency; model-hardware co-optimization | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/237e2ebd57c7a6e868bf713933f899ea-Abstract-Conference.html) | — |
+| **Canonical** | **Diversifying Parallel Ergodic Search: A Signature Kernel Evolution Strategy** | NeurIPS 2025 | Physical AI / GPU-parallel robotic planning | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6b4067db7f54023ee8f2253a4241f226-Abstract-Conference.html) | — |
 | **Canonical** | **DPAIL: Training Diffusion Policy for Adversarial Imitation Learning without Policy Optimization** | NeurIPS 2025 | Efficient generative policy training | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0939f13ffce3ff487509d902ddba4571-Abstract-Conference.html) | — |
 | **Canonical** | **Dr. RAW: Towards General High-Level Vision from RAW with Efficient Task Conditioning** | NeurIPS 2025 | parameter-efficient vision adaptation; sensor/edge vision | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/20eadb6338a53114a6371f102c5ded95-Abstract-Conference.html) | — |
 | **Canonical** | **E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products** | NeurIPS 2025 | efficient architecture; scientific/physical ML | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/21f7b745f73ce0d1f9bcea7f40b1388e-Abstract-Conference.html) | — |
@@ -820,8 +822,10 @@
 | **Canonical** | **FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency** | NeurIPS 2025 | VLA/WAM; action-head/flow acceleration | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/282c3318be1b047b7bb5ba94fa4f3231-Abstract-Conference.html) | — |
 | **Canonical** | **HyRF: Hybrid Radiance Fields for Memory-efficient and High-quality Novel View Synthesis** | NeurIPS 2025 | 3D/scene representation; memory-efficient view synthesis | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1a85a40d16f5142bd056eab5da6debdd-Abstract-Conference.html) | — |
 | **Canonical** | **Less is More: an Attention-free Sequence Prediction Modeling for Offline Embodied Learning** | NeurIPS 2025 | Embodied policy inference efficiency | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/03e81b3bdb6c0a61093defd319d12203-Abstract-Conference.html) | — |
+| **Canonical** | **MALinZero: Efficient Low-Dimensional Search for Mastering Complex Multi-Agent Planning** | NeurIPS 2025 | Physical AI / efficient multi-agent planning | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6cd8644fab1f7837acd8298f6360864c-Abstract-Conference.html) | — |
 | **Canonical** | **QSCA: Quantization with Self-Compensating Auxiliary for Monocular Depth Estimation** | NeurIPS 2025 | quantization; edge/physical vision | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2d13e0a4097e44b9f167f2e67aa0214a-Abstract-Conference.html) | — |
 | **Canonical** | **Scaling Offline RL via Efficient and Expressive Shortcut Models** | NeurIPS 2025 | Generative policy and action-model efficiency | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/03715f9a330c916da8144d1f8dad4554-Abstract-Conference.html) | — |
+| **Canonical** | **StreamForest: Efficient Online Video Understanding with Persistent Event Memory** | NeurIPS 2025 | streaming MLLM / video memory efficiency | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6dd91fec726dbed8915a1fbadd91d1d2-Abstract-Conference.html) | — |
 | **Canonical** | **Evolving Cache Schedules for Fast Diffusion Policy Inference** | PRCV 2026 / arXiv 2026 | Physical AI / diffusion-policy inference / activation caching / action-generation acceleration | [Link](https://arxiv.org/abs/2607.20293) | [Repo](https://github.com/pillom/EVO) |
 | **Canonical** | **DreamActVLA: Temporally Aligned Asynchronous Inference for Vision-Language-Action Models** | Project/primary artifact 2026 | VLA/WAM/Physical AI serving / temporally aligned asynchronous inference / latent world model | [Link](https://dream-act-vla.github.io/) | [Repo](https://github.com/Somdit/DreamActVLA) |
 | **Canonical** | **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
@@ -856,7 +860,7 @@
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **Canonical** | **MARS Policy: Multimodality Only When It Matters** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2605.29766) | — |
 
-## 🛡️ Protected historical P1 watch · 1623
+## 🛡️ Protected historical P1 watch · 1626
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
