@@ -103055,6 +103055,113 @@
       "directions": [
         "Diffusion / Flow Acceleration"
       ]
+    },
+    {
+      "title": "Extending the Context of Pretrained LLMs by Dropping Their Positional Embedding",
+      "venue": "ICLR 2026",
+      "topic": "zero-shot long-context extension without long-context fine-tuning",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:62133b95efaa6f10a5395eb10ca087cd",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/62133b95efaa6f10a5395eb10ca087cd-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract reports seamless zero-shot context extension after dropping positional embeddings and short recalibration, avoiding expensive long-context fine-tuning; this is a direct training-efficiency contribution and warrants primary-PDF retention.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation",
+      "venue": "ICLR 2026",
+      "topic": "parameter-efficient test-time adaptation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:54f117f842d47c2007b501bddd04c0e7",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/54f117f842d47c2007b501bddd04c0e7-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract reports adaptation by changing only singular values while freezing singular vectors and requiring 385× fewer trainable parameters; this is a direct parameter-efficiency result and merits primary-PDF retention.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts",
+      "venue": "ICLR 2026",
+      "topic": "efficient long-context reasoning training",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:e2fd57d0a7f1bc5d3d4863f63241f4df",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e2fd57d0a7f1bc5d3d4863f63241f4df-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract reports training at 16K that generalizes to 128K tasks without prohibitive full-length RL rollouts, while a 14B model rivals much larger frontier models; this is a high-value long-context/efficient-reasoning result and warrants primary-PDF retention.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Prompt-MII: Meta-Learning Instruction Induction for LLMs",
+      "venue": "ICLR 2026",
+      "topic": "token-efficient in-context learning",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:56674a5ddd929e15cc9f0c5dc4f43c81",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/56674a5ddd929e15cc9f0c5dc4f43c81-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract reports compact induced instructions matching full-example ICL while requiring 3–13× fewer tokens; this is a direct inference-context efficiency result and warrants primary-PDF retention.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TTT3R: 3D Reconstruction as Test-Time Training",
+      "venue": "ICLR 2026",
+      "topic": "linear-time recurrent 3D reconstruction",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:530eb593743559fa3c926a1fc1f520e9",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/530eb593743559fa3c926a1fc1f520e9-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract reports a training-free intervention that improves length generalization while running at 20 FPS on 6 GB GPU memory over thousands of images; this is a high-value efficient Physical-AI/3D systems result and warrants primary-PDF retention.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
     }
   ],
   "historical_p2": [
@@ -321242,6 +321349,402 @@
       "is_latest_30d": false,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Do LLMs Forget What They Should? Evaluating In-Context Forgetting in Large Language Models",
+      "venue": "ICLR 2026",
+      "topic": "long-context memory evaluation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:b13d00a62d438856cfe6fbd13b6b2cb8",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b13d00a62d438856cfe6fbd13b6b2cb8-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The paper evaluates in-context forgetting and memory retention in LLMs, relevant to long-context/KV and memory-system research; it is an evaluation study rather than an efficiency method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Error Notebook-Guided, Training-Free Part Retrieval in 3D CAD Assemblies via Vision-Language Models",
+      "venue": "ICLR 2026",
+      "topic": "training-free VLM reasoning for CAD agents",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:dabf612543b97ea9c8f46d058d33cf74",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/dabf612543b97ea9c8f46d058d33cf74-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The abstract uses training-free inference-time adaptation and retrieval to let smaller open VLMs approach proprietary-model accuracy on CAD retrieval; it is relevant to efficient reasoning/agents, though no cost reduction is quantified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Exploring the Potential of Encoder-free Architectures in 3D LMMs",
+      "venue": "ICLR 2026",
+      "topic": "encoder-free 3D multimodal architecture",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:f2d8e350ef4f3433836697a7f9c1191e",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f2d8e350ef4f3433836697a7f9c1191e-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The paper removes a pretrained 3D encoder and embeds semantic/geometry processing into a 7B LLM, rivaling a 13B model; it is relevant to efficient multimodal architecture, though no compute/latency reduction is quantified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Inference-Time Dynamic Modality Selection for Incomplete Multimodal Classification",
+      "venue": "ICLR 2026",
+      "topic": "adaptive multimodal inference",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:bdc7dc3f5d20f82a27175199af9267e2",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/bdc7dc3f5d20f82a27175199af9267e2-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The framework dynamically selects recovered modalities at inference time, making it adjacent to adaptive multimodal execution; the abstract emphasizes task performance and does not quantify compute or latency savings.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "KeepLoRA: Continual Learning with Residual Gradient Adaptation",
+      "venue": "ICLR 2026",
+      "topic": "parameter-efficient continual adaptation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:dc3ca8bcd613e43ce540352b58d55d6d",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/dc3ca8bcd613e43ce540352b58d55d6d-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The method restricts LoRA updates to residual subspaces to preserve prior knowledge in continual learning; it is relevant to parameter-efficient adaptation, though no direct compute or inference gain is quantified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "MRAD: Zero-Shot Anomaly Detection with Memory-Driven Retrieval",
+      "venue": "ICLR 2026",
+      "topic": "train-free memory-retrieval anomaly detection",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:4c12e97f2e05304a451e18c9c945036f",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4c12e97f2e05304a451e18c9c945036f-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The abstract explicitly replaces costly parametric fitting with train-free memory retrieval for anomaly detection; this is relevant to efficient ML, though domain-specific and without quantified latency gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
+      "title": "MergOPT: A Merge-Aware Optimizer for Robust Model Merging",
+      "venue": "ICLR 2026",
+      "topic": "merge-aware fine-tuning for model consolidation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:500809109da5faa7641add2224e6bb92",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/500809109da5faa7641add2224e6bb92-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The optimizer improves the reliability of merging multiple expert checkpoints into one model, relevant to consolidated deployment; the abstract does not quantify memory or inference savings.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Multiple Token Divergence: Measuring and Steering In-Context Computation Density",
+      "venue": "ICLR 2026",
+      "topic": "lightweight inference-time computation steering",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:77a404d99d58544293763afb769a16e4",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/77a404d99d58544293763afb769a16e4-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The abstract introduces a lightweight, no-additional-training measure of computational effort and a decoding method to steer computation density; it is relevant to efficient reasoning, though no measured cost reduction is reported.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "OFMU: OPTIMIZATION-DRIVEN FRAMEWORK FOR MACHINE UNLEARNING",
+      "venue": "ICLR 2026",
+      "topic": "machine unlearning without full retraining",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:8f395480c04ac6dfb2c2326a639df88e",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8f395480c04ac6dfb2c2326a639df88e-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The paper targets removal of specific knowledge without retraining from scratch, relevant to reducing adaptation cost; it is a specialized unlearning method and does not quantify general training/runtime efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "OptMerge: Unifying Multimodal LLM Capabilities and Modalities via Model Merging",
+      "venue": "ICLR 2026",
+      "topic": "multimodal model consolidation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:64741c1e80cc3bbed205b1c2b040dfa8",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/64741c1e80cc3bbed205b1c2b040dfa8-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract explicitly notes model merging can combine experts into one model while reducing storage and serving costs; this is relevant to efficient MLLM deployment, though the contribution is a benchmark/merging study.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Peak-Return Greedy Slicing: Subtrajectory Selection for Transformer-based Offline RL",
+      "venue": "ICLR 2026",
+      "topic": "data- and history-efficient offline RL",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:439bf902de1807088d8b731ca20b0777",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/439bf902de1807088d8b731ca20b0777-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The method selects high-return subtrajectories and introduces adaptive history truncation at evaluation, making it relevant to efficient offline RL/context use; the abstract does not quantify compute savings.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "RL of Thoughts: Navigating LLM Reasoning with Inference-time Reinforcement Learning",
+      "venue": "ICLR 2026",
+      "topic": "adaptive inference-time reasoning",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:c09916f6f0c428a97a09a53648e5002e",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c09916f6f0c428a97a09a53648e5002e-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The framework uses a lightweight navigator to generate task-adaptive logical structures at inference time, relevant to efficient reasoning/agent systems; it does not quantify end-to-end compute savings.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Reasoning-Aligned Perception Decoupling for Scalable Multi-modal Reasoning",
+      "venue": "ICLR 2026",
+      "topic": "modular MLLM perception/reasoning",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:e36b276fdade9ed7f8e680cb2f1658ba",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e36b276fdade9ed7f8e680cb2f1658ba-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The paper modularizes MLLM perception so it can pair with stronger external reasoners without costly vision-language alignment retraining; it is relevant to efficient multimodal systems, though end-to-end serving cost is not reduced or quantified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Rethinking Reasoning in Document Ranking: Why Chain-of-Thought Falls Short",
+      "venue": "ICLR 2026",
+      "topic": "inference-cost tradeoff in LLM reranking",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:b0ae43992cff7513d4c1cf2b09111a74",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b0ae43992cff7513d4c1cf2b09111a74-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The study finds CoT rerankers underperform direct rankers despite substantially higher inference costs, a useful efficient-reasoning negative result; it does not propose a new acceleration method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "STVG-R1: Incentivizing Instance-Level Reasoning and Grounding in Videos via Reinforcement Learning",
+      "venue": "ICLR 2026",
+      "topic": "compact video grounding and VLM reasoning",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:ee6630dcbcff857026e474fc857aa9f0",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee6630dcbcff857026e474fc857aa9f0-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The abstract avoids auxiliary decoders by encoding temporally consistent object IDs as visual prompts and reports reduced annotation/computational overhead; this is relevant to efficient multimodal/Physical-AI pipelines, though no serving latency is quantified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SongEcho: Towards Cover Song Generation via Instance-Adaptive Element-wise Linear Modulation",
+      "venue": "ICLR 2026",
+      "topic": "parameter-efficient audio generation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:1abc87c67cc400a67b869358e627fe37",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1abc87c67cc400a67b869358e627fe37-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract reports cover-song generation with fewer than 30% of the trainable parameters of compared approaches; it is a direct parameter-efficiency signal, though domain-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Spilled Energy in Large Language Models",
+      "venue": "ICLR 2026",
+      "topic": "training-free LLM hallucination detection",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:97dc07f1253ab33ee514f395a82fa7cc",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/97dc07f1253ab33ee514f395a82fa7cc-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The method derives hallucination-detection metrics from logits without trained probes or activation ablations and introduces no training overhead; it is relevant to lightweight LLM analysis, though not a core serving optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "StepORLM: A Self-Evolving Framework With Generative Process Supervision For Operations Research Language Models",
+      "venue": "ICLR 2026",
+      "topic": "compact OR reasoning model and verifier",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "ICLR2026:0bcfb525c8f8f07ae10a93d0b2a40e00",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/0bcfb525c8f8f07ae10a93d0b2a40e00-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The abstract reports an 8B model outperforming much larger generalist and specialized baselines and a reusable process verifier; it is relevant to efficient reasoning, though no compute/latency gain is quantified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     }
   ]
