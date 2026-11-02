@@ -9050,6 +9050,29 @@
     ]
   },
   {
+    "title": "RelayFormer: A Unified Local-Global Attention Framework for Scalable Image and Video Manipulation Localization",
+    "venue": "ICLR 2026",
+    "topic": "Resolution-adaptive relay attention for visual editing",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:908f03779b5b063413fbf0247a46a403",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/908f03779b5b063413fbf0247a46a403-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract describes a unified image/video architecture with low-overhead relay attention, but provides no direct serving-latency or throughput number in the reviewed abstract.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Relationally Grounded Latent World Models for Autonomous Driving",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
@@ -11452,6 +11475,30 @@
     ]
   },
   {
+    "title": "Overtone: Cyclic Patch Modulation for Clean, Efficient, and Flexible Physics Emulators",
+    "venue": "ICLR 2026",
+    "topic": "Compute-adaptive tokenization for physics emulators",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:728590f5e5fbd7105531099dd3d9e007",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/728590f5e5fbd7105531099dd3d9e007-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract enables dynamic inference-compute trade-offs and reduces long-rollout error by up to 40%, but does not quantify an end-to-end latency or throughput gain.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Outcome-Conditioned End-Effector Geometry Across Vision-Language-Action Policies",
     "venue": "arXiv 2026",
     "topic": "multimodal,gen,physical,edge",
@@ -13698,6 +13745,28 @@
     ]
   },
   {
+    "title": "MetaVLA: Unified Meta Co-Training for Efficient Embodied Adaptation",
+    "venue": "ICLR 2026",
+    "topic": "meta-co-training for low-overhead VLA adaptation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:c40d1e40dd121d0e7ba8e4ab65bca81b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c40d1e40dd121d0e7ba8e4ab65bca81b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract reports a unified VLA post-training framework with rapid adaptation and minimal inference overhead. This is a high-value Physical-AI co-design signal, but the primary contribution is adaptation/generalization rather than a direct serving accelerator.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation",
     "venue": "CoRL 2025",
     "topic": "VLA/WAM/Physical AI efficiency",
@@ -14272,6 +14341,27 @@
     "decision": "WATCH",
     "tracking_tier": "P1 · Watch",
     "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. r is determined in the state, and can be repaired there. Left free, the two generated characters drift to 21.2 m apart (recorded sessions stay near 5 m) and a third of frames show ground penetration. Two rules imposed on the explicit state, a terrain collider and a separation cap, cut penetration by 66% and keep the pair engaged, with no change to the observation model. Routing appearance through the predicted state costs no fidelity we can detect, at an FVD of 831 against 799 for recorded pose.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "MARC: Memory-Augmented RL Token Compression for Efficient Video Understanding",
+    "venue": "ICLR 2026",
+    "topic": "Memory-retrieval and RL-based video token compression",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:16049e0c3f47899091ac46f8b3afb178",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/16049e0c3f47899091ac46f8b3afb178-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets video-token inference cost with retrieve-then-compress and RL distillation, but the reviewed abstract does not give a measured speedup or token-reduction figure.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -22812,6 +22902,31 @@
     ]
   },
   {
+    "title": "DriveMamba: Task-Centric Scalable State Space Model for Efficient End-to-End Autonomous Driving",
+    "venue": "ICLR 2026",
+    "topic": "Linear-complexity state-space architecture for autonomous driving",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:f7cf26f6865deb03131a1ae37e2ddf61",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f7cf26f6865deb03131a1ae37e2ddf61-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract describes sparse tokenization and a linear-complexity Unified Mamba decoder for efficient long-context E2E driving, but the reviewed abstract does not quantify latency or compute reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Sparsity / Pruning",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
     "venue": "arXiv 26",
     "topic": "VLA/WAM and Physical AI",
@@ -26592,6 +26707,28 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving",
+    "venue": "ICLR 2026",
+    "topic": "Real-time diffusion-policy planning for autonomous driving",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:d4e8355bcc5ac0a8b30aaac05fccc1f6",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d4e8355bcc5ac0a8b30aaac05fccc1f6-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract reports a closed-loop autonomous-driving policy compatible with efficient ODE solvers and real-time deployment, making it a protected Physical-AI signal despite no explicit latency number.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
