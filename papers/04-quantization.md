@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **887 canonical papers** mapped here, plus a broader **680-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **894 canonical papers** mapped here, plus a broader **680-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -689,7 +689,7 @@
 | **P0 · Strong** | **Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack** | Fresh / preprint | CPU INT8 inference / PyTorch-TorchAO / TorchInductor | [Link](https://arxiv.org/abs/2608.18182) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 736 canonical
+## 🏛️ Classical / Historical · 743 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1196,10 +1196,15 @@
 | **Canonical** | **Text Embedding Knows How to Quantize Text-Guided Diffusion Models** | ICCV 2025 | diffusion quantization / dynamic precision | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/Lee_Text_Embedding_Knows_How_to_Quantize_Text-Guided_Diffusion_Models_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **Achieving low-bit Muon through subspace preservation and grid quantization** | ICLR 2026 | LLM training optimizer-state quantization and memory efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e1af74bc0a8ab547b27e507d71be506a-Abstract-Conference.html) | — |
 | **Canonical** | **AnyBCQ: Hardware Efficient Flexible Binary-Coded Quantization for Multi-Precision LLMs** | ICLR 2026 | multi-precision LLM quantization and accelerator-aware inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ca9eaef07eca2a50fc626cb929617b1c-Abstract-Conference.html) | — |
+| **Canonical** | **Beyond Uniformity: Sample and Frequency Meta Weighting for Post-Training Quantization of Diffusion Models** | ICLR 2026 | diffusion-model PTQ for sampling acceleration and memory reduction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/58e5f95c8c4789af382ab48b4cbc6d9d-Abstract-Conference.html) | — |
+| **Canonical** | **Boosting Entropy with Bell Box Quantization** | ICLR 2026 | Compute-efficient information-theoretic quantization-aware pretraining | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3106c718fe84b91fc301fe2f5b738448-Abstract-Conference.html) | — |
 | **Canonical** | **Channel-Aware Mixed-Precision Quantization for Efficient Long-Context Inference** | ICLR 2026 | mixed-precision KV-cache quantization for long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55f5aa8d997a8071d0651e0009ec49a2-Abstract-Conference.html) | — |
+| **Canonical** | **Compute-Optimal Quantization-Aware Training** | ICLR 2026 | Compute-budget-optimal QAT allocation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/6e1adf459d1901edf173252b6bd40cb9-Abstract-Conference.html) | — |
+| **Canonical** | **DVD-Quant: Data-free Video Diffusion Transformers Quantization** | ICLR 2026 | data-free PTQ for video diffusion transformers | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3bd28dd5cc4e15f9e019da13cc0c4844-Abstract-Conference.html) | — |
 | **Canonical** | **Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees** | ICLR 2026 | quantization / MoE inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b97d09f0ab0f52eab856b0ed1122456-Abstract-Conference.html) | — |
 | **Canonical** | **Fine-tuning Quantized Neural Networks with Zeroth-order Optimization** | ICLR 2026 | Memory-minimal quantized LLM fine-tuning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d17ef435b405a25715898c26dab3ed67-Abstract-Conference.html) | — |
 | **Canonical** | **GlowQ: Group-Shared LOw-Rank Approximation for Quantized LLMs** | ICLR 2026 | Low-rank correction for quantized LLM serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c9f95e9ec39fa5ad3d0a562b993b92aa-Abstract-Conference.html) | — |
+| **Canonical** | **Gradient-Aligned Calibration for Post-Training Quantization of Diffusion Models** | ICLR 2026 | Gradient-aware PTQ for diffusion inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/dd3065a00d9b93e3d4d17faa907100bb-Abstract-Conference.html) | — |
 | **Canonical** | **Improving Block-Wise LLM Quantization by 4-bit Block-Wise Optimal Float (BOF4): Analysis and Variations** | ICLR 2026 | Four-bit block-wise LLM quantization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0bb9b8b55b0fd61c7788a8a4ddbd3ddd-Abstract-Conference.html) | — |
 | **Canonical** | **KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models** | ICLR 2026 | low-bit vector quantization for MoE LLM deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5f868c3e0050f13ec82d3694df531de1-Abstract-Conference.html) | — |
 | **Canonical** | **KV-Cache Transform Coding for Compact Storage in LLM Inference** | ICLR 2026 | KV cache compression / LLM serving storage | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3fb6f10bd2784f6cfb6a6ed6280df40c-Abstract-Conference.html) | — |
@@ -1211,6 +1216,7 @@
 | **Canonical** | **Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs** | ICLR 2026 | Joint LLM quantization and sparsity for inference acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e45d826ee52dce029198b6968a10423e-Abstract-Conference.html) | — |
 | **Canonical** | **ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference** | ICLR 2026 | LLM quantization; reasoning inference; rotation quantization; weight-only PTQ; GPU kernels | [Link](https://arxiv.org/abs/2511.10645) | — |
 | **Canonical** | **PM-KVQ: Progressive Mixed-precision KV Cache Quantization for Long-CoT LLMs** | ICLR 2026 | progressive KV-cache quantization for long reasoning contexts | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/afb8caec018d3c8f6ef8b81fa52386fe-Abstract-Conference.html) | — |
+| **Canonical** | **Post-Training Quantization for Video Matting** | ICLR 2026 | Ultra-low-bit video-matting quantization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/65e876f6a98c6799d0b3145966dd73e2-Abstract-Conference.html) | — |
 | **Canonical** | **Q&C: When Quantization Meets Cache in Efficient Generation** | ICLR 2026 | joint quantization and cache acceleration for generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/999fcab97007ebef0cda9949550b4a9e-Abstract-Conference.html) | — |
 | **Canonical** | **Qronos: Correcting the Past by Shaping the Future... in Post-Training Quantization** | ICLR 2026 | Low-bit weight, activation, and KV-cache quantization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8d22a09f18d9fc85dcbe6f482e13e1d7-Abstract-Conference.html) | — |
 | **Canonical** | **Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models** | ICLR 2026 | Two-bit post-training quantization for diffusion LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/805da7ef883245cb35e012cc179a5f6f-Abstract-Conference.html) | — |
@@ -1220,6 +1226,7 @@
 | **Canonical** | **QVGen: Pushing the Limit of Quantized Video Generative Models** | ICLR 2026 | Three-bit and four-bit quantization for video diffusion models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fb0494e5ce9351cb120c3a35328dffef-Abstract-Conference.html) | — |
 | **Canonical** | **QVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization** | ICLR 2026 | action-aware quantization for VLA deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fa064215307efaad75bebc7a2e3194a4-Abstract-Conference.html) | — |
 | **Canonical** | **Reasoning Language Model Inference Serving Unveiled: An Empirical Study** | ICLR 2026 | LLM serving / reasoning inference / quantization / speculative decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a741b3864dbe6f0f588f2bb2a97e5e8e-Abstract-Conference.html) | — |
+| **Canonical** | **Tequila: Trapping-free Ternary Quantization for Large Language Models** | ICLR 2026 | Ternary LLM quantization for hardware-efficient deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html) | — |
 | **Canonical** | **The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm** | ICLR 2026 | LLM quantization / GPTQ theory / low-bit inference kernels | [Link](https://arxiv.org/abs/2507.18553) | [Repo](https://github.com/IST-DASLab/GPTQ-Babai) |
 | **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |
 | **Canonical** | **Towards Greater Leverage: Scaling Laws for Efficient Mixture-of-Experts Language Models** | ICLR 2026 | MoE compute-efficiency scaling laws | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/32b640528f5b67975562210f00c131ed-Abstract-Conference.html) | — |

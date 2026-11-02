@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **905 canonical papers** mapped here, plus a broader **298-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **907 canonical papers** mapped here, plus a broader **298-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -307,7 +307,7 @@
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 
-## 🏛️ Classical / Historical · 826 canonical
+## 🏛️ Classical / Historical · 828 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -802,6 +802,7 @@
 | **Canonical** | **Achieving low-bit Muon through subspace preservation and grid quantization** | ICLR 2026 | LLM training optimizer-state quantization and memory efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e1af74bc0a8ab547b27e507d71be506a-Abstract-Conference.html) | — |
 | **Canonical** | **Arbitrary-Order Block SignSGD for Memory-Efficient LLM Fine-Tuning** | ICLR 2026 | Memory- and runtime-efficient LLM fine-tuning and distributed optimization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/bbdd9525c5ecd3a03fee43d8fd64bd83-Abstract-Conference.html) | — |
 | **Canonical** | **AutoSP: Unlocking Long-Context LLM Training Via Compiler-Based Sequence Parallelism** | ICLR 2026 | compiler-based long-context LLM training systems | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/992ac52bd51cb3db6a64e35da8b3ce19-Abstract-Conference.html) | — |
+| **Canonical** | **Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining** | ICLR 2026 | Metadata-aware pretraining efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4964cd3f89ee5b57f07f4bc1824d2beb-Abstract-Conference.html) | — |
 | **Canonical** | **BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models** | ICLR 2026 | Shared-prefix and pruned rollouts for diffusion-model alignment training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/233d16f17f809981763db2f01b7f9603-Abstract-Conference.html) | — |
 | **Canonical** | **Cache-to-Cache: Direct Semantic Communication Between Large Language Models** | ICLR 2026 | KV-cache communication for efficient multi-LLM systems | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/474ada926b331d78f06d95e8913111cc-Abstract-Conference.html) | — |
 | **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
@@ -812,6 +813,7 @@
 | **Canonical** | **FlexLinearAttention: Compiling a Unified Abstraction into Scalable Kernels for Linear Attention** | ICLR 2026 | domain-specific compiler and scalable kernels for linear attention | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d029c97ee0db162c60f2ebc9cb93387e-Abstract-Conference.html) | — |
 | **Canonical** | **IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs** | ICLR 2026 | KV cache / CPU-GPU offload / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94de1ef32f1b564b885720ab89fd95af-Abstract-Conference.html) | — |
 | **Canonical** | **InfLLM-V2: Dense-Sparse Switchable Attention for Seamless Short-to-Long Adaptation** | ICLR 2026 | trainable sparse attention for long-context LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/716e60181e1782f5bd0a629033f85310-Abstract-Conference.html) | — |
+| **Canonical** | **KVComm: Enabling Efficient LLM Communication through Selective KV Sharing** | ICLR 2026 | Selective KV-cache sharing for multi-agent LLM communication | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/883105b282fe15275991b411e6b200c5-Abstract-Conference.html) | — |
 | **Canonical** | **Libra: Effective yet Efficient Load Balancing for Large-scale MoE Inference** | ICLR 2026 | distributed MoE inference load balancing | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9ff1ac9a659085fed0735362cafe5e53-Abstract-Conference.html) | — |
 | **Canonical** | **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** | ICLR 2026 | efficient attention / distributed context parallelism / benchmark | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) | — |
 | **Canonical** | **Out of the Memory Barrier: A Highly Memory-Efficient Training System for LLMs with Million-Token Contexts** | ICLR 2026 | memory-efficient million-token LLM training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b528459c99e929718a7d7e1697253d7f-Abstract-Conference.html) | — |

@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **738 canonical papers** mapped here, plus a broader **1393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **747 canonical papers** mapped here, plus a broader **1393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1402,7 +1402,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 602 canonical
+## 🏛️ Classical / Historical · 611 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1875,20 +1875,29 @@
 | **Canonical** | **Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation** | ICLR 2026 | Action-conditioned visual-token pruning for VLA inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1223ca2b14513106ad55db6a537337f9-Abstract-Conference.html) | — |
 | **Canonical** | **Block-wise Adaptive Caching for Accelerating Diffusion Policy** | ICLR 2026 | VLA/WAM/Physical AI serving / diffusion policy / block-wise cache / robot inference acceleration | [Link](https://arxiv.org/abs/2506.13456) | [Repo](https://github.com/ky-ji/BAC) |
 | **Canonical** | **Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling** | ICLR 2026 | constrained-acceptance speculative sampling | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/abccb8a90b30d45b948360ba41f5a20f-Abstract-Conference.html) | — |
+| **Canonical** | **DriftLite: Lightweight Drift Control for Inference-Time Scaling of Diffusion Models** | ICLR 2026 | lightweight training-free diffusion inference-time control | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7c284ecf1e4cf28a1b73c1b272c261df-Abstract-Conference.html) | — |
 | **Canonical** | **Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model** | ICLR 2026 | Calibration-driven caching schedules for diffusion inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html) | — |
 | **Canonical** | **FASTer: Toward Powerful and Efficient Autoregressive Vision–Language–Action Models with Learnable Action Tokenizer and Block-wise Decoding** | ICLR 2026 | compressed action tokenization and blockwise VLA decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9dc5accb1e4f4a9798eae145f2e4869b-Abstract-Conference.html) | — |
 | **Canonical** | **FideDiff: Efficient Diffusion Model for High-Fidelity Image Motion Deblurring** | ICLR 2026 | single-step diffusion image restoration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5dec18cdf9f7093ca9d566079c0cd2d1-Abstract-Conference.html) | — |
 | **Canonical** | **Flash-Mono: Feed-Forward Accelerated Gaussian Splatting Monocular SLAM** | ICLR 2026 | Feed-forward 3DGS SLAM for embodied perception | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5fcacc84d87c97bee5baecb3fb8f6e88-Abstract-Conference.html) | — |
 | **Canonical** | **Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning** | ICLR 2026 | single-step flow policy inference for embodied/action generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/eb58e6745340616828a053500220f963-Abstract-Conference.html) | — |
 | **Canonical** | **MambaVoiceCloning: Efficient and Expressive Text-to-Speech via State-Space Modeling and Diffusion Control** | ICLR 2026 | SSM-based efficient streaming TTS conditioning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b577903d061fbe0ea39ffddbbf397bf3-Abstract-Conference.html) | — |
+| **Canonical** | **Masked Generative Policy for Robotic Control** | ICLR 2026 | parallel masked action generation for robot policies | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c0eba8cf88645173049c6f966518ef79-Abstract-Conference.html) | — |
 | **Canonical** | **Mean Flow Policy with Instantaneous Velocity Constraint for One-step Action Generation** | ICLR 2026 | one-step flow policy inference for robot manipulation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fe7f375ef01e43f17d2c32b28a176577-Abstract-Conference.html) | — |
 | **Canonical** | **One-Step Flow Q-Learning: Addressing the Diffusion Policy Bottleneck in Offline Reinforcement Learning** | ICLR 2026 | One-step flow action generation for offline RL and robotics | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/14f75513f0f1ca01de1e826b52e6b840-Abstract-Conference.html) | — |
 | **Canonical** | **QVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization** | ICLR 2026 | action-aware quantization for VLA deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fa064215307efaad75bebc7a2e3194a4-Abstract-Conference.html) | — |
+| **Canonical** | **Real-Time Robot Execution with Masked Action Chunking** | ICLR 2026 | asynchronous VLA inference and real-time action execution | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c35834443b7881e782e52b3519fe27c7-Abstract-Conference.html) | — |
 | **Canonical** | **REAP the Experts: Why Pruning Prevails for One-Shot MoE compression** | ICLR 2026 | One-shot expert pruning for generative MoE models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ed93b2b5722acc2341d421b8916404a1-Abstract-Conference.html) | — |
+| **Canonical** | **Rolling Forcing: Autoregressive Long Video Diffusion in Real Time** | ICLR 2026 | low-latency streaming video diffusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/935151cc6cb5d8b6816133b75233775a-Abstract-Conference.html) | — |
+| **Canonical** | **S2GO: Streaming Sparse Gaussian Occupancy** | ICLR 2026 | Streaming sparse occupancy inference for autonomous driving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/669b0bb64ff9eff7a81a7858a54fe7a0-Abstract-Conference.html) | — |
+| **Canonical** | **SafeFlowMatcher: Safe and Fast Planning using Flow Matching with Control Barrier Functions** | ICLR 2026 | real-time flow-matching planning for Physical AI | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/58b1b19bbbcce03bfb66ea60344e41ea-Abstract-Conference.html) | — |
+| **Canonical** | **Scaling up Memory for Robotic Control via Experience Retrieval** | ICLR 2026 | retrieval-based long-horizon VLA runtime memory | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9da515b1ad19d032a7398f00f5ff9b0c-Abstract-Conference.html) | — |
+| **Canonical** | **SCOPED: Score–Curvature Out-of-distribution Proximity Evaluator for Diffusion** | ICLR 2026 | forward-pass-efficient diffusion OOD detection | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/902c462e821e5e639ac3422b48b65932-Abstract-Conference.html) | — |
 | **Canonical** | **SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration** | ICLR 2026 | VLA runtime scheduling and token pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html) | — |
 | **Canonical** | **Sparse Imagination for Efficient Visual World Model Planning** | ICLR 2026 | sparse visual world-model rollouts for Physical AI planning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a750d52284ff70c6d6bab8072c392d74-Abstract-Conference.html) | — |
 | **Canonical** | **Spectral Attention Steering for Prompt Highlighting** | ICLR 2026 | FlashAttention-compatible training-free LLM steering | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/32ddf8ee55540539eb46083cd72361e8-Abstract-Conference.html) | — |
 | **Canonical** | **TileLang: Bridge Programmability and Performance in Modern Neural Kernels** | ICLR 2026 | GPU kernel DSL and hardware-aware fused-kernel compilation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/76fb92288bf90360c527efb0d1c2aba6-Abstract-Conference.html) | — |
+| **Canonical** | **Zeros can be Informative: Masked Binary U-Net for Image Segmentation on Tensor Cores** | ICLR 2026 | binary-network acceleration on edge Tensor Cores | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e30acdeff572463c1db9b7de59de64c-Abstract-Conference.html) | — |
 | **Canonical** | **AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation** | ICML 2026 | Physical AI / vision-language navigation / adaptive reasoning / uncertainty-triggered inference / embodied-agent compute reduction | [Link](https://arxiv.org/abs/2509.24387) | [Repo](https://github.com/xinding-sys/AdaNav) |
 | **Canonical** | **Ask Less, See More: Communication-Conditioned Token Pruning for Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models** | ICML 2026 | Physical AI / autonomous driving / V2V cooperative MLLM / visual-token pruning / communication-efficient inference | [Link](https://openreview.net/forum?id=HWMMBBujpo) | — |
 | **Canonical** | **AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving** | ICML 2026 | VLA/WAM/Physical AI serving / asynchronous inference / KV-cache bridging / autonomous driving | [Link](https://arxiv.org/abs/2603.14851) | [Repo](https://github.com/OscarHuangWind/AutoMoT) |
@@ -2009,7 +2018,7 @@
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **Canonical** | **MARS Policy: Multimodality Only When It Matters** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2605.29766) | — |
 
-## 🛡️ Protected historical P1 watch · 1338
+## 🛡️ Protected historical P1 watch · 1345
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 

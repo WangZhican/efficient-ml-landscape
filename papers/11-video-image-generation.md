@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **510 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **512 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -169,7 +169,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 
-## 🏛️ Classical / Historical · 471 canonical
+## 🏛️ Classical / Historical · 473 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -564,6 +564,8 @@
 | **Canonical** | **Flash-Mono: Feed-Forward Accelerated Gaussian Splatting Monocular SLAM** | ICLR 2026 | Feed-forward 3DGS SLAM for embodied perception | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5fcacc84d87c97bee5baecb3fb8f6e88-Abstract-Conference.html) | — |
 | **Canonical** | **MEGS^{2}: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning** | ICLR 2026 | 3D Gaussian Splatting memory reduction and edge deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8142f95bd82ae1693e7afccd034b78be-Abstract-Conference.html) | — |
 | **Canonical** | **PreciseCache: Precise Feature Caching for Efficient and High-fidelity Video Generation** | ICLR 2026 | feature caching for video diffusion inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d634159810456714748d2e38273560cb-Abstract-Conference.html) | — |
+| **Canonical** | **Rolling Forcing: Autoregressive Long Video Diffusion in Real Time** | ICLR 2026 | low-latency streaming video diffusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/935151cc6cb5d8b6816133b75233775a-Abstract-Conference.html) | — |
+| **Canonical** | **Towards One-step Causal Video Generation via Adversarial Self-Distillation** | ICLR 2026 | Few-step causal video generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ae86071c169649bff21188c536163dc-Abstract-Conference.html) | — |
 | **Canonical** | **VARestorer: One-Step VAR Distillation for Real-World Image Super-Resolution** | ICLR 2026 | One-step visual autoregressive image restoration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/317470b3fde29f3bb8d6dee563afffc4-Abstract-Conference.html) | — |
 | **Canonical** | **Diffusion Adversarial Post-Training for One-Step Video Generation** | ICML 2025 | one-step video/image diffusion generation | [Link](https://proceedings.mlr.press/v267/lin25m.html) | — |
 | **Canonical** | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2502.01776) | — |

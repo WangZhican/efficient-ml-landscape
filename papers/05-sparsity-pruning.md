@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **899 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **903 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -421,7 +421,7 @@
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 
-## 🏛️ Classical / Historical · 798 canonical
+## 🏛️ Classical / Historical · 802 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -943,6 +943,7 @@
 | **Canonical** | **BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation** | ICLR 2026 | joint block-sparse attention and step distillation for video generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5bcb807ae43ad0851a6ba6162a866404-Abstract-Conference.html) | — |
 | **Canonical** | **Bottlenecked Transformers: Periodic KV Cache Consolidation for Generalised Reasoning** | ICLR 2026 | KV-cache consolidation for inference-time reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/478b06f60662d3cdc1d4f15d4587173a-Abstract-Conference.html) | — |
 | **Canonical** | **BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models** | ICLR 2026 | Shared-prefix and pruned rollouts for diffusion-model alignment training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/233d16f17f809981763db2f01b7f9603-Abstract-Conference.html) | — |
+| **Canonical** | **Cannistraci-Hebb Training on Ultra-Sparse Spiking Neural Networks** | ICLR 2026 | Dynamic ultra-sparse SNN training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/baa7fc022f35b6ea7b8b2a2fe60babe0-Abstract-Conference.html) | — |
 | **Canonical** | **CSRv2: Unlocking Ultra-Sparse Embeddings** | ICLR 2026 | Ultra-sparse embedding inference and retrieval efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/076c1fa639a7190e216e734f0a1b3e7b-Abstract-Conference.html) | — |
 | **Canonical** | **DiffSparse: Accelerating Diffusion Transformers with Learned Token Sparsity** | ICLR 2026 | learned token sparsity for diffusion transformer inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5e66b9f710a8e38351da690f3806cba9-Abstract-Conference.html) | — |
 | **Canonical** | **Draft-based Approximate Inference for LLMs** | ICLR 2026 | KV cache compression / sparse attention / prompt compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/28b3dc0970fa4624a63278a4268de997-Abstract-Conference.html) | [Repo](https://github.com/furiosa-ai/draft-based-approx-llm) |
@@ -969,7 +970,9 @@
 | **Canonical** | **REAP the Experts: Why Pruning Prevails for One-Shot MoE compression** | ICLR 2026 | One-shot expert pruning for generative MoE models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ed93b2b5722acc2341d421b8916404a1-Abstract-Conference.html) | — |
 | **Canonical** | **RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation** | ICLR 2026 | sparse attention / KV efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html) | — |
 | **Canonical** | **Retrospective Sparse Attention for Efficient Long-Context Generation** | ICLR 2026 | KV cache compression / long-generation inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f4daa773a5bb2d562a9204a7e2225a67-Abstract-Conference.html) | [Repo](https://github.com/csh3695/RetroAttention) |
+| **Canonical** | **S2GO: Streaming Sparse Gaussian Occupancy** | ICLR 2026 | Streaming sparse occupancy inference for autonomous driving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/669b0bb64ff9eff7a81a7858a54fe7a0-Abstract-Conference.html) | — |
 | **Canonical** | **Scaling Attention via Feature Sparsity** | ICLR 2026 | efficient attention / feature sparsity / FlashSFA kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e386233fe29d15525e7114fede6ce0-Abstract-Conference.html) | [Repo](https://github.com/YannX1e/Sparse-Feature-Attention) |
+| **Canonical** | **SMixer: Rethinking Efficient-Training and Event-Driven SNNs** | ICLR 2026 | Event-driven spiking-model architecture and training pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/aaeb635296295aa7c9f8b91c5e10960d-Abstract-Conference.html) | — |
 | **Canonical** | **SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration** | ICLR 2026 | VLA runtime scheduling and token pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html) | — |
 | **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
 | **Canonical** | **Sparse Imagination for Efficient Visual World Model Planning** | ICLR 2026 | sparse visual world-model rollouts for Physical AI planning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a750d52284ff70c6d6bab8072c392d74-Abstract-Conference.html) | — |
@@ -977,6 +980,7 @@
 | **Canonical** | **Sparsity Forcing: Reinforcing Token Sparsity of MLLMs** | ICLR 2026 | multimodal/MLLM efficiency / token sparsity / RL post-training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc034d186280f55370b6aca7a3285a65-Abstract-Conference.html) | — |
 | **Canonical** | **SPRINT: Sparse-Dense Residual Fusion for Efficient Diffusion Transformers** | ICLR 2026 | token dropping and sparse-dense fusion for DiT training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e7b28b1eb786547e1b452a0f38eac877-Abstract-Conference.html) | — |
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html) | — |
+| **Canonical** | **ToolTree: Efficient LLM Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning** | ICLR 2026 | efficient LLM agent tool planning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3428db291b383208dce69ed572f2b437-Abstract-Conference.html) | — |
 | **Canonical** | **ToProVAR: Efficient Visual Autoregressive Modeling via Tri-Dimensional Entropy-Aware Semantic Analysis and Sparsity Optimization** | ICLR 2026 | token/layer/scale sparsity for visual autoregressive generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8edb116d5b288b6a9bba4c16ab647702-Abstract-Conference.html) | — |
 | **Canonical** | **UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs** | ICLR 2026 | Adaptive quantization and structured pruning for edge LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/370fa2e691f57eb319bc263a07dad4a5-Abstract-Conference.html) | — |
 | **Canonical** | **vAttention: Verified Sparse Attention via Sampling** | ICLR 2026 | efficient attention / sparse attention / long-context decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55cb562b1f5af71f6707f3ff3c7941e6-Abstract-Conference.html) | — |

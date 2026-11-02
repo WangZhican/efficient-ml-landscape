@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **1223 canonical papers** mapped here, plus a broader **411-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1225 canonical papers** mapped here, plus a broader **411-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -420,7 +420,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🏛️ Classical / Historical · 1061 canonical
+## 🏛️ Classical / Historical · 1063 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1128,6 +1128,7 @@
 | **Canonical** | **Reconstructing KV Caches with Cross-Layer Fusion for Enhanced Transformers** | ICLR 2026 | cross-layer KV-cache fusion for long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8c22e5e918198702765ecff4b20d0a90-Abstract-Conference.html) | — |
 | **Canonical** | **Scaling Attention via Feature Sparsity** | ICLR 2026 | efficient attention / feature sparsity / FlashSFA kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e386233fe29d15525e7114fede6ce0-Abstract-Conference.html) | [Repo](https://github.com/YannX1e/Sparse-Feature-Attention) |
 | **Canonical** | **Scaling Large Vision-Language Model RL Training via Efficient Load Balancing** | ICLR 2026 | distributed_training_inference;multimodal_MLLM_serving;efficient_reasoning_agent_systems | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8cb31912235561112339f04903657f72-Abstract-Conference.html) | — |
+| **Canonical** | **SMixer: Rethinking Efficient-Training and Event-Driven SNNs** | ICLR 2026 | Event-driven spiking-model architecture and training pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/aaeb635296295aa7c9f8b91c5e10960d-Abstract-Conference.html) | — |
 | **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
 | **Canonical** | **SPRINT: Sparse-Dense Residual Fusion for Efficient Diffusion Transformers** | ICLR 2026 | token dropping and sparse-dense fusion for DiT training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e7b28b1eb786547e1b452a0f38eac877-Abstract-Conference.html) | — |
 | **Canonical** | **The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm** | ICLR 2026 | LLM quantization / GPTQ theory / low-bit inference kernels | [Link](https://arxiv.org/abs/2507.18553) | [Repo](https://github.com/IST-DASLab/GPTQ-Babai) |
@@ -1135,6 +1136,7 @@
 | **Canonical** | **TileLang: Bridge Programmability and Performance in Modern Neural Kernels** | ICLR 2026 | GPU kernel DSL and hardware-aware fused-kernel compilation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/76fb92288bf90360c527efb0d1c2aba6-Abstract-Conference.html) | — |
 | **Canonical** | **TINY BUT MIGHTY: A SOFTWARE-HARDWARE CO- DESIGN APPROACH FOR EFFICIENT MULTIMODAL IN- FERENCE ON BATTERY-POWERED SMALL DEVICES** | ICLR 2026 | Heterogeneous accelerator co-design for on-device multimodal inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b20260e3e1bd7ea108831925d65ce0a6-Abstract-Conference.html) | — |
 | **Canonical** | **TyphoonMLA: A Mixed Naive-Absorb MLA Kernel For Shared Prefix** | ICLR 2026 | Shared-prefix-aware MLA kernels for LLM serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e2e98d179f2f9645a20b11ae5e64bc78-Abstract-Conference.html) | — |
+| **Canonical** | **Zeros can be Informative: Masked Binary U-Net for Image Segmentation on Tensor Cores** | ICLR 2026 | binary-network acceleration on edge Tensor Cores | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e30acdeff572463c1db9b7de59de64c-Abstract-Conference.html) | — |
 | **Canonical** | **Monarch: Expressive Structured Matrices for Efficient and Accurate Training** | ICML 2022 | sparsity/pruning; efficient training; GPU kernel/compilers | [Link](https://arxiv.org/abs/2204.00595) | — |
 | **Canonical** | **FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU** | ICML 2023 | LLM serving; edge/cloud/heterogeneous AI systems | [Link](https://proceedings.mlr.press/v202/sheng23a.html) | [Repo](https://github.com/FMInference/FlexGen) |
 | **Canonical** | **Simple Hardware-Efficient Long Convolutions for Sequence Modeling** | ICML 2023 | GPU kernel/DSL/compilers; efficient attention | [Link](https://proceedings.mlr.press/v202/fu23a.html) | — |

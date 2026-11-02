@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2337 canonical papers** mapped here, plus a broader **1381-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2340 canonical papers** mapped here, plus a broader **1381-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1390,7 +1390,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🏛️ Classical / Historical · 2009 canonical
+## 🏛️ Classical / Historical · 2012 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2842,6 +2842,7 @@
 | **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
 | **Canonical** | **Cascadia: An Efficient Cascade Serving System for Large Language Models** | ICLR 2026 | LLM serving / model cascades / routing / resource allocation | [Link](https://arxiv.org/abs/2506.04203) | — |
 | **Canonical** | **DASH: Deterministic Attention Scheduling for High-throughput Reproducible LLM Training** | ICLR 2026 | High-throughput deterministic attention kernels for LLM training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ea2d9874341c7434707ca897daaf0616-Abstract-Conference.html) | — |
+| **Canonical** | **Diffusion Language Model Knows the Answer Before It Decodes** | ICLR 2026 | early-convergence acceleration for diffusion LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/daadbff4d4ea884ca3d9d389a1dfc61c-Abstract-Conference.html) | — |
 | **Canonical** | **DSA: Efficient Inference For Video Generation Models via Distributed Sparse Attention** | ICLR 2026 | distributed sparse attention for video generation inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c3728248f3c627d1f16ca5726cdf83f5-Abstract-Conference.html) | — |
 | **Canonical** | **DualMap: Enabling Both Cache Affinity and Load Balancing for Distributed LLM Serving** | ICLR 2026 | dual-map scheduling for distributed LLM serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/475f7a3a807cee549684e367d1fa13a0-Abstract-Conference.html) | — |
 | **Canonical** | **DynamicInfer: Runtime-Aware Sparse Offloading for LLMs Inference on a Consumer-Grade GPU** | ICLR 2026 | runtime sparse offloading for consumer-GPU LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0b9762d1f15c68057275fa18d384c1a8-Abstract-Conference.html) | — |
@@ -2875,7 +2876,9 @@
 | **Canonical** | **SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration** | ICLR 2026 | VLA runtime scheduling and token pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html) | — |
 | **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
 | **Canonical** | **Sparsity Forcing: Reinforcing Token Sparsity of MLLMs** | ICLR 2026 | multimodal/MLLM efficiency / token sparsity / RL post-training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc034d186280f55370b6aca7a3285a65-Abstract-Conference.html) | — |
+| **Canonical** | **Stop Unnecessary Reflection: Training LRMs for Efficient Reasoning with Adaptive Reflection and Length Coordinated Penalty** | ICLR 2026 | Adaptive reasoning-length reduction for LLM serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/08fe50bf209c57eecf0804f9f9ed639f-Abstract-Conference.html) | — |
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html) | — |
+| **Canonical** | **Tequila: Trapping-free Ternary Quantization for Large Language Models** | ICLR 2026 | Ternary LLM quantization for hardware-efficient deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html) | — |
 | **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |
 | **Canonical** | **TrimR: Verifier-based Training-Free Thinking Trimming for Efficient Test-Time Scaling** | ICLR 2026 | Verifier-guided reasoning-trace trimming in production LLM serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1eeacdf8770e6dd5164cdeec8bcfa8cc-Abstract-Conference.html) | — |
 | **Canonical** | **TyphoonMLA: A Mixed Naive-Absorb MLA Kernel For Shared Prefix** | ICLR 2026 | Shared-prefix-aware MLA kernels for LLM serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e2e98d179f2f9645a20b11ae5e64bc78-Abstract-Conference.html) | — |

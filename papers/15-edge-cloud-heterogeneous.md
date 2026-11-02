@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1338 canonical papers** mapped here, plus a broader **1250-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1343 canonical papers** mapped here, plus a broader **1250-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1259,7 +1259,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 1181 canonical
+## 🏛️ Classical / Historical · 1186 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2059,9 +2059,11 @@
 | **Canonical** | **V-Rex: Real-Time Streaming Video LLM Acceleration via Dynamic KV Cache Retrieval** | HPCA 2026 | multimodal serving / streaming video LLM / KV cache / edge accelerator | [Link](https://arxiv.org/abs/2512.12284) | — |
 | **Canonical** | **Multi-Granular Spatio-Temporal Token Merging for Training-Free Acceleration of Video LLMs** | ICCV 2025 | video LLM acceleration / spatiotemporal token merging / KV reuse | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Hyun_Multi-Granular_Spatio-Temporal_Token_Merging_for_Training-Free_Acceleration_of_Video_LLMs_ICCV_2025_paper.html) | [Repo](https://github.com/HYUNJS/STTM) |
 | **Canonical** | **Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control** | ICCV 2025 | VLA/WAM/Physical AI serving / quantization / edge robotic control | [Link](https://arxiv.org/abs/2505.15304) | — |
+| **Canonical** | **Boosting Entropy with Bell Box Quantization** | ICLR 2026 | Compute-efficient information-theoretic quantization-aware pretraining | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3106c718fe84b91fc301fe2f5b738448-Abstract-Conference.html) | — |
 | **Canonical** | **CIAR: Interval-based Collaborative Decoding for Image Generation Acceleration** | ICLR 2026 | cloud-device collaborative decoding for image generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e7e506bc5a94768243083216fe51d98b-Abstract-Conference.html) | — |
 | **Canonical** | **Developmental Federated Tuning: A Cognitive-Inspired Paradigm for Efficient LLM Adaptation** | ICLR 2026 | Resource-efficient federated LLM adaptation on edge devices | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/51ae7d9db3423ae96cd6afeb01529819-Abstract-Conference.html) | — |
 | **Canonical** | **DynamicInfer: Runtime-Aware Sparse Offloading for LLMs Inference on a Consumer-Grade GPU** | ICLR 2026 | runtime sparse offloading for consumer-GPU LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0b9762d1f15c68057275fa18d384c1a8-Abstract-Conference.html) | — |
+| **Canonical** | **Efficient Approximate Posterior Sampling with Annealed Langevin Monte Carlo** | ICLR 2026 | efficient posterior sampling for score-based generative models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/43f3700429a93070a29b84f94963a7e1-Abstract-Conference.html) | — |
 | **Canonical** | **Efficient Prediction of Large Protein Complexes via Subunit-Guided Hierarchical Refinement** | ICLR 2026 | Memory-efficient large-complex protein structure inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3734d24cade73d172e47aef230801a2a-Abstract-Conference.html) | — |
 | **Canonical** | **Fastcar: Cache Attentive Replay for Fast Auto-Regressive Video Generation on the Edge** | ICLR 2026 | Temporal MLP-output caching and FPGA acceleration for video generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8488454077cb0fd9d31772274c78115d-Abstract-Conference.html) | — |
 | **Canonical** | **FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference** | ICLR 2026 | KV cache retrieval / CPU-GPU hybrid memory / long-context inference | [Link](https://arxiv.org/abs/2505.13109) | — |
@@ -2072,9 +2074,12 @@
 | **Canonical** | **Otters: An Energy-Efficient Spiking Transformer via Optical Time-to-First-Spike Encoding** | ICLR 2026 | Hardware-software co-design for energy-efficient SNN transformers | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9200d97ca2bf3a26db7b591844014f00-Abstract-Conference.html) | — |
 | **Canonical** | **Prima.cpp: Fast 30-70B LLM Inference on Heterogeneous and Low-Resource Home Clusters** | ICLR 2026 | Heterogeneous distributed LLM serving on consumer hardware | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e991e5587c1daa49bbf9a818b3f02f9a-Abstract-Conference.html) | — |
 | **Canonical** | **RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference** | ICLR 2026 | Retrieval-guided early exit for LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/99280c98e6f74d3b8a73ebb7ee5bd51a-Abstract-Conference.html) | — |
+| **Canonical** | **Secure Outlier-Aware Large Language Model Inference** | ICLR 2026 | Secure MPC LLM inference nonlinear-operation acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a4b293979b8b521e9222d30c40246911-Abstract-Conference.html) | — |
+| **Canonical** | **Tequila: Trapping-free Ternary Quantization for Large Language Models** | ICLR 2026 | Ternary LLM quantization for hardware-efficient deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html) | — |
 | **Canonical** | **TINY BUT MIGHTY: A SOFTWARE-HARDWARE CO- DESIGN APPROACH FOR EFFICIENT MULTIMODAL IN- FERENCE ON BATTERY-POWERED SMALL DEVICES** | ICLR 2026 | Heterogeneous accelerator co-design for on-device multimodal inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b20260e3e1bd7ea108831925d65ce0a6-Abstract-Conference.html) | — |
 | **Canonical** | **UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs** | ICLR 2026 | Adaptive quantization and structured pruning for edge LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/370fa2e691f57eb319bc263a07dad4a5-Abstract-Conference.html) | — |
 | **Canonical** | **Universal Model Routing for Efficient LLM Inference** | ICLR 2026 | Dynamic cost-aware routing across unseen LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/113ae3a9762ca2168f860a8501d6ae25-Abstract-Conference.html) | — |
+| **Canonical** | **Zeros can be Informative: Masked Binary U-Net for Image Segmentation on Tensor Cores** | ICLR 2026 | binary-network acceleration on edge Tensor Cores | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e30acdeff572463c1db9b7de59de64c-Abstract-Conference.html) | — |
 | **Canonical** | **FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU** | ICML 2023 | LLM serving; edge/cloud/heterogeneous AI systems | [Link](https://proceedings.mlr.press/v202/sheng23a.html) | [Repo](https://github.com/FMInference/FlexGen) |
 | **Canonical** | **Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies** | ICML 2025 | speculative decoding | [Link](https://proceedings.mlr.press/v267/timor25a.html) | — |
 | **Canonical** | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | [Link](https://arxiv.org/abs/2502.10424) | [Repo](https://github.com/SqueezeAILab/QuantSpec) |

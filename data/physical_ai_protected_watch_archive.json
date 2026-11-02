@@ -8694,6 +8694,29 @@
     ]
   },
   {
+    "title": "RFS: Reinforcement learning with Residual flow steering for dexterous manipulation",
+    "venue": "ICLR 2026",
+    "topic": "data-efficient adaptation of flow-based robot policies",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:e5681277af35789f6c9dfcaf83047aec",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e5681277af35789f6c9dfcaf83047aec-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract proposes data-efficient RL adaptation of pretrained flow policies for dexterous manipulation. Retain as a high-value Physical-AI action-policy signal, while noting that the abstract emphasizes adaptation and robustness rather than serving latency or hardware efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
     "venue": "",
     "topic": "Physical AI / interactive world model / bounded KV cache / real-time streaming",
@@ -9091,6 +9114,30 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Relational Feature Caching for Accelerating Diffusion Transformers",
+    "venue": "ICLR 2026",
+    "topic": "Input-output-aware DiT feature caching",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:4019681ef05e8e347c3067d7f973a364",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4019681ef05e8e347c3067d7f973a364-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract presents relational feature estimation and error-aware cache scheduling to reduce redundant DiT computation, but the reviewed abstract gives no quantitative speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -9865,6 +9912,28 @@
     ]
   },
   {
+    "title": "R2-Dreamer: Redundancy-Reduced World Models without Decoders or Augmentation",
+    "venue": "ICLR 2026",
+    "topic": "decoder-free, redundancy-reduced world models",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:d79ac139911df25d27f14bbf008deaee",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ac139911df25d27f14bbf008deaee-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract identifies wasted representation capacity in reconstruction-based world models and proposes a decoder-free objective. Retain for efficient world-model/Physical-AI research, while requiring evidence of runtime or resource savings before promotion.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Quantifying the Effect of HCLs on a Fixed-Microarchitecture MXFP4 Accelerator",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / edge Physical AI hardware",
@@ -10045,6 +10114,30 @@
     "directions": [
       "Quantization",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction",
+    "venue": "ICLR 2026",
+    "topic": "sparse/dense representation trade-offs for autonomous-driving occupancy",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:08d2d3c98868539671e68b70679b8bff",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/08d2d3c98868539671e68b70679b8bff-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract identifies significant compute overhead from dense 3D occupancy representations and introduces progressive Gaussian densification. Retain as a high-value perception-efficiency lead, but the abstract does not quantify runtime or establish a direct serving-system optimization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Sparsity / Pruning",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -16905,6 +16998,51 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Inference-time scaling of diffusion models through classical search",
+    "venue": "ICLR 2026",
+    "topic": "search-based diffusion inference-time control",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:41c9aa6c04924c29c6469572c5f6d01b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/41c9aa6c04924c29c6469572c5f6d01b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract proposes compute-efficient global exploration and scalable local search for diffusion control. Retain as high-value, but search may add total inference compute and the abstract does not establish net latency or cost reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Inference-Time Personalized Safety Control via Paired Difference-in-Means Intervention",
+    "venue": "ICLR 2026",
+    "topic": "Training-free inference-time LLM safety intervention",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:b63416bfd534662dca16a149477b1190",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b63416bfd534662dca16a149477b1190-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract presents efficient training-free activation intervention for personalized safety with minimal utility impact, but no serving-latency or memory reduction is quantified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -29485,6 +29623,28 @@
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Accelerated co-design of robots through morphological pretraining",
+    "venue": "ICLR 2026",
+    "topic": "training-data-efficient robot morphology and policy co-design",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:0cfeabacfcdf49ce45826a2f7eb89a3c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/0cfeabacfcdf49ce45826a2f7eb89a3c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract replaces repeated morphology-specific policy-gradient training with a universal controller learned through differentiable simulation. Retain as a high-value Physical-AI training-efficiency lead; it is not a serving optimization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },

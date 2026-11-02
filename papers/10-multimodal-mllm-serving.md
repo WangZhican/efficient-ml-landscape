@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **747 canonical papers** mapped here, plus a broader **531-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **748 canonical papers** mapped here, plus a broader **531-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -540,7 +540,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 659 canonical
+## 🏛️ Classical / Historical · 660 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1032,6 +1032,7 @@
 | **Canonical** | **VFlowOpt: A Token Pruning Framework for LMMs with Visual Information Flow-Guided Optimization** | ICCV 2025 | multimodal/VLM token pruning / KV efficiency | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_VFlowOpt_A_Token_Pruning_Framework_for_LMMs_with_Visual_Information_ICCV_2025_paper.html) | — |
 | **Canonical** | **ZipVL: Accelerating Vision-Language Models through Dynamic Token Sparsity** | ICCV 2025 | VLM dynamic token sparsity / KV efficiency | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/He_ZipVL_Accelerating_Vision-Language_Models_through_Dynamic_Token_Sparsity_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation** | ICLR 2026 | Action-conditioned visual-token pruning for VLA inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1223ca2b14513106ad55db6a537337f9-Abstract-Conference.html) | — |
+| **Canonical** | **Catching the Details: Self-Distilled RoI Predictors for Fine-Grained MLLM Perception** | ICLR 2026 | compute-efficient high-resolution MLLM perception | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/dc6319dde4fb182b22fb902da9418566-Abstract-Conference.html) | — |
 | **Canonical** | **Efficient Discriminative Joint Encoders for Large Scale Vision-Language Reranking** | ICLR 2026 | High-throughput vision-language retrieval inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/48736dba3b8d933fabbfdb4f22a7be71-Abstract-Conference.html) | — |
 | **Canonical** | **Efficient Multimodal Spatial Reasoning via Dynamic and Asymmetric Routing** | ICLR 2026 | Token and KV-cache reduction for multimodal reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4bd2ab7c614bc9ce646ba5559bb1fa67-Abstract-Conference.html) | — |
 | **Canonical** | **ERGO: Efficient High-Resolution Visual Understanding for Vision-Language Models** | ICLR 2026 | Coarse-to-fine high-resolution VLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0f0c4f3d83c58df58380af3b0729354c-Abstract-Conference.html) | — |
