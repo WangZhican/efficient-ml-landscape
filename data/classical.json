@@ -86521,6 +86521,29 @@
     ]
   },
   {
+    "title": "BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation",
+    "venue": "ICLR 2026",
+    "topic": "Scheduler learning for few-step diffusion and flow generation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:0bd32794b26cfc99214b89313764da8e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/0bd32794b26cfc99214b89313764da8e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract presents a lightweight scheduler-training method for pretrained diffusion and flow models and reports a 2–3x performance improvement at ten or fewer function evaluations with only about fifteen minutes of training. This directly improves the quality-compute tradeoff of few-step generation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Cache What Lasts: Token Retention for Memory-Bounded KV Cache in LLMs",
     "venue": "ICLR 2026",
     "topic": "learned token retention for memory-bounded LLM inference",
@@ -86854,6 +86877,28 @@
     ]
   },
   {
+    "title": "Compositional amortized inference for large-scale hierarchical Bayesian models",
+    "venue": "ICLR 2026",
+    "topic": "Compositional diffusion-based amortized inference for large-scale Bayesian models",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:54c306b0c044e2dc92124b6689a9574a",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/54c306b0c044e2dc92124b6689a9574a-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly addresses massive simulation costs, reports competitive inference with less than one full model simulation on larger problems, and demonstrates a 750,000-parameter microscopy inverse problem; this is a substantive efficient-inference contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Compute-Optimal Quantization-Aware Training",
     "venue": "ICLR 2026",
     "topic": "Compute-budget-optimal QAT allocation",
@@ -87025,6 +87070,28 @@
     ]
   },
   {
+    "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
+    "venue": "ICLR 2026",
+    "topic": "World-model-based policy evaluation and data generation for robot manipulation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:0ae94013da7cd459402fd77874e09ee3",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly replaces costly real-world policy rollouts with controllable imagined trajectories, ranks policies without robot rollouts, and reports a 44.7% policy-success improvement from synthesized successful trajectories; this is a high-value efficiency contribution for Physical AI.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "CurES: From Gradient Analysis to Efficient Curriculum Learning for Reasoning LLMs",
     "venue": "ICLR 2026",
     "topic": "Reasoning-LLM training efficiency and rollout allocation",
@@ -87110,6 +87177,28 @@
       "LLM Serving",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "DataMIL: Selecting Data for Robot Imitation Learning with Datamodels",
+    "venue": "ICLR 2026",
+    "topic": "Task-aware data selection for efficient robot imitation learning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:033d9e8dbbbc0ad90e59222cf1db0fc2",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/033d9e8dbbbc0ad90e59222cf1db0fc2-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly targets costly robot-data selection and co-training, uses a surrogate loss to avoid expensive environment rollouts during selection, and reports consistent success-rate gains across 60+ simulation and real-world tasks; this is a high-value training-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -87437,6 +87526,27 @@
     ]
   },
   {
+    "title": "Diffusion-DFL: Decision-focused Diffusion Models for Stochastic Optimization",
+    "venue": "ICLR 2026",
+    "topic": "Compute- and memory-efficient decision-focused diffusion training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:3e0b96206965f5f05b0b4550c0e73ff0",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3e0b96206965f5f05b0b4550c0e73ff0-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract explicitly identifies the memory and compute cost of differentiating through diffusion sampling and introduces a lightweight score-function estimator using only several forward passes. This directly removes expensive backpropagation through sampling.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "DiffusionBlocks: Block-wise Neural Network Training via Diffusion Interpretation",
     "venue": "ICLR 2026",
     "topic": "Memory-efficient transformer training and block-wise optimization",
@@ -87476,6 +87586,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "DistillKac: Few-Step Image Generation via Damped Wave Equations",
+    "venue": "ICLR 2026",
+    "topic": "Few-function-evaluation image generation through damped-wave probability flows",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:be82bb4bf8333107b0fe430e1017831a",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/be82bb4bf8333107b0fe430e1017831a-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly targets fast image generation, uses endpoint-only teacher-to-student distillation, and reports high-quality samples with very few function evaluations; this is a direct, high-value generation-acceleration contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation"
     ]
   },
   {
@@ -87519,6 +87650,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Do We Need All the Synthetic Data? Targeted Image Augmentation via Diffusion Models",
+    "venue": "ICLR 2026",
+    "topic": "Targeted synthetic-data selection for compute-efficient image-model training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:98bf3b8505c611ac21055dd9d355c66e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/98bf3b8505c611ac21055dd9d355c66e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly addresses synthetic-data overhead, augments only 30–40% of examples instead of the usual 10–30× dataset expansion, and reports up to 2.8% generalization gains; this is a strong training-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -87680,6 +87832,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Dual-Solver: A Generalized ODE Solver for Diffusion Models with Dual Prediction",
+    "venue": "ICLR 2026",
+    "topic": "Low-NFE diffusion sampling with learned generalized ODE solvers",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:234e0183188c87a6eeee14509a4e375b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/234e0183188c87a6eeee14509a4e375b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly targets costly diffusion sampling and reports improved FID/CLIP quality in the low-NFE regime of 3–9 evaluations. This is a direct inference-efficiency contribution with a quantified low-step operating range.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -88710,6 +88884,28 @@
     ]
   },
   {
+    "title": "Fine-Tuning Diffusion Models via Intermediate Distribution Shaping",
+    "venue": "ICLR 2026",
+    "topic": "Lower-FLOP diffusion fine-tuning through intermediate distribution shaping",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:ee0ca8e48b694b7f183ad855da0b3868",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee0ca8e48b694b7f183ad855da0b3868-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract introduces distribution shaping and inverse-noise correction for pretrained diffusion/flow models and explicitly reports improved FID at lower FLOPs per image. This is a direct, quantified compute-efficiency contribution to generative-model fine-tuning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Fine-tuning Quantized Neural Networks with Zeroth-order Optimization",
     "venue": "ICLR 2026",
     "topic": "Memory-minimal quantized LLM fine-tuning",
@@ -88929,6 +89125,27 @@
     ]
   },
   {
+    "title": "Flow Map Learning Via Non-Gradient Vector Flow",
+    "venue": "ICLR 2026",
+    "topic": "Flow-map learning without expensive iterative differentiation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:f535fbd110d5b460c9955bde27b548bb",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f535fbd110d5b460c9955bde27b548bb-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract identifies sampling integration overhead and expensive differentiation through model iteration, then introduces SGFlow to bypass those costs while learning flow maps. It reports a favorable FID-to-step-count relationship, making this a direct flow-generation efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning",
     "venue": "ICLR 2026",
     "topic": "single-step flow policy inference for embodied/action generation",
@@ -89126,6 +89343,50 @@
     ]
   },
   {
+    "title": "From Predictors to Samplers via the Training Trajectory",
+    "venue": "ICLR 2026",
+    "topic": "Compute-light sampling using coarse-to-fine training checkpoints",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:333e479bf0720aad0d6854decdc8f67d",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/333e479bf0720aad0d6854decdc8f67d-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract presents a compute-light alternative to diffusion sampling, reuses existing training checkpoints without additional compute, and reports a near-linear rather than exponential bottleneck in a Boolean setting. This is a direct sampling-compute contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "From Text to Talk: Audio-Language Model Needs Non-Autoregressive Joint Training",
+    "venue": "ICLR 2026",
+    "topic": "Parallel non-autoregressive audio generation for multimodal inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:fa85fd32bffe2a6312a663a235632d3d",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/fa85fd32bffe2a6312a663a235632d3d-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract replaces autoregressive audio generation with block-wise diffusion that synthesizes audio in parallel within a unified audio-text model. This directly targets sequential decoding overhead in multimodal serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "From Tokens to Nodes: Semantic-Guided Motion Control for Dynamic 3D Gaussian Splatting",
     "venue": "ICLR 2026",
     "topic": "Motion-adaptive 3D reconstruction compression",
@@ -89299,6 +89560,27 @@
     ]
   },
   {
+    "title": "GAS: Improving Discretization of Diffusion ODEs via Generalized Adversarial Solver",
+    "venue": "ICLR 2026",
+    "topic": "Few-step diffusion ODE solver distillation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:42d6cda0d721d41ea5751b4bf4d53616",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/42d6cda0d721d41ea5751b4bf4d53616-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract explicitly targets expensive diffusion sampling and distills ODE solvers from dozens of evaluations to only a few. Its generalized solver improves quality under similar resource constraints without extra training tricks, making it a direct inference-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "GenDR: Lighten Generative Detail Restoration",
     "venue": "ICLR 2026",
     "topic": "Lightweight generative detail restoration",
@@ -89311,6 +89593,27 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "The official abstract explicitly targets lightening generative detail restoration, a direct generative-workload efficiency contribution. Retain as strong pending the primary-PDF review of its concrete compute and quality trade-offs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Generalised Flow Maps for Few-Step Generative Modelling on Riemannian Manifolds",
+    "venue": "ICLR 2026",
+    "topic": "Few-step flow-map generation on Riemannian manifolds",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:346e8ab35a0f1255b8dddcc40f94f0c3",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/346e8ab35a0f1255b8dddcc40f94f0c3-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly targets the high inference cost of geometric generative models, introduces self-distilled few-step flow maps, and reports state-of-the-art single- and few-step sample quality across geometric datasets; this is a direct generation-acceleration contribution.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -89339,6 +89642,28 @@
     "directions": [
       "LLM Serving",
       "Quantization"
+    ]
+  },
+  {
+    "title": "Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction",
+    "venue": "ICLR 2026",
+    "topic": "Compute-efficient LLM theorem proving and reasoning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:13e8be77982beb73d7ed0bbf122f9f3c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e8be77982beb73d7ed0bbf122f9f3c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports an 8B prover outperforming a 671B model and a 32B prover solving substantially more PutnamBench problems than a 671B baseline with about 20x smaller compute budget. This is a direct, quantified efficiency result for reasoning models.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -89446,6 +89771,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Graph Diffusion Transformers are In-Context Molecular Designers",
+    "venue": "ICLR 2026",
+    "topic": "Compact graph-tokenization and in-context molecular diffusion",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a6b41bed7b8c1abfcf34591d7ae13424",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a6b41bed7b8c1abfcf34591d7ae13424-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract introduces motif-level Node Pair Encoding that requires 5.5x fewer nodes and a 0.7B molecular model matching or exceeding models 100–1000x larger across 33 design tasks. These are direct representation/model-size efficiency signals.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -89713,6 +90059,28 @@
     ]
   },
   {
+    "title": "Hybrid Training for Vision-Language-Action Models",
+    "venue": "ICLR 2026",
+    "topic": "Training VLAs to skip chain-of-thought at inference while retaining its benefits",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:db77389415a3e7aa66dd4f4fef384270",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/db77389415a3e7aa66dd4f4fef384270-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly notes CoT increases inference time and proposes hybrid training that lets VLAs benefit from thoughts while omitting CoT generation during action inference; this is a direct, high-value latency reduction for protected Physical AI.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Hyden: A Hybrid Dual-Path Encoder for Monocular Geometry of High-resolution Images",
     "venue": "ICLR 2026",
     "topic": "Low-latency high-resolution vision inference",
@@ -89731,6 +90099,48 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Hyper-SET: Designing Transformers via Hyperspherical Energy Minimization",
+    "venue": "ICLR 2026",
+    "topic": "Compact recurrent-depth Transformer with shared parameters",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:3cfb1080e34d0cf305c55065ccb80259",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3cfb1080e34d0cf305c55065ccb80259-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract introduces a recurrent-depth Transformer with shared parameters across layers, scaling depth with fewer parameters while maintaining competitive performance and offering linear-attention variants; this is a substantive model-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Hyperspherical Latents Improve Continuous-Token Autoregressive Generation",
+    "venue": "ICLR 2026",
+    "topic": "Parameter-efficient autoregressive image generation with hyperspherical latents",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:342339109d7d756ef7bb30cf672aec02",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/342339109d7d756ef7bb30cf672aec02-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract reports a 208M-parameter model matching a 2B-parameter baseline and a 943M model achieving FID 1.34, directly improving the quality/parameter tradeoff for autoregressive image generation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation"
     ]
   },
   {
@@ -90042,6 +90452,27 @@
     ]
   },
   {
+    "title": "KaLM-Embedding-V2: Superior Training Techniques and Data Inspire A Versatile Embedding Model",
+    "venue": "ICLR 2026",
+    "topic": "Compact sub-billion embedding models with large-model-level capability",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:6082359ffba504842a41da0d6a3cffe2",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6082359ffba504842a41da0d6a3cffe2-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports compact 0.5B embedding models that rival models 3–26 times larger through training/data improvements, directly improving the quality/parameter tradeoff for embedding inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models",
     "venue": "ICLR 2026",
     "topic": "low-bit vector quantization for MoE LLM deployment",
@@ -90153,6 +90584,27 @@
       "KV Cache / Long Context",
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Language-Instructed Vision Embeddings for Controllable and Generalizable Perception",
+    "venue": "ICLR 2026",
+    "topic": "Task-adaptive vision embeddings without task-specific retraining",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:96a54c09569ebbdd9ecb22f5012e6b66",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/96a54c09569ebbdd9ecb22f5012e6b66-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports instruction-guided visual embeddings that outperform VLMs with orders of magnitude more parameters on VQA and generalize without task-specific retraining, directly improving model-size and adaptation efficiency for perception.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -90283,6 +90735,48 @@
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Learning an Image Editing Model without Image Editing Pairs",
+    "venue": "ICLR 2026",
+    "topic": "Few-step diffusion image editing without paired training data",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:b4995cbd0b7f6a1a366ee65f9c4b02ac",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b4995cbd0b7f6a1a366ee65f9c4b02ac-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract directly optimizes a few-step diffusion editor and reports parity with paired-data-trained models while eliminating paired data, with performance over Flow-GRPO; this is a high-value generation/training-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Learning Posterior Predictive Distributions for Node Classification from Synthetic Graph Priors",
+    "venue": "ICLR 2026",
+    "topic": "Universal graph node classification without graph-specific training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:748ba247386936692f0f9a05565c926b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/748ba247386936692f0f9a05565c926b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract trains NodePFN on synthetic graph priors and generalizes to arbitrary graphs without graph-specific training, directly reducing per-graph adaptation/training requirements across 23 benchmarks; this is a substantive training-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -91011,6 +91505,27 @@
     ]
   },
   {
+    "title": "MILPnet: A Multi-Scale Architecture with Geometric Feature Sequence Representations for Advancing MILP Problems",
+    "venue": "ICLR 2026",
+    "topic": "Parameter-efficient neural architecture for faster MILP solving",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:b75ce884441c983f7357a312ffa02a3c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b75ce884441c983f7357a312ffa02a3c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract reports fewer parameters and faster convergence than graph-based baselines, with end-to-end solver integration on real MILP benchmarks; this is a direct optimization-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MIRA: Memory-Integrated Reinforcement Learning Agent  with Limited LLM Guidance",
     "venue": "ICLR 2026",
     "topic": "Amortized LLM guidance for efficient RL agents",
@@ -91231,6 +91746,28 @@
     ]
   },
   {
+    "title": "MobileLLM-R1: Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes",
+    "venue": "ICLR 2026",
+    "topic": "Data- and parameter-efficient sub-billion reasoning models",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:c62fb98c25c2318bf3aca24d3b0fc85e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c62fb98c25c2318bf3aca24d3b0fc85e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports strong reasoning from a 950M model using 11.7% of the pretraining tokens of a 36T-token reference corpus, with about 2T high-quality tokens sufficient for data curation. This is a direct data/model-scale efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MoM: Linear Sequence Modeling with Mixture-of-Memories",
     "venue": "ICLR 2026",
     "topic": "Linear-complexity sequence modeling",
@@ -91292,6 +91829,48 @@
     "directions": [
       "LLM Serving",
       "Quantization"
+    ]
+  },
+  {
+    "title": "Motion Prior Distillation in Time Reversal Sampling for Generative Inbetweening",
+    "venue": "ICLR 2026",
+    "topic": "Inference-time distillation for time-reversal video sampling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:5af741d487c5f0b08bfe56e11d1883e4",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/5af741d487c5f0b08bfe56e11d1883e4-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract introduces inference-time motion-prior distillation and deliberately avoids denoising the end-conditioned path that causes ambiguity. This directly removes part of the sampling workload while improving temporal coherence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Much Ado About Noising: Dispelling the Myths of Generative Robotic Control",
+    "venue": "ICLR 2026",
+    "topic": "Two-step iterative policy for efficient generative robotic control",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:9299ca9ed58731945e934adb5b71728c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9299ca9ed58731945e934adb5b71728c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract finds that a lightweight two-step regression policy essentially matches flow-based generative control policies, showing that expensive distribution fitting is not essential. This is a direct compute-reduction opportunity for protected Physical-AI action inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -91449,6 +92028,28 @@
     ]
   },
   {
+    "title": "Natural Language PDDL (NL-PDDL) for Open-world Goal-oriented Commonsense Regression Planning in Embodied AI",
+    "venue": "ICLR 2026",
+    "topic": "Lifted open-world planning with complexity independent of grounded objects/actions",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:d7c7b6f2e4ad3f56b85eaae765016d3a",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d7c7b6f2e4ad3f56b85eaae765016d3a-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly avoids exhaustive grounding and yields time/space complexity independent of the number of ground objects, states, and actions while improving embodied planning; this is a direct efficient-reasoning contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Neodragon: Mobile Video Generation Using Diffusion Transformer",
     "venue": "ICLR 2026",
     "topic": "Low-power NPU video generation through distillation, pruning, and sampling-cost reduction",
@@ -91471,6 +92072,28 @@
       "Video / Image Generation",
       "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Neon: Negative Extrapolation From Self-Training Improves Image Generation",
+    "venue": "ICLR 2026",
+    "topic": "Compute-efficient self-training correction for generative models",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a9456f2962b306f99be4a0f99448df4b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a9456f2962b306f99be4a0f99448df4b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports a post-hoc weight merge requiring no new real data and typically less than 1% additional training compute; ImageNet 256×256 reaches FID 1.02 with only 0.36% additional compute. This is a direct, quantified training-efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Video / Image Generation"
     ]
   },
   {
@@ -91600,6 +92223,50 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "One Life to Learn: Inferring Symbolic World Models for Stochastic Environments from Unguided Exploration",
+    "venue": "ICLR 2026",
+    "topic": "Sparse conditional symbolic computation for data-efficient world-model learning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a24d08f2eecc6c96f4a0ad37a74ddeca",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a24d08f2eecc6c96f4a0ad37a74ddeca-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract uses conditionally activated programmatic laws to route inference and optimization only through relevant dynamics, avoiding scaling with inactive rules and learning from minimal unguided interaction; this is a direct efficient-reasoning/agent contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "One-Step Flow for Image Super-Resolution with Tunable Fidelity-Realism Trade-offs",
+    "venue": "ICLR 2026",
+    "topic": "One-step flow distillation for image super-resolution",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:93c359aee19c98479ec144ae221ac368",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/93c359aee19c98479ec144ae221ac368-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract explicitly identifies the computational overhead of numerous sampling steps and distills a teacher flow model into a one-step student with tunable fidelity-realism. This directly reduces generation-step cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -91799,6 +92466,28 @@
     ]
   },
   {
+    "title": "Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding",
+    "venue": "ICLR 2026",
+    "topic": "Compact hypergraph attention for efficient multi-agent pathfinding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:d5ae1c5167be330b90f4c0a1eed7f8f0",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d5ae1c5167be330b90f4c0a1eed7f8f0-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports a 1M-parameter solver outperforming an 85M-parameter baseline trained on 100× more data, directly improving model/data efficiency while targeting online MAPF computation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "PALC: Preference Alignment via Logit Calibration",
     "venue": "ICLR 2026",
     "topic": "Parameter-efficient test-time LLM alignment",
@@ -91971,6 +92660,28 @@
     ]
   },
   {
+    "title": "PHAT: Modeling Period Heterogeneity for Multivariate Time Series Forecasting",
+    "venue": "ICLR 2026",
+    "topic": "Period-bucketed sparse attention for multivariate time-series forecasting",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:dbb5180957513805ebeea787b8c66ac9",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/dbb5180957513805ebeea787b8c66ac9-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract restricts interactions to periodic buckets and masks cross-bucket connections while outperforming baselines on 14 datasets; this is a direct structured-attention efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Photon: Speedup Volume Understanding with Efficient Multimodal Large Language Models",
     "venue": "ICLR 2026",
     "topic": "Adaptive token scheduling for 3D medical MLLM inference",
@@ -91990,6 +92701,27 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "pi-Flow: Policy-Based Few-Step Generation via Imitation Distillation",
+    "venue": "ICLR 2026",
+    "topic": "Few-step flow inference acceleration for large image-generation models",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:f593c9c251d4d7cf14d4ab9861dfb7eb",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f593c9c251d4d7cf14d4ab9861dfb7eb-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly replaces additional network evaluations with a network-free policy, reports 1-NFE FID 2.85, and improves diversity at 4 NFEs on FLUX.1-12B and Qwen-Image-20B while maintaining teacher-level quality; this is direct, high-value inference acceleration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -92185,6 +92917,27 @@
     ]
   },
   {
+    "title": "Pretraining with hierarchical memories: separating long-tail and common knowledge",
+    "venue": "ICLR 2026",
+    "topic": "Memory-augmented small LMs for edge-constrained inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a3cc50126338b175e56bb3cad134db0b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a3cc50126338b175e56bb3cad134db0b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports a 160M-parameter LM plus 18M memory matching a model with more than 2× the parameters while using a hierarchical memory bank, directly improving model-size and inference-memory efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Pretraining with Re-parametrized Self-Attention: Unlocking Generalizationin  SNN-Based Neural Decoding Across Time, Brains, and Tasks",
     "venue": "ICLR 2026",
     "topic": "Spiking neural-network decoding under power and hardware constraints",
@@ -92228,6 +92981,27 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Primary-Fine Decoupling for Action Generation in Robotic Imitation",
+    "venue": "ICLR 2026",
+    "topic": "Coarse-mode compression and lightweight continuous action generation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:7831bdb4ce847174dbdc9ae8c470afa9",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/7831bdb4ce847174dbdc9ae8c470afa9-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract compresses action chunks into a small set of discrete modes and uses a lightweight policy before continuous MeanFlow generation, with a lower MSE bound and strong real-world results; this is a direct action-generation efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -92560,6 +93334,28 @@
     ]
   },
   {
+    "title": "Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees",
+    "venue": "ICLR 2026",
+    "topic": "Subgraph-scaled training-free flow diffusion for graph RAG",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:584f32ccf76d73b85fa2053e795df697",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/584f32ccf76d73b85fa2053e795df697-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract gives query-aware traversal with exponential convergence and complexity scaling with the retrieved subgraph rather than the full graph, directly improving efficient reasoning/retrieval for agents.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Query-Level Uncertainty in Large Language Models",
     "venue": "ICLR 2026",
     "topic": "Training-free uncertainty-triggered adaptive LLM inference",
@@ -92668,6 +93464,30 @@
     "directions": [
       "Quantization",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "RACE Attention: A Strictly Linear-Time Attention for Long-Sequence Training",
+    "venue": "ICLR 2026",
+    "topic": "Strictly linear-time attention for long-context training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:25c33e5a972c885a50d777df18a7cdfc",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/25c33e5a972c885a50d777df18a7cdfc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract replaces quadratic softmax attention with strictly linear-time attention and reports reduced wall-clock time and memory, including single-pass processing of up to 12M tokens on GH200. This is a direct, quantified efficient-attention contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -92956,6 +93776,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Reconstruct Anything Model a lightweight general model for computational imaging",
+    "venue": "ICLR 2026",
+    "topic": "Non-iterative lightweight reconstruction across computational-imaging inverse problems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:babb3447efd22f411ec90db3bbd38d01",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/babb3447efd22f411ec90db3bbd38d01-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract directly replaces computationally costly iterative diffusion/plug-and-play methods with a non-iterative lightweight architecture, generalizes across multiple inverse problems, and adapts with only a few images; this is a high-value inference-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -93890,6 +94731,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "Self-Speculative Masked Diffusions",
+    "venue": "ICLR 2026",
+    "topic": "Speculative decoding and reduced function evaluations for masked diffusion",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:c87c05d73d61cf5b636293e9284bdd80",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c87c05d73d61cf5b636293e9284bdd80-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly introduces model-integrated draft generation and parallel validation, reporting approximately 2x fewer network forward passes than standard masked diffusion. This is a direct and quantified generative-inference acceleration contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Quantization",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -95002,6 +95866,28 @@
     ]
   },
   {
+    "title": "Tina: Tiny Reasoning Models via LoRA",
+    "venue": "ICLR 2026",
+    "topic": "Compute-efficient reasoning model training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:91be140e1524bb21531508c2a6a85c5e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/91be140e1524bb21531508c2a6a85c5e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports competitive reasoning from a 1.5B model using LoRA-based reinforcement learning, with a best model costing about nine dollars and an estimated 260-fold cost reduction. This is a direct and quantified compute-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "TINY BUT MIGHTY: A SOFTWARE-HARDWARE CO- DESIGN APPROACH FOR EFFICIENT MULTIMODAL IN- FERENCE ON BATTERY-POWERED SMALL DEVICES",
     "venue": "ICLR 2026",
     "topic": "Heterogeneous accelerator co-design for on-device multimodal inference",
@@ -95372,6 +96258,27 @@
     ]
   },
   {
+    "title": "TSLM: Tree-Structured Language Modeling for Divergent Thinking",
+    "venue": "ICLR 2026",
+    "topic": "Tree-structured reasoning generation with reduced redundant inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:efc12560842b25037c6d2d77754239f5",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/efc12560842b25037c6d2d77754239f5-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract describes branching within a single generation and shared-prefix reuse, reports large reasoning-accuracy gains, and explicitly avoids the repeated forward passes of external search. This is a direct inference-time efficiency method.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Turbo-DDCM: Fast and Flexible Zero-Shot Diffusion-Based Image Compression",
     "venue": "ICLR 2026",
     "topic": "Fast zero-shot diffusion image compression",
@@ -95723,6 +96630,30 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling",
+    "venue": "ICLR 2026",
+    "topic": "Hierarchical video-token compression for MLLM inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:b14d7175755b180dc2163e15e3110cb6",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b14d7175755b180dc2163e15e3110cb6-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports hierarchical video-token compression of approximately 1/50 with almost no performance loss, directly reducing long-video context computation. This is a strong, quantified inference-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation"
     ]
   },
   {

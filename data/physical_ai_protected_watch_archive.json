@@ -2141,6 +2141,29 @@
     ]
   },
   {
+    "title": "ViPRA: Video Prediction for Robot Actions",
+    "venue": "ICLR 2026",
+    "topic": "robot action prediction and chunked flow-matching decoder",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:707e34efcabd2b9375f7a64019600aa8",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/707e34efcabd2b9375f7a64019600aa8-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract learns latent actions from actionless videos and uses a chunked flow-matching decoder for continuous robot control up to 22 Hz with 100–200 demonstrations; this is a high-value protected Physical-AI/action-generation paper, though not a quantified serving-efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "VIP: Variation-based Iterative-learning Planning for Robotic Navigation",
     "venue": "",
     "topic": "Efficient ML / AI Infra",
@@ -22394,6 +22417,29 @@
     ]
   },
   {
+    "title": "Error as Signal: Stiffness-Aware Diffusion Sampling via Embedded Runge-Kutta Guidance",
+    "venue": "ICLR 2026",
+    "topic": "Stiffness-aware adaptive guidance for diffusion ODE sampling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:23dbafabbfbd389d9a57fecb9e158b47",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/23dbafabbfbd389d9a57fecb9e158b47-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract uses solver-induced error and stiffness estimates to guide diffusion sampling and reduce local truncation error. Retain for reading as a promising solver-level optimization, although the abstract does not quantify fewer NFEs or a latency reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "EquAct: An SE(3)-Equivariant Multi-Task Transformer for 3D Robotic Manipulation",
     "venue": "ICLR 2026",
     "topic": "Equivariant multi-task transformers for robotic manipulation",
@@ -25443,6 +25489,29 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "D-AR: Diffusion via Autoregressive Models",
+    "venue": "ICLR 2026",
+    "topic": "Autoregressive realization of pixel-diffusion generation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:6f479ea488e0908ac8b1b37b27fd134c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract recasts pixel diffusion as next-token autoregressive generation, with coarse-to-fine token decoding and streaming previews. It is a useful architecture-level efficiency candidate, but the abstract does not quantify latency or compute savings versus diffusion baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
@@ -29446,6 +29515,28 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Any-to-Bokeh: Arbitrary-Subject Video Refocusing with Video Diffusion Model",
+    "venue": "ICLR 2026",
+    "topic": "One-step video-diffusion inference for depth-aware bokeh rendering",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a0dca56ad0aceeb4eab4d35630e9a0ed",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a0dca56ad0aceeb4eab4d35630e9a0ed-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract explicitly proposes a one-step diffusion framework for temporally coherent video bokeh, which directly reduces generation steps; retain as a high-value but task-specific generation-acceleration paper pending full-text assessment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },

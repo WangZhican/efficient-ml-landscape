@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **481 canonical papers** mapped here, plus a broader **111-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **482 canonical papers** mapped here, plus a broader **111-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -120,7 +120,7 @@
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 427 canonical
+## 🏛️ Classical / Historical · 428 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -413,6 +413,7 @@
 | **Canonical** | **ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding** | ICLR 2026 | KV-cache reuse and parallel decoding for dLLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/585979c057a1b30796cf317063559638-Abstract-Conference.html) | — |
 | **Canonical** | **RepSpec: Structural Re-parameterized Draft Model Training for Speculative Decoding** | ICLR 2026 | re-parameterized draft models for speculative decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d70ea003729b440b89a2f958a5554c1f-Abstract-Conference.html) | — |
 | **Canonical** | **Self-Speculative Decoding Accelerates Lossless Inference in Any-Order and Any-Subset Autoregressive Models** | ICLR 2026 | lossless speculative decoding for nonstandard autoregressive models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d29b8d53678015079e1d245c023e49d2-Abstract-Conference.html) | — |
+| **Canonical** | **Self-Speculative Masked Diffusions** | ICLR 2026 | Speculative decoding and reduced function evaluations for masked diffusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c87c05d73d61cf5b636293e9284bdd80-Abstract-Conference.html) | — |
 | **Canonical** | **Small Drafts, Big Verdict: Information-Intensive Visual Reasoning via Speculation** | ICLR 2026 | Speculative decoding for information-intensive VLM reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/09e1944b7f2372f9f81866470c59b663-Abstract-Conference.html) | — |
 | **Canonical** | **SpecBranch: Speculative Decoding via Hybrid Drafting and Rollback-Aware Branch Parallelism** | ICLR 2026 | branch-parallel speculative decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/67089958e98b243d5cc1881ad60418b8-Abstract-Conference.html) | — |
 | **Canonical** | **Speculative Actions: A Lossless Framework for Faster AI Agents** | ICLR 2026 | Lossless speculative execution for interactive agent runtime | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fb279d7a134ad6fead7953ac7fd77fc4-Abstract-Conference.html) | — |

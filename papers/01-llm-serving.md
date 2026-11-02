@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2372 canonical papers** mapped here, plus a broader **1381-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2374 canonical papers** mapped here, plus a broader **1381-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1390,7 +1390,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🏛️ Classical / Historical · 2044 canonical
+## 🏛️ Classical / Historical · 2046 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2840,6 +2840,7 @@
 | **Canonical** | **ATTS: Asynchronous Test-Time Scaling via Conformal Prediction** | ICLR 2026 | Speculative decoding, asynchronous LLM inference, and test-time scaling | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/48c292f57f37569241ea9191a507031d-Abstract-Conference.html) | — |
 | **Canonical** | **AutoSP: Unlocking Long-Context LLM Training Via Compiler-Based Sequence Parallelism** | ICLR 2026 | compiler-based long-context LLM training systems | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/992ac52bd51cb3db6a64e35da8b3ce19-Abstract-Conference.html) | — |
 | **Canonical** | **Block-wise Adaptive Caching for Accelerating Diffusion Policy** | ICLR 2026 | VLA/WAM/Physical AI serving / diffusion policy / block-wise cache / robot inference acceleration | [Link](https://arxiv.org/abs/2506.13456) | [Repo](https://github.com/ky-ji/BAC) |
+| **Canonical** | **BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation** | ICLR 2026 | Scheduler learning for few-step diffusion and flow generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0bd32794b26cfc99214b89313764da8e-Abstract-Conference.html) | — |
 | **Canonical** | **Cache What Lasts: Token Retention for Memory-Bounded KV Cache in LLMs** | ICLR 2026 | learned token retention for memory-bounded LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c3887741ee4e655494770be95303383f-Abstract-Conference.html) | — |
 | **Canonical** | **Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling** | ICLR 2026 | constrained-acceptance speculative sampling | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/abccb8a90b30d45b948360ba41f5a20f-Abstract-Conference.html) | — |
 | **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
@@ -2862,6 +2863,7 @@
 | **Canonical** | **Faster Vision Transformers with Adaptive Patches** | ICLR 2026 | Adaptive visual tokenization for efficient ViT inference and training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7428e6db752171d6b832c53b2ed297ab-Abstract-Conference.html) | — |
 | **Canonical** | **FASTer: Toward Powerful and Efficient Autoregressive Vision–Language–Action Models with Learnable Action Tokenizer and Block-wise Decoding** | ICLR 2026 | compressed action tokenization and blockwise VLA decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9dc5accb1e4f4a9798eae145f2e4869b-Abstract-Conference.html) | — |
 | **Canonical** | **FreqKV: Key-Value Compression in Frequency Domain for Context Window Extension** | ICLR 2026 | Long-context KV-cache compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ac4c13a5c6ec1bba68c9ce1d908321d2-Abstract-Conference.html) | — |
+| **Canonical** | **From Text to Talk: Audio-Language Model Needs Non-Autoregressive Joint Training** | ICLR 2026 | Parallel non-autoregressive audio generation for multimodal inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fa85fd32bffe2a6312a663a235632d3d-Abstract-Conference.html) | — |
 | **Canonical** | **FutureFill: Fast Generation from Convolutional Sequence Models** | ICLR 2026 | Quasilinear autoregressive generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1cf44d82a4606ca64b3cc98d823eb35a-Abstract-Conference.html) | — |
 | **Canonical** | **GlowQ: Group-Shared LOw-Rank Approximation for Quantized LLMs** | ICLR 2026 | Low-rank correction for quantized LLM serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c9f95e9ec39fa5ad3d0a562b993b92aa-Abstract-Conference.html) | — |
 | **Canonical** | **ICaRus: Identical Cache Reuse for Efficient Multi-Model Inference** | ICLR 2026 | multi-model LLM serving / cross-model KV cache reuse | [Link](https://arxiv.org/abs/2603.13281) | — |

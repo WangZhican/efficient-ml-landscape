@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **798 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **802 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -223,7 +223,7 @@
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 
-## 🏛️ Classical / Historical · 688 canonical
+## 🏛️ Classical / Historical · 692 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -666,6 +666,7 @@
 | **Canonical** | **FROST: Filtering Reasoning Outliers with Attention for Efficient Reasoning** | ICLR 2026 | Reasoning-path pruning and token-efficient inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b21ae5a5df83632324b61b595ab653b9-Abstract-Conference.html) | — |
 | **Canonical** | **HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit** | ICLR 2026 | Vision-token pruning and efficient MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e0d77d3ce77fb7369663c27d7bcc838-Abstract-Conference.html) | — |
 | **Canonical** | **Hilbert-Guided Sparse Local Attention** | ICLR 2026 | block-sparse local attention for high-resolution vision | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/16f8a0852b31bc9dc791ecf313247a57-Abstract-Conference.html) | — |
+| **Canonical** | **Hyper-SET: Designing Transformers via Hyperspherical Energy Minimization** | ICLR 2026 | Compact recurrent-depth Transformer with shared parameters | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3cfb1080e34d0cf305c55065ccb80259-Abstract-Conference.html) | — |
 | **Canonical** | **IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs** | ICLR 2026 | KV cache / CPU-GPU offload / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94de1ef32f1b564b885720ab89fd95af-Abstract-Conference.html) | — |
 | **Canonical** | **InfLLM-V2: Dense-Sparse Switchable Attention for Seamless Short-to-Long Adaptation** | ICLR 2026 | trainable sparse attention for long-context LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/716e60181e1782f5bd0a629033f85310-Abstract-Conference.html) | — |
 | **Canonical** | **LaplacianFormer:Rethinking Linear Attention with Laplacian Kernel** | ICLR 2026 | linear attention and custom CUDA kernels | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4488bf8354049b1cd592b6418dc30466-Abstract-Conference.html) | — |
@@ -681,11 +682,14 @@
 | **Canonical** | **Neural Dynamics Self-Attention for Spiking Transformers** | ICLR 2026 | Memory- and energy-efficient spiking attention | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5fc6b31407972f3226464a9178e93da7-Abstract-Conference.html) | — |
 | **Canonical** | **OBS-Diff: Accurate Pruning For Diffusion Models in One-Shot** | ICLR 2026 | Training-free structured and unstructured pruning for diffusion inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e97ec4608c50fd656cd644660ac7d598-Abstract-Conference.html) | — |
 | **Canonical** | **Out of the Memory Barrier: A Highly Memory-Efficient Training System for LLMs with Million-Token Contexts** | ICLR 2026 | memory-efficient million-token LLM training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b528459c99e929718a7d7e1697253d7f-Abstract-Conference.html) | — |
+| **Canonical** | **Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding** | ICLR 2026 | Compact hypergraph attention for efficient multi-agent pathfinding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d5ae1c5167be330b90f4c0a1eed7f8f0-Abstract-Conference.html) | — |
+| **Canonical** | **PHAT: Modeling Period Heterogeneity for Multivariate Time Series Forecasting** | ICLR 2026 | Period-bucketed sparse attention for multivariate time-series forecasting | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/dbb5180957513805ebeea787b8c66ac9-Abstract-Conference.html) | — |
 | **Canonical** | **Pretraining with Re-parametrized Self-Attention: Unlocking Generalizationin  SNN-Based Neural Decoding Across Time, Brains, and Tasks** | ICLR 2026 | Spiking neural-network decoding under power and hardware constraints | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/21912f7057935149fa58408ee8cb460e-Abstract-Conference.html) | — |
 | **Canonical** | **ProxyAttn: Guided Sparse Attention via Representative Heads** | ICLR 2026 | sparse attention / long-context prefill | [Link](https://arxiv.org/abs/2509.24745) | — |
 | **Canonical** | **QKV Projections Require a Fraction of Their Memory** | ICLR 2026 | Attention-projection activation compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/6a3eb26cbfdc79d79b9230f25e8526fb-Abstract-Conference.html) | — |
 | **Canonical** | **QuantSparse: Comprehensively Compressing Video Diffusion Transformer with Model Quantization and Attention Sparsification** | ICLR 2026 | joint quantization and sparse attention for video diffusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94359ca6e248af69b8b6854668ae9782-Abstract-Conference.html) | — |
 | **Canonical** | **QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill** | ICLR 2026 | efficient attention / long-context prefill | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/760fe89b5a5e5792b33f23a2db1b9fbf-Abstract-Conference.html) | — |
+| **Canonical** | **RACE Attention: A Strictly Linear-Time Attention for Long-Sequence Training** | ICLR 2026 | Strictly linear-time attention for long-context training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/25c33e5a972c885a50d777df18a7cdfc-Abstract-Conference.html) | — |
 | **Canonical** | **RAR: Reversing Visual Attention Re-Sinking for  Unlocking Potential in Multimodal Large Language Models** | ICLR 2026 | Dynamic attention sparsification for MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/42a1f9ef76af656f3fe33580ab794351-Abstract-Conference.html) | — |
 | **Canonical** | **RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation** | ICLR 2026 | sparse attention / KV efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html) | — |
 | **Canonical** | **Retrospective Sparse Attention for Efficient Long-Context Generation** | ICLR 2026 | KV cache compression / long-generation inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f4daa773a5bb2d562a9204a7e2225a67-Abstract-Conference.html) | [Repo](https://github.com/csh3695/RetroAttention) |

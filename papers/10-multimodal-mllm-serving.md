@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **778 canonical papers** mapped here, plus a broader **531-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **781 canonical papers** mapped here, plus a broader **531-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -540,7 +540,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 690 canonical
+## 🏛️ Classical / Historical · 693 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1047,7 +1047,9 @@
 | **Canonical** | **FlashVID: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging** | ICLR 2026 | Training-free spatiotemporal token merging for video MLLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a0698477f358a6adeab2c2b44f109e5e-Abstract-Conference.html) | — |
 | **Canonical** | **FlexiCodec: A Dynamic Neural Audio Codec for Low Frame Rates** | ICLR 2026 | Dynamic low-frame-rate speech-model input compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ddeadff481e7ddf478234961ea7aae8b-Abstract-Conference.html) | — |
 | **Canonical** | **FrameThinker: Learning to Think with Long Videos via Multi-Turn Frame Spotlighting** | ICLR 2026 | Long-video reasoning, adaptive frame selection, multimodal inference efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/79ba1b827d3fc58e129d1cbfc8ff69f2-Abstract-Conference.html) | — |
+| **Canonical** | **From Text to Talk: Audio-Language Model Needs Non-Autoregressive Joint Training** | ICLR 2026 | Parallel non-autoregressive audio generation for multimodal inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fa85fd32bffe2a6312a663a235632d3d-Abstract-Conference.html) | — |
 | **Canonical** | **HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit** | ICLR 2026 | Vision-token pruning and efficient MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e0d77d3ce77fb7369663c27d7bcc838-Abstract-Conference.html) | — |
+| **Canonical** | **Hybrid Training for Vision-Language-Action Models** | ICLR 2026 | Training VLAs to skip chain-of-thought at inference while retaining its benefits | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/db77389415a3e7aa66dd4f4fef384270-Abstract-Conference.html) | — |
 | **Canonical** | **iLLaVA: An Image is Worth Fewer Than 1/3 Input Tokens in Large Multimodal Models** | ICLR 2026 | Visual-token reduction for efficient MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/77c87a15bbf0aad017c53995b832cf84-Abstract-Conference.html) | — |
 | **Canonical** | **IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning** | ICLR 2026 | Training-free visual-token pruning for LVLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b51b3565a6775c557093cb99457fc7fc-Abstract-Conference.html) | — |
 | **Canonical** | **Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation** | ICLR 2026 | Low-compute multimodal 3D segmentation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f124f4073d65f21cc13de94490574a3f-Abstract-Conference.html) | — |
@@ -1076,6 +1078,7 @@
 | **Canonical** | **TINY BUT MIGHTY: A SOFTWARE-HARDWARE CO- DESIGN APPROACH FOR EFFICIENT MULTIMODAL IN- FERENCE ON BATTERY-POWERED SMALL DEVICES** | ICLR 2026 | Heterogeneous accelerator co-design for on-device multimodal inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b20260e3e1bd7ea108831925d65ce0a6-Abstract-Conference.html) | — |
 | **Canonical** | **TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows** | ICLR 2026 | One-step multimodal flow generation for large models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f53e04b28d3d499a6342042d47f65ad8-Abstract-Conference.html) | — |
 | **Canonical** | **Uni-X: Mitigating Modality Conflict with a Two-End-Separated Architecture for Unified Multimodal Models** | ICLR 2026 | Parameter-efficient unified multimodal model architecture and training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c8c7ae251c1d2241d0f1186ea90bf7c9-Abstract-Conference.html) | — |
+| **Canonical** | **VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling** | ICLR 2026 | Hierarchical video-token compression for MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b14d7175755b180dc2163e15e3110cb6-Abstract-Conference.html) | — |
 | **Canonical** | **VideoZoomer: Reinforcement-Learned Temporal Focusing for Long Video Reasoning** | ICLR 2026 | Dynamic temporal focus for efficient long-video MLLM reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/221b2665260a582f7eb821b9871e8001-Abstract-Conference.html) | — |
 | **Canonical** | **When MLLMs Meet Compression Distortion: A Coding Paradigm Tailored to MLLMs** | ICLR 2026 | Compression-aware coding for multimodal LLM inputs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0cf3e7eefb9d643e93e16ff1d94090a7-Abstract-Conference.html) | — |
 | **Canonical** | **WSVD: Weighted Low-Rank Approximation for Fast and Efficient Execution of Low-Precision Vision-Language Models** | ICLR 2026 | Low-rank and quantized VLM decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e79f5871643773a83e41c06d42d81cb8-Abstract-Conference.html) | — |

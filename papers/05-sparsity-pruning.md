@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **948 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **950 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -421,7 +421,7 @@
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 
-## 🏛️ Classical / Historical · 847 canonical
+## 🏛️ Classical / Historical · 849 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -995,9 +995,11 @@
 | **Canonical** | **Mobile-GS: Real-time Gaussian Splatting for Mobile Devices** | ICLR 2026 | Mobile 3D Gaussian Splatting acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/298281b9e89197195eb461e68ad20136-Abstract-Conference.html) | — |
 | **Canonical** | **Neodragon: Mobile Video Generation Using Diffusion Transformer** | ICLR 2026 | Low-power NPU video generation through distillation, pruning, and sampling-cost reduction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/426fc72e404c4dfafc1edd62f4971dc2-Abstract-Conference.html) | — |
 | **Canonical** | **OBS-Diff: Accurate Pruning For Diffusion Models in One-Shot** | ICLR 2026 | Training-free structured and unstructured pruning for diffusion inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e97ec4608c50fd656cd644660ac7d598-Abstract-Conference.html) | — |
+| **Canonical** | **One Life to Learn: Inferring Symbolic World Models for Stochastic Environments from Unguided Exploration** | ICLR 2026 | Sparse conditional symbolic computation for data-efficient world-model learning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a24d08f2eecc6c96f4a0ad37a74ddeca-Abstract-Conference.html) | — |
 | **Canonical** | **Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs** | ICLR 2026 | Joint LLM quantization and sparsity for inference acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e45d826ee52dce029198b6968a10423e-Abstract-Conference.html) | — |
 | **Canonical** | **Out of the Memory Barrier: A Highly Memory-Efficient Training System for LLMs with Million-Token Contexts** | ICLR 2026 | memory-efficient million-token LLM training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b528459c99e929718a7d7e1697253d7f-Abstract-Conference.html) | — |
 | **Canonical** | **PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery** | ICLR 2026 | Data-efficient recovery of pruned LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/180d2acb13633fe78688d0d2347c731f-Abstract-Conference.html) | — |
+| **Canonical** | **PHAT: Modeling Period Heterogeneity for Multivariate Time Series Forecasting** | ICLR 2026 | Period-bucketed sparse attention for multivariate time-series forecasting | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/dbb5180957513805ebeea787b8c66ac9-Abstract-Conference.html) | — |
 | **Canonical** | **ProxyAttn: Guided Sparse Attention via Representative Heads** | ICLR 2026 | sparse attention / long-context prefill | [Link](https://arxiv.org/abs/2509.24745) | — |
 | **Canonical** | **Prune Redundancy, Preserve Essence: Vision Token Compression in VLMs via Synergistic Importance-Diversity** | ICLR 2026 | Training-free VLM visual-token compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/555479a201da27c97aaeed842d16ca49-Abstract-Conference.html) | — |
 | **Canonical** | **Pruning as a Cooperative Game: Surrogate-Assisted Layer Contribution Estimation for Large Language Models** | ICLR 2026 | Cost-aware layer pruning for LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8105a80cea247fa6f8441a8069b65f2a-Abstract-Conference.html) | — |

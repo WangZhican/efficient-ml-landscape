@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **530 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **534 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -169,7 +169,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 
-## 🏛️ Classical / Historical · 491 canonical
+## 🏛️ Classical / Historical · 495 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -560,6 +560,7 @@
 | **Canonical** | **BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching** | ICLR 2026 | block-wise feature caching for video diffusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ac8ec9b4d94c03f0af8c4fe3d5fad4fd-Abstract-Conference.html) | — |
 | **Canonical** | **CIAR: Interval-based Collaborative Decoding for Image Generation Acceleration** | ICLR 2026 | cloud-device collaborative decoding for image generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e7e506bc5a94768243083216fe51d98b-Abstract-Conference.html) | — |
 | **Canonical** | **Decoupled MeanFlow: Turning Flow Models into Flow Maps for Accelerated Sampling** | ICLR 2026 | One-to-four-step flow-map sampling for image generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/699124f548e4cb86674b20eae0fd8619-Abstract-Conference.html) | — |
+| **Canonical** | **DistillKac: Few-Step Image Generation via Damped Wave Equations** | ICLR 2026 | Few-function-evaluation image generation through damped-wave probability flows | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/be82bb4bf8333107b0fe430e1017831a-Abstract-Conference.html) | — |
 | **Canonical** | **DSA: Efficient Inference For Video Generation Models via Distributed Sparse Attention** | ICLR 2026 | distributed sparse attention for video generation inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c3728248f3c627d1f16ca5726cdf83f5-Abstract-Conference.html) | — |
 | **Canonical** | **EchoGen: Generating Visual Echoes in Any Scene via Feed-Forward Subject-Driven Auto-Regressive Model** | ICLR 2026 | Fast subject-driven image generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3b1f32693e9fe15c949a0742bf226803-Abstract-Conference.html) | — |
 | **Canonical** | **Fastcar: Cache Attentive Replay for Fast Auto-Regressive Video Generation on the Edge** | ICLR 2026 | Temporal MLP-output caching and FPGA acceleration for video generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8488454077cb0fd9d31772274c78115d-Abstract-Conference.html) | — |
@@ -567,11 +568,13 @@
 | **Canonical** | **FlashWorld: High-quality 3D Scene Generation within Seconds** | ICLR 2026 | Fast 3D scene generation, video diffusion, Gaussian scene representations | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0796c8296d24cf17398550a82311bb53-Abstract-Conference.html) | — |
 | **Canonical** | **Flow Caching for Autoregressive Video Generation** | ICLR 2026 | Autoregressive video generation, flow reuse/cache, long-horizon inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/85dc8f85ff978b9c606d3b2f5b0da69a-Abstract-Conference.html) | — |
 | **Canonical** | **From Tokens to Nodes: Semantic-Guided Motion Control for Dynamic 3D Gaussian Splatting** | ICLR 2026 | Motion-adaptive 3D reconstruction compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/16c628ab12dc4caca8e7712affa6c767-Abstract-Conference.html) | — |
+| **Canonical** | **Hyperspherical Latents Improve Continuous-Token Autoregressive Generation** | ICLR 2026 | Parameter-efficient autoregressive image generation with hyperspherical latents | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/342339109d7d756ef7bb30cf672aec02-Abstract-Conference.html) | — |
 | **Canonical** | **Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting** | ICLR 2026 | Sparse-node dynamic 4D Gaussian splatting | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ba90e56a74fd77d0ddec033dc199f0fa-Abstract-Conference.html) | — |
 | **Canonical** | **MEGS^{2}: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning** | ICLR 2026 | 3D Gaussian Splatting memory reduction and edge deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8142f95bd82ae1693e7afccd034b78be-Abstract-Conference.html) | — |
 | **Canonical** | **Mixture of Contexts for Long Video Generation** | ICLR 2026 | Sparse attention routing and long-context video-generation efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94bbcb744bbada8808fda05b9d9290d6-Abstract-Conference.html) | — |
 | **Canonical** | **Mobile-GS: Real-time Gaussian Splatting for Mobile Devices** | ICLR 2026 | Mobile 3D Gaussian Splatting acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/298281b9e89197195eb461e68ad20136-Abstract-Conference.html) | — |
 | **Canonical** | **Neodragon: Mobile Video Generation Using Diffusion Transformer** | ICLR 2026 | Low-power NPU video generation through distillation, pruning, and sampling-cost reduction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/426fc72e404c4dfafc1edd62f4971dc2-Abstract-Conference.html) | — |
+| **Canonical** | **Neon: Negative Extrapolation From Self-Training Improves Image Generation** | ICLR 2026 | Compute-efficient self-training correction for generative models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a9456f2962b306f99be4a0f99448df4b-Abstract-Conference.html) | — |
 | **Canonical** | **PreciseCache: Precise Feature Caching for Efficient and High-fidelity Video Generation** | ICLR 2026 | feature caching for video diffusion inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d634159810456714748d2e38273560cb-Abstract-Conference.html) | — |
 | **Canonical** | **Real-Time Motion-Controllable Autoregressive Video Diffusion** | ICLR 2026 | Few-step autoregressive video diffusion for real-time generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/71c1d6ec1f0003d8ea10bbea4291002d-Abstract-Conference.html) | — |
 | **Canonical** | **RestoreVAR: Visual Autoregressive Generation for All-in-One Image Restoration** | ICLR 2026 | Visual autoregressive image restoration with reduced inference cost | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e58fa6a7b431e634e0fd125e225ad10c-Abstract-Conference.html) | — |
@@ -584,6 +587,7 @@
 | **Canonical** | **Uni-X: Mitigating Modality Conflict with a Two-End-Separated Architecture for Unified Multimodal Models** | ICLR 2026 | Parameter-efficient unified multimodal model architecture and training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c8c7ae251c1d2241d0f1186ea90bf7c9-Abstract-Conference.html) | — |
 | **Canonical** | **Uniform Discrete Diffusion with Metric Path for Video Generation** | ICLR 2026 | Few-step discrete diffusion for efficient video generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/daf8364f0715a41a469c677c0adc4754-Abstract-Conference.html) | — |
 | **Canonical** | **VARestorer: One-Step VAR Distillation for Real-World Image Super-Resolution** | ICLR 2026 | One-step visual autoregressive image restoration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/317470b3fde29f3bb8d6dee563afffc4-Abstract-Conference.html) | — |
+| **Canonical** | **VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling** | ICLR 2026 | Hierarchical video-token compression for MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b14d7175755b180dc2163e15e3110cb6-Abstract-Conference.html) | — |
 | **Canonical** | **VSF: Simple, Efficient, and Effective Negative Guidance in Few-Step Image Generation Models By Value Sign Flip** | ICLR 2026 | Few-step image/video diffusion and flow generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8607450734c14f1e0e1c89d35e1a9218-Abstract-Conference.html) | — |
 | **Canonical** | **Diffusion Adversarial Post-Training for One-Step Video Generation** | ICML 2025 | one-step video/image diffusion generation | [Link](https://proceedings.mlr.press/v267/lin25m.html) | — |
 | **Canonical** | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2502.01776) | — |
