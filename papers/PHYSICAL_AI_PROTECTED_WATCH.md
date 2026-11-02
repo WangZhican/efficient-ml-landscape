@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1398 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1404 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -94,6 +94,7 @@
 | **P1 · Watch** | **VLA-FAIL: Efficient Task Failure Detection for Finetuned Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.21386) | — |
 | **P1 · Watch** | **vla-eval: A Unified Evaluation Harness for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.13966) | — |
 | **P1 · Watch** | **VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier | [Link](https://arxiv.org/abs/2609.06508) | — |
+| **P1 · Watch** | **VL-JEPA: Joint Embedding Predictive Architecture for Vision-language** | ICLR 2026 | Parameter-efficient vision-language inference architecture | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9144aded4e536bc5fb7bfc660a2d7a3d-Abstract-Conference.html) | — |
 | **P1 · Watch** | **ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.22530) | — |
 | **P1 · Watch** | **Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement** | RSS 2026 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss22/p079.html) | — |
 | **P1 · Watch** | **Visual Representation and History Modeling for Navigation World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2609.29555) | — |
@@ -297,6 +298,7 @@
 | **P1 · Watch** | **Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2608.09410) | — |
 | **P1 · Watch** | **Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2609.21514) | — |
 | **P1 · Watch** | **SimpleTouch: Can Vision-Language-Action Models Master Contact-Rich Manipulation Without Tactile Policy Pretraining?** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.02784) | — |
+| **P1 · Watch** | **Signal Structure-Aware Gaussian Splatting for Large-Scale Scene Reconstruction** | ICLR 2026 | Frequency-aware training and densification for large-scale 3DGS | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f67449c7ab72f441d3a713b046c6818c-Abstract-Conference.html) | — |
 | **P1 · Watch** | **Show-Harness: Just a VLM Agent Can Play Robots** | arXiv 2026 | VLA/WAM/Physical AI / VLM agents / robot interface / low-cost deployment | [Link](https://arxiv.org/abs/2609.10522) | [Repo](https://showlab.github.io/Show-Harness/) |
 | **P1 · Watch** | **Shifted Flow Policy: Uncertainty-Aware Time Reparameterization for Visuomotor Learning** | ICRA 2026 | VLA/WAM action-generation; diffusion/flow acceleration | [Link](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#Ab5362) | — |
 | **P1 · Watch** | **SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2606.16881) | — |
@@ -1037,6 +1039,7 @@
 | **P1 · Watch** | **EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01210) | — |
 | **P1 · Watch** | **Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2609.40341) | — |
 | **P1 · Watch** | **Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Chassis Adaptation** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / autonomous driving | [Link](https://arxiv.org/abs/2607.13410) | — |
+| **P1 · Watch** | **Efficient Reasoning with Balanced Thinking** | ICLR 2026 | Training-free adaptive reasoning-cost control | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/21c426323068204f4199c490d730e88e-Abstract-Conference.html) | — |
 | **P1 · Watch** | **Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.03509) | — |
 | **P1 · Watch** | **Efficient Multi-Timescale Event Representations for Feed-Forward Object Detection** | arXiv 2026 | VLA/WAM/Physical AI / event perception / feed-forward detection / neuromorphic efficiency | [Link](https://arxiv.org/abs/2609.05049) | — |
 | **P1 · Watch** | **Efficient Multi-Camera Tokenization with Triplanes for End-To-End Driving** | ICRA 2026 | edge/cloud/heterogeneous systems | [Link](https://arxiv.org/abs/2506.12251) | — |
@@ -1098,6 +1101,7 @@
 | **P1 · Watch** | **Distributed Agent System: Fault-Tolerant Collaboration Among Embodied Agents** | arXiv 26 | cloud_edge | [Link](https://arxiv.org/abs/2607.10811) | — |
 | **P1 · Watch** | **Distilling On-device Language Models for Robot Planning with Minimal Human Intervention** | CoRL 2025 / PMLR v305 | edge/cloud/heterogeneous AI | [Link](https://proceedings.mlr.press/v305/ravichandran25a.html) | — |
 | **P1 · Watch** | **Dissecting Advantage-Guided Post-Training for Vision-Language-Action Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28161) | — |
+| **P1 · Watch** | **DiSRouter: Distributed Self-Routing for LLM Selections** | ICLR 2026 | Distributed self-routing across LLM agents | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e708577c4a0802320da036532281bc3b-Abstract-Conference.html) | — |
 | **P1 · Watch** | **DISEIL: Demonstration Distillation for Sample-Efficient Imitation Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / imitation learning / data efficiency | [Link](https://arxiv.org/abs/2609.08123) | — |
 | **P1 · Watch** | **DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.12402) | — |
 | **P1 · Watch** | **DiffusionHarmonizer: Bridging Neural Reconstruction and Photorealistic Simulation with Online Diffusion Enhancer** | CVPR 2026 | video and image generation acceleration | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_DiffusionHarmonizer_Bridging_Neural_Reconstruction_and_Photorealistic_Simulation_with_Online_Diffusion_CVPR_2026_paper.html) | — |
@@ -1189,6 +1193,7 @@
 | **P1 · Watch** | **Communication-Aware Robot Execution for Cloud Inference under Spatially Heterogeneous Connectivity** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.31497) | — |
 | **P1 · Watch** | **CommitFlow: Semantic Commitment Verification and Local Correction for Long-Horizon Robot Manipulation VLA Execution** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.21908) | — |
 | **P1 · Watch** | **CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.30289) | — |
+| **P1 · Watch** | **CoLLMLight: Cooperative Large Language Model Agents for Network-Wide Traffic Signal Control** | ICLR 2026 | Cost-aware asynchronous LLM control for traffic networks | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/6d7a9f292360193eb530d693f7941c73-Abstract-Conference.html) | — |
 | **P1 · Watch** | **COLLAGE: Adaptive Fusion-based Retrieval for Augmented Policy Learning** | CoRL 2025 |  | [Link](https://proceedings.mlr.press/v305/kumar25a.html) | — |
 | **P1 · Watch** | **CollabVLA: Self-Reflective Vision-Language-Action Model Dreaming Together with Human** | ICRA 2026 | multimodal/MLLM; diffusion/flow acceleration; efficient reasoning/agent systems; VLA/WAM/Physical AI | [Link](https://arxiv.org/abs/2509.14889) | — |
 | **P1 · Watch** | **CogWAM: Aligning Semantic Cognition with World Action Modeling via Event-Driven Interfaces** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37721) | — |
@@ -1309,6 +1314,7 @@
 | **P1 · Watch** | **ARS: Agentic Reward System for Robot Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34484) | — |
 | **P1 · Watch** | **ArmPoser: Real-Time, Calibration-Free Arm Pose Estimation from Smartwatch IMU** | arXiv 2026 | VLA/WAM/Physical AI serving / edge sensing / real-time pose estimation | [Link](https://arxiv.org/abs/2609.08806) | — |
 | **P1 · Watch** | **ARIES-Mission2: A Zero-Shot Vision-Language-Action Framework for Fast Large-Scale Aerial Mission Generation** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2608.12763) | — |
+| **P1 · Watch** | **ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping** | ICLR 2026 | Difficulty-aware adaptive inference effort for multimodal reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee96a02dcfac0bb7a73bd1605e78f855-Abstract-Conference.html) | — |
 | **P1 · Watch** | **ARC-Loc: Leveraging Azimuthal Ray Convergence as a Geometric Cue for Direct Cross-View Localization** | arXiv 2026 | VLA/WAM/Physical AI serving / geometric localization / lightweight perception | [Link](https://arxiv.org/abs/2609.04965) | — |
 | **P1 · Watch** | **ARC-Bench: Closed-Loop Replanning Masks Broken Action Ranking in Frozen JEPA World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model planning audit | [Link](https://arxiv.org/abs/2609.05461) | — |
 | **P1 · Watch** | **AR-WAM: A Visual-Conditioned Agent-Ready World Action Model for Robotic Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23578) | — |

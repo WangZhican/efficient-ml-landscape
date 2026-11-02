@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **534 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **536 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -169,7 +169,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 
-## 🏛️ Classical / Historical · 495 canonical
+## 🏛️ Classical / Historical · 497 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -573,6 +573,7 @@
 | **Canonical** | **MEGS^{2}: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning** | ICLR 2026 | 3D Gaussian Splatting memory reduction and edge deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8142f95bd82ae1693e7afccd034b78be-Abstract-Conference.html) | — |
 | **Canonical** | **Mixture of Contexts for Long Video Generation** | ICLR 2026 | Sparse attention routing and long-context video-generation efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94bbcb744bbada8808fda05b9d9290d6-Abstract-Conference.html) | — |
 | **Canonical** | **Mobile-GS: Real-time Gaussian Splatting for Mobile Devices** | ICLR 2026 | Mobile 3D Gaussian Splatting acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/298281b9e89197195eb461e68ad20136-Abstract-Conference.html) | — |
+| **Canonical** | **MotionStream: Real-Time Video Generation with Interactive Motion Controls** | ICLR 2026 | Causal streaming video-generation acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0cece806cd3d1dfad4a893f016ad3d7d-Abstract-Conference.html) | — |
 | **Canonical** | **Neodragon: Mobile Video Generation Using Diffusion Transformer** | ICLR 2026 | Low-power NPU video generation through distillation, pruning, and sampling-cost reduction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/426fc72e404c4dfafc1edd62f4971dc2-Abstract-Conference.html) | — |
 | **Canonical** | **Neon: Negative Extrapolation From Self-Training Improves Image Generation** | ICLR 2026 | Compute-efficient self-training correction for generative models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a9456f2962b306f99be4a0f99448df4b-Abstract-Conference.html) | — |
 | **Canonical** | **PreciseCache: Precise Feature Caching for Efficient and High-fidelity Video Generation** | ICLR 2026 | feature caching for video diffusion inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d634159810456714748d2e38273560cb-Abstract-Conference.html) | — |
@@ -582,6 +583,7 @@
 | **Canonical** | **Scale-wise Distillation of Diffusion Models** | ICLR 2026 | Progressive scale-wise distillation for few-step image/video generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ed56a654ddb681841fdb2184463c253e-Abstract-Conference.html) | — |
 | **Canonical** | **Self-Forcing++: Towards Minute-Scale High-Quality Video Generation** | ICLR 2026 | Long-horizon video generation acceleration and diffusion efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8a30aba6514b56d02976f49797f6338a-Abstract-Conference.html) | — |
 | **Canonical** | **Soft-Di[M]O: Improving One-Step Discrete Image Generation with Soft Embeddings** | ICLR 2026 | Differentiable one-step discrete image generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/05f0e2fa003602db2d98ca72b79dec51-Abstract-Conference.html) | — |
+| **Canonical** | **Splat the Net: Radiance Fields with Splattable Neural Primitives** | ICLR 2026 | Analytically splattable neural radiance-field primitives | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ad7922fd4650f8aba5d8b067e622ca84-Abstract-Conference.html) | — |
 | **Canonical** | **Streaming Autoregressive Video Generation via Diagonal Distillation** | ICLR 2026 | Few-step autoregressive video diffusion for real-time streaming | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d899eabc6c8fefd0d4064762aba407e2-Abstract-Conference.html) | — |
 | **Canonical** | **Towards One-step Causal Video Generation via Adversarial Self-Distillation** | ICLR 2026 | Few-step causal video generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ae86071c169649bff21188c536163dc-Abstract-Conference.html) | — |
 | **Canonical** | **Uni-X: Mitigating Modality Conflict with a Two-End-Separated Architecture for Unified Multimodal Models** | ICLR 2026 | Parameter-efficient unified multimodal model architecture and training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c8c7ae251c1d2241d0f1186ea90bf7c9-Abstract-Conference.html) | — |

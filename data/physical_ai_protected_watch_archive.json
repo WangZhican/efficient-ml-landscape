@@ -1961,6 +1961,29 @@
     ]
   },
   {
+    "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+    "venue": "ICLR 2026",
+    "topic": "Parameter-efficient vision-language inference architecture",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:9144aded4e536bc5fb7bfc660a2d7a3d",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9144aded4e536bc5fb7bfc660a2d7a3d-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract reports stronger performance with 50% fewer trainable parameters and invokes a lightweight text decoder only when needed. This is a promising architectural efficiency signal for multimodal models, although the abstract does not establish a measured serving-latency or memory reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
     "venue": "arXiv 2026",
     "topic": "",
@@ -6521,6 +6544,30 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Signal Structure-Aware Gaussian Splatting for Large-Scale Scene Reconstruction",
+    "venue": "ICLR 2026",
+    "topic": "Frequency-aware training and densification for large-scale 3DGS",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:f67449c7ab72f441d3a713b046c6818c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f67449c7ab72f441d3a713b046c6818c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract identifies redundant Gaussian densification as an efficiency problem and introduces frequency-aware resolution/densification scheduling with improved efficiency and rendering quality. It is a promising scene-reconstruction optimization, though no quantitative speed or resource metric is provided in the abstract.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Video / Image Generation",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -23200,6 +23247,30 @@
     ]
   },
   {
+    "title": "Efficient Reasoning with Balanced Thinking",
+    "venue": "ICLR 2026",
+    "topic": "Training-free adaptive reasoning-cost control",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:21c426323068204f4199c490d730e88e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/21c426323068204f4199c490d730e88e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract proposes a training-free confidence-driven framework that prunes redundant reasoning during overthinking while preserving exploration when needed, improving accuracy across 0.5B–32B models and nine benchmarks. It is a promising efficient-reasoning method, although no quantitative cost reduction is given.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
     "venue": "arXiv 2026",
     "topic": "Efficient ML / Physical AI",
@@ -24575,6 +24646,29 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "DiSRouter: Distributed Self-Routing for LLM Selections",
+    "venue": "ICLR 2026",
+    "topic": "Distributed self-routing across LLM agents",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:e708577c4a0802320da036532281bc3b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e708577c4a0802320da036532281bc3b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract replaces a centralized fixed-model router with self-aware distributed routing that distinguishes easy and hard queries and supports out-of-domain generalization. It is a promising cost-aware model-selection direction, though no measured cost reduction is provided.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -26615,6 +26709,28 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "CoLLMLight: Cooperative Large Language Model Agents for Network-Wide Traffic Signal Control",
+    "venue": "ICLR 2026",
+    "topic": "Cost-aware asynchronous LLM control for traffic networks",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:6d7a9f292360193eb530d693f7941c73",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6d7a9f292360193eb530d693f7941c73-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract combines cached asynchronous cooperative guidance with adaptive reasoning depth and RL penalties for excessive reasoning, maintaining real-time responsiveness and efficient token usage across traffic networks. It is a high-value Physical-AI agent/runtime direction, though no concrete cost-reduction metric is provided.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -29312,6 +29428,29 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping",
+    "venue": "ICLR 2026",
+    "topic": "Difficulty-aware adaptive inference effort for multimodal reasoning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:ee96a02dcfac0bb7a73bd1605e78f855",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee96a02dcfac0bb7a73bd1605e78f855-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract reports state-of-the-art reasoning efficiency and significantly lower inference costs by reducing exploration on easy tasks and increasing it on hard tasks. It is a high-value adaptive-reasoning method, although no specific cost-reduction percentage is provided.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },

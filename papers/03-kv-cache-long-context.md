@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **1009 canonical papers** mapped here, plus a broader **189-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1012 canonical papers** mapped here, plus a broader **189-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -198,7 +198,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 901 canonical
+## 🏛️ Classical / Historical · 904 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -794,6 +794,8 @@
 | **Canonical** | **LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation** | ICLR 2026 | low-overhead KV-cache eviction for long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/746222c1871d3fa7a94bdacabc34e26c-Abstract-Conference.html) | — |
 | **Canonical** | **LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences** | ICLR 2026 | KV cache / long-context inference / retrieval / Triton-CUDA kernels | [Link](https://arxiv.org/abs/2510.11292) | — |
 | **Canonical** | **Mixture of Contexts for Long Video Generation** | ICLR 2026 | Sparse attention routing and long-context video-generation efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94bbcb744bbada8808fda05b9d9290d6-Abstract-Conference.html) | — |
+| **Canonical** | **MotionStream: Real-Time Video Generation with Interactive Motion Controls** | ICLR 2026 | Causal streaming video-generation acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0cece806cd3d1dfad4a893f016ad3d7d-Abstract-Conference.html) | — |
+| **Canonical** | **MVAR: Visual Autoregressive Modeling with Scale and Spatial Markovian Conditioning** | ICLR 2026 | Linear-neighborhood visual autoregressive generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/37c6d0bc4d2917dcbea693b18504bd87-Abstract-Conference.html) | — |
 | **Canonical** | **OSCAR: Online Soft Compression for RAG** | ICLR 2026 | Online RAG context compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/064aae662bdd38d031e33596b215d50c-Abstract-Conference.html) | — |
 | **Canonical** | **Out of the Memory Barrier: A Highly Memory-Efficient Training System for LLMs with Million-Token Contexts** | ICLR 2026 | memory-efficient million-token LLM training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b528459c99e929718a7d7e1697253d7f-Abstract-Conference.html) | — |
 | **Canonical** | **PM-KVQ: Progressive Mixed-precision KV Cache Quantization for Long-CoT LLMs** | ICLR 2026 | progressive KV-cache quantization for long reasoning contexts | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/afb8caec018d3c8f6ef8b81fa52386fe-Abstract-Conference.html) | — |
@@ -816,6 +818,7 @@
 | **Canonical** | **Stacked from One: Multi-Scale Self-Injection for Context Window Extension** | ICLR 2026 | Context compression and query-aware retrieval for long-context LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/564ccf9de3a2a959d3d338889bad9d88-Abstract-Conference.html) | — |
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html) | — |
 | **Canonical** | **Test-Time Training Done Right** | ICLR 2026 | Large-chunk test-time training for GPU utilization and long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ffbfff81fb78e4bb558273b91e12e318-Abstract-Conference.html) | — |
+| **Canonical** | **The Markovian Thinker: Architecture-Agnostic Linear Scaling of Reasoning** | ICLR 2026 | Linear-compute, constant-memory long-context reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4dd0cfda282c778a21b38fd1d637f37b-Abstract-Conference.html) | — |
 | **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |
 | **Canonical** | **TINY BUT MIGHTY: A SOFTWARE-HARDWARE CO- DESIGN APPROACH FOR EFFICIENT MULTIMODAL IN- FERENCE ON BATTERY-POWERED SMALL DEVICES** | ICLR 2026 | Heterogeneous accelerator co-design for on-device multimodal inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b20260e3e1bd7ea108831925d65ce0a6-Abstract-Conference.html) | — |
 | **Canonical** | **TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate** | ICLR 2026 | online vector quantization / KV cache compression | [Link](https://arxiv.org/abs/2504.19874) | — |
