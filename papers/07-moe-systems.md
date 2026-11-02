@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **338 canonical papers** mapped here, plus a broader **110-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **340 canonical papers** mapped here, plus a broader **110-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -119,7 +119,7 @@
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 296 canonical
+## 🏛️ Classical / Historical · 298 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -305,6 +305,8 @@
 | **Canonical** | **HEAPr: Hessian-based Efficient Atomic Expert Pruning in Output Space** | ICLR 2026 | Fine-grained MoE expert pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d47e75c3429b407e440405b317ef8054-Abstract-Conference.html) | — |
 | **Canonical** | **KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models** | ICLR 2026 | low-bit vector quantization for MoE LLM deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5f868c3e0050f13ec82d3694df531de1-Abstract-Conference.html) | — |
 | **Canonical** | **Libra: Effective yet Efficient Load Balancing for Large-scale MoE Inference** | ICLR 2026 | distributed MoE inference load balancing | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9ff1ac9a659085fed0735362cafe5e53-Abstract-Conference.html) | — |
+| **Canonical** | **MoBE: Mixture-of-Basis-Experts for Compressing MoE-based LLMs** | ICLR 2026 | MoE weight compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/431d53d513461ff155d5bc8faa9a440c-Abstract-Conference.html) | — |
+| **Canonical** | **Multi-Subspace Multi-Modal Modeling for Diffusion Models: Estimation, Convergence and Mixture of Experts** | ICLR 2026 | Parameter-efficient multimodal diffusion with MoE latent modeling | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3b493a9f0aa0ba8a42ae6cc93da5d81b-Abstract-Conference.html) | — |
 | **Canonical** | **REAP the Experts: Why Pruning Prevails for One-Shot MoE compression** | ICLR 2026 | One-shot expert pruning for generative MoE models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ed93b2b5722acc2341d421b8916404a1-Abstract-Conference.html) | — |
 | **Canonical** | **Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling** | ICLR 2026 | MoE systems / expert parallelism / serving / communication | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f0552f14388d95b19740dee809f5cad1-Abstract-Conference.html) | — |
 | **Canonical** | **SERE: Similarity-based Expert Re-routing for Efficient Batch Decoding in MoE Models** | ICLR 2026 | MoE batch-decoding and expert activation efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5d07eb2335d88b1dfcefcc3d2da2a230-Abstract-Conference.html) | — |

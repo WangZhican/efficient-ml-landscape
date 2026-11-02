@@ -3240,6 +3240,29 @@
     ]
   },
   {
+    "title": "UltraGauss: Ultrafast Gaussian Reconstruction of 3D Ultrasound Volumes",
+    "venue": "ICLR 2026",
+    "topic": "Gaussian reconstruction, compute-aware GPU rasterization, real-time medical imaging",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:9739fdfbecb84b2cab3ba06f3ee5498b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9739fdfbecb84b2cab3ba06f3ee5498b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract proposes probe-plane Gaussian rendering and compute-aware GPU rasterization, reporting fast single-GPU 2D-to-3D reconstruction. It is an application-specific efficient-vision signal, retained pending confirmation of its ML/runtime scope and full quantitative evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Ultra-Fast Lightweight Incipient Slip Detection Using Hyperdimensional Computing with the PapillArray Tactile Sensor",
     "venue": "ICRA 2026",
     "topic": "GPU kernels/compilers; VLA/WAM/Physical AI",
@@ -4024,6 +4047,27 @@
     ]
   },
   {
+    "title": "Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding",
+    "venue": "ICLR 2026",
+    "topic": "Lightweight self-checking decoding for LLM hallucination control",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:746d2254f6892f3badadb07cc9c0f0da",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/746d2254f6892f3badadb07cc9c0f0da-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract contrasts decoding-based methods with resource-intensive retrieval and fine-tuning, and proposes token-level self-checking. Retain as a high-value inference-time method watch, while reserving strong promotion until measured latency or compute benefits are established.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Token Communication-Assisted Collaborative Embodied Artificial Intelligence: Concepts, Framework, and Opportunities",
     "venue": "arXiv 2026",
     "topic": "",
@@ -4222,6 +4266,28 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "The Quest for Generalizable Motion Generation: Data, Model, and Evaluation",
+    "venue": "ICLR 2026",
+    "topic": "Distilled motion generation and Physical AI model efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:da47bfaf3f3a8d5bbab0d60c5195dc18",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/da47bfaf3f3a8d5bbab0d60c5195dc18-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract introduces ViMoGen-Light, a distilled motion-generation variant that removes video-generation dependencies while preserving generalization. This is a promising efficiency-oriented Physical-AI model, although the abstract provides no quantitative latency or compute reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -8466,6 +8532,28 @@
     ]
   },
   {
+    "title": "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots",
+    "venue": "ICLR 2026",
+    "topic": "Large-scale robot simulation and Physical-AI training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a05003fdb1e9562ab0c0a9719ea4de10",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a05003fdb1e9562ab0c0a9719ea4de10-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets simulation and benchmarking for generalist robots, a protected Physical-AI and training-infrastructure direction. Retain as a high-value watch pending concrete simulation-throughput or resource-efficiency evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "RoboBRIDGE: A Modular Framework for Bridging Policies to Robust Real-World Robotic Agents",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -8576,6 +8664,29 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Risk-Sensitive Agent Compositions",
+    "venue": "ICLR 2026",
+    "topic": "Risk-sensitive agent compositions for efficient reasoning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:327b9b8d4e45c3f81568e11ffc505f77",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/327b9b8d4e45c3f81568e11ffc505f77-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns agent composition and risk-sensitive decision-making, relevant to agent systems and Physical AI. Retain as a high-value watch until explicit serving or runtime-efficiency evidence is established.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
@@ -9690,6 +9801,27 @@
     ]
   },
   {
+    "title": "RAVEN: End-to-end Equivariant Robot Learning with RGB Cameras",
+    "venue": "ICLR 2026",
+    "topic": "Equivariant end-to-end robot learning for Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:e161c856cc5c0e60dd447d45ff33c447",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e161c856cc5c0e60dd447d45ff33c447-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets robot learning from RGB cameras, relevant to VLA/Physical-AI systems. Retain as a high-value watch without inferring hardware or inference savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Rapidly-Iterating Grid-Based Near-Optimal Kinodynamic Motion Planning",
     "venue": "arXiv 2026",
     "topic": "",
@@ -9958,6 +10090,30 @@
     ]
   },
   {
+    "title": "QPrompt-R1: Real-Time Reasoning for Domain-Generalized Semantic Segmentation via Group-Relative Query Alignment",
+    "venue": "ICLR 2026",
+    "topic": "Real-time reasoning for semantic segmentation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:765871e77d2ca65126d3d64d31aa6908",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/765871e77d2ca65126d3d64d31aa6908-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract explicitly targets real-time reasoning for segmentation, relevant to efficient vision and edge workloads. Retain as a high-value watch until measured latency, throughput, or resource savings are verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "QoS-Aware Federated Learning for Multimodal In-Cabin Interaction in Smart Vehicles",
     "venue": "arXiv 2026",
     "topic": "",
@@ -9978,6 +10134,28 @@
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Pusa V1.0: Unlocking Temporal Control in Pretrained Video Diffusion Models via Vectorized Timestep Adaptation",
+    "venue": "ICLR 2026",
+    "topic": "Vectorized timestep adaptation for video diffusion",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:1b4091655e0bb335d99dac69925ca8cc",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1b4091655e0bb335d99dac69925ca8cc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns temporal control in pretrained video diffusion models through vectorized timestep adaptation. Retain as a high-value watch pending concrete sampling-step, latency, or compute savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -10770,6 +10948,28 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "PixelVLA: Advancing Pixel-level Understanding in Vision-Language-Action Model",
+    "venue": "ICLR 2026",
+    "topic": "Pixel-level perception in VLA models",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:b305d0ac02018393611a154e3af5ac65",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b305d0ac02018393611a154e3af5ac65-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets pixel-level understanding in VLA models, relevant to Physical-AI inference. Retain as a high-value watch while requiring explicit runtime, memory, or compute-efficiency evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -11774,6 +11974,28 @@
     ]
   },
   {
+    "title": "Open-Set Semantic Gaussian Splatting SLAM with Expandable Representation",
+    "venue": "ICLR 2026",
+    "topic": "Expandable Gaussian-splatting SLAM for Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:948552777302d3abf92415b1d7e9de70",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/948552777302d3abf92415b1d7e9de70-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns semantic Gaussian-splatting SLAM with an expandable representation, relevant to streaming perception and Physical AI. Retain as a high-value watch pending concrete resource or runtime results.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / robot sensing / annotation-efficient adaptation",
@@ -11881,6 +12103,29 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning",
+    "venue": "ICLR 2026",
+    "topic": "Unified VLA with adaptive reasoning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:ebfabf372037aaa4a8d92c9b457ece3e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ebfabf372037aaa4a8d92c9b457ece3e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets unified vision-language-action modeling and adaptive reasoning, a protected Physical-AI direction. Retain as a high-value watch until inference-cost or deployment-efficiency evidence is verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -12066,6 +12311,28 @@
     ]
   },
   {
+    "title": "One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration",
+    "venue": "ICLR 2026",
+    "topic": "Single-demonstration planning for LLM agents",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:052483e6d5097f8d1892f04bfc90da41",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/052483e6d5097f8d1892f04bfc90da41-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns planning-domain derivation from a single demonstration, relevant to efficient agent setup and embodied planning. Retain as a high-value watch pending concrete runtime or resource savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models",
     "venue": "",
     "topic": "LLM serving / video/image generation acceleration",
@@ -12198,6 +12465,29 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation",
+    "venue": "ICLR 2026",
+    "topic": "Unified exploration and vision-language navigation for Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:ad6363efb7af02f7db13d087c7e649bd",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ad6363efb7af02f7db13d087c7e649bd-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets visual-language navigation and prospective exploration, relevant to VLA/Physical-AI serving. Retain as a high-value watch pending explicit runtime, memory, or compute-efficiency evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
@@ -12919,6 +13209,29 @@
     ]
   },
   {
+    "title": "Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization",
+    "venue": "ICLR 2026",
+    "topic": "Adaptive solution expansion for diffusion-based combinatorial optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:3d681cc4487b97c08e5aa67224dd74f2",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3d681cc4487b97c08e5aa67224dd74f2-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns adaptive solution expansion in diffusion-based optimization, relevant to diffusion/flow acceleration and agent systems. Retain as a high-value watch until explicit search-cost or compute savings are verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "NarrativeFlow: Flow-Based Vision-Language-Action Model Using Robot Velocity Fields",
     "venue": "arXiv 2026",
     "topic": "physical_ai",
@@ -13356,6 +13669,30 @@
     ]
   },
   {
+    "title": "Mordal: Automated Pretrained Model Selection for Vision Language Models",
+    "venue": "ICLR 2026",
+    "topic": "Automated model selection for vision-language workloads",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:9526e4e1c9efad9c05a7c59e83947499",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9526e4e1c9efad9c05a7c59e83947499-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract targets automated pretrained-model selection for VLMs, potentially relevant to deployment and serving-cost optimization. Retain as a high-value watch until the source quantifies cost, latency, or resource improvements.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / multimodal policy",
@@ -13649,6 +13986,29 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Mixture-of-World Models: Scaling Multi-Task Reinforcement Learning with Modular Latent Dynamics",
+    "venue": "ICLR 2026",
+    "topic": "Modular world models for multi-task reinforcement learning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:33b47b3d2441a17b95344cd635f3dd01",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/33b47b3d2441a17b95344cd635f3dd01-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets modular world models and multi-task RL, relevant to MoE-like systems and Physical AI. Retain as a high-value watch pending concrete memory, compute, or runtime savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -14707,6 +15067,30 @@
     ]
   },
   {
+    "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation",
+    "venue": "ICLR 2026",
+    "topic": "3D scene reconstruction, video-diffusion distillation, Physical AI simulation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:85e446f011bd3b6ee382ef2a7e47f20e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/85e446f011bd3b6ee382ef2a7e47f20e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract distills implicit 3D knowledge from video diffusion into an explicit 3D Gaussian representation for interactive physical-AI simulation. It is a relevant representation and pipeline-efficiency candidate, but the abstract alone does not establish a hardware or serving result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
     "venue": "",
     "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems",
@@ -14775,6 +15159,29 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation",
+    "venue": "ICLR 2026",
+    "topic": "Budget-conditioned adaptive-depth reasoning models",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:4edfc7fb472789e31de455f8735ecbc3",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4edfc7fb472789e31de455f8735ecbc3-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract trains looped Transformers on variable-length trajectories so reasoning depth can adapt to compute budgets. This is directly relevant to adaptive inference, though the abstract provides no quantified cost or latency reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -15458,6 +15865,28 @@
     ]
   },
   {
+    "title": "LeRobot:  An Open-Source Library for End-to-End Robot Learning",
+    "venue": "ICLR 2026",
+    "topic": "Physical-AI robotics stack, datasets, streaming, and asynchronous inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:c702175bc31584c52c28cc20731db371",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c702175bc31584c52c28cc20731db371-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract describes an end-to-end robot-learning library with scalable dataset collection, storage and streaming, efficient algorithm implementations, and a generalized asynchronous inference stack. This is a high-value Physical-AI runtime/infrastructure reference, although the abstract does not quantify an inference or hardware speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "LENS: LLM-guided Environment Simplification for Planning and Control in Clutter",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -15707,6 +16136,28 @@
     ]
   },
   {
+    "title": "Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields",
+    "venue": "ICLR 2026",
+    "topic": "4D world modeling, Gaussian scene representations, physical simulation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:8365c06948c91169bb74b1b0629c68a2",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8365c06948c91169bb74b1b0629c68a2-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract reports a neural Gaussian force-field framework for interactive 4D generation and claims roughly two orders of magnitude speedup over prior Gaussian-plus-physics approaches. This is a relevant runtime-efficiency signal, but its scope is physical world modeling rather than general ML serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Learning Native Continuation for Action Chunking Flow Policies",
     "venue": "RSS 2026",
     "topic": "VLA/WAM serving; action-head/flow/diffusion; asynchronous action chunk continuity",
@@ -15726,6 +16177,28 @@
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Learning Massively Multitask World Models for Continuous Control",
+    "venue": "ICLR 2026",
+    "topic": "Multitask world models for continuous-control Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:092359ce5cf60a80e882378944bf1be4",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/092359ce5cf60a80e882378944bf1be4-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns world models for continuous control, relevant to VLA and Physical-AI workloads. Retain as a high-value watch without assuming inference or training efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Distributed Training / Inference",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -16602,6 +17075,29 @@
     "directions": [
       "Quantization",
       "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation",
+    "venue": "ICLR 2026",
+    "topic": "Dual implicit memory for vision-language navigation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:3812c3c803e986eca64000fe92467991",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3812c3c803e986eca64000fe92467991-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns memory mechanisms in vision-language navigation, relevant to VLA/Physical-AI and multimodal serving. Retain as a high-value watch pending explicit memory, latency, or compute savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -18091,6 +18587,29 @@
     ]
   },
   {
+    "title": "HAMLET: A Hierarchical and Adaptive Multi-Agent Framework for Live Embodied Theatrics",
+    "venue": "ICLR 2026",
+    "topic": "Hierarchical adaptive multi-agent systems for embodied interaction",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:33177752ddc94cc32ea2f46eacf10488",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/33177752ddc94cc32ea2f46eacf10488-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract concerns adaptive multi-agent embodied interaction, a protected agent and Physical-AI direction. Retain as a high-value watch pending explicit serving, runtime, or resource-efficiency evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "HALO: Heterogeneous Allocation Via Localized Observations for the Vehicle Routing Problem",
     "venue": "arXiv 2026",
     "topic": "",
@@ -18111,6 +18630,29 @@
       "LLM Serving",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Hallucination-aware Intermediate Representation Edit in Large Vision-Language Models",
+    "venue": "ICLR 2026",
+    "topic": "Low-overhead representation editing for efficient VLM decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:41fd34e25626cde2dd249e5b11fb547f",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/41fd34e25626cde2dd249e5b11fb547f-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract dynamically edits hallucination-related representations with minimal additional computation and avoids retraining or dual-model inference. This is promising efficient VLM decoding, but the abstract lacks quantified cost savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -18412,6 +18954,27 @@
     ]
   },
   {
+    "title": "Grounding Generative Planners in Verifiable Logic: A Hybrid Architecture for Trustworthy Embodied AI",
+    "venue": "ICLR 2026",
+    "topic": "Logic-grounded generative planning for Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:423295ba2cea13cda44dc0a7d48ae244",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/423295ba2cea13cda44dc0a7d48ae244-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets trustworthy embodied-AI planning with generative planners and verifiable logic. Retain as a high-value Physical-AI watch; no concrete runtime or compute-efficiency result is established.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Grounded-Exo2Ego: Structured Semantic Grounding for Robust Exocentric-to-Egocentric Video Generation",
     "venue": "",
     "topic": "video/image generation acceleration",
@@ -18452,6 +19015,29 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-Language Navigation",
+    "venue": "ICLR 2026",
+    "topic": "Dual-system vision-language navigation for Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:14da7aea05debb963b3d8d46449d51a0",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/14da7aea05debb963b3d8d46449d51a0-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets vision-language navigation through a dual-system foundation model, relevant to VLA and Physical-AI serving. Retain as a high-value watch while requiring explicit runtime or compute-efficiency evidence for strong promotion.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -19258,6 +19844,27 @@
     ]
   },
   {
+    "title": "Generalizable Coarse-to-Fine Robot Manipulation via Language-Aligned 3D Keypoints",
+    "venue": "ICLR 2026",
+    "topic": "Coarse-to-fine language-aligned robot manipulation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:314129fede356d33eb7719d9edb01cc7",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/314129fede356d33eb7719d9edb01cc7-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns robot manipulation and language-aligned 3D keypoints, relevant to VLA/Physical-AI workloads. Retain as a high-value watch without assuming a hardware or inference-efficiency improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Generalist Robot Manipulation beyond Action Labeled Data",
     "venue": "CoRL 2025",
     "topic": "",
@@ -19833,6 +20440,30 @@
     ]
   },
   {
+    "title": "From Sequential to Parallel: Reformulating Dynamic Programming as GPU Kernels for Large-Scale Stochastic Combinatorial Optimization",
+    "venue": "ICLR 2026",
+    "topic": "GPU kernels, dynamic programming, stochastic optimization and RL",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:bc09efb501c801ed92e181e26a885c2d",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/bc09efb501c801ed92e181e26a885c2d-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract maps forward DP recursions to batched min-plus GPU kernels and exposes scenario/transition parallelism. It is a direct GPU-kernel efficiency result, retained for its ML/RL workload applicability and quantitative performance evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "From Passive Execution to Active Exploration: Agentic Embodied Manipulation in Realistic Environments",
     "venue": "arXiv 2026",
     "topic": "",
@@ -19846,6 +20477,28 @@
     "decision": "WATCH",
     "tracking_tier": "P1 · Watch",
     "why": "Active-exploration embodied agent interleaves planning, perception and execution under partial observability; useful Physical-AI runtime/control-flow reference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "From Observations to Events: Event-Aware World Models for Reinforcement Learning",
+    "venue": "ICLR 2026",
+    "topic": "Event-aware world models for RL and Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:fc09b26b85ab3abb2832bd555a2e4215",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc09b26b85ab3abb2832bd555a2e4215-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract proposes event-aware world models for reinforcement learning, relevant to streaming and embodied workloads. Retain as a high-value watch pending explicit efficiency or deployment results.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -19897,6 +20550,29 @@
     "directions": [
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "From Language to Locomotion: Retargeting-free Humanoid Control via Motion Latent Guidance",
+    "venue": "ICLR 2026",
+    "topic": "Humanoid action inference, diffusion policy latency, Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:d1ef0be5d288aba023664aa96a510486",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d1ef0be5d288aba023664aa96a510486-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract states that conventional decode-retarget-track pipelines introduce high latency and proposes direct language-grounded motion-latent conditioning of executable actions. This is a concrete action-path simplification, retained pending stronger measured runtime evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -20011,6 +20687,28 @@
     ]
   },
   {
+    "title": "From Assumptions to Actions: Turning LLM Reasoning into Uncertainty-Aware Planning for Embodied Agents",
+    "venue": "ICLR 2026",
+    "topic": "Uncertainty-aware LLM planning for embodied agents",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:21eba560be81c3a1e1f3404493a92a6a",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/21eba560be81c3a1e1f3404493a92a6a-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly connects LLM reasoning to embodied-agent planning, a protected Physical-AI and agent-systems direction. Retain as a high-value watch while requiring concrete runtime or compute evidence for strong promotion.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Friction-Aware Safety Locomotion for Wheeled-legged Robots using Vision Language Models and Reinforcement Learning",
     "venue": "",
     "topic": "Physical AI; VLM/RL; safety locomotion",
@@ -20121,6 +20819,28 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models",
+    "venue": "ICLR 2026",
+    "topic": "Video diffusion, frame-level guidance, memory-efficient generation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:636f1f78f7096caf126afaa27deb7b53",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/636f1f78f7096caf126afaa27deb7b53-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract avoids task-specific fine-tuning, applies control to selected frames, and proposes latent processing that dramatically reduces memory usage. Retain pending full memory and latency measurements.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -20529,6 +21249,29 @@
     "is_latest_30d": false,
     "directions": [
       "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FlexHiNM-GP: Flexible Hierarchical Pruning via Region Allocation and Channel Permutation",
+    "venue": "ICLR 2026",
+    "topic": "Hardware-friendly pruning, structured sparsity, sparse Tensor Cores",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:9e33fdc35b68781132e836964a326bf3",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e33fdc35b68781132e836964a326bf3-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract proposes dense/vector-pruned/N:M regions and channel permutation to improve hardware-compatible structured pruning. It is directly relevant to sparsity and accelerator execution, retained pending full accuracy-latency measurements.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -21651,6 +22394,28 @@
     ]
   },
   {
+    "title": "EquAct: An SE(3)-Equivariant Multi-Task Transformer for 3D Robotic Manipulation",
+    "venue": "ICLR 2026",
+    "topic": "Equivariant multi-task transformers for robotic manipulation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:0dadf17389895a1d660a178d1140e07c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/0dadf17389895a1d660a178d1140e07c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns transformer-based 3D robotic manipulation, relevant to VLA/Physical-AI workloads. Retain as a high-value watch while requiring explicit resource or serving-efficiency evidence for strong promotion.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
     "venue": "",
     "topic": "edge/cloud/heterogeneous AI systems",
@@ -21784,6 +22549,27 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Empowering Multi-Robot Cooperation via Sequential World Models",
+    "venue": "ICLR 2026",
+    "topic": "Sequential world models for multi-robot cooperation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:16415eed5a0a121bfce79924db05d3fe",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/16415eed5a0a121bfce79924db05d3fe-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract targets multi-robot cooperation through sequential world models, a protected Physical-AI direction. Retain as a high-value watch until the source establishes concrete runtime or compute-efficiency gains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -22436,6 +23222,28 @@
     ]
   },
   {
+    "title": "Efficient Morphology-Control Co-Design via Stackelberg Proximal Policy Optimization",
+    "venue": "ICLR 2026",
+    "topic": "Morphology-control co-design for embodied agents",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:e9750610639c3e7a849cff746bf60dbd",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e9750610639c3e7a849cff746bf60dbd-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns morphology and control co-design, relevant to Physical AI and agent systems. Retain as a high-value watch without inferring inference or training-cost reductions.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Efficient ML Model Updates for Deeply Embedded Microcontrollers",
     "venue": "EuroSys 2026",
     "topic": "edge ML / embedded",
@@ -22454,6 +23262,27 @@
     "is_latest_30d": false,
     "directions": [
       "Edge / Cloud / Heterogeneous AI",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Efficient Differentiable Contact Model with Long-range Influence",
+    "venue": "ICLR 2026",
+    "topic": "Efficient differentiable contact modeling for robotics",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:6776737cd11cf4afa3af226898474418",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6776737cd11cf4afa3af226898474418-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets an efficient differentiable contact model, relevant to simulation and Physical-AI training. Retain as a high-value watch pending concrete runtime, memory, or accelerator evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -22680,6 +23509,27 @@
     "directions": [
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "EAST: Early Action Prediction Sampling Strategy with Token Masking",
+    "venue": "ICLR 2026",
+    "topic": "Early action prediction, token masking, Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:d56ea595db387181a59d9a33c6036554",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d56ea595db387181a59d9a33c6036554-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract introduces token masking that cuts memory usage in half for early action prediction and supports variable observation ratios. It is a strong protected action-inference efficiency signal, retained for full deployment evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -23908,6 +24758,27 @@
     ]
   },
   {
+    "title": "DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model",
+    "venue": "ICLR 2026",
+    "topic": "Joint-wise neural dynamics for dexterous Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:065ef23a944b3995de7dd4a3e203d133",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/065ef23a944b3995de7dd4a3e203d133-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets dexterous in-hand rotation through a neural dynamics model, relevant to action-model and Physical-AI systems. Retain as a high-value watch without inferring hardware or inference savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "DexDirect: Direct Kinesthetic Arm Guidance for Efficient Dexterous Demonstration Collection",
     "venue": "arXiv 26",
     "topic": "action_flow",
@@ -24486,6 +25357,27 @@
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI",
+    "venue": "ICLR 2026",
+    "topic": "Vision-action pretraining for embodied AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:4cafca2c978ce63cafcea9f0484a93c0",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4cafca2c978ce63cafcea9f0484a93c0-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract targets scaling vision-action pretraining and transfer to embodied AI, directly relevant to VLA/Physical-AI coverage. Retain as a high-value watch; the abstract does not establish a direct inference or training-efficiency optimization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -25276,6 +26168,27 @@
     "is_latest_30d": false,
     "directions": [
       "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives",
+    "venue": "ICLR 2026",
+    "topic": "Contact-guided Real2Sim for embodied and Physical-AI systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:bbc461518c59a2a8d64e70e2c38c4a0e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/bbc461518c59a2a8d64e70e2c38c4a0e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract describes contact-guided scene reconstruction from monocular video, relevant to embodied simulation and Physical AI. Retain as a high-value watch, while reserving strong promotion until compute or runtime savings are established.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -26270,6 +27183,28 @@
     ]
   },
   {
+    "title": "CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation",
+    "venue": "ICLR 2026",
+    "topic": "Flow-guided cross-embodiment navigation for Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:514bdfb12b318ad02c6f28dc68f2feea",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/514bdfb12b318ad02c6f28dc68f2feea-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly concerns local navigation across embodiments and uses flow-guided reinforcement refinement. Retain as a high-value Physical-AI watch; the abstract does not quantify deployment or inference-cost reductions.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "CausalNav: Reliability-Certified Causal World Models for Control under Physical-Parameter Shift",
     "venue": "arXiv 2026",
     "topic": "physical",
@@ -26977,6 +27912,31 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "BOLT: Decision‑Aligned Distillation and Budget-Aware Routing for Constrained Multimodal QA on Robots",
+    "venue": "ICLR 2026",
+    "topic": "Budget-aware multimodal routing, robot QA, edge/Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:054a9c9f6249eee0093a85ccee5b3313",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/054a9c9f6249eee0093a85ccee5b3313-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly targets constrained multimodal QA on robots through decision-aligned distillation and budget-aware routing. This is a high-value edge/Physical-AI efficiency signal, retained pending full quantitative serving evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -27796,6 +28756,27 @@
     ]
   },
   {
+    "title": "Autonomous Functional Play with Correspondence-Driven Trajectory Warping",
+    "venue": "ICLR 2026",
+    "topic": "Trajectory warping for autonomous embodied interaction",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:b52ffc1e3ab14f7b423acbb14cdbfe8e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b52ffc1e3ab14f7b423acbb14cdbfe8e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract describes autonomous functional play and correspondence-driven trajectory warping, relevant to embodied and Physical-AI systems. Retain as a high-value watch, but do not promote without explicit inference, runtime, or compute-efficiency evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Automating the Design of Embodied Agent Architectures",
     "venue": "arXiv 2026",
     "topic": "physical",
@@ -27858,6 +28839,28 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Attribution-Guided Decoding",
+    "venue": "ICLR 2026",
+    "topic": "Adaptive low-overhead decoding for LLM control",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:da30215ee52c1daaaaddada8137cfd0b",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/da30215ee52c1daaaaddada8137cfd0b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract introduces entropy-triggered attribution guidance that applies only when the model is uncertain, reducing computational overhead while improving instruction adherence and factuality. The method is directly relevant, but the abstract lacks quantified cost savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -28150,6 +29153,27 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ARTDECO: Toward High-Fidelity On-the-Fly Reconstruction with Hierarchical Gaussian Structure and Feed-Forward Guidance",
+    "venue": "ICLR 2026",
+    "topic": "Real-time 3D reconstruction, feed-forward inference, hierarchical Gaussian representation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a87f2df7c4ab0213c6ea228e7b7f0a4d",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a87f2df7c4ab0213c6ea228e7b7f0a4d-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract contrasts costly per-scene optimization with real-time feed-forward inference and proposes a hierarchical Gaussian representation with level-of-detail guidance. This is directly relevant to runtime-efficient reconstruction, retained for evidence and PDF review.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -28542,6 +29566,28 @@
     ]
   },
   {
+    "title": "An Optimal Diffusion Approach to Quadratic Rate-Distortion Problems: New Solution and Approximation Methods",
+    "venue": "ICLR 2026",
+    "topic": "Diffusion-based rate-distortion, generative compression",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:44efae58d699002241b48baaf943c302",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/44efae58d699002241b48baaf943c302-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract directly studies optimal and approximate diffusion solutions for rate-distortion problems, relevant to generative compression and compute-quality trade-offs. Retain pending confirmation of practical inference and deployment efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "An LLM-Agnostic, MAVLink-Based Drone Command and Control Interface and Agentic Harness Using the Model Context Protocol",
     "venue": "arXiv 2026",
     "topic": "physical_ai",
@@ -28673,6 +29719,29 @@
     "directions": [
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Align-Then-stEer: Adapting the Vision-Language Action Models through Unified Latent Guidance",
+    "venue": "ICLR 2026",
+    "topic": "VLA adaptation, data/compute efficiency, Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:1862ea85f21ca819eed2b75af39bba60",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1862ea85f21ca819eed2b75af39bba60-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract identifies extensive downstream data and compute as a VLA adaptation bottleneck and proposes a plug-and-play unified latent action space. It is strongly relevant to efficient Physical-AI adaptation, but the abstract does not yet establish a deployment-level serving or hardware result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -30231,6 +31300,29 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "$\\textit{MADFormer}$: Mixed Autoregressive and Diffusion Transformers for Continuous Image Generation",
+    "venue": "ICLR 2026",
+    "topic": "Hybrid autoregressive-diffusion image generation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:7cdf000d22c6cda21f3cbd7467aaf26f",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/7cdf000d22c6cda21f3cbd7467aaf26f-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract studies a blockwise AR/diffusion architecture that assigns one-pass global conditioning to AR layers and iterative local refinement to diffusion layers. It is a plausible generation-efficiency design point, but the abstract does not yet demonstrate a clear end-to-end speed or compute advantage.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
