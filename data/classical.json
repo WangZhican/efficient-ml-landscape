@@ -94138,6 +94138,27 @@
     ]
   },
   {
+    "title": "\"SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow\"",
+    "venue": "ECCV 2024",
+    "topic": "efficient optical flow",
+    "arxiv": "2405.14793",
+    "doi": "10.1007/978-3-031-72667-5_3",
+    "official_id": "10.1007/978-3-031-72667-5_3",
+    "paper_url": "https://arxiv.org/abs/2405.14793",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "SEA-RAFT explicitly targets simple, efficient, accurate optical flow and reports at least 2.3x faster execution than existing methods with state-of-the-art accuracy. This is a strong efficient-vision result; retain P0 and attempt primary arXiv PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis",
     "venue": "ECCV 2024",
     "topic": "dynamic scene computing; compact 3DGS; real-time rendering",
@@ -94243,6 +94264,48 @@
     "directions": [
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Auto-DAS: Automated Proxy Discovery for Training-free Distillation-aware Architecture Search",
+    "venue": "ECCV 2024",
+    "topic": "training-free distillation-aware architecture search",
+    "arxiv": "",
+    "doi": "10.1007/978-3-031-72652-1_4",
+    "official_id": "10.1007/978-3-031-72652-1_4",
+    "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/676_ECCV_2024_paper.php",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Auto-DAS targets the time-consuming training-based distillation-aware search process with a training-free proxy. This is a direct search-cost reduction contribution to efficient model design; retain P0 and attempt the official proceedings PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Auto-GAS: Automated Proxy Discovery for Training-free Generative Architecture Search",
+    "venue": "ECCV 2024",
+    "topic": "training-free generative architecture search",
+    "arxiv": "",
+    "doi": "10.1007/978-3-031-72652-1_3",
+    "official_id": "10.1007/978-3-031-72652-1_3",
+    "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/668_ECCV_2024_paper.php",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Auto-GAS introduces a training-free proxy-discovery approach for generative architecture search, targeting the expensive search/training loop for real-time generative applications. This directly fits efficient generative-model architecture search; retain P0 and attempt the official proceedings PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -94664,6 +94727,27 @@
     ]
   },
   {
+    "title": "G3R: Gradient Guided Generalizable Reconstruction",
+    "venue": "ECCV 2024",
+    "topic": "generalizable reconstruction acceleration",
+    "arxiv": "2409.19405",
+    "doi": "10.1007/978-3-031-72658-3_18",
+    "official_id": "10.1007/978-3-031-72658-3_18",
+    "paper_url": "https://arxiv.org/abs/2409.19405",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "G3R targets expensive per-scene NeRF/3DGS optimization with a generalizable reconstruction network and reports at least 10x reconstruction acceleration while maintaining or improving realism. This is a strong generative/3D reconstruction efficiency result; retain P0 and attempt primary arXiv PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "GaussianImage: 1000 FPS Image Representation and Compression by 2D Gaussian Splatting",
     "venue": "ECCV 2024",
     "topic": "image representation and compression; low-memory rendering",
@@ -94726,6 +94810,28 @@
     "directions": [
       "Video / Image Generation",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression",
+    "venue": "ECCV 2024",
+    "topic": "3D Gaussian Splatting compression",
+    "arxiv": "2403.14530",
+    "doi": "10.1007/978-3-031-72667-5_24",
+    "official_id": "10.1007/978-3-031-72667-5_24",
+    "paper_url": "https://arxiv.org/abs/2403.14530",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "HAC applies hash-grid context, adaptive quantization, entropy coding, and masking to compress 3DGS; it reports over 75x size reduction versus vanilla 3DGS and over 11x versus prior compression. This is a strong compression result; retain P0 and attempt primary arXiv PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Video / Image Generation"
     ]
   },
   {

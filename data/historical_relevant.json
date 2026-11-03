@@ -134267,6 +134267,90 @@
       "directions": [
         "Video / Image Generation"
       ]
+    },
+    {
+      "title": "EDTalk: Efficient Disentanglement for Emotional Talking Head Synthesis",
+      "venue": "ECCV 2024",
+      "topic": "efficient talking-head generation and training",
+      "arxiv": "2404.01647",
+      "doi": "10.1007/978-3-031-72658-3_23",
+      "official_id": "10.1007/978-3-031-72658-3_23",
+      "paper_url": "https://arxiv.org/abs/2404.01647",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "EDTalk uses lightweight disentanglement modules, an efficient training strategy, and shared motion priors for audio/video-driven talking-head synthesis. It is directly relevant to efficient video generation; retain P1 and attempt primary arXiv PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "On the Utility of 3D Hand Poses for Action Recognition",
+      "venue": "ECCV 2024",
+      "topic": "FLOP-efficient action recognition",
+      "arxiv": "2403.09805",
+      "doi": "10.1007/978-3-031-72658-3_25",
+      "official_id": "10.1007/978-3-031-72658-3_25",
+      "paper_url": "https://arxiv.org/abs/2403.09805",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HandFormer combines compact 3D hand poses with sparse RGB and reports unimodal action recognition at 5x fewer FLOPs than skeleton-based methods. This is directly relevant to efficient action/perception models; retain P1 and attempt primary arXiv PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation",
+      "venue": "ECCV 2024",
+      "topic": "scalable text-to-3D generation and score distillation",
+      "arxiv": "2407.02040",
+      "doi": "10.1007/978-3-031-72667-5_1",
+      "official_id": "10.1007/978-3-031-72667-5_1",
+      "paper_url": "https://arxiv.org/abs/2407.02040",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ScaleDreamer addresses the costly/stability-limited score-distillation training of amortized text-to-3D generators and scales to 100k prompts without changing pretrained diffusion weights. This is a high-value scalable generation-efficiency result; retain P1 and attempt primary arXiv PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "LiFT: A Surprisingly Simple Lightweight Feature Transform for Dense ViT Descriptors",
+      "venue": "ECCV 2024",
+      "topic": "lightweight dense ViT descriptors",
+      "arxiv": "2403.14625",
+      "doi": "10.1007/978-3-031-72667-5_7",
+      "official_id": "10.1007/978-3-031-72667-5_7",
+      "paper_url": "https://arxiv.org/abs/2403.14625",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LiFT is a compact post-processing network for dense ViT descriptors, is fast to train, and adds minimal inference cost while improving dense downstream features. This directly fits lightweight/efficient vision models; retain P1 and attempt primary arXiv PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
     }
   ],
   "historical_p2": [
@@ -452725,6 +452809,313 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "UNIC: Universal Classification Models via Multi-teacher Distillation",
+      "venue": "ECCV 2024",
+      "topic": "multi-teacher distillation",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-73235-5_20",
+      "official_id": "10.1007/978-3-031-73235-5_20",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/581_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "UNIC learns a shared classifier encoder from complementary pretrained teachers through distillation. This is training/model-efficiency adjacent, but the abstract does not establish compact deployment or runtime acceleration; retain P2 metadata only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models",
+      "venue": "ECCV 2024",
+      "topic": "efficient vision vocabulary for LVLMs",
+      "arxiv": "2312.06109",
+      "doi": "10.1007/978-3-031-73235-5_23",
+      "official_id": "10.1007/978-3-031-73235-5_23",
+      "paper_url": "https://arxiv.org/abs/2312.06109",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Vary explicitly addresses low-efficiency tokenization and out-of-vocabulary limitations in LVLM vision vocabularies. It is relevant to multimodal model representation/tokenization, but not a serving or accelerator result; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "CarFormer: Self-Driving with Learned Object-Centric Representations",
+      "venue": "ECCV 2024",
+      "topic": "object-centric self-driving and world-model representation",
+      "arxiv": "2407.15843",
+      "doi": "10.1007/978-3-031-72652-1_11",
+      "official_id": "10.1007/978-3-031-72652-1_11",
+      "paper_url": "https://arxiv.org/abs/2407.15843",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "CarFormer learns object-centric BEV slots for self-driving and future-vehicle forecasting. It is an adjacent Physical-AI/world-model representation neighborhood, but the abstract does not establish model or serving efficiency; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "QUAR-VLA: Vision-Language-Action Model for Quadruped Robots",
+      "venue": "ECCV 2024",
+      "topic": "vision-language-action model for quadruped robots",
+      "arxiv": "2312.14457",
+      "doi": "10.1007/978-3-031-72652-1_21",
+      "official_id": "10.1007/978-3-031-72652-1_21",
+      "paper_url": "https://arxiv.org/abs/2312.14457",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "QUAR-VLA is a direct VLA/robot-action model and dataset contribution. It is relevant to the protected VLA/WAM/Physical-AI direction, but the abstract does not establish efficient serving or acceleration; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SFPNet: Sparse Focal Point Network for Semantic Segmentation on General LiDAR Point Clouds",
+      "venue": "ECCV 2024",
+      "topic": "sparse LiDAR semantic segmentation",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-72652-1_24",
+      "official_id": "10.1007/978-3-031-72652-1_24",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/815_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "SFPNet uses sparse focal-point structure for general LiDAR semantic segmentation. It is adjacent to sparse/edge perception, but the abstract emphasizes generalization rather than measured compute reduction; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "LLM as Copilot for Coarse-grained Vision-and-Language Navigation",
+      "venue": "ECCV 2024",
+      "topic": "LLM-assisted embodied navigation",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-72652-1_27",
+      "official_id": "10.1007/978-3-031-72652-1_27",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/833_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The paper applies LLMs to coarse-grained vision-and-language navigation, an embodied-agent neighborhood. It does not establish efficient LLM serving or acceleration; retain P2 under the agent/Physical-AI scope.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Anytime Continual Learning for Open Vocabulary Classification",
+      "venue": "ECCV 2024",
+      "topic": "anytime continual learning and feature compression",
+      "arxiv": "2409.08518",
+      "doi": "10.1007/978-3-031-72658-3_16",
+      "official_id": "10.1007/978-3-031-72658-3_16",
+      "paper_url": "https://arxiv.org/abs/2409.08518",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "AnytimeCL enables efficient incremental updates and introduces PCA compression of training features to reduce storage/computation. It is relevant to efficient continual learning, but not a core serving/accelerator direction; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting",
+      "venue": "ECCV 2024",
+      "topic": "panoramic text-to-3D scene generation",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-72658-3_19",
+      "official_id": "10.1007/978-3-031-72658-3_19",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/996_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "DreamScene360 generates panoramic 3D scenes in minutes and is relevant to the 3D/video-generation neighborhood, but its abstract does not establish a measured acceleration contribution; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models",
+      "venue": "ECCV 2024",
+      "topic": "localized visual tokenization for MLLMs",
+      "arxiv": "2404.13013",
+      "doi": "10.1007/978-3-031-72658-3_24",
+      "official_id": "10.1007/978-3-031-72658-3_24",
+      "paper_url": "https://arxiv.org/abs/2404.13013",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Groma embeds region localization into visual tokenization for grounded MLLMs, relevant to multimodal representation/tokenization. The abstract emphasizes grounding quality rather than token/latency reduction; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback",
+      "venue": "ECCV 2024",
+      "topic": "conditional diffusion consistency feedback",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-72667-5_8",
+      "official_id": "10.1007/978-3-031-72667-5_8",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1091_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "ControlNet++ introduces efficient consistency feedback for conditional controls in text-to-image diffusion. It is relevant to diffusion-generation optimization, but the abstract emphasizes controllability rather than measured acceleration; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models",
+      "venue": "ECCV 2024",
+      "topic": "LLM-based robotic navigation reasoning",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-72667-5_15",
+      "official_id": "10.1007/978-3-031-72667-5_15",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1143_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "NavGPT-2 applies large vision-language models to instruction-following robot navigation, relevant to embodied-agent/Physical-AI systems. The abstract does not establish efficient serving or inference; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Dropout Mixture Low-Rank Adaptation for Visual Parameters-Efficient Fine-Tuning",
+      "venue": "ECCV 2024",
+      "topic": "parameter-efficient visual fine-tuning",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-72667-5_21",
+      "official_id": "10.1007/978-3-031-72667-5_21",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1163_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Dropout Mixture LoRA explicitly targets visual parameter-efficient fine-tuning and reduced training time/compute. It is relevant to PEFT, but not an inference/serving contribution; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "FSD-BEV: Foreground Self-Distillation for Multi-view 3D Object Detection",
+      "venue": "ECCV 2024",
+      "topic": "self-distilled BEV perception",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-73242-3_7",
+      "official_id": "10.1007/978-3-031-73242-3_7",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1250_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "FSD-BEV uses foreground self-distillation for multi-view 3D detection and is adjacent to deployment-friendly/efficient autonomous perception. The abstract does not establish a direct runtime or accelerator gain; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SceneGraphLoc: Cross-Modal Coarse Visual Localization on 3D Scene Graphs",
+      "venue": "ECCV 2024",
+      "topic": "lightweight cross-modal localization",
+      "arxiv": "",
+      "doi": "10.1007/978-3-031-73242-3_8",
+      "official_id": "10.1007/978-3-031-73242-3_8",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1255_ECCV_2024_paper.php",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "SceneGraphLoc proposes a lightweight scene-graph-based alternative for coarse visual localization. It is adjacent to edge/Physical-AI localization systems, but not a core ML serving or accelerator result; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI",
         "VLA / WAM / Physical AI"
       ]
     }

@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1685 canonical papers** mapped here, plus a broader **190-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1688 canonical papers** mapped here, plus a broader **190-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -199,7 +199,7 @@
 | **P0 · Strong** | **Detector-Integrated Multi-Cue Association for Occlusion-Aware UAV Multi-Object Tracking** | arXiv 2026 | edge/cloud;heterogeneous AI;GPU kernels | [Link](https://arxiv.org/abs/2611.00105) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 1628 canonical
+## 🏛️ Classical / Historical · 1631 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1091,8 +1091,11 @@
 | **Canonical** | **XShift: FPGA-efficient Binarized LLM with Joint Quantization and Sparsification** | DAC 2025 | LLM accelerator / FPGA / quantization / sparsity | [Link](https://doi.org/10.1109/DAC63849.2025.11133363) | — |
 | **Canonical** | **FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications** | DAC 2026 | LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.09252) | [Repo](https://github.com/hkust-zhiyao/FSGen) |
 | **Canonical** | **T-SAR: A Full-Stack Co-design for CPU-Only Ternary LLM Inference via In-Place SIMD ALU Reorganization** | DATE 2026 | edge/cloud/heterogeneous AI systems / LLM inference accelerator / ternary quantization / CPU SIMD | [Link](https://arxiv.org/abs/2511.13676) | — |
+| **Canonical** | **"SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow"** | ECCV 2024 | efficient optical flow | [Link](https://arxiv.org/abs/2405.14793) | — |
 | **Canonical** | **Accelerating Image Super-Resolution Networks with Pixel-Level Classification** | ECCV 2024 | adaptive inference compute; super-resolution; PSNR-FLOP trade-off | [Link](https://arxiv.org/abs/2407.21448) | [Repo](https://github.com/3587jjh/PCSR) |
 | **Canonical** | **AMD: Automatic Multi-step Distillation of Large-scale Vision Models** | ECCV 2024 | model compression; knowledge distillation; edge inference | [Link](https://arxiv.org/abs/2407.04208) | — |
+| **Canonical** | **Auto-DAS: Automated Proxy Discovery for Training-free Distillation-aware Architecture Search** | ECCV 2024 | training-free distillation-aware architecture search | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/676_ECCV_2024_paper.php) | — |
+| **Canonical** | **Auto-GAS: Automated Proxy Discovery for Training-free Generative Architecture Search** | ECCV 2024 | training-free generative architecture search | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/668_ECCV_2024_paper.php) | — |
 | **Canonical** | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7138_ECCV_2024_paper.php) | — |
 | **Canonical** | **Compact 3D Scene Representation via Self-Organizing Gaussian Grids** | ECCV 2024 | 3D Gaussian compression; scene representation; edge storage | [Link](https://arxiv.org/abs/2312.13299) | — |
 | **Canonical** | **Deep Patch Visual SLAM** | ECCV 2024 | efficient visual SLAM and edge/Physical-AI runtime | [Link](https://arxiv.org/abs/2408.01654) | — |

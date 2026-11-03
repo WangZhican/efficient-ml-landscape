@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **605 canonical papers** mapped here, plus a broader **36-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **607 canonical papers** mapped here, plus a broader **36-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -45,7 +45,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |
 
-## 🏛️ Classical / Historical · 589 canonical
+## 🏛️ Classical / Historical · 591 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -265,8 +265,10 @@
 | **Canonical** | **CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization** | ECCV 2024 | 3D Gaussian compression; vector quantization; rendering acceleration | [Link](https://arxiv.org/abs/2311.18159) | — |
 | **Canonical** | **EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS** | ECCV 2024 | 3D Gaussian memory compression; pruning; faster training and inference | [Link](https://arxiv.org/abs/2312.04564) | — |
 | **Canonical** | **End-to-End Rate-Distortion Optimized 3D Gaussian Representation** | ECCV 2024 | 3D Gaussian quantization; pruning; rate-distortion optimization | [Link](https://arxiv.org/abs/2406.01597) | — |
+| **Canonical** | **G3R: Gradient Guided Generalizable Reconstruction** | ECCV 2024 | generalizable reconstruction acceleration | [Link](https://arxiv.org/abs/2409.19405) | — |
 | **Canonical** | **GaussianImage: 1000 FPS Image Representation and Compression by 2D Gaussian Splatting** | ECCV 2024 | image representation and compression; low-memory rendering | [Link](https://arxiv.org/abs/2403.08551) | — |
 | **Canonical** | **GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting** | ECCV 2024 | feed-forward 3D reconstruction; scene computing | [Link](https://arxiv.org/abs/2404.19702) | [Repo](https://sai-bi.github.io/project/gs-lrm/) |
+| **Canonical** | **HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression** | ECCV 2024 | 3D Gaussian Splatting compression | [Link](https://arxiv.org/abs/2403.14530) | — |
 | **Canonical** | **Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis** | ECCV 2024 | 3D Gaussian acceleration; CUDA rasterization; medical imaging | [Link](https://arxiv.org/abs/2403.04116) | [Repo](https://github.com/caiyuanhao1998/X-Gaussian) |
 | **Canonical** | **Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting** | ECCV 2024 | dynamic scene computing; autonomous driving; real-time rendering | [Link](https://arxiv.org/abs/2401.01339) | — |
 | **Canonical** | **4DStreamCtrl: Interactive Video Generation with Online 4D Control** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25479) | — |

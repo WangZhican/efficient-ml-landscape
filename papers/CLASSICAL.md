@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **7621 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **7626 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -6684,6 +6684,69 @@
 | **Canonical** | **ZipServ** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
 | **Canonical** | **ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2603.17435) | — |
 
+## ECCV 2024 · 58
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **"SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow"** | ECCV 2024 | efficient optical flow | [Link](https://arxiv.org/abs/2405.14793) | — |
+| **Canonical** | **A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis** | ECCV 2024 | dynamic scene computing; compact 3DGS; real-time rendering | [Link](https://arxiv.org/abs/2311.12897) | — |
+| **Canonical** | **Accelerating Image Super-Resolution Networks with Pixel-Level Classification** | ECCV 2024 | adaptive inference compute; super-resolution; PSNR-FLOP trade-off | [Link](https://arxiv.org/abs/2407.21448) | [Repo](https://github.com/3587jjh/PCSR) |
+| **Canonical** | **AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation** | ECCV 2024 | diffusion acceleration / adaptive computation / early exit | [Link](https://arxiv.org/abs/2309.17074) | [Repo](https://github.com/Tangshengku/AdaDiff) |
+| **Canonical** | **AMD: Automatic Multi-step Distillation of Large-scale Vision Models** | ECCV 2024 | model compression; knowledge distillation; edge inference | [Link](https://arxiv.org/abs/2407.04208) | — |
+| **Canonical** | **An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10478_ECCV_2024_paper.php) | — |
+| **Canonical** | **Auto-DAS: Automated Proxy Discovery for Training-free Distillation-aware Architecture Search** | ECCV 2024 | training-free distillation-aware architecture search | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/676_ECCV_2024_paper.php) | — |
+| **Canonical** | **Auto-GAS: Automated Proxy Discovery for Training-free Generative Architecture Search** | ECCV 2024 | training-free generative architecture search | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/668_ECCV_2024_paper.php) | — |
+| **Canonical** | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7138_ECCV_2024_paper.php) | — |
+| **Canonical** | **ByteEdit: Boost, Comply and Accelerate Generative Image Editing** | ECCV 2024 | diffusion-based generative image editing; inference acceleration; reward-guided feedback | [Link](https://arxiv.org/abs/2404.04860) | [Repo](https://byte-edit.github.io) |
+| **Canonical** | **Compact 3D Scene Representation via Self-Organizing Gaussian Grids** | ECCV 2024 | 3D Gaussian compression; scene representation; edge storage | [Link](https://arxiv.org/abs/2312.13299) | — |
+| **Canonical** | **CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization** | ECCV 2024 | 3D Gaussian compression; vector quantization; rendering acceleration | [Link](https://arxiv.org/abs/2311.18159) | — |
+| **Canonical** | **Deep Patch Visual SLAM** | ECCV 2024 | efficient visual SLAM and edge/Physical-AI runtime | [Link](https://arxiv.org/abs/2408.01654) | — |
+| **Canonical** | **DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs** | ECCV 2024 | memory-efficient neural architecture | [Link](https://arxiv.org/abs/2403.19588) | — |
+| **Canonical** | **DεpS: Delayed ε-Shrinking for Faster Once-For-All Training** | ECCV 2024 | distributed and efficient training; once-for-all models | [Link](https://arxiv.org/abs/2407.06167) | [Repo](https://github.com/gatech-sysml/deps) |
+| **Canonical** | **EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS** | ECCV 2024 | 3D Gaussian memory compression; pruning; faster training and inference | [Link](https://arxiv.org/abs/2312.04564) | — |
+| **Canonical** | **Efficient Cascaded Multiscale Adaptive Network for Image Restoration** | ECCV 2024 | efficient image restoration; adaptive convolution | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2840_ECCV_2024_paper.php) | — |
+| **Canonical** | **Efficient Diffusion Transformer with Step-wise Dynamic Attention Mediators** | ECCV 2024 | diffusion/flow acceleration / efficient attention | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2391_ECCV_2024_paper.php) | — |
+| **Canonical** | **Efficient Inference of Vision Instruction-Following Models with Elastic Cache** | ECCV 2024 | KV cache / multimodal inference | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2528_ECCV_2024_paper.php) | — |
+| **Canonical** | **Efficient Vision Transformers with Partial Attention** | ECCV 2024 | efficient attention; ViT; high-resolution vision | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11047_ECCV_2024_paper.php) | — |
+| **Canonical** | **EgoPoseFormer: A Simple Baseline for Stereo Egocentric 3D Human Pose Estimation** | ECCV 2024 | egocentric 3D pose; parameter/FLOP reduction; embodied perception | [Link](https://arxiv.org/abs/2403.18080) | [Repo](https://github.com/ChenhongyiYang/egoposeformer) |
+| **Canonical** | **EgoPoser: Robust Real-Time Egocentric Pose Estimation from Sparse and Intermittent Observations Everywhere** | ECCV 2024 | egocentric pose estimation; real-time efficient inference; wearable/embodied AI | [Link](https://arxiv.org/abs/2308.06493) | [Repo](https://github.com/eth-siplab/EgoPoser) |
+| **Canonical** | **EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation** | ECCV 2024 | action and motion generation; diffusion acceleration | [Link](https://arxiv.org/abs/2312.02256) | — |
+| **Canonical** | **End-to-End Rate-Distortion Optimized 3D Gaussian Representation** | ECCV 2024 | 3D Gaussian quantization; pruning; rate-distortion optimization | [Link](https://arxiv.org/abs/2406.01597) | — |
+| **Canonical** | **Enhanced Sparsification via Stimulative Training** | ECCV 2024 | structured pruning; model compression; training efficiency | [Link](https://arxiv.org/abs/2403.06417) | — |
+| **Canonical** | **FastCAD: Real-Time CAD Retrieval and Alignment from Scans and Videos** | ECCV 2024 | real-time 3D perception; robotics; efficient inference | [Link](https://arxiv.org/abs/2403.15161) | — |
+| **Canonical** | **FlexAttention for Efficient High-Resolution Vision-Language Models** | ECCV 2024 | multimodal/MLLM serving / efficient attention | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3642_ECCV_2024_paper.php) | — |
+| **Canonical** | **G3R: Gradient Guided Generalizable Reconstruction** | ECCV 2024 | generalizable reconstruction acceleration | [Link](https://arxiv.org/abs/2409.19405) | — |
+| **Canonical** | **GaussianImage: 1000 FPS Image Representation and Compression by 2D Gaussian Splatting** | ECCV 2024 | image representation and compression; low-memory rendering | [Link](https://arxiv.org/abs/2403.08551) | — |
+| **Canonical** | **GRM: Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation** | ECCV 2024 | feed-forward 3D reconstruction; 3D Gaussian scene computing | [Link](https://arxiv.org/abs/2403.14621) | [Repo](https://justimyhxu.github.io/projects/grm/) |
+| **Canonical** | **GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting** | ECCV 2024 | feed-forward 3D reconstruction; scene computing | [Link](https://arxiv.org/abs/2404.19702) | [Repo](https://sai-bi.github.io/project/gs-lrm/) |
+| **Canonical** | **HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression** | ECCV 2024 | 3D Gaussian Splatting compression | [Link](https://arxiv.org/abs/2403.14530) | — |
+| **Canonical** | **HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models** | ECCV 2024 | diffusion inference acceleration | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6764_ECCV_2024_paper.php) | — |
+| **Canonical** | **Inf-DiT: Upsampling any-resolution image with memory-efficient diffusion transformer.** | ECCV 2024 | diffusion memory efficiency | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10940_ECCV_2024_paper.php) | — |
+| **Canonical** | **IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2577_ECCV_2024_paper.php) | — |
+| **Canonical** | **LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation** | ECCV 2024 | 3D generation acceleration; Gaussian representation | [Link](https://arxiv.org/abs/2402.05054) | [Repo](https://me.kiui.moe/lgm/) |
+| **Canonical** | **LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models** | ECCV 2024 | video VLM token compression | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6290_ECCV_2024_paper.php) | — |
+| **Canonical** | **LookupViT: Compressing visual information to a limited number of tokens** | ECCV 2024 | vision token compression; efficient ViT inference; multimodal | [Link](https://arxiv.org/abs/2407.12753) | — |
+| **Canonical** | **Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data** | ECCV 2024 | efficient attention alternatives; multidimensional SSM | [Link](https://arxiv.org/abs/2402.05892) | [Repo](https://github.com/jacklishufan/Mamba-ND) |
+| **Canonical** | **MambaIR: A Simple Baseline for Image Restoration with State-Space Model** | ECCV 2024 | efficient image restoration; SSM; channel redundancy reduction | [Link](https://arxiv.org/abs/2402.15648) | [Repo](https://github.com/csguoh/MambaIR) |
+| **Canonical** | **MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation** | ECCV 2024 | efficient camera-based HD map construction; sensor fusion distillation; autonomous driving | [Link](https://arxiv.org/abs/2407.11682) | — |
+| **Canonical** | **Memory-Efficient Fine-Tuning for Quantized Diffusion Model** | ECCV 2024 | diffusion quantization / memory-efficient fine-tuning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2494_ECCV_2024_paper.php) | [Repo](https://github.com/ugonfor/TuneQDM) |
+| **Canonical** | **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2212_ECCV_2024_paper.php) | — |
+| **Canonical** | **Mixture of Efficient Diffusion Experts Through Automatic Interval and Sub-Network Selection** | ECCV 2024 | diffusion/flow acceleration / pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7799_ECCV_2024_paper.php) | — |
+| **Canonical** | **Motion Mamba: Efficient and Long Sequence Motion Generation** | ECCV 2024 | action and motion generation; efficient SSM; diffusion acceleration | [Link](https://arxiv.org/abs/2403.07487) | [Repo](https://steve-zeyu-zhang.github.io/MotionMamba/) |
+| **Canonical** | **Object-Centric Diffusion for Efficient Video Editing** | ECCV 2024 | video diffusion acceleration; token merging; latency reduction | [Link](https://arxiv.org/abs/2401.05735) | — |
+| **Canonical** | **POA: Pre-training Once for Models of All Sizes** | ECCV 2024 | self-supervised pretraining; elastic subnetworks; multi-size model deployment | [Link](https://arxiv.org/abs/2408.01031) | [Repo](https://github.com/Qichuzyy/POA) |
+| **Canonical** | **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7353_ECCV_2024_paper.php) | — |
+| **Canonical** | **Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis** | ECCV 2024 | 3D Gaussian acceleration; CUDA rasterization; medical imaging | [Link](https://arxiv.org/abs/2403.04116) | [Repo](https://github.com/caiyuanhao1998/X-Gaussian) |
+| **Canonical** | **SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow** | ECCV 2024 | compact one-step diffusion | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10822_ECCV_2024_paper.php) | — |
+| **Canonical** | **Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting** | ECCV 2024 | dynamic scene computing; autonomous driving; real-time rendering | [Link](https://arxiv.org/abs/2401.01339) | — |
+| **Canonical** | **Timestep-Aware Correction for Quantized Diffusion Models** | ECCV 2024 | diffusion quantization | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8312_ECCV_2024_paper.php) | — |
+| **Canonical** | **Track Everything Everywhere Fast and Robustly** | ECCV 2024 | fast video tracking and test-time optimization | [Link](https://arxiv.org/abs/2403.17931) | — |
+| **Canonical** | **Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance** | ECCV 2024 | parameter-efficient fine-tuning; large ViT training and inference | [Link](https://arxiv.org/abs/2403.05231) | — |
+| **Canonical** | **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
+| **Canonical** | **VideoMamba: Spatio-Temporal Selective State Space Model** | ECCV 2024 | video understanding acceleration; efficient SSM | [Link](https://arxiv.org/abs/2407.08476) | [Repo](https://github.com/jinyjelly/VideoMamba) |
+| **Canonical** | **VideoMamba: State Space Model for Efficient Video Understanding** | ECCV 2024 | video understanding acceleration; efficient SSM | [Link](https://arxiv.org/abs/2403.06977) | [Repo](https://github.com/OpenGVLab/VideoMamba) |
+| **Canonical** | **ZigMa: A DiT-style Zigzag Mamba Diffusion Model** | ECCV 2024 | diffusion acceleration; efficient flow and SSM | [Link](https://arxiv.org/abs/2403.13802) | [Repo](https://taohu.me/zigma/) |
+
 ## SIGMOD 2026 · 58
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -6746,64 +6809,6 @@
 | **Canonical** | **VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs** | SIGMOD 2026 | GPU vector search; filtered ANNS; data management; high-throughput retrieval | [Link](https://arxiv.org/abs/2506.00812) | — |
 | **Canonical** | **WaveStitch: Flexible and Fast Conditional Time Series Generation With Diffusion Models** | SIGMOD 2026 | Diffusion generation; conditional time-series synthesis; parallel generation | [Link](https://arxiv.org/abs/2503.06231) | — |
 | **Canonical** | **WoW: A Window-to-Window Incremental Index for Range-Filtering Approximate Nearest Neighbor Search** | SIGMOD 2026 | filtered ANN; incremental vector indexing; vector database systems | [Link](https://arxiv.org/abs/2508.18617) | — |
-
-## ECCV 2024 · 53
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis** | ECCV 2024 | dynamic scene computing; compact 3DGS; real-time rendering | [Link](https://arxiv.org/abs/2311.12897) | — |
-| **Canonical** | **Accelerating Image Super-Resolution Networks with Pixel-Level Classification** | ECCV 2024 | adaptive inference compute; super-resolution; PSNR-FLOP trade-off | [Link](https://arxiv.org/abs/2407.21448) | [Repo](https://github.com/3587jjh/PCSR) |
-| **Canonical** | **AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation** | ECCV 2024 | diffusion acceleration / adaptive computation / early exit | [Link](https://arxiv.org/abs/2309.17074) | [Repo](https://github.com/Tangshengku/AdaDiff) |
-| **Canonical** | **AMD: Automatic Multi-step Distillation of Large-scale Vision Models** | ECCV 2024 | model compression; knowledge distillation; edge inference | [Link](https://arxiv.org/abs/2407.04208) | — |
-| **Canonical** | **An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10478_ECCV_2024_paper.php) | — |
-| **Canonical** | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7138_ECCV_2024_paper.php) | — |
-| **Canonical** | **ByteEdit: Boost, Comply and Accelerate Generative Image Editing** | ECCV 2024 | diffusion-based generative image editing; inference acceleration; reward-guided feedback | [Link](https://arxiv.org/abs/2404.04860) | [Repo](https://byte-edit.github.io) |
-| **Canonical** | **Compact 3D Scene Representation via Self-Organizing Gaussian Grids** | ECCV 2024 | 3D Gaussian compression; scene representation; edge storage | [Link](https://arxiv.org/abs/2312.13299) | — |
-| **Canonical** | **CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization** | ECCV 2024 | 3D Gaussian compression; vector quantization; rendering acceleration | [Link](https://arxiv.org/abs/2311.18159) | — |
-| **Canonical** | **Deep Patch Visual SLAM** | ECCV 2024 | efficient visual SLAM and edge/Physical-AI runtime | [Link](https://arxiv.org/abs/2408.01654) | — |
-| **Canonical** | **DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs** | ECCV 2024 | memory-efficient neural architecture | [Link](https://arxiv.org/abs/2403.19588) | — |
-| **Canonical** | **DεpS: Delayed ε-Shrinking for Faster Once-For-All Training** | ECCV 2024 | distributed and efficient training; once-for-all models | [Link](https://arxiv.org/abs/2407.06167) | [Repo](https://github.com/gatech-sysml/deps) |
-| **Canonical** | **EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS** | ECCV 2024 | 3D Gaussian memory compression; pruning; faster training and inference | [Link](https://arxiv.org/abs/2312.04564) | — |
-| **Canonical** | **Efficient Cascaded Multiscale Adaptive Network for Image Restoration** | ECCV 2024 | efficient image restoration; adaptive convolution | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2840_ECCV_2024_paper.php) | — |
-| **Canonical** | **Efficient Diffusion Transformer with Step-wise Dynamic Attention Mediators** | ECCV 2024 | diffusion/flow acceleration / efficient attention | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2391_ECCV_2024_paper.php) | — |
-| **Canonical** | **Efficient Inference of Vision Instruction-Following Models with Elastic Cache** | ECCV 2024 | KV cache / multimodal inference | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2528_ECCV_2024_paper.php) | — |
-| **Canonical** | **Efficient Vision Transformers with Partial Attention** | ECCV 2024 | efficient attention; ViT; high-resolution vision | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11047_ECCV_2024_paper.php) | — |
-| **Canonical** | **EgoPoseFormer: A Simple Baseline for Stereo Egocentric 3D Human Pose Estimation** | ECCV 2024 | egocentric 3D pose; parameter/FLOP reduction; embodied perception | [Link](https://arxiv.org/abs/2403.18080) | [Repo](https://github.com/ChenhongyiYang/egoposeformer) |
-| **Canonical** | **EgoPoser: Robust Real-Time Egocentric Pose Estimation from Sparse and Intermittent Observations Everywhere** | ECCV 2024 | egocentric pose estimation; real-time efficient inference; wearable/embodied AI | [Link](https://arxiv.org/abs/2308.06493) | [Repo](https://github.com/eth-siplab/EgoPoser) |
-| **Canonical** | **EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation** | ECCV 2024 | action and motion generation; diffusion acceleration | [Link](https://arxiv.org/abs/2312.02256) | — |
-| **Canonical** | **End-to-End Rate-Distortion Optimized 3D Gaussian Representation** | ECCV 2024 | 3D Gaussian quantization; pruning; rate-distortion optimization | [Link](https://arxiv.org/abs/2406.01597) | — |
-| **Canonical** | **Enhanced Sparsification via Stimulative Training** | ECCV 2024 | structured pruning; model compression; training efficiency | [Link](https://arxiv.org/abs/2403.06417) | — |
-| **Canonical** | **FastCAD: Real-Time CAD Retrieval and Alignment from Scans and Videos** | ECCV 2024 | real-time 3D perception; robotics; efficient inference | [Link](https://arxiv.org/abs/2403.15161) | — |
-| **Canonical** | **FlexAttention for Efficient High-Resolution Vision-Language Models** | ECCV 2024 | multimodal/MLLM serving / efficient attention | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3642_ECCV_2024_paper.php) | — |
-| **Canonical** | **GaussianImage: 1000 FPS Image Representation and Compression by 2D Gaussian Splatting** | ECCV 2024 | image representation and compression; low-memory rendering | [Link](https://arxiv.org/abs/2403.08551) | — |
-| **Canonical** | **GRM: Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation** | ECCV 2024 | feed-forward 3D reconstruction; 3D Gaussian scene computing | [Link](https://arxiv.org/abs/2403.14621) | [Repo](https://justimyhxu.github.io/projects/grm/) |
-| **Canonical** | **GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting** | ECCV 2024 | feed-forward 3D reconstruction; scene computing | [Link](https://arxiv.org/abs/2404.19702) | [Repo](https://sai-bi.github.io/project/gs-lrm/) |
-| **Canonical** | **HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models** | ECCV 2024 | diffusion inference acceleration | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6764_ECCV_2024_paper.php) | — |
-| **Canonical** | **Inf-DiT: Upsampling any-resolution image with memory-efficient diffusion transformer.** | ECCV 2024 | diffusion memory efficiency | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10940_ECCV_2024_paper.php) | — |
-| **Canonical** | **IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2577_ECCV_2024_paper.php) | — |
-| **Canonical** | **LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation** | ECCV 2024 | 3D generation acceleration; Gaussian representation | [Link](https://arxiv.org/abs/2402.05054) | [Repo](https://me.kiui.moe/lgm/) |
-| **Canonical** | **LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models** | ECCV 2024 | video VLM token compression | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6290_ECCV_2024_paper.php) | — |
-| **Canonical** | **LookupViT: Compressing visual information to a limited number of tokens** | ECCV 2024 | vision token compression; efficient ViT inference; multimodal | [Link](https://arxiv.org/abs/2407.12753) | — |
-| **Canonical** | **Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data** | ECCV 2024 | efficient attention alternatives; multidimensional SSM | [Link](https://arxiv.org/abs/2402.05892) | [Repo](https://github.com/jacklishufan/Mamba-ND) |
-| **Canonical** | **MambaIR: A Simple Baseline for Image Restoration with State-Space Model** | ECCV 2024 | efficient image restoration; SSM; channel redundancy reduction | [Link](https://arxiv.org/abs/2402.15648) | [Repo](https://github.com/csguoh/MambaIR) |
-| **Canonical** | **MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation** | ECCV 2024 | efficient camera-based HD map construction; sensor fusion distillation; autonomous driving | [Link](https://arxiv.org/abs/2407.11682) | — |
-| **Canonical** | **Memory-Efficient Fine-Tuning for Quantized Diffusion Model** | ECCV 2024 | diffusion quantization / memory-efficient fine-tuning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2494_ECCV_2024_paper.php) | [Repo](https://github.com/ugonfor/TuneQDM) |
-| **Canonical** | **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2212_ECCV_2024_paper.php) | — |
-| **Canonical** | **Mixture of Efficient Diffusion Experts Through Automatic Interval and Sub-Network Selection** | ECCV 2024 | diffusion/flow acceleration / pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7799_ECCV_2024_paper.php) | — |
-| **Canonical** | **Motion Mamba: Efficient and Long Sequence Motion Generation** | ECCV 2024 | action and motion generation; efficient SSM; diffusion acceleration | [Link](https://arxiv.org/abs/2403.07487) | [Repo](https://steve-zeyu-zhang.github.io/MotionMamba/) |
-| **Canonical** | **Object-Centric Diffusion for Efficient Video Editing** | ECCV 2024 | video diffusion acceleration; token merging; latency reduction | [Link](https://arxiv.org/abs/2401.05735) | — |
-| **Canonical** | **POA: Pre-training Once for Models of All Sizes** | ECCV 2024 | self-supervised pretraining; elastic subnetworks; multi-size model deployment | [Link](https://arxiv.org/abs/2408.01031) | [Repo](https://github.com/Qichuzyy/POA) |
-| **Canonical** | **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7353_ECCV_2024_paper.php) | — |
-| **Canonical** | **Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis** | ECCV 2024 | 3D Gaussian acceleration; CUDA rasterization; medical imaging | [Link](https://arxiv.org/abs/2403.04116) | [Repo](https://github.com/caiyuanhao1998/X-Gaussian) |
-| **Canonical** | **SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow** | ECCV 2024 | compact one-step diffusion | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10822_ECCV_2024_paper.php) | — |
-| **Canonical** | **Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting** | ECCV 2024 | dynamic scene computing; autonomous driving; real-time rendering | [Link](https://arxiv.org/abs/2401.01339) | — |
-| **Canonical** | **Timestep-Aware Correction for Quantized Diffusion Models** | ECCV 2024 | diffusion quantization | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8312_ECCV_2024_paper.php) | — |
-| **Canonical** | **Track Everything Everywhere Fast and Robustly** | ECCV 2024 | fast video tracking and test-time optimization | [Link](https://arxiv.org/abs/2403.17931) | — |
-| **Canonical** | **Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance** | ECCV 2024 | parameter-efficient fine-tuning; large ViT training and inference | [Link](https://arxiv.org/abs/2403.05231) | — |
-| **Canonical** | **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
-| **Canonical** | **VideoMamba: Spatio-Temporal Selective State Space Model** | ECCV 2024 | video understanding acceleration; efficient SSM | [Link](https://arxiv.org/abs/2407.08476) | [Repo](https://github.com/jinyjelly/VideoMamba) |
-| **Canonical** | **VideoMamba: State Space Model for Efficient Video Understanding** | ECCV 2024 | video understanding acceleration; efficient SSM | [Link](https://arxiv.org/abs/2403.06977) | [Repo](https://github.com/OpenGVLab/VideoMamba) |
-| **Canonical** | **ZigMa: A DiT-style Zigzag Mamba Diffusion Model** | ECCV 2024 | diffusion acceleration; efficient flow and SSM | [Link](https://arxiv.org/abs/2403.13802) | [Repo](https://taohu.me/zigma/) |
 
 ## ISCA 2026 · 53
 
