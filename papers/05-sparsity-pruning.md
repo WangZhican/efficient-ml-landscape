@@ -1,442 +1,206 @@
 # 05 · Sparsity / Pruning
 
-> **958 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1153 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 412 tracked
+## 🆕 Latest 30 Days · 67 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P2 · Relevant** | **Benchmark Prediction with Sparse and Unpaired Cached Responses** | arXiv 2026 | generative-model evaluation / query efficiency | [Link](https://arxiv.org/abs/2611.03614) | — |
+| **P1 · Watch** | **A GPU Engine for Sparse Matrix-Vector Products on $k^2$-Tree-Compressed Graphs** | arXiv 2026 | GPU kernels / sparse graph SpMV | [Link](https://arxiv.org/abs/2611.03610) | — |
+| **P2 · Relevant** | **RASP: Read-All, Sparse-Plasticity Continual Learning in a Stationary-Size LoRA** | arXiv 2026 | continual learning / stationary-size LoRA | [Link](https://arxiv.org/abs/2611.03513) | — |
+| **P2 · Relevant** | **Identifying the Shear Piezoelectric Coefficient using Physics-Informed Neural Networks under Exact Boundary and Initial Constraints** | arXiv 2026 | physics-informed learning / parameter identification | [Link](https://arxiv.org/abs/2611.03485) | — |
+| **P0 · Strong** | **CISA: Retrofitting Dense Attention Models with Chunk-Indexed Sparse Attention** | arXiv 2026 | long-context inference / KV cache / sparse attention | [Link](https://arxiv.org/abs/2611.03200) | — |
+| **P2 · Relevant** | **Unlocking the Potential of Vision Foundation Models for Multi-Task Dense Prediction via Mixture of Task Adapters** | arXiv 2026 | sparse_task_adapters | [Link](https://arxiv.org/abs/2611.02769) | — |
+| **P0 · Strong** | **Parallelism-Aligned Pruning and Round-Aware Context Reuse for On-Device Multimodal Agents** | arXiv 2026 | On-device multimodal agents / pruning and KV reuse | [Link](https://arxiv.org/abs/2611.02601) | — |
+| **P0 · Strong** | **AttentionIndex: Accelerating Learned Sparse Attention with a Causal Inverted-File Index** | arXiv 2026 | Long-context / learned sparse attention | [Link](https://arxiv.org/abs/2611.02508) | — |
+| **P0 · Strong** | **SVD-Prune: Spectral Vision Token Pruning under Extreme Compression** | arXiv 2026 | VLM/VLA token compression | [Link](https://arxiv.org/abs/2611.02284) | — |
+| **P2 · Relevant** | **Spade-SLAM: Sparse Correspondence Anchors for Dense Self-Supervised Visual SLAM** | arXiv 2026 | Visual SLAM / self-supervised training | [Link](https://arxiv.org/abs/2611.01937) | — |
+| **P0 · Strong** | **Ascend-SpMM: Accelerating Sparse Matrix-Dense Matrix Multiplication on Ascend NPUs** | arXiv 2026 | Ascend NPU sparse kernel acceleration | [Link](https://arxiv.org/abs/2611.01936) | — |
+| **P0 · Strong** | **SparseLift: Automatically Optimizing Opaque Sparse Paths in Industrial-Scale Recommendation Model Training** | arXiv 2026 | distributed training;GPU kernel;compiler | [Link](https://arxiv.org/abs/2611.01702) | — |
+| **P0 · Strong** | **SparseForge: Beyond Spike Sparsity toward Hardware-Exploitable Neuron Pruning for Efficient SNN Acceleration** | arXiv 2026 | sparsity/pruning;hardware accelerators;edge AI | [Link](https://arxiv.org/abs/2611.01611) | — |
+| **P2 · Relevant** | **When Does Sparse Routing Help? The Geometry of Expert Separation in Mixture of Experts** | arXiv 2026 | MoE; sparsity theory | [Link](https://arxiv.org/abs/2611.01602) | — |
+| **P0 · Strong** | **When Should an Agent Refresh? Adaptive Index Reuse for Efficient Long-Horizon Reasoning** | arXiv 2026 | efficient reasoning/agent systems;KV cache | [Link](https://arxiv.org/abs/2611.01429) | — |
+| **P2 · Relevant** | **Information-Theoretic Design of Sparse Autoencoder-Based Steering** | arXiv 2026 | efficient reasoning | [Link](https://arxiv.org/abs/2611.01378) | — |
+| **P0 · Strong** | **Step-dLLM: Adaptive Step-aware Sparse Attention for Efficient Diffusion LLM Inference** | arXiv 2026 | diffusion/flow acceleration;efficient attention;GPU kernels | [Link](https://arxiv.org/abs/2611.01320) | — |
+| **P2 · Relevant** | **Context-Shielded Backdoor Attack against Large Vision-Language Models** | arXiv 2026 | multimodal;token compression;deployment security | [Link](https://arxiv.org/abs/2611.01252) | — |
+| **P2 · Relevant** | **SHield: Watermarking 4D Gaussian Splatting via Spherical Harmonic Coefficient Perturbation** | arXiv 2026 | video/image generation acceleration;security | [Link](https://arxiv.org/abs/2611.01162) | — |
+| **P0 · Strong** | **Digital Twin-Assisted Fast Beam Alignment for mmWave MIMO Networks** | arXiv 2026 | edge/cloud;heterogeneous AI;efficient reasoning | [Link](https://arxiv.org/abs/2611.01107) | — |
+| **P2 · Relevant** | **On Sparse Graph Limits for Neural Combinatorial Optimization** | arXiv 2026 | sparsity/pruning | [Link](https://arxiv.org/abs/2611.01069) | — |
+| **P0 · Strong** | **Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention** | arXiv 2026 | KV cache;quantization;sparse attention | [Link](https://arxiv.org/abs/2611.01022) | — |
+| **P2 · Relevant** | **Smooth bounding box for object detection** | arXiv 2026 | sparsity/pruning;edge/cloud | [Link](https://arxiv.org/abs/2611.00676) | — |
+| **P0 · Strong** | **State-Aware Activation Recomputation with Replay Contracts and Selective Preservation** | arXiv 2026 | distributed training;memory optimization;runtime | [Link](https://arxiv.org/abs/2611.00590) | — |
+| **P2 · Relevant** | **Structured Channel Network Pruning with Bi-Sparse Matrix Factorization** | arXiv 2026 | sparsity/pruning;model compression | [Link](https://arxiv.org/abs/2611.00566) | — |
+| **P0 · Strong** | **Efficient and Scalable Multi-View Masked Autoencoder for Heterogeneous Graph Self-Supervised Learning** | arXiv 2026 | distributed training;sparsity/pruning | [Link](https://arxiv.org/abs/2611.00511) | — |
+| **P0 · Strong** | **Efficient Reconfigurable Architectures for Deep Learning** | arXiv 2026 | hardware accelerators;quantization;sparsity;dataflow | [Link](https://arxiv.org/abs/2611.00487) | — |
+| **P2 · Relevant** | **Compression Technique Interactions in Small Language Models: A Factorial Ablation Study** | arXiv 2026 | quantization;sparsity;model compression | [Link](https://arxiv.org/abs/2611.00464) | — |
+| **P0 · Strong** | **TileWeave: Heterogeneous Tiling for Sparse Prefill on Mobile SoCs** | arXiv 2026 | KV cache;efficient attention;edge inference | [Link](https://arxiv.org/abs/2611.00408) | — |
+| **P2 · Relevant** | **Seeing Less in a Sparse World: Cross-View Geolocalization from Limited Field-of-View Observations** | arXiv 2026 | edge/cloud;multimodal | [Link](https://arxiv.org/abs/2611.00288) | — |
+| **P2 · Relevant** | **Quantization of Large Models with Weight Outliers and Sparsity** | arXiv 2026 | quantization;sparsity;LLM compression | [Link](https://arxiv.org/abs/2611.00286) | — |
+| **P0 · Strong** | **Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention** | arXiv | subquadratic sparse attention / long context | [Link](https://arxiv.org/abs/2610.42147) | — |
+| **P0 · Strong** | **CausalWAM: Learning the Causes of Actions in World Action Models** | arXiv 2026 | VLA/WAM/Physical AI; sparsity/pruning; action-head optimization | [Link](https://arxiv.org/abs/2610.42096) | — |
+| **P2 · Relevant** | **MoETok: Sparse Expert Routing for 1D Visual Tokenizers** | arXiv | sparse MoE visual tokenization | [Link](https://arxiv.org/abs/2610.41992) | — |
+| **P2 · Relevant** | **TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs** | arXiv 2026 | multimodal/MLLM serving; streaming agents | [Link](https://arxiv.org/abs/2610.41983) | — |
+| **P1 · Watch** | **When Does Test-Time Search Help World Action Models? An Empirical Audit of Candidate Selection and Simulator Integrity** | arXiv 2026 | VLA/WAM serving; sparsity/pruning; efficient reasoning | [Link](https://arxiv.org/abs/2610.41970) | — |
+| **P0 · Strong** | **Prune Gradually, Adapt Sparsely: Efficient Pruning of Large Language Models at Extreme Sparsity** | arXiv | LLM pruning / extreme sparsity | [Link](https://arxiv.org/abs/2610.41968) | — |
+| **P2 · Relevant** | **Binary Sparse Codes: Where are we on Energy Efficient Representations?** | arXiv | energy-efficient sparse representations | [Link](https://arxiv.org/abs/2610.41933) | — |
+| **P2 · Relevant** | **Breaking Information Islands in Sparse Tuning via Small-World Connectivity** | arXiv | sparse parameter-efficient fine-tuning | [Link](https://arxiv.org/abs/2610.41665) | — |
+| **P1 · Watch** | **Patch-Based Deep Kernel Learning for Data Assimilation and Bias Correction with Extremely Sparse Observations** | arXiv | efficient scientific ML / data assimilation | [Link](https://arxiv.org/abs/2610.41596) | — |
+| **P2 · Relevant** | **Sparse Text Diffusion under Dual Budgets: Context Connectivity and Expert Activation** | arXiv | sparse diffusion / dual compute budgets | [Link](https://arxiv.org/abs/2610.41487) | — |
+| **P2 · Relevant** | **Spectral Haar Binarizer: Compact Boolean Contrast Representations for Hyperspectral Classification** | arXiv 2026 | sparsity; hardware-friendly ML | [Link](https://arxiv.org/abs/2610.41478) | — |
+| **P0 · Strong** | **RecIS: Unifying Sparse and Dense Computation for Efficient Recommendation Training** | arXiv | GPU recommender training / sparse-dense dataflow | [Link](https://arxiv.org/abs/2610.41457) | — |
+| **P0 · Strong** | **SparseGDN: Chunk Sparse in Linear Attention** | arXiv | linear attention sparsity / prefill | [Link](https://arxiv.org/abs/2610.41420) | — |
+| **P0 · Strong** | **From prediction error to sparse events: Biologically inspired signed-dyadic coding for Mandarin keyword spotting** | arXiv | edge KWS / event-based coding | [Link](https://arxiv.org/abs/2610.41381) | — |
+| **P1 · Watch** | **What We Keep of What We Forget: Replacement Operators and Routing Semantics in Training-Free MoE Expert Pruning** | arXiv 2026 | MoE systems; quantization; sparsity/pruning | [Link](https://arxiv.org/abs/2610.41366) | — |
+| **P0 · Strong** | **STAR-FER: Adaptive Selective Restoration for Edge-Based Low-Resolution Facial Expression Recognition** | arXiv 2026 | sparsity/pruning; edge AI; efficient inference | [Link](https://arxiv.org/abs/2610.41310) | — |
+| **P0 · Strong** | **Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models** | arXiv 2026 | MoE systems; sparsity/pruning | [Link](https://arxiv.org/abs/2610.41236) | — |
+| **P2 · Relevant** | **Coarse3D: Controllable and Faithful Sparse Structure Generation for Image-to-3D** | arXiv 2026 | image/3D generation | [Link](https://arxiv.org/abs/2610.41231) | — |
+| **P2 · Relevant** | **CAP: Learning to Optimize from Sparse Observations of Related Tasks** | arXiv | sample-efficient black-box optimization | [Link](https://arxiv.org/abs/2610.41173) | — |
+| **P2 · Relevant** | **Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation** | arXiv | attention-head pruning / LLM behavior | [Link](https://arxiv.org/abs/2610.40974) | — |
+| **P0 · Strong** | **Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models** | arXiv | sparse world models / autonomous driving | [Link](https://arxiv.org/abs/2610.40935) | — |
+| **P2 · Relevant** | **Sparse Autoencoders for Expert-Assisted Interpretation of Histopathology Foundation Model Embeddings** | arXiv 2026 | sparsity; representation analysis | [Link](https://arxiv.org/abs/2610.40905) | — |
 | **P2 · Relevant** | **CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D Alignment** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40525) | — |
 | **P2 · Relevant** | **TRACEs: Fine-Grained Embedded Provenance for Distributed Scientific Workflows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39981) | — |
 | **P2 · Relevant** | **BiHashFormer: Hash-Driven Dual-Branch Transformer for Efficient Object Detection in HRW Shots** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39937) | — |
-| **P2 · Relevant** | **Multi-output LSTM soft sensors for industrial anaerobic co-digestion using LSTM-beta-VAE generative data augmentation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39768) | — |
-| **P0 · Strong** | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39663) | — |
-| **P2 · Relevant** | **DOSE: Dominance-Guided Ordinal Severity Estimation from Sparse Relative Annotations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39584) | — |
-| **P0 · Strong** | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2610.39562) | — |
-| **P2 · Relevant** | **Calibrating Attention-Based Token Pruning for Efficient Multi-Image Synthesis in UMMs** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39467) | — |
-| **P2 · Relevant** | **Sparse Fine-Tuning for Parameter-Efficient Adversarial Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39455) | — |
-| **P2 · Relevant** | **ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting** | arXiv 2026 | quant,sparse | [Link](https://arxiv.org/abs/2610.39399) | — |
-| **P2 · Relevant** | **Agentic AI Reasoning and Learned Sampling for Task-Aware Projection Selection in Sparse-View CT: Predicting Hemodynamics** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39003) | — |
-| **P0 · Strong** | **Why Speculative Decoding Works Better Than Predicted on Sparse MoE Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38981) | — |
-| **P1 · Watch** | **Efficient Agentic Audio-Visual Question Answering through Toolset Pruning and Modality Consolidation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38960) | — |
-| **P1 · Watch** | **Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models** | Fresh / preprint | quantization and sparsity/pruning; efficient reasoning-model training; self-distillation | [Link](https://arxiv.org/abs/2610.38681) | — |
-| **P2 · Relevant** | **SparseTokenGS: Gaussian-based Sparse-View CBCT Reconstruction via Reusable Token Pool** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38360) | — |
-| **P2 · Relevant** | **Statutory Article Retrieval from Arabic Judicial Narratives: Family Law and Law of Evidence in Saudi Arabia** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38336) | — |
-| **P2 · Relevant** | **SSQA: Sibling-Selective Quadtree Attention for Hierarchical Modeling in Perception Tasks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38320) | — |
-| **P2 · Relevant** | **Extremely Sparse-View Computed Tomography from 2D Projections via Pose-Aware Diffusion Priors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38319) | — |
-| **P0 · Strong** | **Don't Ask the LLM: Visual Token Pruning with Spectral Structure and Semantic Relevance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38303) | — |
-| **P2 · Relevant** | **ETA-Motion: Efficient Topology-Agnostic Motion Diffusion via Sparse Joint Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38259) | — |
-| **P2 · Relevant** | **SPARSEBLEED: Bypassing Attribute-Inference Defenses via Sparsity Optimizations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38110) | — |
-| **P1 · Watch** | **Predicting Sparse Observables in Parameterized Unsteady Flows Using Coarse-Mesh Graph Neural Networks** | arXiv |  | [Link](https://arxiv.org/abs/2610.37986) | — |
-| **P1 · Watch** | **SAG-Sep: Sparse Augmented Graphs and Onion-Guided Search for Rounded Capacity Cut Separation** | arXiv |  | [Link](https://arxiv.org/abs/2610.37952) | — |
-| **P2 · Relevant** | **Interpretable neural equation learning for high-dimensional materials data** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.37880) | — |
-| **P2 · Relevant** | **Sparse tensor networks for individual tree diameter estimation in mixed forests** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.37784) | — |
-| **P2 · Relevant** | **KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry** | arXiv 2026 | scientific_ml_compiler | [Link](https://arxiv.org/abs/2610.37655) | — |
-| **P0 · Strong** | **SLICE-CiM: Selective Layer-wise Inference Control Engine with Confidence-Based Early Exit for SRAM based Digital Compute-in-Memory** | arXiv 2026 | sparse,edge | [Link](https://arxiv.org/abs/2610.37601) | — |
-| **P0 · Strong** | **CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers** | arXiv 2026 | llm_serving,sparse,moe,edge | [Link](https://arxiv.org/abs/2610.37442) | — |
-| **P2 · Relevant** | **JEPA-Inspired Latent Field Prediction for Sparse-Pilot MIMO-OFDM Channel Reconstruction** | arXiv | predictive-model-edge | [Link](https://arxiv.org/abs/2610.37391) | — |
-| **P1 · Watch** | **Agent-Conditioned Routing: Diverse Reasoning Paths Within One Frozen Model** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37375) | — |
-| **P2 · Relevant** | **Hierarchical Sparse Graph for Multi-dimensional Assignment in Event-based Tracking** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37321) | — |
-| **P2 · Relevant** | **Watermark Basins: Black-Box Detection of Distilled LLMs** | arXiv 2026 | black-box LLM distillation detection | [Link](https://arxiv.org/abs/2610.37266) | — |
-| **P1 · Watch** | **On the Sparsity of Direct Preference Optimization: Weight Disentanglement in the NTK Regime** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37085) | — |
-| **P1 · Watch** | **EnergyCal: Taming Loss Spikes in Muon-Family Optimizers for Sparse MoE Training** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37062) | — |
-| **P0 · Strong** | **GPA-VGGT: Geometry-Preserving Acceleration of VGGT** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.37000) | — |
-| **P0 · Strong** | **Taming Multi-Dimensional Skew in Sparse Matrix Multiplication with Contention-Aware Scheduling [Technical Report]** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.36822) | — |
-| **P0 · Strong** | **Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs** | arXiv 2026 | sparse,multimodal | [Link](https://arxiv.org/abs/2610.36671) | — |
-| **P2 · Relevant** | **Polarity--Time Interaction and Multi-Level Reliability for Event-Based Spacecraft Pose Estimation** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.36625) | — |
-| **P0 · Strong** | **Balanced State Subspaces for Mamba-2 State Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.36617) | — |
-| **P2 · Relevant** | **SpecLST: Spectral-Enhanced Long-Short Term Spatio-Temporal Multimodal Modeling for Traffic Forecasting** | arXiv 2026 | efficient-long-context-moe | [Link](https://arxiv.org/abs/2610.36393) | — |
-| **P2 · Relevant** | **Structure, Not Sequence: Tracking and Validating Folding Mechanisms in ESMFold's Trunk with Sparse Autoencoders** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.36226) | — |
-| **P1 · Watch** | **MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35724) | — |
-| **P0 · Strong** | **TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35489) | — |
-| **P0 · Strong** | **A knowledge-driven nonconvex square-root regularization framework for joint group sparsity and structured smoothness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35428) | — |
-| **P1 · Watch** | **Realizing Low-Precision Storage and Sparse Execution in a Folded FPGA Speech Enhancer** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.35144) | — |
-| **P2 · Relevant** | **STeP-TS: Shared Temporal Filters with Pruning for Time Series** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.35128) | — |
-| **P2 · Relevant** | **DUET4D: Self-Corrective Coupled Guidance for Sparse-View 4D Reconstruction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35002) | — |
-| **P2 · Relevant** | **Sparse Recovery Bird's-Eye View Model Soup for Robust Camera-Based 3D Object Detection** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.34976) | — |
-| **P1 · Watch** | **SVD-Attention: Efficiently Analyzing Attention Blocks in Transformers** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.34971) | — |
-| **P2 · Relevant** | **SemWeaver: Refining LLM-Generated Static Vulnerability Checkers with Analyzer-Internal Evidence** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.34928) | — |
-| **P0 · Strong** | **SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference** | arXiv 2026 | llm_serving,kv,quant,sparse,edge | [Link](https://arxiv.org/abs/2610.34824) | — |
-| **P1 · Watch** | **ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing** | arXiv 2026 | sparse,gen | [Link](https://arxiv.org/abs/2610.34782) | — |
-| **P2 · Relevant** | **Mechanistic Insights into LoRA: Layer Sparsity for Adaptive Fine-Tuning via Path Patching** | arXiv 2026 | sparse,edge | [Link](https://arxiv.org/abs/2610.34756) | — |
-| **P2 · Relevant** | **Sparse Reconstruction by Direct Measurement-to-Field Generation in Function Space** | arXiv 2026 | rectified-flow-physical-field-generation | [Link](https://arxiv.org/abs/2610.34709) | — |
-| **P1 · Watch** | **Sparse Sum-of-Squares Layers for Certified Learning** | arXiv |  | [Link](https://arxiv.org/abs/2610.34590) | — |
-| **P2 · Relevant** | **HobbyLM: A Sparse Mixture-of-Experts Model Family on a Hobby Budget** | arXiv 2026 | llm_serving,moe,gen,edge | [Link](https://arxiv.org/abs/2610.34582) | — |
-| **P1 · Watch** | **VTC-AUDIT: An Interventional Reliability Audit for Visual-Token Compression under Paired Image Shifts** | arXiv 2026 | quant,sparse,multimodal | [Link](https://arxiv.org/abs/2610.34545) | — |
-| **P0 · Strong** | **TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning** | arXiv 2026 | llm_serving,sparse,multimodal,physical | [Link](https://arxiv.org/abs/2610.34519) | — |
-| **P2 · Relevant** | **ParetoGS: High-Quality Continuous-Budget 3D Gaussian Splatting with Sparse Adapted Anchors** | arXiv 2026 | 3DGS acceleration | [Link](https://arxiv.org/abs/2610.34235) | — |
-| **P1 · Watch** | **Write What Matters: Disentangling Token Selection from Slot Allocation in Recurrent Memory** | arXiv 2026 | Efficient attention / long context | [Link](https://arxiv.org/abs/2610.34180) | — |
-| **P1 · Watch** | **Decoupled Prune-and-Reconstruct: Training on a Compact Core with Double-Layer Sparsification** | arXiv 2026 | Sparsity / graph inference | [Link](https://arxiv.org/abs/2610.34140) | — |
-| **P1 · Watch** | **T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding** | arXiv 2026 | Speculative decoding | [Link](https://arxiv.org/abs/2610.34103) | — |
-| **P1 · Watch** | **INTRA: Interleaved Non-contiguous Token spaRse Attention** | arXiv 2026 | Efficient attention | [Link](https://arxiv.org/abs/2610.34056) | — |
-| **P2 · Relevant** | **A Nonconvex Framework for Joint Sparse Sample Weighting and Parameter Estimation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.33957) | — |
-| **P1 · Watch** | **Unlocking the Specialization Capability of PPG Foundation Models for Wearable Signals through Structured Pruning and Adaptive Fine-Tuning** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.33788) | — |
-| **P1 · Watch** | **Strategic Calibration in LLM Multi-Agent Systems: Audited Pivot Scoring for Truthful Elicitation** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33728) | — |
-| **P1 · Watch** | **Rescuing Your Pruning: Rethinking Visual Token Pruning and Post-Training Recovery in MLLMs** | arXiv 2026 | Multimodal serving / sparsity | [Link](https://arxiv.org/abs/2610.33688) | — |
-| **P2 · Relevant** | **Cross-Scale Sparse Attention for Referring Segmentation in Remote Sensing** | arXiv | sparse | [Link](https://arxiv.org/abs/2610.33551) | — |
-| **P2 · Relevant** | **Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.33503) | — |
-| **P2 · Relevant** | **All-in-One: A Composable Attack on LLM Transformations** | arXiv 2026 | model-transformation-security | [Link](https://arxiv.org/abs/2610.33298) | — |
-| **P1 · Watch** | **Vision Token Pruning via Query-Vision Interaction Decomposition** | arXiv 2026 | Multimodal serving / sparsity | [Link](https://arxiv.org/abs/2610.33215) | — |
-| **P1 · Watch** | **FlexGlue: Sparse-to-Dense Feature Matching and Visual Disambiguation** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32976) | — |
-| **P2 · Relevant** | **Interpretable sparse fine-tuning with TopKLoRA enables faithful circuit discovery** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32866) | — |
-| **P1 · Watch** | **Sustainability of TSFM Deployment and Pretraining: From Carbon Footprint Analysis to Mitigation via Pruning** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32859) | — |
-| **P2 · Relevant** | **SPOOK: Sparse Pixel Optimization for Off-Manifold Knowledge in Vision Encoders** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32835) | — |
-| **P2 · Relevant** | **Sparse Bayesian Neural Networks via Sticky Piecewise Deterministic Markov Processes** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32753) | — |
-| **P2 · Relevant** | **Score-Preserving Continual Lasso under Task Shift** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.32708) | — |
-| **P2 · Relevant** | **DIGOM: Disentangled Interaction Graphs for Outcome prediction in Multimodal healthcare** | arXiv 2026 | multimodal-sparsity | [Link](https://arxiv.org/abs/2610.32451) | — |
-| **P2 · Relevant** | **A Broader Look into MLLM's Retrieval Heads** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32411) | — |
-| **P1 · Watch** | **Searching with Sparse Histories: Cross-Task Architecture Search from Incomplete Search Logs and Zero-Cost Proxies** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32179) | — |
-| **P2 · Relevant** | **Real-Time Localisation of Dorsal Anatomical Regions on Dairy Cows in Commercial Rotary Parlours from RGB-D** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.32174) | — |
-| **P1 · Watch** | **EDWARD-NMT: Elastic Dimensions With Adaptive Routing and Dual-consistency for Neural Machine Translation** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32115) | — |
-| **P2 · Relevant** | **Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32059) | — |
-| **P0 · Strong** | **HyScale: Scaling Long-Context Training for Learned Sparse Attention** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32057) | — |
-| **P1 · Watch** | **GS-MoE: Training-Free MoE Compression via Groupwise Subspace Sharing and Pruning** | arXiv 2026 | MoE compression | [Link](https://arxiv.org/abs/2610.32009) | — |
-| **P2 · Relevant** | **MI-MIDI 2: From Observation to Control with Sparse Autoencoders in Text-to-MIDI Generation** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.32007) | — |
-| **P2 · Relevant** | **STEP: Surgical Point Tracking from Sparse Endpoints and Pseudo-trajectories** | arXiv 2026 | physical-ai-surgical-vision | [Link](https://arxiv.org/abs/2610.31951) | — |
-| **P0 · Strong** | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning** | arXiv 2026 | Efficient attention/LLM training | [Link](https://arxiv.org/abs/2610.31911) | — |
-| **P2 · Relevant** | **Real-to-Sim Calibration of Bosch Etching Simulators with Few-Shot XSEM Data and Hybrid Search** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.31904) | — |
-| **P1 · Watch** | **Learning Structured Sparsity for Large Models: Bridging Model Compressibility and Efficient Inference** | arXiv 2026 | Structured sparsity/edge inference | [Link](https://arxiv.org/abs/2610.31897) | — |
-| **P2 · Relevant** | **TaxoSAE: Rethinking Sparse Autoencoders through Taxonomic Logic** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.31894) | — |
-| **P1 · Watch** | **Nested Sparsity for Scalable Pretraining and Continual Learning** | arXiv 2026 | MoE/attention sparsity | [Link](https://arxiv.org/abs/2610.31818) | — |
-| **P2 · Relevant** | **KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations** | arXiv 2026 | Physical AI data pipeline | [Link](https://arxiv.org/abs/2610.31801) | — |
-| **P0 · Strong** | **Rethinking Sequence Compression with Test-time Regression** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.31574) | — |
-| **P2 · Relevant** | **Squaring-the-Sphere: Distortion-Free and Seamless Panorama Generation via CubeAtlas** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.31565) | — |
-| **P0 · Strong** | **Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon** | arXiv 2026 | llm_serving,spec,quant,sparse,kernel | [Link](https://arxiv.org/abs/2610.31479) | — |
-| **P1 · Watch** | **A Sparse Topometric Graph for Scalable Cross-Session Indoor Navigation** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.31432) | — |
-| **P2 · Relevant** | **A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.31259) | — |
-| **P1 · Watch** | **Muting Tokens: Exploring Token Sparsification for Efficient Audio Transformers** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.31235) | — |
-| **P2 · Relevant** | **Delta N-gram: Forward-Only Continual Writing into a Language Model's Native N-gram Memory** | arXiv 2026 | efficient_llm_memory | [Link](https://arxiv.org/abs/2610.31125) | — |
-| **P0 · Strong** | **RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training** | arXiv 2026 | llm_serving,kv,spec,sparse | [Link](https://arxiv.org/abs/2610.31098) | — |
-| **P0 · Strong** | **OpenAttention: One Percent Is Enough with Tail Proxies** | arXiv 2026 | kv,sparse,attn | [Link](https://arxiv.org/abs/2610.30951) | — |
-| **P2 · Relevant** | **IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.30949) | — |
-| **P0 · Strong** | **ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models** | arXiv 2026 | quant,sparse,moe | [Link](https://arxiv.org/abs/2610.30779) | — |
-| **P1 · Watch** | **SmolVLA-MoE: Sparse Mixture-of-Experts for Efficient Multi-Task Robotic Manipulation** | arXiv 2026 | moe,multimodal,physical | [Link](https://arxiv.org/abs/2610.30732) | — |
-| **P2 · Relevant** | **Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference** | arXiv 2026 | sparse,agent | [Link](https://arxiv.org/abs/2610.30611) | — |
-| **P2 · Relevant** | **OASIS: Online Anchor-centric Scene Inference System for Open-Vocabulary Retrieval and Navigation in Dynamic Environments** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.30589) | — |
-| **P2 · Relevant** | **Differentially Private Sparse Reward Estimation with Preference Feedback** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.30099) | — |
-| **P2 · Relevant** | **AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.30097) | — |
-| **P1 · Watch** | **SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation** | arXiv 2026 | physical,multimodal | [Link](https://arxiv.org/abs/2610.30044) | — |
-| **P1 · Watch** | **ClunoGS: Compact Language 3D Gaussian Splatting via Unified Optimization** | arXiv 2026 | quant,sparse,gen | [Link](https://arxiv.org/abs/2610.30013) | — |
-| **P2 · Relevant** | **Building Auditable AI Text Detectors with Sparse Autoencoders** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.30006) | — |
-| **P0 · Strong** | **UlaCache: Unified Logical Addressing for Sparse LLM Serving** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.29820) | — |
-| **P2 · Relevant** | **Bio-Inspired Auditory Processing: Coupling Parallel Resonate-and-Fire Dynamics with Ternary Recurrent Networks for Speech Recognition** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.29720) | — |
-| **P1 · Watch** | **MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs** | arXiv 2026 | efficient_agent_or_kv_serving | [Link](https://arxiv.org/abs/2610.30206) | — |
-| **P0 · Strong** | **SPARE: Sparsity Allocation via Routing Entropy for Efficient MoEs** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.29662) | — |
-| **P2 · Relevant** | **Reading the Room: Scale-ambiguous Semantic Registration of Sparse VSLAM Maps to Floor Plans in Partially Built Environments** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29647) | — |
-| **P0 · Strong** | **Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.29538) | — |
-| **P0 · Strong** | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.29441) | — |
-| **P2 · Relevant** | **FM-Occ: Feature-Diverse Upsampling and Memory-Aware Decoding for 3D Occupancy Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29388) | — |
-| **P2 · Relevant** | **GaP-MoE : Explicit Expert Specialization in Mixture-of-Experts via Orthogonal Gradient Accumulation and Projection** | arXiv 2026 | llm_serving,moe | [Link](https://arxiv.org/abs/2610.29355) | — |
-| **P1 · Watch** | **Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.29292) | — |
-| **P2 · Relevant** | **DetM-Tracker: Deterministic and Memory-Efficient VIS for Autonomous Industrial Inspection** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.29212) | — |
-| **P1 · Watch** | **Understanding Target Probability Reuse in Speculative Decoding** | arXiv 2026 | spec,sparse | [Link](https://arxiv.org/abs/2610.29210) | — |
-| **P1 · Watch** | **DGCM-SSFA: Dual-Granularity Cross-Modulation and Sparse Strip Frequency Attention for Efficient 3T-to-7T MRI Synthesis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29141) | — |
-| **P2 · Relevant** | **DriftNeRF: Cross-Ray Density Drifting for Sparse-View Neural Radiance Fields** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29106) | — |
-| **P2 · Relevant** | **Local and Sparse Kernel Operator Learning for Incompressible Flows: An Operator Lagrange Formulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29009) | — |
-| **P0 · Strong** | **GGraph: A GPU-Accelerated Library for Graph-Based Robot Deployment and Learning** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.28953) | — |
-| **P0 · Strong** | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.28947) | — |
-| **P2 · Relevant** | **Tropical Cyclone Attributes in Sparse Autoencoder Features of an AI Weather Model** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28904) | — |
-| **P2 · Relevant** | **Engineering Low-Latency, High-Throughput Quantum Decoders on NVIDIA GPUs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28867) | — |
-| **P0 · Strong** | **Building a Nested LADDER for LLM Unstructured Post-Training Pruning** | arXiv 2026 | LLM sparsity/pruning | [Link](https://arxiv.org/abs/2610.28773) | — |
-| **P2 · Relevant** | **Neural Implicit Energy Optimization for LiDAR Mapping** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28598) | — |
-| **P2 · Relevant** | **Learning Computational Structure for Sample-Efficient Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28555) | — |
-| **P1 · Watch** | **GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction** | arXiv 2026 | sparse,multimodal | [Link](https://arxiv.org/abs/2610.28502) | — |
-| **P0 · Strong** | **Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity** | arXiv 2026 | kv,sparse,kernel | [Link](https://arxiv.org/abs/2610.28441) | — |
-| **P1 · Watch** | **RACE: RoPE-Aligned Attention Compression Based on Query-Key Activation Energies** | arXiv 2026 | llm_serving,kv,sparse | [Link](https://arxiv.org/abs/2610.28385) | — |
-| **P2 · Relevant** | **Observation Assimilation Transformer: Probabilistic Weather Analysis from Sparse Station Observations** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.28327) | — |
-| **P2 · Relevant** | **Geometry-Aware Block Selection for Sparse Variational Gaussian Processes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28256) | — |
-| **P1 · Watch** | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation** | arXiv 2026 | kv,sparse,gen | [Link](https://arxiv.org/abs/2610.28192) | — |
-| **P2 · Relevant** | **Temporal Evidence-Parameter Co-Alignment for LLM Reasoning over Temporal Knowledge Graphs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28176) | — |
-| **P0 · Strong** | **KPage: Cross-Block Page Compaction for Hardware-Efficient Sparse Attention** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.28096) | — |
-| **P1 · Watch** | **MoDDiT: Simple Token Routing in Diffusion Transformers** | arXiv 2026 | llm_serving,sparse,gen,physical,edge | [Link](https://arxiv.org/abs/2610.28086) | — |
-| **P2 · Relevant** | **SGLDet: Spectral-aware Global-Local Dynamic Modeling for Multispectral Aerial Object Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.27883) | — |
-| **P1 · Watch** | **SliMOO: Interpretable Multi-Objective Evolutionary Search for LLM Depth Pruning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27812) | — |
-| **P1 · Watch** | **AC/DC on a Budget - Alternating Sparse Phases** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27758) | — |
-| **P2 · Relevant** | **How Language Models Organize Task Information** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.27724) | — |
-| **P1 · Watch** | **Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE** | arXiv 2026 | moe | [Link](https://arxiv.org/abs/2610.27598) | — |
-| **P0 · Strong** | **MLIPS: Multi-Layer Indexer Pool Sharing** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27438) | — |
-| **P2 · Relevant** | **Sample-efficient learning with Dense Associative Memories** | arXiv 2026 | sample-efficient learning | [Link](https://arxiv.org/abs/2610.27384) | — |
-| **P2 · Relevant** | **Trail-Weighted Influence Scores for Approximate Outcome Prediction in Bayesian Networks** | arXiv 2026 | approximate Bayesian-network inference | [Link](https://arxiv.org/abs/2610.27366) | — |
-| **P2 · Relevant** | **Sparse RL Relaxation for LLM Reasoning** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.27220) | — |
-| **P1 · Watch** | **Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.27123) | — |
-| **P2 · Relevant** | **This is SParTA: A modular, efficient and scalable transformer architecture for jet-tagging** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27106) | — |
-| **P0 · Strong** | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning** | arXiv 2026 | llm_serving,kv,sparse,moe | [Link](https://arxiv.org/abs/2610.26754) | — |
-| **P2 · Relevant** | **Strength Controls Change How Interventions Compare Across Sparse Autoencoder Codes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26489) | — |
-| **P0 · Strong** | **SPAR: Structural Pruning and Action Recovery for Vision-Language-Action Models** | arXiv 2026 | sparse,multimodal,physical | [Link](https://arxiv.org/abs/2610.26487) | — |
-| **P2 · Relevant** | **On Learning Expand-and-Sparsify Representations** | arXiv 2026 | quant,sparse | [Link](https://arxiv.org/abs/2610.26470) | — |
-| **P2 · Relevant** | **CTLite: Lightweight Irregular Multivariate Time Series Forecasting with Reusable Continuous-Time Summaries** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26379) | — |
-| **P0 · Strong** | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion** | arXiv 2026 | llm_serving,kv,sparse,gen | [Link](https://arxiv.org/abs/2610.26262) | — |
-| **P0 · Strong** | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.26244) | — |
-| **P0 · Strong** | **TempoMoE: Identifying and Steering Fast-Slow Thinking Experts for Efficient Multimodal Reasoning** | arXiv 2026 | llm_serving,sparse,moe | [Link](https://arxiv.org/abs/2610.25999) | — |
-| **P2 · Relevant** | **Rethinking Sparse-View 3D Gaussian Splatting: A Few-Shot Learning Perspective on Overfitting Prevention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25887) | — |
-| **P2 · Relevant** | **Think Densely, Act Sparsely: Latent Expert Cognitive Chains for Vision-Language-Action Autonomous Driving** | arXiv 2026 | Physical AI / VLA driving | [Link](https://arxiv.org/abs/2610.25734) | — |
-| **P2 · Relevant** | **Corrected Block Sparse Spectral Optimization: Exact Models, Finite Identification, and Local Dynamics** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25721) | — |
-| **P0 · Strong** | **Fine-Grained Units, Flat Decisions: Hierarchical Micro-Expert Pruning for Mixture-of-Experts Models** | arXiv 2026 | MoE pruning / serving | [Link](https://arxiv.org/abs/2610.25717) | — |
-| **P1 · Watch** | **LOOP: Recovery-Aligned Iterative Layer Pruning via On-Policy Distillation** | arXiv 2026 | LLM pruning / deployment | [Link](https://arxiv.org/abs/2610.25679) | — |
-| **P2 · Relevant** | **SpaRV: Sparse Radiance Voxels for Scalable Geometrically Consistent LiDAR-Visual Mapping and Rendering** | arXiv 2026 | Sparse rendering / robotics | [Link](https://arxiv.org/abs/2610.25665) | — |
-| **P2 · Relevant** | **Where Do the Gaussians Go? Foreground Attraction for Camera-Based Weakly Supervised 3D Occupancy** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25631) | — |
-| **P2 · Relevant** | **Recurrent Vision Transformers for Event-Based Spacecraft Pose Estimation Under Slow Relative Motions** | arXiv 2026 | event-based spacecraft pose estimation | [Link](https://arxiv.org/abs/2610.25622) | — |
-| **P1 · Watch** | **Weighted State Souping for Efficient Long-Context Retrieval** | arXiv 2026 | Long-context SSM / state caching | [Link](https://arxiv.org/abs/2610.25621) | — |
-| **P2 · Relevant** | **SlimFormer++: Token Mixing Where It Matters for Efficient 3D Medical Image Segmentation** | arXiv 2026 | Medical model compression | [Link](https://arxiv.org/abs/2610.25488) | — |
-| **P0 · Strong** | **From Label Priors to Task Evidence: Efficient Long-Video Frame Selection via Bayesian GRPO** | arXiv 2026 | Long-video / visual-token selection | [Link](https://arxiv.org/abs/2610.25418) | — |
-| **P1 · Watch** | **BatchParScale: Sparse Batch-Mixing for Sequence Models** | arXiv 2026 | Sparse batch mixing for test-time scaling | [Link](https://arxiv.org/abs/2610.25254) | — |
-| **P0 · Strong** | **Certified Sparse Attention via Perturbed Retrieval** | arXiv 2026 | Sparse attention / certified approximation | [Link](https://arxiv.org/abs/2610.24991) | — |
-| **P2 · Relevant** | **Dream What I Can: Sparse Visual Planning for Long-Horizon Robot Manipulation** | arXiv 2026 | Physical AI / sparse planning | [Link](https://arxiv.org/abs/2610.24981) | — |
-| **P1 · Watch** | **Visual Sufficiency Landscapes: Understanding Query-Conditioned Reliability in Visual Token Pruning** | arXiv 2026 | VLM token pruning evaluation | [Link](https://arxiv.org/abs/2610.24968) | — |
-| **P2 · Relevant** | **A Symmetry-Matching Approach to Blind-Spot Reduction in Sparse Autoencoders** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24908) | — |
-| **P1 · Watch** | **SARAM: Sparse Adapter Allocation with Reuse and Merging for Lifelong Robot Learning** | arXiv 2026 | Physical AI / model storage | [Link](https://arxiv.org/abs/2610.24804) | — |
-| **P0 · Strong** | **Are We Evaluating VLM Token Pruning Right? Looking Beyond Accuracy and Token Count** | arXiv 2026 | multimodal token pruning systems evaluation | [Link](https://arxiv.org/abs/2610.24740) | — |
-| **P1 · Watch** | **SpikeDuet: CPU-Accelerator Co-Execution of Sparse SNNs on Commodity MCUs** | arXiv 2026 | Edge heterogeneous acceleration | [Link](https://arxiv.org/abs/2610.24677) | — |
-| **P2 · Relevant** | **Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs** | arXiv 2026 | sparse safety adaptation | [Link](https://arxiv.org/abs/2610.24614) | — |
-| **P2 · Relevant** | **Reconstruction of Unobserved Core Electron Density in Tokamak Plasmas with a Neural Operator Transport Surrogate and Uncertainty Quantification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24525) | — |
-| **P0 · Strong** | **ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning** | arXiv 2026 | efficient RLVR rollout probing | [Link](https://arxiv.org/abs/2610.24515) | — |
-| **P2 · Relevant** | **Bootstrap Stochastic Interpolant Tree for Inference-time Search Under Sparse Reward** | arXiv 2026 | Efficient inference-time search | [Link](https://arxiv.org/abs/2610.24185) | — |
-| **P0 · Strong** | **Hierarchical and Query-Aware Visual Token Pruning for High-Resolution LVLMs** | arXiv 2026 | Multimodal token pruning | [Link](https://arxiv.org/abs/2610.24102) | — |
-| **P2 · Relevant** | **SparseMax-dSTL: Sound Robustness with Horizon-Independent Gradient Allocation for Temporal Logic Trajectory Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23837) | — |
-| **P2 · Relevant** | **TriRouter: Sparse-to-Dense Electrode-Space Routing for Robust EEG Motor Imagery Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23665) | — |
-| **P0 · Strong** | **Trajectory-Triggered Sparse Collaborative Decoding** | arXiv |  | [Link](https://arxiv.org/abs/2610.23613) | — |
-| **P1 · Watch** | **BMuon: Budgeting Muon's Spectral Geometry for Structured Compressibility** | arXiv 2026 | structured pruning-aware optimization | [Link](https://arxiv.org/abs/2610.23571) | — |
-| **P2 · Relevant** | **ConQUESTA: Topology-Aware Post-Training Structural Pruning of Quantum Neural Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23415) | — |
-| **P1 · Watch** | **SETAREH Transform: A Sorting-Assisted Haar-Wavelet Sparsification Method for Approximate Inner-Product Computation** | arXiv 2026 | Approximate linear algebra | [Link](https://arxiv.org/abs/2610.23338) | — |
-| **P2 · Relevant** | **Frame-Consistent Feed-Forward 3D Gaussian Splatting from Sparse Unposed Images** | arXiv |  | [Link](https://arxiv.org/abs/2610.23039) | — |
-| **P0 · Strong** | **Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference** | arXiv |  | [Link](https://arxiv.org/abs/2610.22985) | — |
-| **P0 · Strong** | **Sink-Sparse Hybrid Attention for Efficient Inference in T2I/T2V Diffusion Transformers** | arXiv |  | [Link](https://arxiv.org/abs/2610.22975) | — |
-| **P1 · Watch** | **MaskMerge: Structure-aware Token Merging for Efficient Instance Segmentation** | arXiv | sparse | [Link](https://arxiv.org/abs/2610.22921) | — |
-| **P2 · Relevant** | **Replay Pruning and Few-Bit Integer Inference for Hardware-Efficient Speed-Sign Recognition** | arXiv | sparse | [Link](https://arxiv.org/abs/2610.22811) | — |
-| **P1 · Watch** | **MedSTP: Preserving Subspace and Transition Evidence for Medical VQA Token Pruning** | arXiv 2026 | Medical VQA visual-token pruning | [Link](https://arxiv.org/abs/2610.22751) | — |
-| **P0 · Strong** | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation** | arXiv 2026 | llm_serving,sparse,gen | [Link](https://arxiv.org/abs/2610.22370) | — |
-| **P0 · Strong** | **BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks** | arXiv 2026 | kernel,gen | [Link](https://arxiv.org/abs/2610.22256) | — |
-| **P0 · Strong** | **FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models** | arXiv 2026 | llm_serving,sparse,multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.22146) | — |
-| **P2 · Relevant** | **GraphBEAT: Graph-based Bucketized Event Aggregation Over Time for Early Risk Stratification of Gastrointestinal Cancers** | arXiv 2026 | sparse,edge | [Link](https://arxiv.org/abs/2610.22014) | — |
-| **P2 · Relevant** | **Sparse Autoencoders Can Induce Local Geometry for Mitigating Catastrophic Forgetting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22439) | — |
-| **P2 · Relevant** | **SelectPFN: Amortized Bayesian Variable Selection for Sparse Nonlinear Regression with Prior-Data Fitted Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21950) | — |
-| **P1 · Watch** | **PW-Pruning: Phase-Aware Expert Selection for Speech-Centric Omni-Modal Models** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.26891) | — |
-| **P1 · Watch** | **The Dormant Spiking Neuron: A State-Driven Mechanism for Efficient Spiking Neural Networks** | arXiv 2026 | sparse,edge | [Link](https://arxiv.org/abs/2610.21748) | — |
-| **P2 · Relevant** | **Sparse Federated Echo State Networks for Time-Series Classification via Smooth-L1 Regularization** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.21742) | — |
-| **P1 · Watch** | **SCMerge: Spatial-Consistency-Aware Token Pair Merging for Efficient Semantic Segmentation** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.21642) | — |
-| **P2 · Relevant** | **Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21456) | — |
-| **P2 · Relevant** | **Ranking and Partitioning of Attention Heads for Sparse and Continual Reinforcement Learning Fine-tuning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21336) | — |
-| **P2 · Relevant** | **DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding** | arXiv 2026 | multimodal,agent,edge | [Link](https://arxiv.org/abs/2610.21327) | — |
-| **P1 · Watch** | **PSA: A Pruning-Friendly Sparse-Aware Accelerator for Efficient Sparse Convolution in SNNs** | arXiv 2026 | sparse,gen,edge | [Link](https://arxiv.org/abs/2610.21313) | — |
-| **P1 · Watch** | **AdaBool: Sparse Boolean Matrix Processing with Adaptive Data Representation** | arXiv 2026 | llm_serving,sparse,edge | [Link](https://arxiv.org/abs/2610.21264) | — |
-| **P2 · Relevant** | **Behavioral Compositionality of Sparse Autoencoder Representations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21261) | — |
-| **P1 · Watch** | **RecSoup: Efficient Model Merging Approach for Controllable Multi-Objective Recommendation** | arXiv 2026 | llm_serving,sparse,gen | [Link](https://arxiv.org/abs/2610.21220) | — |
-| **P1 · Watch** | **SpaceCache: Intermediate Feature Reuse for Efficient Semantic Segmentation on Point Cloud Streams** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.21207) | — |
-| **P2 · Relevant** | **Hard Way, The Only Way: Provable Merits of Training on Hardest Examples** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21201) | — |
-| **P0 · Strong** | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search** | arXiv 2026 | sparse,attn,gen | [Link](https://arxiv.org/abs/2610.21129) | — |
-| **P1 · Watch** | **Compression Does Not End at Selection: Post-Selection Positional Geometry for Sparse KV Caches** | arXiv 2026 | llm_serving,kv,gen | [Link](https://arxiv.org/abs/2610.21126) | — |
-| **P2 · Relevant** | **Mind the Tail: Data Selection Through Sparse Concepts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21007) | — |
-| **P1 · Watch** | **Decision-FLIP: Budget-Free Structured Pruning for Gaussian Occupancy Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20917) | — |
-| **P2 · Relevant** | **Complete or Sparse: A Tale of Two Identifiabilities** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20851) | — |
-| **P2 · Relevant** | **A Response to the Reply Presented in "A Fair Comparison of Sliding-Mode and Immersion-and-Invariance Observers"** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20815) | — |
-| **P2 · Relevant** | **Multi-Dimensional Featurizers Yield Fine-Grained Steering and Data Shaping in Robot Foundation Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20767) | — |
-| **P2 · Relevant** | **Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20607) | — |
-| **P2 · Relevant** | **Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20680) | — |
-| **P0 · Strong** | **STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20390) | — |
-| **P2 · Relevant** | **Smart Fusion for Adaptive Visual-IMU Weighting in cuVSLAM Sparse Bundle Adjustment** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20226) | — |
-| **P2 · Relevant** | **Optimizing Sparse Boolean Rule Networks using Mixed Integer Linear Programming** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20170) | — |
-| **P2 · Relevant** | **Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20139) | — |
-| **P0 · Strong** | **Complementary Future Token Pruning for World Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19957) | — |
-| **P1 · Watch** | **To Reason but Not to Stop: Understanding and Recovering Pruned Large Reasoning Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19934) | — |
-| **P2 · Relevant** | **Sparse Transformer: a Controlled Testbed for Mechanistic Interpretability** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19907) | — |
-| **P2 · Relevant** | **SNACK: A Sequential Notation Framework for Probabilistic Graph Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19781) | — |
-| **P1 · Watch** | **ESL-former: Event Sparse Linear Transformer for FPGA-Accelerated Malware Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19665) | — |
-| **P2 · Relevant** | **Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19636) | — |
-| **P2 · Relevant** | **Holi-Spatial 360: Generative Reconstruction from Sparse Panoramas for Spatial Rendering and Intelligence** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19502) | — |
-| **P0 · Strong** | **How the Dirty Set Moves: Characterizing Schedule Reuse in Incremental Sparse Matrix Multiplication** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19489) | — |
-| **P2 · Relevant** | **Latent Annealed Posterior Sampling with a Variance-Preserving Bridge for Sparsely Observed Random Fields** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20659) | — |
-| **P0 · Strong** | **Parallel Sparse Outputs for Tensor Compilers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19308) | — |
-| **P1 · Watch** | **Spectral-MoE: Heterogeneous Per-Layer Expert Utilization in Dense-to-MoE Conversion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19232) | — |
-| **P1 · Watch** | **Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19121) | — |
-| **P2 · Relevant** | **Focus, Align, and Diffuse: Time-Series-Aware Keyframe Diffusion for Cardiac Dynamic Synthesis from Sparse Observations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19050) | — |
-| **P0 · Strong** | **Joint Subspace Sparse Attention for Efficient Long-Context Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19026) | — |
-| **P1 · Watch** | **PixelMoE: Scaling Pixel-Space Diffusion with LLM-Style Mixture-of-Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18857) | — |
-| **P2 · Relevant** | **Dual-Domain Sparse-View 4D CBCT Reconstruction with Spatial-Temporal Consistency Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18518) | — |
-| **P1 · Watch** | **Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18516) | — |
-| **P1 · Watch** | **Bifocal: Training-Free Mixed Granularity Visual Token Pruning for Multimodal LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18399) | — |
-| **P2 · Relevant** | **CityCode: Building Agent-Operable 3D Cities from Sparse Aerial Observations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18342) | — |
-| **P2 · Relevant** | **dMRI-F: A Foundation Model for Generalizable Diffusion MRI Analysis from Sparse Acquisitions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17968) | — |
-| **P2 · Relevant** | **HierarchiRetina: A Diabetic Retinopathy Screening and Grading Cascade with Heterogeneous Mixture-of-Experts Lesion Segmentation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17933) | — |
-| **P1 · Watch** | **How Much Can We Prune? Exploring the Performance Limits of Visual Token Pruning** | arXiv 2026 | Visual-token pruning limits for VLM efficiency | [Link](https://arxiv.org/abs/2610.23974) | — |
-| **P2 · Relevant** | **AttenIR: Aligning Dense Visual Attention with Mesh Warping for Unsupervised Image Retargeting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17743) | — |
-| **P0 · Strong** | **TwinPrune: Density-Aware Two-Phase Token Pruning for Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17530) | — |
-| **P1 · Watch** | **When Sparsity Breaks Connectivity: Functional Reachability and Guided Topology Dynamics in Extreme Sparse Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17425) | — |
-| **P2 · Relevant** | **Beyond Sparse Captions: Aligning Slide-Level Text and Patch-Level Vision in Pathology** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17233) | — |
-| **P0 · Strong** | **FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17191) | — |
-| **P2 · Relevant** | **SPLICE: Sparse Physics Library Identification and Compositional Expansion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17029) | — |
-| **P1 · Watch** | **ConDenseDrive: Knowledge-Dense, Token-Sparse Visual Encoder for End-to-End Autonomous Driving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16908) | — |
-| **P1 · Watch** | **FORGE: Procedural Weight Generation for Sparse MoE Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16890) | — |
-| **P2 · Relevant** | **Learning Operators for Symmetry Discovery: From Lie Groups to Local Symmetry Geometry** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16884) | — |
-| **P0 · Strong** | **FoveaTree: Information-Density Trees for Query-Guided Visual Token Pruning in Video Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16744) | — |
-| **P0 · Strong** | **Learning Incompressible 3D Flows from Sparse Samples: A Set Transformer Approach to Divergence-Free Kernel Fitting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16645) | — |
-| **P2 · Relevant** | **Learning When to Trust and Reobserve Sparse-Frame VideoQA from Temporal Sampling Perturbations** | arXiv 2026 | multimodal frame sampling | [Link](https://arxiv.org/abs/2610.23969) | — |
-| **P2 · Relevant** | **Learning Graded Sparse Mechanisms: A Representation Theorem and Certified Generalization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16537) | — |
-| **P1 · Watch** | **FlowAvatar: Real-Time Full-Body Avatars from Sparse Egocentric Inputs on Consumer XR Devices** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16277) | — |
-| **P0 · Strong** | **BARTER: Compact Dynamic Sparse Training with Standard Dense Kernels** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16147) | — |
-| **P2 · Relevant** | **Certified Robustness via Sparse Second-Order Cone Relaxations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16016) | — |
-| **P0 · Strong** | **Heterogeneous Structured Pruning Under Resource Constraints for Hardware-Efficient Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15781) | — |
-| **P2 · Relevant** | **Sparse All-Layer Connector for Domain Generalised Semantic Segmentation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15660) | — |
-| **P1 · Watch** | **Towards Robust Calibration Dataset for Domain-General Mixture of Experts Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15578) | — |
-| **P1 · Watch** | **SARATHI: Decoupled Data-Free Probing and Adaptive Reconstruction for Structured LLM Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15514) | — |
-| **P1 · Watch** | **WUSPruner: Second-Moment-Optimal Transforms for Structured Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15394) | — |
-| **P2 · Relevant** | **Explicit Bounds on Hoffman Constants for Sparse Polyhedral Regularizers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15241) | — |
-| **P2 · Relevant** | **Sparsity Saves Compute, Not Samples: Oracle Inequalities for Dense and Sparse Mixture of Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15039) | — |
-| **P1 · Watch** | **Retraining-Free Depth Pruning of Vision Transformers: A Cross Domain Study of Layer Redundancy** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15005) | — |
-| **P2 · Relevant** | **AD-GS: Anatomical Density-guided 3D Gaussian Splatting for Sparse-View Dental CBCT Reconstruction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14963) | — |
-| **P2 · Relevant** | **Physics-informed random neural architectures on compact boundaryless multiply connected manifolds for random-operator models in machine learning and uncertainty quantification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14844) | — |
-| **P0 · Strong** | **Competition Domains Matter: Selective Head Globalization for Training-Free Sparse Attention in Video Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14672) | — |
-| **P2 · Relevant** | **EdgeLLM-Nano: Auditing Polar-Guided Key-Cache Compression and Consistency-Anchored Pruning on a 33.6 MB On-Device Language Model** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14475) | — |
-| **P2 · Relevant** | **Sparse-TD-JEPA: Improving Zero-Shot Reinforcement Learning With Sparse Latent Task Representations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14400) | — |
-| **P1 · Watch** | **Akule: Fast and Scalable Multi-Robot Motion Planning via Sparse Interaction Diffusion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14248) | — |
-| **P0 · Strong** | **Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2610.13708) | — |
-| **P2 · Relevant** | **Scalable Sparse Autoregressive Variational Inference for Non-Gaussian Spatial Fields** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13656) | — |
-| **P2 · Relevant** | **$L_0$ Feature Selection via Monte Carlo Tree Search in High-Dimensional Financial Regression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13574) | — |
-| **P0 · Strong** | **Rationally Linearized MLPs** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2610.13568) | — |
-| **P1 · Watch** | **Exploring Attention Sinks in Text-to-Image Transformers from Diffusion and Autoregressive Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13337) | — |
-| **P1 · Watch** | **Beyond the Final Embedding: Retrieving Memories from Token-Level Evidence** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2610.13277) | — |
-| **P0 · Strong** | **SheafPrune: Sheaf-Guided Graph Propagation for Visual Token Pruning** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13263) | — |
-| **P0 · Strong** | **Tabular Foundation Models Are Effectively Shallow** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2610.13253) | — |
-| **P2 · Relevant** | **How Much Computation Does Every Forecast Need? Structured Block Skipping in Two Time-Series Foundation Models** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2610.13208) | — |
-| **P0 · Strong** | **S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2610.13202) | — |
-| **P1 · Watch** | **MixTok: Adaptive Visual Tokenization with Global 1D Tokens and Sparse 2D Refinement** | arXiv 2026 | video_image_generation_acceleration | [Link](https://arxiv.org/abs/2610.13181) | — |
-| **P1 · Watch** | **CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction** | arXiv 2026 | video_image_generation_acceleration | [Link](https://arxiv.org/abs/2610.13177) | — |
-| **P2 · Relevant** | **TPCS: A Cycle-Level Simulation Paradigm with Native Execution Semantics for RTL Modeling and Generation** | arXiv 2026 | gpu_kernel_dsl_compilers | [Link](https://arxiv.org/abs/2610.13067) | — |
-| **P2 · Relevant** | **Sparse Dictionary Learning for Measure-Valued Data via Linearized Optimal Transport: Efficient Algorithms and Sample Complexity** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12924) | — |
-| **P2 · Relevant** | **CoGameReg: Cooperative-Game-Based Collaborative Semi-Supervised Regression for Seismic Reservoir Property Prediction** | arXiv 2026 | label-efficient semi-supervised learning | [Link](https://arxiv.org/abs/2610.12884) | — |
-| **P0 · Strong** | **Zebra3D: Efficient Hybrid Foundation Models For Scalable 3D Reconstruction** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2610.12727) | — |
-| **P2 · Relevant** | **RePrior: Measurement-Reconciled Prior Correction for Sparse-View CBCT Reconstruction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14102) | — |
-| **P1 · Watch** | **STAPLE: Static Sparse Upcycling of Pretrained Checkpoints via Embedding Modules** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2610.12599) | — |
-| **P1 · Watch** | **VFold: Symmetry-Aware Cross-Layer Value Cache Compression** | arXiv 2026 | kv,quant,sparse,gen | [Link](https://arxiv.org/abs/2610.12338) | — |
-| **P1 · Watch** | **asdex: Automatic Sparse Differentiation in JAX** | arXiv 2026 | sparse,edge | [Link](https://arxiv.org/abs/2610.12336) | — |
-| **P0 · Strong** | **SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.12327) | — |
-| **P0 · Strong** | **Look Back, Think Ahead: Visual Memory on Demand for Efficient Multimodal Reasoning** | arXiv 2026 | llm_serving,sparse,multimodal,gen | [Link](https://arxiv.org/abs/2610.12060) | — |
-| **P2 · Relevant** | **STAG: A Sparse Traversability-Aware Graph Representation from Grid-Based Costmaps for Robotic Navigation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11943) | — |
-| **P2 · Relevant** | **RobustLDS: Learning linear dynamical systems under adversarial corruptions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11906) | — |
-| **P1 · Watch** | **DADP: Dynamic Activity-Dependent Pruning, A Reverse Hebbian-Inspired Structural Pruning Method** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.11853) | — |
-| **P2 · Relevant** | **From Sparse Representations to Behavioral Insights for Multimodal Depression Assessment** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.11787) | — |
-| **P1 · Watch** | **RouterInterp: Understanding Superposed Specialisation in Mixture of Experts Routing** | arXiv 2026 | moe | [Link](https://arxiv.org/abs/2610.11775) | — |
-| **P0 · Strong** | **DEX: Digit-Level Early Exit for Energy-Efficient MSDF Neural Network Inference** | arXiv 2026 | llm_serving,quant,sparse,edge | [Link](https://arxiv.org/abs/2610.11748) | — |
-| **P2 · Relevant** | **MAP4CS: A Multi-dimensional Data Pruning Framework for Efficient Code Retriever Fine-tuning** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.11727) | — |
-| **P1 · Watch** | **SV-TAD: Native Sparse Convs for Efficient Temporal Action Detection** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.11579) | — |
-| **P1 · Watch** | **Smoothing the Top-k Exposure Boundary for Sparse Mixture-of-Experts** | arXiv 2026 | llm_serving,moe,gen | [Link](https://arxiv.org/abs/2610.11575) | — |
-| **P2 · Relevant** | **New Lower Bound and Upper Bounds on the Regret for Online Sparse Linear Regression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11551) | — |
-| **P2 · Relevant** | **OX-NeRF: 3D X-ray Tomography Reconstruction from Sparse Views Using Implicit Neural Representation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11547) | — |
-| **P2 · Relevant** | **Constitutional Gating and Deterministic Recovery for Multi-Agent LLM Negotiation: Ablations Against a Stateful Adversarial Gatekeeper** | arXiv 2026 | sparse,gen | [Link](https://arxiv.org/abs/2610.11542) | — |
-| **P2 · Relevant** | **MSGAT: Multi-Head Spiking Graph Attention with Similarity-Space Fusion for Image-Text Retrieval** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.11526) | — |
-| **P2 · Relevant** | **When to Intervene? State-Aware Sparse Manipulation in Federated Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11523) | — |
-| **P2 · Relevant** | **Generative Adversarial Loops** | arXiv 2026 | sparse,gen,agent | [Link](https://arxiv.org/abs/2610.11458) | — |
-| **P2 · Relevant** | **BioBigBird: A Sparse Attention Model for Long-Range Dependency Processing in Biomedical Text** | arXiv 2026 | kv,sparse | [Link](https://arxiv.org/abs/2610.11430) | — |
-| **P1 · Watch** | **FastJEV: Understanding Redundancy for Compact JEV Inference** | arXiv 2026 | llm_serving,sparse,gen | [Link](https://arxiv.org/abs/2610.11379) | — |
-| **P0 · Strong** | **iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity** | arXiv 2026 | sparse,kernel,gen | [Link](https://arxiv.org/abs/2610.11302) | — |
-| **P0 · Strong** | **V-CoLA: Vision Token Compression with Linear Attention** | arXiv 2026 | sparse,attn,multimodal,edge | [Link](https://arxiv.org/abs/2610.11251) | — |
-| **P0 · Strong** | **PageWeaver: KV-Guided Query Unions for Sparse Attention** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.11201) | — |
-| **P0 · Strong** | **QUILT: Rethinking Sparse-Attention Prefill through Shared Query Execution** | arXiv 2026 | llm_serving,kv,sparse,attn | [Link](https://arxiv.org/abs/2610.11134) | — |
-| **P1 · Watch** | **Transforming Image Editors into Video Editors** | arXiv 2026 | video_image_generation_acceleration | [Link](https://arxiv.org/abs/2610.11037) | — |
-| **P2 · Relevant** | **Reconstruction of Multiscale Plasma Dynamics Across Operating Regimes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11004) | — |
-| **P1 · Watch** | **Less from More: Reinforcing Sparse Video Reasoning from Dense References** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10893) | — |
-| **P1 · Watch** | **Sparse Attention Is Matrix Approximation, Not Choosing from a Bag of Values** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10871) | — |
-| **P2 · Relevant** | **Disentangling Linguistic and Paralinguistic Information with Routed Sparse Autoencoders** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10865) | — |
-| **P2 · Relevant** | **RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input** | arXiv 2026 | physical_ai,action_head | [Link](https://arxiv.org/abs/2610.10534) | — |
-| **P2 · Relevant** | **SUSpMV: A High Frequency Sparse Matrix Vector Multiplier on HBM Enabled FPGA written in SUS** | arXiv 2026 | gpu_kernel,edge | [Link](https://arxiv.org/abs/2610.10403) | — |
-| **P0 · Strong** | **Sparse Planning in Visual World Models via Cost Gradients** | arXiv 2026 | sparse,gen,physical,edge | [Link](https://arxiv.org/abs/2610.10274) | — |
-| **P2 · Relevant** | **Attention via Black-Box Vector Search** | arXiv 2026 | kv,sparse | [Link](https://arxiv.org/abs/2610.10135) | — |
-| **P1 · Watch** | **D-SLR: The Disjoint Row-Sparse plus Low-Rank Decomposition** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.10636) | — |
-| **P0 · Strong** | **QCATS: Query Context-Aware Transformer Slicing for Efficient Predictive Query Processing** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.09894) | — |
-| **P0 · Strong** | **Dual-QK: Sharp Queries and Flat Keys for Prunable 2-bit KV Caches** | arXiv 2026 | llm_serving,kv,quant,sparse,edge | [Link](https://arxiv.org/abs/2610.09827) | — |
-| **P2 · Relevant** | **EntroPrefill: Renyi-Guided Context Pruning with Conditional Stability Guarantees for Retrieval-Augmented Generation** | arXiv 2026 | sparse,gen | [Link](https://arxiv.org/abs/2610.09757) | — |
-| **P2 · Relevant** | **MeshSIPP: Efficient Lattice Planning in Dynamic Environment** | arXiv 2026 | sparse,gen | [Link](https://arxiv.org/abs/2610.09652) | — |
-| **P2 · Relevant** | **Gradient-Based Trajectory Optimisation over Continuous Poses for Sparse-View Cone-Beam CT** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09579) | — |
-| **P1 · Watch** | **Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.09496) | — |
-| **P2 · Relevant** | **CHASE: Channel-Aligned Structure Exploitation for Geometry-Aware Model Engineering** | arXiv 2026 | kv,sparse,edge | [Link](https://arxiv.org/abs/2610.09476) | — |
-| **P2 · Relevant** | **PPCAR-Net: Projection-Refined Parametric 3D Coronary Artery Reconstruction from Sparse X-ray Angiographic Views** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.09383) | — |
-| **P1 · Watch** | **TileSkipper: Region-Adaptive Tile Pruning for 3D Gaussian Splatting** | arXiv 2026 | sparse,kernel,gen | [Link](https://arxiv.org/abs/2610.09343) | — |
-| **P2 · Relevant** | **Shared Low-rank Basis Factorization for Data-free Mixture-of-Experts Compression** | arXiv 2026 | llm_serving,sparse,moe | [Link](https://arxiv.org/abs/2610.09342) | — |
-| **P2 · Relevant** | **PhyDiCT: Plug-and-Play CT Reconstruction from Sparse X-Rays via Differentiable Rendering and Strong Priors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09253) | — |
-| **P0 · Strong** | **TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09074) | — |
-| **P0 · Strong** | **A Self-Pruning Transformer: Extreme KV-Cache Compression with Universal Attention** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09051) | — |
-| **P0 · Strong** | **SPIN: Shadow Predictive Indexer for Sparse Attention** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09025) | — |
-| **P2 · Relevant** | **How Fragile Is On-Device Language Model Safety? Localizing Safety-Critical Parameters for Sparse Fault Analysis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09000) | — |
-| **P0 · Strong** | **Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation** | arXiv 2026 | efficient attention; video/image generation acceleration; diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.08772) | — |
-| **P2 · Relevant** | **Sparse2comm: Towards Robust Cooperative 3D Object Detection** | arXiv 2026 | edge/cloud multimodal communication | [Link](https://arxiv.org/abs/2610.08573) | — |
-| **P2 · Relevant** | **RAG-PIBench: A Leakage-Aware Benchmark for Prompt-Injection Detection in Trustworthy RAG Systems** | arXiv 2026 | RAG prompt-injection benchmark | [Link](https://arxiv.org/abs/2610.08571) | — |
-| **P0 · Strong** | **Towards Efficient Robotic Manipulation Models with Self-Recursive Pruning** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.08555) | — |
-| **P2 · Relevant** | **FlowCF: Sparse Counterfactual Explanations for Mixed-Type Tabular Data using Flow Matching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08537) | — |
-| **P1 · Watch** | **PHBA: Prefix-State Hybrid Block Attention** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.08527) | — |
-| **P2 · Relevant** | **A Belief-State World Model for Catheter Navigation under Sparse Fluoroscopy: A Planar Proof of Concept** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.08469) | — |
-| **P0 · Strong** | **SSR: Sparse Segment Reduction for Ternary GEMM Acceleration** | arXiv 2026 | quantization; sparsity/pruning; GPU/kernel acceleration | [Link](https://arxiv.org/abs/2610.08403) | — |
-| **P1 · Watch** | **DIPrune: Task-Aware Token Pruning with Dual Importance for Efficient Multimodal Language Models** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.08341) | — |
-| **P0 · Strong** | **VLA-ACL: Action-Consistent Visual Token Pruning for Efficient Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving; sparsity/pruning | [Link](https://arxiv.org/abs/2610.08133) | [Repo](https://github.com/du-owen/VLA-ACL) |
-| **P2 · Relevant** | **ChartBmkAgent: Harness-Governed Multi-Agent Construction of Chart QA Benchmarks from Sparse Error-Taxonomy Specifications** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08106) | — |
-| **P2 · Relevant** | **Variance-Averse $n$-Step Offline Reinforcement Learning for Sparse Long-Horizon Environments** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07899) | — |
-| **P0 · Strong** | **Later Is Better: Token Reduction for ViTs Under Distribution Shift** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.07758) | — |
-| **P1 · Watch** | **MARS: Multi-resolution Adaptive Routing for Sequential Recommendation** | arXiv 2026 | long-context / serving cache | [Link](https://arxiv.org/abs/2610.07505) | — |
-| **P2 · Relevant** | **Geometry-Aware Diffusion Approximate Posterior Sampling for Sparse-View and Limited-Angle CT** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08866) | — |
-| **P1 · Watch** | **CogAdapt: Cognition-informed Sparse Adaptation of Code LLMs** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.07446) | — |
-| **P2 · Relevant** | **Bayesian Optimization on Function Spaces via Sparse RKHS Manifolds** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07417) | — |
-| **P2 · Relevant** | **Inference and learning in sparse autoencoders as natural gradient flow** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07389) | — |
-| **P1 · Watch** | **Stepped MoE: Segment-Level Routing with Configurable Inference Complexity** | arXiv 2026 | MoE systems/accelerators; edge AI | [Link](https://arxiv.org/abs/2610.07348) | — |
-| **P2 · Relevant** | **CausalBind: Causal Modeling and Learning for Protein-Molecule Virtual Screening** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07340) | — |
-| **P1 · Watch** | **A Pipelined FPGA Architecture for Banded Sparse Matrix Dense Matrix Multiplication in Longformer** | arXiv 2026 | sparsity/pruning | [Link](https://arxiv.org/abs/2610.07301) | — |
-| **P0 · Strong** | **MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06801) | — |
-| **P2 · Relevant** | **MedPrune: Topology-Efficient Multimodal Multi-Agent Communication Evolution for Medical VQA Tasks** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.06695) | — |
-| **P1 · Watch** | **OVAL: Output-Aware Local Page Bases for KV Cache Retrieval** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06686) | — |
-| **P1 · Watch** | **How Sparse Probability Maps Shape Mixture-of-Experts Routing** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.06677) | — |
-| **P2 · Relevant** | **Graph Neural Network-Driven Deep Reinforcement Learning for Scalable RIS Allocation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06295) | — |
-| **P1 · Watch** | **RoSA: Rotational Sparse Adaptation for Memory-Efficient Fine-Tuning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06243) | — |
-| **P2 · Relevant** | **From communication to computation in neurons-on-a-chip: an in silico study of neurotopomorphic computing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06065) | — |
-| **P2 · Relevant** | **Local2Mesh: Spatially Localized Contour-to-Mesh for Left Ventricular Reconstruction from Sparse 2D Cardiac MRI** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06052) | — |
-| **P2 · Relevant** | **Backdooring Sparse Autoencoders** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06049) | — |
-| **P0 · Strong** | **Differentiable Bit-Widths: Co-optimizing Pruning and Quantization via SVD for Ultra-Efficient LLM Compression** | arXiv 2026 | quantization / sparsity-pruning | [Link](https://arxiv.org/abs/2610.06026) | — |
-| **P1 · Watch** | **HLA: Expressive Hybrid Linear Attention via Chunk-Wise Dynamic Mixing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05842) | — |
-| **P2 · Relevant** | **Inferring physical fields in coupled systems with unknown parameters from incomplete observations using physics-constrained attentive neural operators** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05723) | — |
-| **P0 · Strong** | **Prism: Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05416) | — |
-| **P0 · Strong** | **When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05273) | — |
-| **P2 · Relevant** | **Task-Aware Joint Pruning and Distillation for Efficient Audio Deepfake Detection** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.05264) | — |
-| **P2 · Relevant** | **RoMod: Temporal Routing Modulation via Mixture-of-Experts for Video Anomaly Detection** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.05131) | — |
-| **P2 · Relevant** | **Tracing a Sparse Emotion-Control Circuit in LLM-Based Text-to-Speech** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05080) | — |
-| **P0 · Strong** | **SparseCraft: Agentic Hardware-Software Co-Optimization for Sparse Computing** | arXiv 2026 | sparsity/pruning | [Link](https://arxiv.org/abs/2610.05037) | — |
-| **P2 · Relevant** | **TSAE: Structured Sparse Autoencoders for Interpreting Time-Series Forecasting Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04925) | — |
-| **P1 · Watch** | **ResOPD: Tail Residualization for Sparse On-Policy Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04882) | — |
-| **P2 · Relevant** | **One Tile, Multiple Instances: Rethinking MIL for Sparse Diagnostic Evidence** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04853) | — |
-| **P0 · Strong** | **More Value per Key: Asymmetric Sparse Attention for Faster LLM Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04753) | — |
-| **P0 · Strong** | **WavePrune: One period is often enough for RoPE** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.06963) | — |
-| **P0 · Strong** | **LatentIndex: Cross-Layer Sharing with Layer-Specific Selection for Sparse Attention** | arXiv 2026 | efficient attention; KV cache/long-context; LLM serving | [Link](https://arxiv.org/abs/2610.04635) | — |
-| **P1 · Watch** | **Backward-Consistent Diffusion Sampling for Sparsely Observed PDE Inverse Problems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04624) | — |
-| **P2 · Relevant** | **Sparse-View 4D Gaussian Splatting via Spatiotemporal Priors and Generative Assistance** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.04606) | — |
-| **P2 · Relevant** | **On the Trade-off Between Information Loss and Generalization in Sparse Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04424) | — |
-| **P0 · Strong** | **MOIRA: Mass-Oriented Indexing with Ragged Attention for Long-Context Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04313) | — |
-| **P2 · Relevant** | **Local Fisher Information Enables Sparse Causal Discovery** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04291) | — |
-| **P0 · Strong** | **FlashGaze: Training-Free Multi-Scale Patch Pruning For Efficient Video Understanding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04225) | — |
-| **P2 · Relevant** | **Sparse-GS2Mesh: 3D Gaussian Splatting Guided by Novel Stereo Views and 2DGS for Sparse View Surface Reconstruction}** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04203) | — |
-| **P2 · Relevant** | **CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04199) | — |
-| **P2 · Relevant** | **Low-Rank and Structured Sparse Tensor Decomposition for Anomaly Detection in Multivariate Functional Data** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06930) | — |
-| **P0 · Strong** | **Beyond Masked Sparsity: SNACK Enables Truly Sparse Neural Networks on GPU** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04093) | — |
-| **P2 · Relevant** | **LD-EnFF: Latent-Dynamics Ensemble Flow Filtering for Data Assimilation with Sparse Observations** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.04034) | — |
-| **P2 · Relevant** | **ClasSAE: Class-Aligned Sparse Autoencoders via Differentiable Feature-Class Affinity** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04020) | — |
+| **P2 · Relevant** | **SpikePID: Real-Time Neuromorphic Cluster Counting in Future Drift Chambers** | arXiv 2026 | Neuromorphic / FPGA inference | [Link](https://arxiv.org/abs/2611.00104) | — |
+| **P0 · Strong** | **SparseWAM: Driving World-Action Models are Worth 16 Register Tokens** | arXiv 2026 | Physical AI / sparse world-action models | [Link](https://arxiv.org/abs/2611.00044) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
+| **P0 · Strong** | **Real-Time Obstacle Detection and Distance Estimation on Smartphones for Visually Impaired and Distracted Pedestrians** | arXiv 2026 | Edge AI / smartphone inference acceleration | [Link](https://arxiv.org/abs/2611.00040) | — |
+| **P2 · Relevant** | **Predicting Cognitive Profiles from Structural MRI using Spatial Graph Representation Learning** | arXiv 2026 | sparsity/pruning | [Link](https://arxiv.org/abs/2611.00113) | — |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
+| **P0 · Strong** | **CausalPrune: Counterfactual Causal Token Pruning for Efficient Large Vision-Language Models** | arXiv 2026 | Multimodal / LVLM token pruning | [Link](https://arxiv.org/abs/2611.00058) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
+| **P0 · Strong** | **AnchorKV: Lossless Key-Value Cache Reconstruction from Layer-Sparse Residual Anchors** | arXiv 2026 | KV cache;long-context inference;memory optimization | [Link](https://arxiv.org/abs/2611.00117) | — |
 
-## 🏛️ Classical / Historical · 857 canonical
+## 🏛️ Classical / Historical · 1120 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **Adaptive Compute Efficient Learning via Conceptual-Criticality (Student Abstract)** | AAAI 2026 | llm_serving; quantization; sparsity_pruning; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/42265) | — |
+| **Canonical** | **Adaptive-Learngene: Continual Expansion and Task-Aware Selection of Learngenes for Dynamic Environments** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39530) | — |
+| **Canonical** | **APVR: Hour-Level Long Video Understanding with Adaptive Pivot Visual Information Retrieval** | AAAI 2026 | llm_serving; sparsity_pruning | [Link](https://arxiv.org/abs/2506.04953) | — |
+| **Canonical** | **Automatic Channel Pruning by Searching with Structure Embedding for Hash Network** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39029) | — |
+| **Canonical** | **Beyond Step Pruning: Information Theory Based Step-level Optimization for Self-Refining Large Language Models** | AAAI 2026 | llm_serving; sparsity_pruning; agent_reasoning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40798) | — |
+| **Canonical** | **Breaking Down Market Barriers: Distilled Prompt-Tuning Approach for Cross-Market Recommendation** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40055) | — |
+| **Canonical** | **CAMERA: Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis** | AAAI 2026 | llm_serving; quantization; sparsity_pruning; moe_systems; gpu_kernel_compiler | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39957) | — |
 | **Canonical** | **CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced Multimodal In-Context Learning** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37592) | — |
+| **Canonical** | **Communication-Efficient Heterogeneous Federated Learning with Sparse Prototypes in Resource-Constrained Environments** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39441) | — |
+| **Canonical** | **Connectivity-Guided Sparsification of 2-FWL GNNs: Preserving Full Expressivity with Improved Efficiency** | AAAI 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2511.12838) | — |
+| **Canonical** | **Context-Sensitive Abstractions for Reinforcement Learning with Parameterized Actions** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39635) | — |
+| **Canonical** | **Covariance Scattering Transforms** | AAAI 2026 | sparsity_pruning; edge_cloud | [Link](https://arxiv.org/abs/2511.08878) | — |
+| **Canonical** | **D-FCGS: Feedforward Compression of Dynamic Gaussian Splatting for Free-Viewpoint Videos** | AAAI 2026 | sparsity_pruning; video_image_generation | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38674) | — |
+| **Canonical** | **D3ToM: Decider-Guided Dynamic Token Merging for Accelerating Diffusion MLLMs** | AAAI 2026 | llm_serving; sparsity_pruning; diffusion_flow | [Link](https://arxiv.org/abs/2511.12280) | — |
+| **Canonical** | **Decomposing and Composing: Towards Efficient Vision-Language Continual Learning via Rank-1 Expert Pool in a Single LoRA** | AAAI 2026 | sparsity_pruning; multimodal_mllm | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39240) | — |
+| **Canonical** | **Deep Clustering Based on Sparse Kolmogorov-Arnold Network and Spectral Constraint** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39053) | — |
+| **Canonical** | **DeformTrace: A Deformable State Space Model with Relay Tokens for Temporal Forgery Localization** | AAAI 2026 | sparsity_pruning; agent_reasoning | [Link](https://arxiv.org/abs/2603.04882) | — |
+| **Canonical** | **DFDT: Dynamic Fast Decision Tree for IoT Data Stream Mining on Edge Devices** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39583) | — |
+| **Canonical** | **Diffusion-Based Contextual Reconstruction for Point Cloud Segmentation with Limited Annotations** | AAAI 2026 | sparsity_pruning; diffusion_flow | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37610) | — |
+| **Canonical** | **DWTSG: Parameter-Efficient Fine-Tuning of Large Pre-trained Models via Discrete Wavelet Transform and Subband Guidance** | AAAI 2026 | sparsity_pruning; agent_reasoning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39763) | — |
+| **Canonical** | **EarthCrafter: Scalable 3D Earth Generation via Dual-Sparse Latent Diffusion** | AAAI 2026 | sparsity_pruning; video_image_generation; diffusion_flow; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37663) | — |
+| **Canonical** | **Edge Consistency for 4D Gaussian Splatting in Dynamic Scene Rendering** | AAAI 2026 | sparsity_pruning; video_image_generation; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37847) | — |
+| **Canonical** | **Efficient Plug-and-Play Weight Refinement for Sparse Large Models** | AAAI 2026 | llm_serving; sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39922) | — |
+| **Canonical** | **Efficient Segmentation with Multimodal Large Language Model via Token Routing** | AAAI 2026 | llm_serving; sparsity_pruning; multimodal_mllm; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38032) | — |
+| **Canonical** | **Enhancing Exploration and Exploitation in Hierarchical Reinforcement Learning with Subgoal Graph Learning** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40076) | — |
+| **Canonical** | **Explore and Establish Synergistic Effects Between Weight Pruning and Coreset Selection in Neural Network Training** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39814) | — |
+| **Canonical** | **Exploring Reliable Spatiotemporal Dependencies for Efficient Visual Tracking** | AAAI 2026 | sparsity_pruning; gpu_kernel_compiler | [Link](https://arxiv.org/abs/2601.09078) | — |
+| **Canonical** | **FDC-Ground: Improving GRPO for GUI Grounding via Exponential Rewards and Fact-Aligned Pruning** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40038) | — |
+| **Canonical** | **Filter, Correlate, Compress: Training-Free Token Reduction for MLLM Acceleration** | AAAI 2026 | llm_serving; sparsity_pruning; multimodal_mllm | [Link](https://arxiv.org/abs/2411.17686) | — |
+| **Canonical** | **FIRM-MoE:Fine-GrainedExpert Decomposition for Resource-Adaptive MoE Inference** | AAAI 2026 | llm_serving; sparsity_pruning; moe_systems | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39106) | — |
 | **Canonical** | **FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models** | AAAI 2026 | sparsity/pruning / GPU kernels | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39720) | — |
+| **Canonical** | **FRoD: Full-Rank Efficient Fine-Tuning with Rotational Degrees for Fast Convergence** | AAAI 2026 | sparsity_pruning; agent_reasoning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39813) | — |
+| **Canonical** | **FusedRec: Fused Embedding Communication for Distributed Recommendation Training on GPUs** | AAAI 2026 | sparsity_pruning; gpu_kernel_compiler; distributed | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38512) | — |
+| **Canonical** | **FUSION: Dataset Pruning via Fusing Uncertainty with Structural Information for Optimal Neural Training in Crystal Property Prediction** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39863) | — |
+| **Canonical** | **GAHMN: A Generative Approach for High-Dimensional Mediation Analysis** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40052) | — |
+| **Canonical** | **GEM: A Scale-Aware and Distribution-Sensitive Sparse Fine-Tuning Framework for Effective Downstream Adaptation** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39410) | — |
+| **Canonical** | **GigaMoE: Sparsity-Guided Mixture of Experts for Efficient Gigapixel Object Detection** | AAAI 2026 | sparsity_pruning; moe_systems | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38810) | — |
+| **Canonical** | **HCC-3D: Hierarchical Compensatory Compression for 98% 3D Token Reduction in Vision-Language Models** | AAAI 2026 | llm_serving; sparsity_pruning; multimodal_mllm; agent_reasoning | [Link](https://arxiv.org/abs/2511.09883) | — |
+| **Canonical** | **HDGS: Hierarchical Dynamic Gaussian Splatting for Urban Driving Scenes** | AAAI 2026 | sparsity_pruning; video_image_generation | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/42419) | — |
+| **Canonical** | **HeadHunt-VAD: Hunting Robust Anomaly-Sensitive Heads in MLLM for Tuning-Free Video Anomaly Detection** | AAAI 2026 | llm_serving; sparsity_pruning; multimodal_mllm | [Link](https://arxiv.org/abs/2512.17601) | — |
+| **Canonical** | **Hexaïssa: Standing on Giants’ Shoulders—Routing the Best Chess Engines with Mixture-of-Experts and Latent Reward Learning** | AAAI 2026 | sparsity_pruning; moe_systems | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39636) | — |
+| **Canonical** | **HierarchicalPrune: Position-Aware Compression for Large-Scale Diffusion Models** | AAAI 2026 | quantization; sparsity_pruning; gpu_kernel_compiler; diffusion_flow; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39433) | — |
+| **Canonical** | **IMPACT: Integrated Multimodal Pipeline for Rapid Accident Causality Tracking (Student Abstract)** | AAAI 2026 | sparsity_pruning; multimodal_mllm; agent_reasoning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/42198) | — |
+| **Canonical** | **InfoCom: Kilobyte-Scale Communication-Efficient Collaborative Perception with Information Bottleneck** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40218) | — |
 | **Canonical** | **Instruction-Guided Cross-Modal Clustering for Training-Free Visual Token Pruning in Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38212) | — |
+| **Canonical** | **Investigating Data Pruning for Pretraining Biological Foundation Models at Scale** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37102) | — |
+| **Canonical** | **KTV: Keyframes and Key Tokens Selection for Efficient Training-Free Video LLMs** | AAAI 2026 | llm_serving; sparsity_pruning; multimodal_mllm | [Link](https://arxiv.org/abs/2602.03615) | — |
+| **Canonical** | **Learning Systems Expansion with Efficient Heterogeneity-aware Knowledge Transfer** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39204) | — |
+| **Canonical** | **Learning the Latent Structure: A Feature-Centric Approach to Graph Data Augmentation** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39754) | — |
 | **Canonical** | **Lethe: Layer- and Time-Adaptive KV Cache Pruning for Reasoning-Intensive LLM Serving** | AAAI 2026 | KV cache / reasoning serving / dynamic pruning | [Link](https://arxiv.org/abs/2511.06029) | — |
+| **Canonical** | **LidarPainter: One-Step Away from Any Lidar View to Novel Guidance** | AAAI 2026 | sparsity_pruning; gpu_kernel_compiler; diffusion_flow; edge_cloud | [Link](https://arxiv.org/abs/2507.12114) | — |
+| **Canonical** | **LiNeXt: Revisiting LiDAR Completion with Efficient Non-Diffusion Architectures** | AAAI 2026 | sparsity_pruning; diffusion_flow; edge_cloud | [Link](https://arxiv.org/abs/2511.10209) | — |
+| **Canonical** | **LiteGE: Lightweight Geodesic Embedding for Efficient Geodesics Computation and Non-Isometric Shape Correspondence** | AAAI 2026 | sparsity_pruning; edge_cloud | [Link](https://arxiv.org/abs/2512.17781) | — |
+| **Canonical** | **LoGIC: Multi-LoRA Guided Importance Consensus for Multi-Task Pruning in Vision Transformers** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39195) | — |
+| **Canonical** | **MACoT: Synthesizing Chains of Thought for Small Models via Multi-Agent Collaboration** | AAAI 2026 | sparsity_pruning; agent_reasoning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40214) | — |
+| **Canonical** | **Making Every Head Count: Sparse Attention Without the Speed-Performance Trade-off** | AAAI 2026 | llm_serving; sparsity_pruning | [Link](https://arxiv.org/abs/2511.09596) | — |
+| **Canonical** | **Maniflat3D: Learning 3D Geometry Through Planar Representations from Multi-Layer Unwrapping** | AAAI 2026 | sparsity_pruning; video_image_generation | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37256) | — |
+| **Canonical** | **Memory Based Advantage Shaping for LLM-Guided Reinforcement Learning (Student Abstract)** | AAAI 2026 | llm_serving; sparsity_pruning; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/42261) | — |
+| **Canonical** | **Mixture of Ranks with Degradation-Aware Routing for One-Step Real-World Image Super-Resolution** | AAAI 2026 | sparsity_pruning; moe_systems; diffusion_flow; edge_cloud | [Link](https://arxiv.org/abs/2511.16024) | — |
+| **Canonical** | **Mixture-of-Trees: Learning to Select and Weigh Reasoning Paths for Efficient LLM Inference** | AAAI 2026 | llm_serving; sparsity_pruning; agent_reasoning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40677) | — |
+| **Canonical** | **MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation** | AAAI 2026 | llm_serving; sparsity_pruning; moe_systems; multimodal_mllm; agent_reasoning; physical_ai | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38945) | — |
+| **Canonical** | **Multimodal Graph Representation Learning with Dynamic Information Pathways** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38503) | — |
+| **Canonical** | **Optimization Method for Surrogate Function in Spiking Neural Networks Based on Membrane Potential Distribution** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39769) | — |
+| **Canonical** | **PhyPlan: Learning to Plan Tasks with Generalizable and Rapid Physical Reasoning for Embodied Manipulation** | AAAI 2026 | sparsity_pruning; agent_reasoning; physical_ai | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38900) | — |
+| **Canonical** | **Physics-Aware Accelerated Unrolling Model for Sparse-View CT Reconstruction** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/42442) | — |
+| **Canonical** | **PocketLLM: Ultimate Compression of Large Language Models via Meta Networks** | AAAI 2026 | llm_serving; quantization; sparsity_pruning | [Link](https://arxiv.org/abs/2511.17637) | — |
 | **Canonical** | **PosPrune: Visual Token Pruning with Positional Bias Correction for Efficient Large Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38020) | — |
+| **Canonical** | **Prune&Comp: Free Lunch for Layer-Pruned LLMs via Iterative Pruning with Magnitude Compensation** | AAAI 2026 | llm_serving; sparsity_pruning | [Link](https://arxiv.org/abs/2507.18212) | — |
+| **Canonical** | **Prune4Web: DOM Tree Pruning Programming for Web Agent** | AAAI 2026 | llm_serving; sparsity_pruning | [Link](https://arxiv.org/abs/2511.21398) | — |
+| **Canonical** | **Pseudo-Spiking Neurons: A Noise-Based Training Framework for Heterogeneous-Latency Spiking Neural Networks** | AAAI 2026 | quantization; sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40086) | — |
+| **Canonical** | **PUFM: Efficient Point Cloud Upsampling via Flow Matching** | AAAI 2026 | sparsity_pruning; diffusion_flow; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37685) | — |
+| **Canonical** | **QuEPT: Quantized Elastic Precision Transformers with One-Shot Calibration for Multi-Bit Switching** | AAAI 2026 | llm_serving; quantization; sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39945) | — |
+| **Canonical** | **REACTION: Parameter-Efficient Learning for Recommendation** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38631) | — |
+| **Canonical** | **Redundant Queries in DETR-Based 3D Detection Methods: Unnecessary and Prunable** | AAAI 2026 | sparsity_pruning; gpu_kernel_compiler | [Link](https://arxiv.org/abs/2412.02054) | — |
+| **Canonical** | **ReLUPruner: Rethinking ReLU Importance with Taylor Expansion for Efficient Private Inference** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39502) | — |
 | **Canonical** | **Rethinking Visual Token Reduction in LVLMs Under Cross-Modal Misalignment** | AAAI 2026 | multimodal/MLLM serving / visual token pruning / inference acceleration | [Link](https://arxiv.org/abs/2506.22283) | [Repo](https://github.com/Ruixxxx/VisionDrop) |
+| **Canonical** | **Revitalizing Canonical Pre-Alignment for Irregular Multivariate Time Series Forecasting** | AAAI 2026 | sparsity_pruning; efficient_attention | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40149) | — |
+| **Canonical** | **Reward Redistribution via Gaussian Process Likelihood Estimation** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39921) | — |
+| **Canonical** | **RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation** | AAAI 2026 | sparsity_pruning; multimodal_mllm; agent_reasoning | [Link](https://arxiv.org/abs/2511.09141) | — |
+| **Canonical** | **RPM-MCTS: Knowledge-Retrieval as Process Reward Model with Monte Carlo Tree Search for Code Generation** | AAAI 2026 | llm_serving; agent_reasoning | [Link](https://arxiv.org/abs/2511.19895) | — |
+| **Canonical** | **S3Net: Spatiotemporally Separated Sparse Network for Neuromorphic Vision Processing** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/42467) | — |
+| **Canonical** | **SALR: Sparsity-Aware Low-Rank Representation for Efficient Fine-Tuning of Large Language Models** | AAAI 2026 | llm_serving; sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40062) | — |
+| **Canonical** | **Scene Experts: Specializing in 3D Gaussian Splatting with Adaptive Decomposition** | AAAI 2026 | sparsity_pruning; moe_systems; video_image_generation | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37407) | — |
+| **Canonical** | **SEAP: Sparse Expert Activation Pruning Unlocks the Brainpower of Large Language Models** | AAAI 2026 | llm_serving; sparsity_pruning; edge_cloud | [Link](https://arxiv.org/abs/2503.07605) | — |
+| **Canonical** | **SecMoE: Communication-Efficient Secure MoE Inference via Select-Then-Compute** | AAAI 2026 | sparsity_pruning; moe_systems; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39721) | — |
+| **Canonical** | **SELDON: Supernova Explosions Learned by Deep ODE Networks** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39904) | — |
+| **Canonical** | **Self-Adaptive Graph Mixture of Models** | AAAI 2026 | sparsity_pruning; moe_systems; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39615) | — |
 | **Canonical** | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://arxiv.org/abs/2603.14224) | — |
+| **Canonical** | **SemanticVLA: Semantic-Aligned Sparsification and Enhancement for Efficient Robotic Manipulation** | AAAI 2026 | sparsity_pruning; physical_ai; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38904) | — |
+| **Canonical** | **SepPrune: Structured Pruning for Efficient Deep Speech Separation** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40455) | — |
+| **Canonical** | **Share Your Attention: Transformer Weight Sharing via Matrix-based Dictionary Learning** | AAAI 2026 | llm_serving; sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40165) | — |
 | **Canonical** | **Sharp Eyes and Memory for VideoLLMs: Information-Aware Visual Token Pruning for Efficient and Reliable VideoLLM Reasoning** | AAAI 2026 | multimodal/VideoLLM efficiency / visual token pruning / KV cache pruning / FlashAttention-compatible inference | [Link](https://arxiv.org/abs/2511.08003) | — |
+| **Canonical** | **SkySplat: Generalizable 3D Gaussian Splatting from Multi-Temporal Sparse Satellite Images** | AAAI 2026 | sparsity_pruning; video_image_generation | [Link](https://arxiv.org/abs/2508.09479) | — |
+| **Canonical** | **Sliding-Window Merging for Compacting Patch-Redundant Layers in LLMs** | AAAI 2026 | llm_serving; sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39222) | — |
 | **Canonical** | **SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning** | AAAI 2026 | long-context LLM inference / token pruning / asynchronous KV manager | [Link](https://arxiv.org/abs/2508.06447) | [Repo](https://github.com/Longxmas/SlimInfer) |
+| **Canonical** | **SNN-Driven Event-Based Flow and Rotation Estimation with SO(3) Refinement** | AAAI 2026 | sparsity_pruning; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37877) | — |
+| **Canonical** | **SparK: Query-Aware Unstructured Sparsity with Recoverable KV Cache Channel Pruning** | AAAI 2026 | llm_serving; kv_cache_long_context; quantization; sparsity_pruning | [Link](https://arxiv.org/abs/2508.15212) | [Repo](https://github.com/AMD-AIG-AIMA/AMD-Spark) |
+| **Canonical** | **Sparse Additive Model Pruning for Order-Based Causal Structure Learning** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39408) | — |
 | **Canonical** | **Sparse Attention Across Multiple-Context KV Cache** | AAAI 2026 | RAG / sparse attention / multi-context KV cache | [Link](https://arxiv.org/abs/2508.11661) | — |
+| **Canonical** | **Sparse Tuning Enhances Plasticity in PTM-based Continual Learning** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40050) | — |
+| **Canonical** | **Sparse-dLLM: Accelerating Diffusion LLMs with Dynamic Cache Eviction** | AAAI 2026 | llm_serving; kv_cache_long_context; sparsity_pruning; diffusion_flow; agent_reasoning | [Link](https://arxiv.org/abs/2508.02558) | — |
+| **Canonical** | **Sparse-Scale Transformer with Bidirectional Awareness for Time Series Forecasting** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39566) | — |
+| **Canonical** | **Sparse-vDiT: Unleashing the Power of Sparse Attention to Accelerate Video Diffusion Transformers** | AAAI 2026 | sparsity_pruning; video_image_generation; diffusion_flow; edge_cloud | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37287) | — |
+| **Canonical** | **Sparse3DPR: Training-Free 3D Hierarchical Scene Parsing and Task-Adaptive Subgraph Reasoning from Sparse RGB Views** | AAAI 2026 | llm_serving; sparsity_pruning; agent_reasoning; edge_cloud | [Link](https://arxiv.org/abs/2511.07813) | — |
+| **Canonical** | **SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search** | AAAI 2026 | llm_serving; sparsity_pruning; agent_reasoning | [Link](https://arxiv.org/abs/2512.23167) | — |
+| **Canonical** | **SPSC: Sparse and Scalable Multi-Modal 3D Occupancy Prediction for Autonomous Driving** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/42441) | — |
+| **Canonical** | **Steering Sparse Autoencoder Latents to Control Dynamic Head Pruning in Vision Transformers (Student Abstract)** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/42236) | — |
+| **Canonical** | **Step-GRPO: Enhancing Reasoning Quality and Efficiency via Structured PRM-Based Reinforcement Learning** | AAAI 2026 | llm_serving; sparsity_pruning; agent_reasoning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40441) | — |
 | **Canonical** | **STEP-Nav: Spatial-Temporal Efficient Visual Token Pruning for Vision-and-Language Navigation with Large Language Models** | AAAI 2026 | VLA/WAM/Physical AI serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39588) | — |
+| **Canonical** | **S²Flow: Towards Fast and Authentic Training-Free High-Resolution Video Generation** | AAAI 2026 | sparsity_pruning; video_image_generation; diffusion_flow | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37932) | — |
+| **Canonical** | **TabFlash: Efficient Table Understanding with Progressive Question Conditioning and Token Focusing** | AAAI 2026 | llm_serving; sparsity_pruning; multimodal_mllm | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39417) | — |
+| **Canonical** | **Tackling Resource-Constrained and Data-Heterogeneity in Federated Learning with Double-Weight Sparse Pack** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39979) | — |
+| **Canonical** | **TinyChemVL: Advancing Chemical Vision-Language Models via Efficient Visual Token Reduction and Complex Reaction Tasks** | AAAI 2026 | sparsity_pruning; multimodal_mllm; agent_reasoning | [Link](https://arxiv.org/abs/2511.06283) | — |
+| **Canonical** | **TLAGC: Taylor Linear Attention-Guided Graph Convolutions for Revealing Spatial Domains in Spatial Multi-Omics Data** | AAAI 2026 | sparsity_pruning; efficient_attention | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39272) | — |
+| **Canonical** | **TMAE:Learning Targeted Multi-Agent Exploration via Causal Inference** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39765) | — |
 | **Canonical** | **TOP-RL: Task-Optimized Progressive Token Pruning with Reinforcement Learning for Vision Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38614) | — |
+| **Canonical** | **Towards Efficient and Effective Interactive 3D Segmentation** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37339) | — |
+| **Canonical** | **Towards Nonlinear Sparse AUC Maximization via Compositional Stochastic Hard Thresholding** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39856) | — |
+| **Canonical** | **Trimming the Fat: Redundancy-Aware Acceleration Framework for DGNNs** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39354) | — |
+| **Canonical** | **V-Pruner: A Fast and Globally-informed Token Pruning Framework for Vision Transformer** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40737) | — |
+| **Canonical** | **Vision Transformers Are Circulant Attention Learners** | AAAI 2026 | sparsity_pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39303) | — |
 | **Canonical** | **ViTCoP: Accelerating Large Vision-Language Models via Visual and Textual Semantic Collaborative Pruning** | AAAI 2026 | multimodal/MLLM efficiency / visual token pruning / inference acceleration | [Link](https://arxiv.org/abs/2601.17818) | — |
 | **Canonical** | **Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning** | ACL 2026 | Efficient reasoning and compute-budget allocation | [Link](https://aclanthology.org/2026.acl-long.876/) | — |
 | **Canonical** | **E quiv P runer: Boosting Efficiency and Quality in LLM -Based Search via Action Pruning** | ACL 2026 | efficient reasoning and agent systems | [Link](https://aclanthology.org/2026.acl-long.100/) | — |
@@ -497,7 +261,11 @@
 | **Canonical** | **Short-LVLM: Compressing and Accelerating Large Vision-Language Models by Pruning Redundant Layers** | ACM Multimedia 2025 | multimodal/MLLM inference / structural pruning / model compression | [Link](https://arxiv.org/abs/2507.23362) | [Repo](https://github.com/ASGO-MM/Short-LVLM) |
 | **Canonical** | **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
 | **Canonical** | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
+| **Canonical** | **GPUSparse: Fast and Exact Learned Sparse Retrieval on a GPU-Resident Inverted Index** | arXiv | GPU sparse retrieval / exact search | [Link](https://arxiv.org/abs/2606.26441) | — |
 | **Canonical** | **Layerwise Repacking: Variable-Length Hybrid-Attention Training without an Extra Redistribution Pass** | arXiv | distributed training/hybrid attention | [Link](https://arxiv.org/abs/2610.35989) | — |
+| **Canonical** | **Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference** | arXiv |  | [Link](https://arxiv.org/abs/2610.22985) | — |
+| **Canonical** | **Sink-Sparse Hybrid Attention for Efficient Inference in T2I/T2V Diffusion Transformers** | arXiv |  | [Link](https://arxiv.org/abs/2610.22975) | — |
+| **Canonical** | **Trajectory-Triggered Sparse Collaborative Decoding** | arXiv |  | [Link](https://arxiv.org/abs/2610.23613) | — |
 | **Canonical** | **SparDA: Sparse Decoupled Attention for Efficient Long-Context LLM Inference** | arXiv / major-group reverse census true miss | long-context LLM inference / sparse attention / KV offload / GPU runtime | [Link](https://arxiv.org/abs/2606.04511) | [Repo](https://github.com/NVlabs/SparDA) |
 | **Canonical** | **Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding** | arXiv 15 | pruning,quantization,edge AI | [Link](https://arxiv.org/abs/1510.00149) | [Repo](https://hanlab.mit.edu/projects/deep-compression) |
 | **Canonical** | **Learning both Weights and Connections for Efficient Neural Network** | arXiv 15 | sparsity/pruning; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/1506.02626) | — |
@@ -515,40 +283,61 @@
 | **Canonical** | **Kinetics: Rethinking Test-Time Scaling Laws** | arXiv 2025 | efficient reasoning / test-time scaling / sparse attention / inference cost modeling | [Link](https://arxiv.org/abs/2506.05333) | [Repo](https://github.com/Infini-AI-Lab/Kinetics) |
 | **Canonical** | **3BASiL: An Algorithmic Framework for Sparse plus Low-Rank Compression of LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.01376) | — |
 | **Canonical** | **3D-MoE: Towards Spatial Intelligence with Mixture-of-Experts for 3D Reasoning and Action Generation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2501.16698) | — |
+| **Canonical** | **A knowledge-driven nonconvex square-root regularization framework for joint group sparsity and structured smoothness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35428) | — |
+| **Canonical** | **A Self-Pruning Transformer: Extreme KV-Cache Compression with Universal Attention** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09051) | — |
+| **Canonical** | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39663) | — |
 | **Canonical** | **ACPruner: Visual Token Pruning as Biased Attention Coverage Maximization in LVLMs** | arXiv 2026 | multimodal,token_pruning | [Link](https://arxiv.org/abs/2609.34558) | — |
 | **Canonical** | **Activation Sparsity with Weight Approximation for Faster LLM Decoding on Offloaded Weights** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02598) | — |
 | **Canonical** | **AdaptInfer: Adaptive Token Pruning for Vision-Language Model Inference via Dynamical Text Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2508.06084) | — |
+| **Canonical** | **Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2610.13708) | — |
 | **Canonical** | **AdaptViT: Runtime-Adaptive Vision Transformer Deployment on Custom RISC-V** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02288) | — |
+| **Canonical** | **AIMER: Calibration-Free Task-Agnostic MoE Expert Pruning** | arXiv 2026 | MoE systems; model compression | [Link](https://arxiv.org/abs/2603.18492) | — |
 | **Canonical** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
 | **Canonical** | **AnchorPrune: Relevance-Anchored Contextual Expansion for Visual Token Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.07033) | — |
 | **Canonical** | **ANEForge: Python for direct computation on the Apple Neural Engine** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.17090) | — |
+| **Canonical** | **Are We Evaluating VLM Token Pruning Right? Looking Beyond Accuracy and Token Count** | arXiv 2026 | multimodal token pruning systems evaluation | [Link](https://arxiv.org/abs/2610.24740) | — |
 | **Canonical** | **Artificial Structure Function Search: Preserving Artificial Functional Connectivity for Structured Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24401) | — |
 | **Canonical** | **AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs** | arXiv 2026 | efficient reasoning/agent systems / distributed RL training / heterogeneous elastic execution | [Link](https://arxiv.org/abs/2605.15565) | [Repo](https://github.com/Infini-AI-Lab/astraflow) |
 | **Canonical** | **Attention-Discounted Adaptive Sampler for Masked Diffusion Language Models** | arXiv 2026 | diffusion_flow | [Link](https://arxiv.org/abs/2606.10829) | — |
 | **Canonical** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 | **Canonical** | **AutoTailor: Automatic, User-Aligned Capability Selection and Adaptation for Web Agents** | arXiv 2026 | core Efficient-ML acceleration | [Link](https://arxiv.org/abs/2609.13548) | — |
+| **Canonical** | **Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation** | arXiv 2026 | efficient attention; video/image generation acceleration; diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.08772) | — |
+| **Canonical** | **Balanced State Subspaces for Mamba-2 State Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.36617) | — |
+| **Canonical** | **BARTER: Compact Dynamic Sparse Training with Standard Dense Kernels** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16147) | — |
+| **Canonical** | **Beyond Masked Sparsity: SNACK Enables Truly Sparse Neural Networks on GPU** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04093) | — |
+| **Canonical** | **BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks** | arXiv 2026 | kernel,gen | [Link](https://arxiv.org/abs/2610.22256) | — |
 | **Canonical** | **Block Sparse Attention with Log-Linear Complexity** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31093) | — |
 | **Canonical** | **Block Sparse Flash Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2512.07011) | — |
 | **Canonical** | **Block-Sparse Attention with Semantic-Geometric Decoupled Routing** | arXiv 2026 | efficient attention | [Link](https://arxiv.org/abs/2609.22884) | — |
+| **Canonical** | **Building a Nested LADDER for LLM Unstructured Post-Training Pruning** | arXiv 2026 | LLM sparsity/pruning | [Link](https://arxiv.org/abs/2610.28773) | — |
 | **Canonical** | **ByteSplat: Efficient Distributed 3D Gaussian Splatting Training via Intra- and Inter-GPU communication reduction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02851) | — |
 | **Canonical** | **CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention** | arXiv 2026 | efficient attention / long context / sparse routing / kernel acceleration | [Link](https://arxiv.org/abs/2609.07237) | — |
+| **Canonical** | **Certified Sparse Attention via Perturbed Retrieval** | arXiv 2026 | Sparse attention / certified approximation | [Link](https://arxiv.org/abs/2610.24991) | — |
 | **Canonical** | **CoCurve: Cross-Module Co-Pruning Curvature for Structured LLM Pruning** | arXiv 2026 | sparsity_pruning,llm_serving | [Link](https://arxiv.org/abs/2607.17568) | — |
 | **Canonical** | **CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / sparsity / streaming video | [Link](https://arxiv.org/abs/2609.03675) | — |
 | **Canonical** | **Commutator Memory: Sparse, Path-Local Reading and Steering in Language Models** | arXiv 2026 | kv_long_context | [Link](https://arxiv.org/abs/2609.34348) | — |
 | **Canonical** | **CompactAttention: Accelerating Chunked Prefill with Block-Union KV Selection** | arXiv 2026 | llm_serving,kv,sparse,attn | [Link](https://arxiv.org/abs/2605.16839) | — |
+| **Canonical** | **Competition Domains Matter: Selective Head Globalization for Training-Free Sparse Attention in Video Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14672) | — |
+| **Canonical** | **Complementary Future Token Pruning for World Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19957) | — |
 | **Canonical** | **CONCAT: Consensus- and Confidence-Driven Ad Hoc Teaming for Efficient LLM-Based Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2605.29612) | — |
 | **Canonical** | **Context Pruning for Coding Agents via Multi-Rubric Latent Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.15315) | — |
+| **Canonical** | **CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers** | arXiv 2026 | llm_serving,sparse,moe,edge | [Link](https://arxiv.org/abs/2610.37442) | — |
 | **Canonical** | **Data-Free Pruning of Self-Attention Layers in LLMs** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2512.20636) | — |
 | **Canonical** | **DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency** | arXiv 2026 | video_generation,kv,diffusion,physical | [Link](https://arxiv.org/abs/2609.39096) | — |
 | **Canonical** | **Decoupling Logical Masks from GPU Execution for Dynamic Block-Sparse Attention** | arXiv 2026 | video diffusion; GPU sparse attention | [Link](https://arxiv.org/abs/2609.25869) | — |
 | **Canonical** | **DegreeSpar: Structured Degree Sparsity for Efficient Secure Transformer Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32204) | — |
 | **Canonical** | **Demystifying MaskGIT Sampler and Beyond: Adaptive Order Selection in Masked Diffusion** | arXiv 2026 | diffusion_flow | [Link](https://arxiv.org/abs/2510.04525) | — |
 | **Canonical** | **Dense Coverage, Sparse Refinement: Byte-Constrained Cooperative Perception** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.29456) | — |
+| **Canonical** | **DEX: Digit-Level Early Exit for Energy-Efficient MSDF Neural Network Inference** | arXiv 2026 | llm_serving,quant,sparse,edge | [Link](https://arxiv.org/abs/2610.11748) | — |
 | **Canonical** | **DIET: Deletion-response Expert Trimming for Video Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37829) | — |
+| **Canonical** | **Differentiable Bit-Widths: Co-optimizing Pruning and Quantization via SVD for Ultra-Efficient LLM Compression** | arXiv 2026 | quantization / sparsity-pruning | [Link](https://arxiv.org/abs/2610.06026) | — |
 | **Canonical** | **Distributed Linear Programming on GPU Clusters at Extreme Scale** | arXiv 2026 | distributed training/inference / GPU clusters / sparse optimization / communication | [Link](https://arxiv.org/abs/2609.09108) | — |
+| **Canonical** | **Don't Ask the LLM: Visual Token Pruning with Spectral Structure and Semantic Relevance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38303) | — |
 | **Canonical** | **DORA: Dynamic Online Reinforcement Agent for Token Pruning in Vision Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34325) | — |
 | **Canonical** | **DoSA: Dots Sparse Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13990) | — |
+| **Canonical** | **Dual-QK: Sharp Queries and Flat Keys for Prunable 2-bit KV Caches** | arXiv 2026 | llm_serving,kv,quant,sparse,edge | [Link](https://arxiv.org/abs/2610.09827) | — |
 | **Canonical** | **Dynamic Expert Pruning for Multi-Agent Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02951) | — |
+| **Canonical** | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion** | arXiv 2026 | llm_serving,kv,sparse,gen | [Link](https://arxiv.org/abs/2610.26262) | — |
 | **Canonical** | **EAT: Expert Account Tracker for Efficient MoE Inference** | arXiv 2026 | moe,llm_serving,sparsity | [Link](https://arxiv.org/abs/2609.33614) | — |
 | **Canonical** | **EchoPress: Query-Agnostic KV Cache Pruning via Virtual Context Reconstruction** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00412) | — |
 | **Canonical** | **EdgeVLN: Runtime-Aware Deployment Ready Quantized Vision Language Navigation Model** | arXiv 2026 | llm_serving,quant,sparse,multimodal,gen | [Link](https://arxiv.org/abs/2609.35570) | — |
@@ -557,42 +346,72 @@
 | **Canonical** | **Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation** | arXiv 2026 | edge/cloud/heterogeneous AI systems / elastic inference / pruning / runtime adaptivity | [Link](https://arxiv.org/abs/2609.10018) | [Repo](https://github.com/sudaksh14/Elastoformer) |
 | **Canonical** | **Epoch: Compiling Diffusion Blocks for Sparse MoE Serving** | arXiv 2026 | MoE systems/accelerators / diffusion language model serving / compiler-runtime | [Link](https://arxiv.org/abs/2609.09748) | — |
 | **Canonical** | **ERASE: Eliminating Redundant Visual Tokens via Adaptive Two-Stage Token Pruning** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2605.09982) | — |
+| **Canonical** | **Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon** | arXiv 2026 | llm_serving,spec,quant,sparse,kernel | [Link](https://arxiv.org/abs/2610.31479) | — |
 | **Canonical** | **Event-Frame Fusion for Inter-Frame Segmentation via Event-Guided Motion** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.22500) | — |
 | **Canonical** | **Extremely Sparse Supervision Incentivizes Reasoning Ability** | arXiv 2026 | efficient reasoning/agent systems / post-training efficiency / sparse supervision | [Link](https://arxiv.org/abs/2609.04565) | — |
+| **Canonical** | **FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models** | arXiv 2026 | llm_serving,sparse,multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.22146) | — |
 | **Canonical** | **Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches** | arXiv 2026 | KV cache/long-context / sparse decoding / offload | [Link](https://arxiv.org/abs/2609.17652) | — |
 | **Canonical** | **FILIGREE3D: Scaling Sparse Latent Flow Matching for Ultra-High-Resolution Image-to-3D Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34900) | — |
+| **Canonical** | **Fine-Grained Units, Flat Decisions: Hierarchical Micro-Expert Pruning for Mixture-of-Experts Models** | arXiv 2026 | MoE pruning / serving | [Link](https://arxiv.org/abs/2610.25717) | — |
 | **Canonical** | **FIS-DiT: Breaking the Few-Step Video Inference Barrier via Training-Free Frame Interleaved Sparsity** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.11869) | — |
 | **Canonical** | **FLASH: Efficient Visuomotor Policy via Sparse Sampling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.15492) | — |
+| **Canonical** | **FlashGaze: Training-Free Multi-Scale Patch Pruning For Efficient Video Understanding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04225) | — |
 | **Canonical** | **FlashSinkhorn 2: Block-Sparse Entropic Optimal Transport** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.02395) | — |
 | **Canonical** | **Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic perception / optimization runtime | [Link](https://arxiv.org/abs/2609.03222) | — |
+| **Canonical** | **FoveaTree: Information-Density Trees for Query-Guided Visual Token Pruning in Video Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16744) | — |
+| **Canonical** | **FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17191) | — |
 | **Canonical** | **From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline** | arXiv 2026 | GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search | [Link](https://arxiv.org/abs/2609.05138) | — |
+| **Canonical** | **From Label Priors to Task Evidence: Efficient Long-Video Frame Selection via Bayesian GRPO** | arXiv 2026 | Long-video / visual-token selection | [Link](https://arxiv.org/abs/2610.25418) | — |
 | **Canonical** | **From Token Importance to Conditional Removability: Rethinking Visual Token Pruning in Multimodal Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.26484) | — |
+| **Canonical** | **GGraph: A GPU-Accelerated Library for Graph-Based Robot Deployment and Learning** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.28953) | — |
 | **Canonical** | **GleanVID: Complementary Token Selection for Efficient Video Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37042) | — |
 | **Canonical** | **Goldilocks RL: Tuning Task Difficulty to Escape Sparse Rewards for Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.14868) | — |
+| **Canonical** | **GPA-VGGT: Geometry-Preserving Acceleration of VGGT** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.37000) | — |
 | **Canonical** | **H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression** | arXiv 2026 | edge/cloud/heterogeneous AI systems / sparsity-pruning / deployment compiler | [Link](https://arxiv.org/abs/2609.02684) | [Repo](https://github.com/ClarityLab-Org/h3dnas) |
 | **Canonical** | **Hardware-Native Joint Sparse-Quantization for Trillion-Scale Mixture-of-Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02241) | — |
+| **Canonical** | **Heterogeneous Structured Pruning Under Resource Constraints for Hardware-Efficient Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15781) | — |
 | **Canonical** | **Hidden in Plain Sight: The Overlooked Significance of Canonical Elements for Extreme LLM Sparsity** | arXiv 2026 | sparsity/pruning / LLM inference / decoding acceleration / memory efficiency | [Link](https://arxiv.org/abs/2609.06557) | — |
+| **Canonical** | **Hierarchical and Query-Aware Visual Token Pruning for High-Resolution LVLMs** | arXiv 2026 | Multimodal token pruning | [Link](https://arxiv.org/abs/2610.24102) | — |
 | **Canonical** | **Higher-order pruning of experts in mixture-of-experts language models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18916) | — |
 | **Canonical** | **History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.06480) | — |
+| **Canonical** | **How the Dirty Set Moves: Characterizing Schedule Reuse in Incremental Sparse Matrix Multiplication** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19489) | — |
+| **Canonical** | **How to Score Experts for One-Shot MoE Expert Pruning: A Systematic Formulation and Selection Principle** | arXiv 2026 | MoE systems; sparsity/pruning | [Link](https://arxiv.org/abs/2606.15716) | — |
+| **Canonical** | **HyScale: Scaling Long-Context Training for Learned Sparse Attention** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32057) | — |
 | **Canonical** | **HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing** | arXiv 2026 | KV cache/long-context; efficient attention | [Link](https://arxiv.org/abs/2609.26368) | — |
+| **Canonical** | **iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity** | arXiv 2026 | sparse,kernel,gen | [Link](https://arxiv.org/abs/2610.11302) | — |
 | **Canonical** | **ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control** | arXiv 2026 | moe_systems,distributed_training | [Link](https://arxiv.org/abs/2609.39137) | — |
 | **Canonical** | **Improving Video Sparse Attention with Fine-grained Router and Sparse Rebasing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32882) | — |
+| **Canonical** | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.28947) | — |
+| **Canonical** | **Joint Subspace Sparse Attention for Efficient Long-Context Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19026) | — |
 | **Canonical** | **Just Respect the Semantics: Image-Token Compression via Pre-LLM Semantic Variable-Resolution Tokenization and In-LLM Relevance Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18690) | — |
+| **Canonical** | **KPage: Cross-Block Page Compaction for Hardware-Efficient Sparse Attention** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.28096) | — |
+| **Canonical** | **LatentIndex: Cross-Layer Sharing with Layer-Specific Selection for Sparse Attention** | arXiv 2026 | efficient attention; KV cache/long-context; LLM serving | [Link](https://arxiv.org/abs/2610.04635) | — |
+| **Canonical** | **Later Is Better: Token Reduction for ViTs Under Distribution Shift** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.07758) | — |
 | **Canonical** | **Layer-Aware Position Embeddings for Visual Token Pruning in Multimodal Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23715) | — |
+| **Canonical** | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning** | arXiv 2026 | Efficient attention/LLM training | [Link](https://arxiv.org/abs/2610.31911) | — |
+| **Canonical** | **Learning Incompressible 3D Flows from Sparse Samples: A Set Transformer Approach to Divergence-Free Kernel Fitting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16645) | — |
 | **Canonical** | **LearnPruner: Rethinking Attention-based Token Pruning in Vision Language Models** | arXiv 2026 | sparse,multimodal,edge | [Link](https://arxiv.org/abs/2604.23950) | — |
 | **Canonical** | **Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions** | arXiv 2026 | quantization / sparsity-pruning / edge AI deployment | [Link](https://arxiv.org/abs/2609.05334) | — |
 | **Canonical** | **LILA: Calibration-Free Structured Pruning of Large Language Models via Latent Spectral Geometry** | arXiv 2026 | sparsity/pruning / LLM compression / calibration-free structured pruning | [Link](https://arxiv.org/abs/2609.11163) | — |
+| **Canonical** | **LIPAR: Training-free Latent Inter-Frame Pruning with Attention Recovery** | arXiv 2026 | video/image generation acceleration;diffusion/flow | [Link](https://arxiv.org/abs/2603.05811) | — |
 | **Canonical** | **LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2607.19358) | — |
 | **Canonical** | **LiteTopK: Exploiting the Curse of Dimensionality for a Fused Indexer-TopK Kernel in Long-Context Sparse Attention** | arXiv 2026 | llm_serving,kv,sparse | [Link](https://arxiv.org/abs/2607.11976) | — |
 | **Canonical** | **LLM Compression by Block Removal with Constrained Binary Optimization** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2602.00161) | — |
 | **Canonical** | **Local Epistemic Uncertainty Guided Active Sampling for Plug-and-play Diffusive Image Restoration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.06981) | — |
+| **Canonical** | **Look Back, Think Ahead: Visual Memory on Demand for Efficient Multimodal Reasoning** | arXiv 2026 | llm_serving,sparse,multimodal,gen | [Link](https://arxiv.org/abs/2610.12060) | — |
 | **Canonical** | **Look Before You Select: Rethinking Vocabulary Sparsification in On-Policy Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34386) | — |
+| **Canonical** | **Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs** | arXiv 2026 | sparse,multimodal | [Link](https://arxiv.org/abs/2610.36671) | — |
 | **Canonical** | **LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration** | arXiv 2026 | video/image generation acceleration / sparse attention / video diffusion | [Link](https://arxiv.org/abs/2608.12032) | — |
 | **Canonical** | **LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding** | arXiv 2026 | KV cache/long-context / efficient attention / LLM decoding | [Link](https://arxiv.org/abs/2602.04541) | [Repo](https://lg9077.github.io/lycheedecode/) |
+| **Canonical** | **Macro-Operator Generation and Predicate Selection for TAMP Operator Learning** | arXiv 2026 | efficient reasoning/agent systems;Physical AI | [Link](https://arxiv.org/abs/2608.23629) | — |
+| **Canonical** | **MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06801) | — |
 | **Canonical** | **MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval** | arXiv 2026 | efficient reasoning/agent systems / long-term agent memory / runtime efficiency | [Link](https://arxiv.org/abs/2609.03201) | — |
+| **Canonical** | **MLIPS: Multi-Layer Indexer Pool Sharing** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27438) | — |
 | **Canonical** | **Model Casting and Low-Parameter Gating: Towards More Sparsely Activated FFNs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31975) | — |
 | **Canonical** | **Model Compression with Exact Budget Constraints via Riemannian Manifolds** | arXiv 2026 | LLM compression; mixed-precision quantization; MoE expert pruning; exact-budget optimization | [Link](https://arxiv.org/abs/2605.00649) | [Repo](https://github.com/IST-DASLab/RCO) |
+| **Canonical** | **MOIRA: Mass-Oriented Indexing with Ragged Attention for Long-Context Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04313) | — |
 | **Canonical** | **MoRA: MoE Pruning via Router Bias Learning and Expert Approximation** | arXiv 2026 | MoE systems/accelerators | [Link](https://arxiv.org/abs/2610.00367) | — |
+| **Canonical** | **More Value per Key: Asymmetric Sparse Attention for Faster LLM Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04753) | — |
 | **Canonical** | **MWOP: Modality-aware Width-wise Operation Pruning for Efficient MLLMs** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.01434) | — |
 | **Canonical** | **Near-Oracle KV Selection via Pre-hoc Sparsity for Long-Context Inference** | arXiv 2026 | efficient attention | [Link](https://arxiv.org/abs/2602.08329) | — |
 | **Canonical** | **NOSA: Native and Offloadable Sparse Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.13602) | — |
@@ -600,10 +419,13 @@
 | **Canonical** | **Octree-based Video Representation** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.33100) | — |
 | **Canonical** | **OMP-MoE: Efficient Expert Pruning for Mixture-of-Experts LLMs via Orthogonal Matching Pursuit** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31631) | — |
 | **Canonical** | **One Loop, Two Gains: Can Active Learning win the Lottery for Free?** | arXiv 2026 | sparsity/pruning / training efficiency / active learning | [Link](https://arxiv.org/abs/2609.10311) | — |
+| **Canonical** | **OpenAttention: One Percent Is Enough with Tail Proxies** | arXiv 2026 | kv,sparse,attn | [Link](https://arxiv.org/abs/2610.30951) | — |
 | **Canonical** | **OptimusMesh: Compact Autoregressive Mesh Generation from Point Clouds via Sparse Latent Pivots** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01148) | — |
 | **Canonical** | **Output-aware Residual Stream Pruning for Large Language Models** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2609.35579) | — |
 | **Canonical** | **P4Q: Co-designing Token Pruning and Quantization for Vision-Language Model Acceleration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34867) | — |
 | **Canonical** | **PAC-CF: Calibrating Irreversible Frontier Pruning in LLM-Guided Search** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2604.14345) | — |
+| **Canonical** | **PageWeaver: KV-Guided Query Unions for Sparse Attention** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.11201) | — |
+| **Canonical** | **Parallel Sparse Outputs for Tensor Compilers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19308) | — |
 | **Canonical** | **PARK: Accurate Block Retrieval for Sparse Attention in Video Diffusion Transformers** | arXiv 2026 | gen,sparse,gpu | [Link](https://arxiv.org/abs/2609.38978) | — |
 | **Canonical** | **Patch Rebirth: Fast and Transferable Model Inversion of Vision Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2509.23235) | — |
 | **Canonical** | **PATCH: Learnable Tile-level Hybrid Sparsity for LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2509.23410) | — |
@@ -611,18 +433,29 @@
 | **Canonical** | **PrePARE: Pre-AA Token Pruning for Frozen Multi-View Geometry Transformers** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2605.08371) | — |
 | **Canonical** | **PRIME: Frequency-Aware Unified Pruning and Merging for MoE Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13982) | — |
 | **Canonical** | **Principal-timestep Restricted Init via Sparse Matrix-decomposition in Flow-matching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15643) | — |
+| **Canonical** | **Prism: Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05416) | — |
+| **Canonical** | **ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning** | arXiv 2026 | efficient RLVR rollout probing | [Link](https://arxiv.org/abs/2610.24515) | — |
+| **Canonical** | **ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models** | arXiv 2026 | quant,sparse,moe | [Link](https://arxiv.org/abs/2610.30779) | — |
 | **Canonical** | **PulseInfer: I/O-Centric Sparse KV Cache Offloading for Efficient Long-Context LLM Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34555) | — |
+| **Canonical** | **QCATS: Query Context-Aware Transformer Slicing for Efficient Predictive Query Processing** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.09894) | — |
+| **Canonical** | **QUILT: Rethinking Sparse-Attention Prefill through Shared Query Execution** | arXiv 2026 | llm_serving,kv,sparse,attn | [Link](https://arxiv.org/abs/2610.11134) | — |
+| **Canonical** | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2610.39562) | — |
 | **Canonical** | **RAM-Net: Linear-Time Sequence Modeling with Sparsely Addressable State** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.11958) | — |
+| **Canonical** | **Rationally Linearized MLPs** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2610.13568) | — |
 | **Canonical** | **RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models** | arXiv 2026 | efficient attention / KV cache/long-context | [Link](https://arxiv.org/abs/2609.20971) | — |
 | **Canonical** | **Reaching Every Position Without Searching: Rotating Sparse Wiring on the Hypercube as a Substitute for Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18145) | — |
+| **Canonical** | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.26244) | — |
 | **Canonical** | **Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.19579) | — |
 | **Canonical** | **Relative Kinetic Utility: Calibrating Cross-Layer Credit for Global Structured LLM Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.09008) | — |
 | **Canonical** | **RelaxKV: Recomputation Guided by the Query with Sparse Context Attention for Efficient KV Cache Reuse** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33503) | — |
 | **Canonical** | **Representation Dynamics Reveal Semantic Saliency and Similarity for Visual Token Pruning in MLLMs** | arXiv 2026 | multimodal_serving,token_pruning | [Link](https://arxiv.org/abs/2609.36916) | — |
 | **Canonical** | **ResidualKV: Residual-Based KV Cache Compression for Efficient Long-Context Inference** | arXiv 2026 | kv,long_context,quant,sparse | [Link](https://arxiv.org/abs/2602.08005) | — |
+| **Canonical** | **Rethinking Sequence Compression with Test-time Regression** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.31574) | — |
 | **Canonical** | **RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative Decoding** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2609.21827) | — |
+| **Canonical** | **RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training** | arXiv 2026 | llm_serving,kv,spec,sparse | [Link](https://arxiv.org/abs/2610.31098) | — |
 | **Canonical** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
 | **Canonical** | **Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37402) | — |
+| **Canonical** | **S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2610.13202) | — |
 | **Canonical** | **S$^4$R: Selective Sampling, Subspaces, and Sparse Reconstruction for Compressed Long-Context KV Caching** | arXiv 2026 | KV cache/long-context; efficient attention | [Link](https://arxiv.org/abs/2608.00528) | — |
 | **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
 | **Canonical** | **Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / GPU kernel | [Link](https://arxiv.org/abs/2609.08450) | [Repo](https://github.com/Tencent/hpc-ops) |
@@ -632,46 +465,80 @@
 | **Canonical** | **Scaling Parameter and Context in Attention: Native Sparse Attention from Mixture-of-Head** | arXiv 2026 | efficient_attention,kv,long_context,sparse | [Link](https://arxiv.org/abs/2609.38832) | — |
 | **Canonical** | **SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34044) | — |
 | **Canonical** | **Self-Indexing Attention for Compression-Compatible Sparse Long-Context LLM Inference** | arXiv 2026 | kv,quant | [Link](https://arxiv.org/abs/2609.13205) | — |
+| **Canonical** | **SheafPrune: Sheaf-Guided Graph Propagation for Visual Token Pruning** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13263) | — |
 | **Canonical** | **SkillLift: Learning Dense Rubrics from Sparse Oracles for Efficient Skill Evolution** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15396) | — |
+| **Canonical** | **SLICE-CiM: Selective Layer-wise Inference Control Engine with Confidence-Based Early Exit for SRAM based Digital Compute-in-Memory** | arXiv 2026 | sparse,edge | [Link](https://arxiv.org/abs/2610.37601) | — |
 | **Canonical** | **SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models** | arXiv 2026 | Efficient ML | [Link](https://arxiv.org/abs/2609.24894) | — |
 | **Canonical** | **SlimWise: Decoupling Expert Pruning Across Prefill and Decode for Efficient MoE Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34117) | — |
 | **Canonical** | **SMADE-IE: Sparse Multi-Agent Framework with Evidence-Driven Debate for Zero-Shot Information Extraction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.04691) | — |
 | **Canonical** | **SPACE: Sparse Predictive Attractor via Counterfactual Eviction for Streaming Video Memory** | arXiv 2026 | multimodal_serving | [Link](https://arxiv.org/abs/2609.32592) | — |
+| **Canonical** | **SPAR: Structural Pruning and Action Recovery for Vision-Language-Action Models** | arXiv 2026 | sparse,multimodal,physical | [Link](https://arxiv.org/abs/2610.26487) | — |
+| **Canonical** | **SPARE: Sparsity Allocation via Routing Entropy for Efficient MoEs** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.29662) | — |
 | **Canonical** | **SparkDiffusion: Mitigating the High-Sparsity Trap --- A Unified Framework for up to $265\times$ Single-GPU Acceleration of Visual Generation** | arXiv 2026 | video/image generation acceleration; sparse attention; quantization | [Link](https://arxiv.org/abs/2609.23153) | — |
 | **Canonical** | **Sparrow: Sparse Rollout for Stable and Efficient Long-context RL of Large Language Models** | arXiv 2026 | efficient reasoning / RL training systems / sparse attention / long-context rollout | [Link](https://arxiv.org/abs/2606.08446) | [Repo](https://github.com/Infini-AI-Lab/Sparrow) |
+| **Canonical** | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search** | arXiv 2026 | sparse,attn,gen | [Link](https://arxiv.org/abs/2610.21129) | — |
+| **Canonical** | **Sparse Planning in Visual World Models via Cost Gradients** | arXiv 2026 | sparse,gen,physical,edge | [Link](https://arxiv.org/abs/2610.10274) | — |
 | **Canonical** | **Sparse-WAM: Accelerating World Action Models via Action-Guided Sparse Imagination** | arXiv 2026 | physical,gen,sparse | [Link](https://arxiv.org/abs/2609.38984) | — |
+| **Canonical** | **SparseCraft: Agentic Hardware-Software Co-Optimization for Sparse Computing** | arXiv 2026 | sparsity/pruning | [Link](https://arxiv.org/abs/2610.05037) | — |
+| **Canonical** | **SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.12327) | — |
 | **Canonical** | **SparseEngine: Sparse-First Inference Engine** | arXiv 2026 | llm_serving,kv,sparse | [Link](https://arxiv.org/abs/2609.39068) | — |
+| **Canonical** | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.29441) | — |
 | **Canonical** | **SparSP: Exploiting Communication Sparsity for Sequence-Parallel Video DiTs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32197) | — |
+| **Canonical** | **SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference** | arXiv 2026 | llm_serving,kv,quant,sparse,edge | [Link](https://arxiv.org/abs/2610.34824) | — |
 | **Canonical** | **SpCCL: A Sparsity-Aware Collective Communication Library for GPU Platforms** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.04676) | — |
 | **Canonical** | **SPIMOE: Exploiting Hybrid Sparsity for Reasoning MoE Inference on Heterogeneous PIM Architectures** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34612) | — |
+| **Canonical** | **SPIN: Shadow Predictive Indexer for Sparse Attention** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09025) | — |
 | **Canonical** | **SPLASH: Co-Designing Sparse Attention with High-Bandwidth Flash for Efficient Long-Context Inference** | arXiv 2026 | KV cache/long-context; sparse attention | [Link](https://arxiv.org/abs/2609.23816) | — |
 | **Canonical** | **Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings** | arXiv 2026 | LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval | [Link](https://arxiv.org/abs/2609.03376) | — |
 | **Canonical** | **Squeezing the Cache, Preserving the Truth: Monotonic Equipotential Allocation with Geodesia-KV** | arXiv 2026 | KV cache / long-context / mixed-precision cache / sparse reading / vLLM runtime | [Link](https://arxiv.org/abs/2608.23599) | — |
+| **Canonical** | **SSR: Sparse Segment Reduction for Ternary GEMM Acceleration** | arXiv 2026 | quantization; sparsity/pruning; GPU/kernel acceleration | [Link](https://arxiv.org/abs/2610.08403) | — |
 | **Canonical** | **StackTok: Accelerating VLMs Inference with Budget-Adaptive Visual Token Selection** | arXiv 2026 | multimodal_visual_token_pruning | [Link](https://arxiv.org/abs/2609.16841) | — |
 | **Canonical** | **Stage-adaptive Token Selection for Efficient Omni-modal LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.20035) | — |
 | **Canonical** | **STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models** | arXiv 2026 | multimodal/MLLM serving / visual token pruning / adaptive compute | [Link](https://arxiv.org/abs/2609.05916) | [Repo](https://github.com/EasonAI-5589/starpro) |
 | **Canonical** | **StepPrune: Adaptive Sequential Visual Token Selection across Multimodal Large Language Models** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.13804) | — |
+| **Canonical** | **Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.29538) | — |
 | **Canonical** | **STOP: Structured On-Policy Pruning of Long-Form Reasoning in Low-Data Regimes** | arXiv 2026 | reasoning_agent | [Link](https://arxiv.org/abs/2605.13165) | — |
+| **Canonical** | **STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20390) | — |
+| **Canonical** | **Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity** | arXiv 2026 | kv,sparse,kernel | [Link](https://arxiv.org/abs/2610.28441) | — |
+| **Canonical** | **StreamPhy: Streaming Inference of High-Dimensional Physical Dynamics via State Space Models** | arXiv 2026 | edge/cloud;heterogeneous AI;streaming inference | [Link](https://arxiv.org/abs/2605.07384) | — |
+| **Canonical** | **Tabular Foundation Models Are Effectively Shallow** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2610.13253) | — |
+| **Canonical** | **Taming Multi-Dimensional Skew in Sparse Matrix Multiplication with Contention-Aware Scheduling [Technical Report]** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.36822) | — |
+| **Canonical** | **TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09074) | — |
+| **Canonical** | **TempoMoE: Identifying and Steering Fast-Slow Thinking Experts for Efficient Multimodal Reasoning** | arXiv 2026 | llm_serving,sparse,moe | [Link](https://arxiv.org/abs/2610.25999) | — |
 | **Canonical** | **Thought-Level Beam Search for Reasoning** | arXiv 2026 | efficient reasoning / inference-time compute / LLM serving / vLLM runtime | [Link](https://arxiv.org/abs/2608.08020) | [Repo](https://github.com/Dao-AILab/gambit-parallel-reasoning) |
 | **Canonical** | **ToDRE: Effective Visual Token Pruning via Token Diversity and Task Relevance** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2505.18757) | — |
+| **Canonical** | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning** | arXiv 2026 | llm_serving,kv,sparse,moe | [Link](https://arxiv.org/abs/2610.26754) | — |
 | **Canonical** | **TopK-Guided: Adaptive, Budget-Aware Activation Sparsity for Efficient LLM Inference** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.01763) | — |
 | **Canonical** | **TOPS: First-Principles Visual Token Pruning via Constructing Token Optimal Preservation Sets for Efficient MLLM Inference** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2606.27161) | — |
+| **Canonical** | **Towards Efficient Robotic Manipulation Models with Self-Recursive Pruning** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.08555) | — |
 | **Canonical** | **Towards Enabling Distance-Based Memory Addressing** | arXiv 2026 | edge/cloud/heterogeneous AI systems / memory-centric acceleration / vector search / ANNS | [Link](https://arxiv.org/abs/2609.06270) | — |
+| **Canonical** | **TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35489) | — |
 | **Canonical** | **TReVS: Integrating Textual Relevance and Visual Saliency for Efficient Vision-Language Model Token Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37581) | — |
+| **Canonical** | **TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning** | arXiv 2026 | llm_serving,sparse,multimodal,physical | [Link](https://arxiv.org/abs/2610.34519) | — |
 | **Canonical** | **Turbo4DGen: Ultra-Fast Acceleration for 4D Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.29572) | — |
+| **Canonical** | **TwinPrune: Density-Aware Two-Phase Token Pruning for Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17530) | — |
+| **Canonical** | **UlaCache: Unified Logical Addressing for Sparse LLM Serving** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.29820) | — |
 | **Canonical** | **UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing** | arXiv 2026 | video/image generation acceleration; diffusion acceleration | [Link](https://arxiv.org/abs/2609.23169) | — |
 | **Canonical** | **Understanding and Exploiting Diagonal Attention Sparsity in Autoregressive Image Generation** | arXiv 2026 | image generation acceleration; sparse attention | [Link](https://arxiv.org/abs/2609.19702) | — |
+| **Canonical** | **V-CoLA: Vision Token Compression with Linear Attention** | arXiv 2026 | sparse,attn,multimodal,edge | [Link](https://arxiv.org/abs/2610.11251) | — |
+| **Canonical** | **VLA-ACL: Action-Consistent Visual Token Pruning for Efficient Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving; sparsity/pruning | [Link](https://arxiv.org/abs/2610.08133) | [Repo](https://github.com/du-owen/VLA-ACL) |
 | **Canonical** | **Vortex: Bridging Extreme Compression and Efficient LLM Inference** | arXiv 2026 | quantization / sparsity / LLM accelerator / compressed inference | [Link](https://arxiv.org/abs/2609.12208) | — |
 | **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 | **Canonical** | **WaveAlign: Cache-Aware Query-Row Scheduling for Sparse Attention in Long-Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34814) | — |
+| **Canonical** | **WavePrune: One period is often enough for RoPE** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.06963) | — |
+| **Canonical** | **When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05273) | — |
+| **Canonical** | **When Evidence is Sparse: Weakly Supervised Early Failure Alerting in Dialogs and LLM-Agent Trajectories** | arXiv 2026 | efficient reasoning/agent systems;serving cost | [Link](https://arxiv.org/abs/2606.05414) | — |
 | **Canonical** | **When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models** | arXiv 2026 | MoE systems / expert pruning / inference memory reduction / routing dispersion | [Link](https://arxiv.org/abs/2609.04453) | — |
 | **Canonical** | **When Masking Helps or Hurts Robustness in Compressed CLIP: A Pre-Deployment Diagnostic** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39704) | — |
 | **Canonical** | **When Text Matters: Design Principles for Visual Token Pruning in Vision-Language Model** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34861) | — |
 | **Canonical** | **Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding** | arXiv 2026 | LLM sparsity / KV cache | [Link](https://arxiv.org/abs/2609.33889) | — |
+| **Canonical** | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation** | arXiv 2026 | llm_serving,sparse,gen | [Link](https://arxiv.org/abs/2610.22370) | — |
+| **Canonical** | **Why Speculative Decoding Works Better Than Predicted on Sparse MoE Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38981) | — |
 | **Canonical** | **Window-Diffusion: Accelerating Diffusion Language Model Inference with Windowed Token Pruning and Caching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2601.20332) | — |
 | **Canonical** | **World Action Modeling with Progressive Visual Planning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02508) | — |
 | **Canonical** | **X-MoD: Practical Scaling Laws for Sparse-Depth Routing Beyond Mixture-of-Depths** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2609.34212) | — |
 | **Canonical** | **You Only Need 2/3 of the Chosen Experts: An Empirical Study of Dynamic Expert Pruning in Fine-Grained MoE LLMs** | arXiv 2026 | MoE systems/accelerators | [Link](https://arxiv.org/abs/2609.25809) | — |
+| **Canonical** | **Zebra3D: Efficient Hybrid Foundation Models For Scalable 3D Reconstruction** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2610.12727) | — |
 | **Canonical** | **PointAcc: Efficient Point Cloud Accelerator** | arXiv 21 | hardware accelerators,Physical AI serving,edge AI | [Link](https://arxiv.org/abs/2110.07600) | [Repo](https://hanlab.mit.edu/projects/pointacc) |
 | **Canonical** | **Scatterbrain: Unifying Sparse and Low-rank Attention Approximation** | arXiv 21 | efficient attention; sparsity; long-context | [Link](https://arxiv.org/abs/2110.15343) | — |
 | **Canonical** | **Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models** | arXiv 22 | diffusion/flow acceleration,sparsity,video/image generation,GPU kernel | [Link](https://arxiv.org/abs/2211.02048) | [Repo](https://hanlab.mit.edu/projects/sige) |
@@ -824,14 +691,43 @@
 | **Canonical** | **FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications** | DAC 2026 | LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.09252) | [Repo](https://github.com/hkust-zhiyao/FSGen) |
 | **Canonical** | **An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10478_ECCV_2024_paper.php) | — |
 | **Canonical** | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7138_ECCV_2024_paper.php) | — |
+| **Canonical** | **EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS** | ECCV 2024 | 3D Gaussian memory compression; pruning; faster training and inference | [Link](https://arxiv.org/abs/2312.04564) | — |
+| **Canonical** | **EgoPoser: Robust Real-Time Egocentric Pose Estimation from Sparse and Intermittent Observations Everywhere** | ECCV 2024 | egocentric pose estimation; real-time efficient inference; wearable/embodied AI | [Link](https://arxiv.org/abs/2308.06493) | [Repo](https://github.com/eth-siplab/EgoPoser) |
+| **Canonical** | **End-to-End Rate-Distortion Optimized 3D Gaussian Representation** | ECCV 2024 | 3D Gaussian quantization; pruning; rate-distortion optimization | [Link](https://arxiv.org/abs/2406.01597) | — |
+| **Canonical** | **Enhanced Sparsification via Stimulative Training** | ECCV 2024 | structured pruning; model compression; training efficiency | [Link](https://arxiv.org/abs/2403.06417) | — |
 | **Canonical** | **IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2577_ECCV_2024_paper.php) | — |
 | **Canonical** | **Mixture of Efficient Diffusion Experts Through Automatic Interval and Sub-Network Selection** | ECCV 2024 | diffusion/flow acceleration / pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7799_ECCV_2024_paper.php) | — |
 | **Canonical** | **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
+| **Canonical** | **A nchor A ttention: Difference-Aware Sparse Attention with Stripe Granularity** | EMNLP 2025 | LLM serving, sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.430/) | — |
+| **Canonical** | **C onv S earch- R 1: Enhancing Query Reformulation for Conversational Search with Reasoning via Reinforcement Learning** | EMNLP 2025 | sparsity / pruning, efficient reasoning / agent systems | [Link](https://aclanthology.org/2025.emnlp-main.1349/) | — |
+| **Canonical** | **Controllable Memorization in LLM s via Weight Pruning** | EMNLP 2025 | sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.765/) | — |
+| **Canonical** | **COUNTDOWN : Contextually Sparse Activation Filtering Out Unnecessary Weights in Down Projection** | EMNLP 2025 | LLM serving, sparsity / pruning, GPU kernels / DSL / compilers | [Link](https://aclanthology.org/2025.emnlp-main.1442/) | — |
+| **Canonical** | **CROP : Contextual Region-Oriented Visual Token Pruning** | EMNLP 2025 | sparsity / pruning, multimodal / MLLM serving | [Link](https://aclanthology.org/2025.emnlp-main.492/) | — |
 | **Canonical** | **DCP: Dual-Cue Pruning for Efficient Large Vision-Language Models** | EMNLP 2025 | multimodal/MLLM serving / visual token pruning | [Link](https://aclanthology.org/2025.emnlp-main.1074/) | — |
+| **Canonical** | **FT - MDT : Extracting Decision Trees from Medical Texts via a Novel Low-rank Adaptation Method** | EMNLP 2025 | sparsity / pruning, edge / cloud / heterogeneous AI systems | [Link](https://aclanthology.org/2025.emnlp-industry.5/) | — |
+| **Canonical** | **GAP : a Global Adaptive Pruning Method for Large Language Models** | EMNLP 2025 | LLM serving, sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.1056/) | — |
+| **Canonical** | **Graph of Attacks with Pruning: Optimizing Stealthy Jailbreak Prompt Generation for Enhanced LLM Content Moderation** | EMNLP 2025 | sparsity / pruning, multimodal / MLLM serving, edge / cloud / heterogeneous AI systems | [Link](https://aclanthology.org/2025.emnlp-industry.46/) | — |
+| **Canonical** | **GRASP : Replace Redundant Layers with Adaptive Singular Parameters for Efficient Model Compression** | EMNLP 2025 | LLM serving, sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.1338/) | — |
+| **Canonical** | **GRPO - LEAD : A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models** | EMNLP 2025 | sparsity / pruning, efficient reasoning / agent systems | [Link](https://aclanthology.org/2025.emnlp-main.287/) | — |
+| **Canonical** | **IG -Pruning: Input-Guided Block Pruning for Large Language Models** | EMNLP 2025 | LLM serving, sparsity / pruning, efficient reasoning / agent systems, edge / cloud / heterogeneous AI systems | [Link](https://aclanthology.org/2025.emnlp-main.537/) | — |
+| **Canonical** | **L o S i A : Efficient High-Rank Fine-Tuning via Subnet Localization and Optimization** | EMNLP 2025 | LLM serving, sparsity / pruning, efficient reasoning / agent systems | [Link](https://aclanthology.org/2025.emnlp-main.340/) | — |
+| **Canonical** | **Language-Guided Temporal Token Pruning for Efficient V ideo LLM Processing** | EMNLP 2025 | LLM serving, sparsity / pruning, multimodal / MLLM serving | [Link](https://aclanthology.org/2025.emnlp-main.451/) | — |
 | **Canonical** | **LeanK: Learnable K Cache Channel Pruning for Efficient Decoding** | EMNLP 2025 | KV cache pruning / decoding acceleration | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1584) | — |
+| **Canonical** | **Less is More: The Effectiveness of Compact Typological Language Representations** | EMNLP 2025 | sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.1310/) | — |
+| **Canonical** | **Less Is More? Examining Fairness in Pruned Large Language Models for Summarising Opinions** | EMNLP 2025 | sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.909/) | — |
+| **Canonical** | **LLM s on a Budget? Say HOLA** | EMNLP 2025 | LLM serving, speculative decoding, quantization, sparsity / pruning, edge / cloud / heterogeneous AI systems | [Link](https://aclanthology.org/2025.emnlp-industry.71/) | — |
+| **Canonical** | **On Pruning State-Space LLM s** | EMNLP 2025 | sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.950/) | — |
+| **Canonical** | **Scaling Down, Serving Fast: Compressing and Deploying Efficient LLM s for Recommendation Systems** | EMNLP 2025 | LLM serving, quantization, sparsity / pruning, efficient reasoning / agent systems, edge / cloud / heterogeneous AI systems | [Link](https://aclanthology.org/2025.emnlp-industry.119/) | — |
+| **Canonical** | **Sheaf Discovery with Joint Computation Graph Pruning and Flexible Granularity** | EMNLP 2025 | sparsity / pruning, efficient reasoning / agent systems, edge / cloud / heterogeneous AI systems | [Link](https://aclanthology.org/2025.emnlp-main.446/) | — |
+| **Canonical** | **Slim- SC : Thought Pruning for Efficient Scaling with Self-Consistency** | EMNLP 2025 | LLM serving, sparsity / pruning, efficient reasoning / agent systems | [Link](https://aclanthology.org/2025.emnlp-main.1750/) | — |
+| **Canonical** | **SMEC :Rethinking Matryoshka Representation Learning for Retrieval Embedding Compression** | EMNLP 2025 | LLM serving, sparsity / pruning, multimodal / MLLM serving | [Link](https://aclanthology.org/2025.emnlp-main.1332/) | — |
 | **Canonical** | **SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided Token Pruning** | EMNLP 2025 | multimodal speculative decoding / video LLM / verifier-guided visual-token pruning | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.366) | [Repo](https://github.com/zju-jiyicheng/SpecVLM) |
+| **Canonical** | **TASO : Task-Aligned Sparse Optimization for Parameter-Efficient Model Adaptation** | EMNLP 2025 | sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.1157/) | — |
+| **Canonical** | **Tiny Budgets, Big Gains: Parameter Placement Strategy in Parameter Super-Efficient Fine-Tuning** | EMNLP 2025 | sparsity / pruning | [Link](https://aclanthology.org/2025.emnlp-main.321/) | — |
 | **Canonical** | **TokenSelect: Efficient Long-Context Inference and Length Extrapolation for LLMs via Dynamic Token-Level KV Cache Selection** | EMNLP 2025 | long-context inference / KV selection / sparse attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1079) | — |
 | **Canonical** | **UNComp: Can Matrix Entropy Uncover Sparsity? — A Compressor Design from an Uncertainty-Aware Perspective** | EMNLP 2025 | KV cache compression / long-context inference / uncertainty-aware sparsity | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.209) | — |
+| **Canonical** | **V isi P runer: Decoding Discontinuous Cross-Modal Dynamics for Efficient Multimodal LLM s** | EMNLP 2025 | LLM serving, sparsity / pruning, multimodal / MLLM serving | [Link](https://aclanthology.org/2025.emnlp-main.955/) | — |
+| **Canonical** | **Weight-Aware Activation Sparsity with Constrained B ayesian Optimization Scheduling for Large Language Models** | EMNLP 2025 | LLM serving, sparsity / pruning, GPU kernels / DSL / compilers | [Link](https://aclanthology.org/2025.emnlp-main.57/) | — |
 | **Canonical** | **More Tokens, Lower Precision: Towards the Optimal Token-Precision Trade-off in KV Cache Compression** | EMNLP 2025 Findings | KV cache compression / token-precision co-optimization | [Link](https://aclanthology.org/2025.findings-emnlp.429/) | — |
 | **Canonical** | **SwiftPrune: Hessian-Free Weight Pruning for Large Language Models** | EMNLP 2025 Findings | sparsity/pruning / structured sparsity / post-training compression | [Link](https://arxiv.org/abs/2501.16376) | — |
 | **Canonical** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | EMNLP 2026 Main Conference | multimodal/MLLM serving / KV cache / pruning / video inference | [Link](https://arxiv.org/abs/2608.24063) | [Repo](https://github.com/Wlklk/VisCache) |
@@ -927,15 +823,36 @@
 | **Canonical** | **Splatonic: Architecture Support for 3D Gaussian Splatting SLAM via Sparse Processing** | HPCA 2026 | Physical AI, 3D reconstruction and SLAM | [Link](https://arxiv.org/abs/2511.18755) | — |
 | **Canonical** | **AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning** | ICCV 2025 | multimodal token merging/pruning | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhong_AIM_Adaptive_Inference_of_Multi-Modal_LLMs_via_Token_Merging_and_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **Beyond Text-Visual Attention: Exploiting Visual Cues for Effective Token Pruning in VLMs** | ICCV 2025 | multimodal/MLLM serving / VLM token pruning / inference acceleration | [Link](https://arxiv.org/abs/2412.01818) | [Repo](https://github.com/Theia-4869/VisPruner) |
+| **Canonical** | **EDFFDNet: Towards Accurate and Efficient Unsupervised Multi-Grid Image Registration** | ICCV 2025 | efficient vision-model inference and computer-vision systems | [Link](https://arxiv.org/abs/2509.07662) | — |
+| **Canonical** | **Efficient Event Camera Data Pretraining with Adaptive Prompt Fusion** | ICCV 2025 | efficient vision-model inference and computer-vision systems | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Liang_Efficient_Event_Camera_Data_Pretraining_with_Adaptive_Prompt_Fusion_ICCV_2025_paper.html) | — |
 | **Canonical** | **FastVAR: Linear Visual Autoregressive Modeling via Cached Token Pruning** | ICCV 2025 | autoregressive image generation acceleration / cached token pruning | [Link](https://arxiv.org/abs/2503.23367) | [Repo](https://github.com/csguoh/FastVAR) |
+| **Canonical** | **Feather the Throttle: Revisiting Visual Token Pruning for Vision-Language Model Acceleration** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://arxiv.org/abs/2412.13180) | — |
+| **Canonical** | **Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis** | ICCV 2025 | diffusion/flow acceleration and generative-model efficiency | [Link](https://arxiv.org/abs/2507.20454) | — |
 | **Canonical** | **Growing a Twig to Accelerate Large Vision-Language Models** | ICCV 2025 | VLM acceleration / token pruning + self-speculative decoding | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Shao_Growing_a_Twig_to_Accelerate_Large_Vision-Language_Models_ICCV_2025_paper.html) | [Repo](https://github.com/MILVLG/twigvlm) |
 | **Canonical** | **Keyframe-oriented Vision Token Pruning: Enhancing Efficiency of Large Vision Language Models on Long-Form Video Processing** | ICCV 2025 | video VLM token pruning / long-form video efficiency | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Keyframe-oriented_Vision_Token_Pruning_Enhancing_Efficiency_of_Large_Vision_Language_ICCV_2025_paper.html) | — |
+| **Canonical** | **Learning to Inference Adaptively for Multimodal Large Language Models** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://arxiv.org/abs/2503.10905) | — |
+| **Canonical** | **LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models** | ICCV 2025 | efficient vision-model inference and computer-vision systems | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Shang_LLaVA-PruMerge_Adaptive_Token_Reduction_for_Efficient_Large_Multimodal_Models_ICCV_2025_paper.html) | — |
 | **Canonical** | **METEOR: Multi-Encoder Collaborative Token Pruning for Efficient Vision Language Models** | ICCV 2025 | multimodal inference / multi-encoder token pruning | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_METEOR_Multi-Encoder_Collaborative_Token_Pruning_for_Efficient_Vision_Language_Models_ICCV_2025_paper.html) | [Repo](https://github.com/YuchenLiu98/METEOR) |
+| **Canonical** | **MixA-Q: Revisiting Activation Sparsity for Vision Transformers from a Mixed-Precision Quantization Perspective** | ICCV 2025 | efficient ML / AI systems (first-party abstract triage) | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_MixA-Q_Revisiting_Activation_Sparsity_for_Vision_Transformers_from_a_Mixed-Precision_ICCV_2025_paper.html) | — |
+| **Canonical** | **Mobile Video Diffusion** | ICCV 2025 | diffusion/flow acceleration and generative-model efficiency | [Link](https://arxiv.org/abs/2412.07583) | — |
+| **Canonical** | **MOBIUS: Big-to-Mobile Universal Instance Segmentation via Multi-modal Bottleneck Fusion and Calibrated Decoder Pruning** | ICCV 2025 | efficient vision-model inference and computer-vision systems | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Segu_MOBIUS_Big-to-Mobile_Universal_Instance_Segmentation_via_Multi-modal_Bottleneck_Fusion_and_ICCV_2025_paper.html) | — |
+| **Canonical** | **MSQ: Memory-Efficient Bit Sparsification Quantization** | ICCV 2025 | efficient training and parameter-efficient adaptation | [Link](https://arxiv.org/abs/2507.22349) | — |
+| **Canonical** | **PLADIS: Pushing the Limits of Attention in Diffusion Models at Inference Time by Leveraging Sparsity** | ICCV 2025 | diffusion/flow acceleration and generative-model efficiency | [Link](https://arxiv.org/abs/2503.07677) | — |
 | **Canonical** | **Pruning All-Rounder: Rethinking and Improving Inference Efficiency for Large Vision Language Models** | ICCV 2025 | multimodal/VLM token-layer pruning | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/Suo_Pruning_All-Rounder_Rethinking_and_Improving_Inference_Efficiency_for_Large_Vision_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **QuantCache: Adaptive Importance-Guided Quantization with Hierarchical Latent and Layer Caching for Video Generation** | ICCV 2025 | video diffusion acceleration / quantization + caching | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Wu_QuantCache_Adaptive_Importance-Guided_Quantization_with_Hierarchical_Latent_and_Layer_Caching_ICCV_2025_paper.html) | — |
+| **Canonical** | **SCAN: Bootstrapping Contrastive Pre-training for Data Efficiency** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://arxiv.org/abs/2411.09126) | — |
+| **Canonical** | **Sparfels: Fast Reconstruction from Sparse Unposed Imagery** | ICCV 2025 | 3D scene representation and efficient rendering/scene computation | [Link](https://arxiv.org/abs/2505.02178) | — |
+| **Canonical** | **Sparse-Dense Side-Tuner for efficient Video Temporal Grounding** | ICCV 2025 | efficient training and parameter-efficient adaptation | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Pujol-Perich_Sparse-Dense_Side-Tuner_for_efficient_Video_Temporal_Grounding_ICCV_2025_paper.html) | — |
 | **Canonical** | **SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs** | ICCV 2025 | multimodal KV-cache / head sparsity | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_SparseMM_Head_Sparsity_Emerges_from_Visual_Concept_Responses_in_MLLMs_ICCV_2025_paper.html) | [Repo](https://github.com/CR400AF-A/SparseMM) |
 | **Canonical** | **SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference** | ICCV 2025 | multimodal/VLM sparse prefill+decode inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Khaki_SparseVILA_Decoupling_Visual_Sparsity_for_Efficient_VLM_Inference_ICCV_2025_paper.html) | — |
+| **Canonical** | **SpatialSplat: Efficient Semantic 3D from Sparse Unposed Images** | ICCV 2025 | 3D scene representation and efficient rendering/scene computation | [Link](https://arxiv.org/abs/2505.23044) | — |
+| **Canonical** | **TR-PTS: Task-Relevant Parameter and Token Selection for Efficient Tuning** | ICCV 2025 | efficient training and parameter-efficient adaptation | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Luo_TR-PTS_Task-Relevant_Parameter_and_Token_Selection_for_Efficient_Tuning_ICCV_2025_paper.html) | — |
+| **Canonical** | **Training-free and Adaptive Sparse Attention for Efficient Long Video Generation** | ICCV 2025 | diffusion/flow acceleration and generative-model efficiency | [Link](https://arxiv.org/abs/2502.21079) | — |
 | **Canonical** | **VFlowOpt: A Token Pruning Framework for LMMs with Visual Information Flow-Guided Optimization** | ICCV 2025 | multimodal/VLM token pruning / KV efficiency | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_VFlowOpt_A_Token_Pruning_Framework_for_LMMs_with_Visual_Information_ICCV_2025_paper.html) | — |
+| **Canonical** | **VISO: Accelerating In-orbit Object Detection with Language-Guided Mask Learning and Sparse Inference** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_VISO_Accelerating_In-orbit_Object_Detection_with_Language-Guided_Mask_Learning_and_ICCV_2025_paper.html) | — |
+| **Canonical** | **VLDrive: Vision-Augmented Lightweight MLLMs for Efficient Language-grounded Autonomous Driving** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_VLDrive_Vision-Augmented_Lightweight_MLLMs_for_Efficient_Language-grounded_Autonomous_Driving_ICCV_2025_paper.html) | — |
+| **Canonical** | **When Large Vision-Language Model Meets Large Remote Sensing Imagery: Coarse-to-Fine Text-Guided Token Pruning** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://arxiv.org/abs/2503.07588) | — |
+| **Canonical** | **WINS: Winograd Structured Pruning for Fast Winograd Convolution** | ICCV 2025 | efficient ML / AI systems (first-party abstract triage) | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Park_WINS_Winograd_Structured_Pruning_for_Fast_Winograd_Convolution_ICCV_2025_paper.html) | — |
 | **Canonical** | **ZipVL: Accelerating Vision-Language Models through Dynamic Token Sparsity** | ICCV 2025 | VLM dynamic token sparsity / KV efficiency | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/He_ZipVL_Accelerating_Vision-Language_Models_through_Dynamic_Token_Sparsity_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **Pixelated Butterfly: Simple and Efficient Sparse training for Neural Network Models** | ICLR 2022 | sparsity/pruning; GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2112.00029) | [Repo](https://github.com/HazyResearch/fly) |
 | **Canonical** | **A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers** | ICLR 2026 | Diffusion Transformer conditioning; dimension pruning and compute reduction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1ec299a5229034141e58aeded0d0b9de-Abstract-Conference.html) | — |
@@ -976,6 +893,7 @@
 | **Canonical** | **Inconsistency Biases in Dynamic Data Pruning** | ICLR 2026 | Data-pruned efficient training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e7be1f4c6212c24919cd743512477c13-Abstract-Conference.html) | — |
 | **Canonical** | **IncVGGT: Incremental VGGT for Memory-Bounded Long-Range 3D Reconstruction** | ICLR 2026 | Memory-bounded long-sequence 3D reconstruction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0a4096f09ab230082df548f901d4f79e-Abstract-Conference.html) | — |
 | **Canonical** | **InfLLM-V2: Dense-Sparse Switchable Attention for Seamless Short-to-Long Adaptation** | ICLR 2026 | trainable sparse attention for long-context LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/716e60181e1782f5bd0a629033f85310-Abstract-Conference.html) | — |
+| **Canonical** | **Investigating Redundancy in Multimodal Large Language Models with Multiple Vision Encoders** | ICLR 2026 | Efficient MLLM architecture and encoder pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8bb5f66371c7e4cbf6c223162c62c0f4-Abstract-Conference.html) | — |
 | **Canonical** | **IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning** | ICLR 2026 | Training-free visual-token pruning for LVLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b51b3565a6775c557093cb99457fc7fc-Abstract-Conference.html) | — |
 | **Canonical** | **KDP: Simplifying Representation Dynamics in Kernel Space** | ICLR 2026 | LLM layer-block pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc49a629d33bc2461ed7a715ce44da68-Abstract-Conference.html) | — |
 | **Canonical** | **Large Language Model Compression with Global Rank and Sparsity Optimization** | ICLR 2026 | Joint low-rank and sparse LLM compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/bb1e9f32181a8d6a834670d5b3e1c48d-Abstract-Conference.html) | — |

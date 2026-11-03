@@ -1,126 +1,28 @@
 # 02 · Speculative Decoding
 
-> **482 canonical papers** mapped here, plus a broader **111-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **493 canonical papers** mapped here, plus a broader **13-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 111 tracked
+## 🆕 Latest 30 Days · 13 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding** | arXiv 2026 | speculative_decoding_distillation | [Link](https://arxiv.org/abs/2611.02846) | — |
+| **P0 · Strong** | **SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding** | arXiv 2026 | Speculative decoding / autonomous systems optimization | [Link](https://arxiv.org/abs/2611.02501) | — |
+| **P0 · Strong** | **FactorSpec: Serving Exact Relational Constraints as Speculative Drafts** | arXiv 2026 | Speculative decoding / structured generation | [Link](https://arxiv.org/abs/2611.02297) | — |
+| **P0 · Strong** | **Seeing What Matters, Verifying What Pays: Load-Adaptive Speculative Decoding for Vision-Language Models** | arXiv 2026 | speculative decoding;MLLM serving;visual token efficiency | [Link](https://arxiv.org/abs/2611.01617) | — |
+| **P0 · Strong** | **TVP: TV is Almost All You Need for Speculative Decoding** | arXiv 2026 | speculative decoding;efficient reasoning | [Link](https://arxiv.org/abs/2611.00588) | — |
+| **P0 · Strong** | **Weights That Stay: On-Chip Megakernels for Serial Heads in Speculative Decoding** | arXiv 2026 | speculative decoding;GPU kernels;LLM serving | [Link](https://arxiv.org/abs/2611.00506) | — |
+| **P0 · Strong** | **TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents** | arXiv | speculative decoding / agent inference | [Link](https://arxiv.org/abs/2610.41177) | — |
+| **P2 · Relevant** | **The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model** | arXiv | diffusion language models / speculative drafting | [Link](https://arxiv.org/abs/2610.40847) | — |
 | **P2 · Relevant** | **TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.40613) | — |
 | **P1 · Watch** | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.40287) | — |
-| **P2 · Relevant** | **Versatile Photonic Encoding Platform with Selectable Back Ends for Automotive Edge Processing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39337) | — |
-| **P1 · Watch** | **MCCL: Training Pytorch models across a fleet of Macs at Skywalker Sound** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39029) | — |
-| **P0 · Strong** | **Why Speculative Decoding Works Better Than Predicted on Sparse MoE Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38981) | — |
-| **P0 · Strong** | **TableTune: Measured, Self-Correcting Draft-Length Tables for Dynamic Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38968) | — |
-| **P1 · Watch** | **Efficient Agentic Audio-Visual Question Answering through Toolset Pruning and Modality Consolidation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38960) | — |
-| **P2 · Relevant** | **Hardwired Distributed Processing Units at the Sensor: Truly Parallel Vision Pre-Processing that Frees the Host CPU** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38752) | — |
-| **P1 · Watch** | **Multi-Token Prediction Done Right** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38331) | — |
-| **P2 · Relevant** | **SSQA: Sibling-Selective Quadtree Attention for Hierarchical Modeling in Perception Tasks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38320) | — |
-| **P0 · Strong** | **Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38095) | — |
-| **P1 · Watch** | **Merge and Branch: Efficient Tree-Structured Supervised Fine-Tuning of LLMs for Recommendation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.37973) | — |
-| **P0 · Strong** | **EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.37609) | — |
-| **P2 · Relevant** | **Reason or Recite: Complementary Specialists with an LLM Judge for Traffic Anomaly Reasoning** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.34993) | — |
-| **P2 · Relevant** | **Query-Driven Learning for Lifted Reasoning** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.34747) | — |
-| **P1 · Watch** | **Speculative Decoding for Mixture-of-Experts Models: Expert Bytes, Kernel Bandwidth and the Best Draft Length** | arXiv 2026 | spec,moe | [Link](https://arxiv.org/abs/2610.34440) | — |
-| **P1 · Watch** | **Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.34436) | — |
-| **P1 · Watch** | **T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding** | arXiv 2026 | Speculative decoding | [Link](https://arxiv.org/abs/2610.34103) | — |
-| **P1 · Watch** | **Distributed LLM Inference via Communication-Efficient Speculative Decoding** | arXiv 2026 | speculative decoding;distributed inference | [Link](https://arxiv.org/abs/2610.35957) | — |
-| **P1 · Watch** | **One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting** | arXiv 2026 | Speculative decoding | [Link](https://arxiv.org/abs/2610.33379) | — |
-| **P1 · Watch** | **Multiple Importance Sampling for Guided Speculative Inference** | arXiv 2026 | Speculative decoding | [Link](https://arxiv.org/abs/2610.33368) | — |
-| **P0 · Strong** | **NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32881) | — |
-| **P2 · Relevant** | **Speculative Forking: Turning Idle Wait into Parallel Exploration for Repository Environment Setup** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33129) | — |
-| **P1 · Watch** | **ImageRSI: Verification-Driven Recursive Self-Improvement for Agentic Image Generation** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32120) | — |
-| **P1 · Watch** | **DELA: Learning Controllable Edits for Diffusion Language Models** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32096) | — |
-| **P0 · Strong** | **SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management** | arXiv 2026 | Speculative decoding/agent serving | [Link](https://arxiv.org/abs/2610.31840) | — |
-| **P1 · Watch** | **Speculative Diffusion is a Tale of Two Tradeoffs** | arXiv 2026 | Speculative decoding/diffusion LLM | [Link](https://arxiv.org/abs/2610.31819) | — |
-| **P0 · Strong** | **ValuSpec: Plug-and-Play Candidate Valuation before Target Verification for Tree-Based Speculative Decoding** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.31338) | — |
-| **P0 · Strong** | **RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training** | arXiv 2026 | llm_serving,kv,spec,sparse | [Link](https://arxiv.org/abs/2610.31098) | — |
-| **P1 · Watch** | **Speculative Acceptance Does Not Decay with Position: A Full-Length Diagnostic on Long Chain-of-Thought with Independent Drafts** | arXiv 2026 | abstract_only_screen | [Link](https://arxiv.org/abs/2610.30644) | — |
-| **P2 · Relevant** | **The End of Consensus Research?** | arXiv 2026 | AI-assisted protocol research harness | [Link](https://arxiv.org/abs/2610.30114) | — |
-| **P1 · Watch** | **RCSD: Reinforcement and Continual Learning for Domain-Specific Speculative Decoding** | arXiv 2026 | spec | [Link](https://arxiv.org/abs/2610.29527) | — |
-| **P1 · Watch** | **Interpretable Cutting Plane Selection for Mixed-Integer Linear Programming Using Genetic Programming** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29311) | — |
-| **P1 · Watch** | **Understanding Target Probability Reuse in Speculative Decoding** | arXiv 2026 | spec,sparse | [Link](https://arxiv.org/abs/2610.29210) | — |
-| **P1 · Watch** | **Target Regeneration Shrinks the Gains of Draft-Training Objectives in Speculative Decoding** | arXiv 2026 | spec | [Link](https://arxiv.org/abs/2610.29013) | — |
-| **P1 · Watch** | **Adaptive Multi-Token Prediction: How far should we go?** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.28619) | — |
-| **P2 · Relevant** | **SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery** | arXiv 2026 | efficient reasoning/agents | [Link](https://arxiv.org/abs/2610.28706) | — |
-| **P1 · Watch** | **Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.28355) | — |
-| **P1 · Watch** | **Learning Normal Coordinates on Riemannian Manifolds with Flow Charts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28302) | — |
-| **P0 · Strong** | **PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28019) | — |
-| **P0 · Strong** | **ProVe: Proposer-Verifier Decoding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27815) | — |
-| **P0 · Strong** | **DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27379) | — |
-| **P0 · Strong** | **Parallel Language Models via Variational Decoding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26693) | — |
-| **P0 · Strong** | **Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26233) | — |
-| **P1 · Watch** | **Balance-Aware Pivot Selection for Parallel Diffusion LLM Decoding** | arXiv 2026 | diffusion language model parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2610.26040) | — |
-| **P0 · Strong** | **TamedFlow: Trajectory-Aware Distillation\\for Teacher-Assisted Diffusion Sampling** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.26025) | — |
-| **P0 · Strong** | **Learning to Couple: Context-Adaptive Joint Denoising for Diffusion Language Models** | arXiv 2026 | Diffusion LM / parallel decoding | [Link](https://arxiv.org/abs/2610.25723) | — |
-| **P0 · Strong** | **Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding** | arXiv 2026 | Speculative decoding / compiler | [Link](https://arxiv.org/abs/2610.25012) | — |
-| **P1 · Watch** | **When Does Better Acceptance Pay? A Controlled Study of Speculative Decoding** | arXiv 2026 | Speculative decoding evaluation | [Link](https://arxiv.org/abs/2610.24993) | — |
-| **P0 · Strong** | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation** | arXiv 2026 | speculative decoding; CPU LLM serving | [Link](https://arxiv.org/abs/2610.28671) | — |
-| **P1 · Watch** | **RiSE: Residual Subspace Expert for Generalizable Text-Centric Image Forgery Localization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24480) | — |
-| **P0 · Strong** | **FlashMap: Flow Map Speculative Decoding** | arXiv 2026 | Speculative decoding / flow drafter | [Link](https://arxiv.org/abs/2610.24365) | — |
-| **P1 · Watch** | **Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding** | arXiv | spec | [Link](https://arxiv.org/abs/2610.23818) | — |
-| **P0 · Strong** | **DLite: History-free Speculative Decoding for Agentic AI** | arXiv | spec,agent | [Link](https://arxiv.org/abs/2610.23787) | — |
-| **P0 · Strong** | **Trajectory-Triggered Sparse Collaborative Decoding** | arXiv |  | [Link](https://arxiv.org/abs/2610.23613) | — |
-| **P1 · Watch** | **Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers** | arXiv 2026 | Efficient reasoning / test-time compute | [Link](https://arxiv.org/abs/2610.23255) | — |
-| **P0 · Strong** | **BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration** | arXiv | spec | [Link](https://arxiv.org/abs/2610.22877) | — |
-| **P0 · Strong** | **On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction** | arXiv | spec | [Link](https://arxiv.org/abs/2610.22543) | — |
-| **P0 · Strong** | **Speculative Forcing for Efficient Autoregressive Video Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22347) | — |
-| **P0 · Strong** | **HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding** | arXiv 2026 | spec,quant,gen,edge | [Link](https://arxiv.org/abs/2610.21436) | — |
-| **P0 · Strong** | **Long-Context Drafting Does Not Require Long-Context Drafters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20865) | — |
-| **P0 · Strong** | **Speculative Sampling in Interactive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20556) | — |
-| **P0 · Strong** | **ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20503) | — |
-| **P0 · Strong** | **FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20392) | — |
-| **P0 · Strong** | **TreeSpark: Learning to Draft the Trees You Verify for Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20175) | — |
-| **P0 · Strong** | **JetSpec++: Foresight Parallel Drafting with Self Refinements** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19792) | — |
-| **P0 · Strong** | **SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18735) | — |
-| **P1 · Watch** | **Denoise X: Self-Supervised U-Net for Quantum Mottle Suppression in Chest Radiography** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18556) | — |
-| **P0 · Strong** | **SchemaWeaver: Accelerating On-Device Mobile Agentic AI via Schema-Guided Parallel LLM Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17436) | — |
-| **P0 · Strong** | **PIG: Parallel Inconsistency Guidance for Accelerating Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17375) | — |
-| **P1 · Watch** | **Calibrated $α$-Barycenters for Multiobjective $f$-Divergence Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16819) | — |
-| **P1 · Watch** | **Intent-Triggered Anchoring for Multi-Token Format Units in Parallel Decoding of Diffusion Language Models** | arXiv 2026 | diffusion language model / parallel decoding / format anchoring | [Link](https://arxiv.org/abs/2610.16516) | — |
-| **P1 · Watch** | **Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16491) | — |
-| **P1 · Watch** | **FON: A Draft-Revise Dual-Organ Language Model without Sequence-Level Quadratic Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16301) | — |
-| **P2 · Relevant** | **Same Goal, Different Words: Spatial Instruction Sensitivity in World-Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.16242) | — |
-| **P0 · Strong** | **SpecFit: Not All Draft Tokens Cost the Same in Offloaded MoE Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15417) | — |
-| **P0 · Strong** | **ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15246) | — |
-| **P2 · Relevant** | **Verify, Act, Distill: Turning Test-Time Compute into Test-Time Adaptation for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14885) | — |
-| **P1 · Watch** | **Depth-progressive 3D seismic velocity model building via 2D generative diffusion models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14812) | — |
-| **P0 · Strong** | **Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2610.13708) | — |
-| **P2 · Relevant** | **A-SAW: The Agentic Software Architecture Workflow** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13647) | — |
-| **P1 · Watch** | **Humanize Olympiad Agents: A Multi-Session Workflow for Olympiad Problem Solving with Solve, Review, Wiki, Verify** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13632) | — |
-| **P0 · Strong** | **S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2610.13202) | — |
-| **P1 · Watch** | **Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2610.12939) | — |
-| **P1 · Watch** | **Data-driven Optimal Sensor Placement for Aerosol Monitoring in the UK** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12658) | — |
-| **P0 · Strong** | **Contextual Correction of Parallel Draftsfor Speculative Decoding** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2610.12570) | — |
-| **P1 · Watch** | **SCORE: Spectral Correlation Estimation for Multivariate Gaussians** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12096) | — |
-| **P0 · Strong** | **Where Draft Trees Lose Target Mass: Exit-Guided Speculative Decoding** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.11750) | — |
-| **P1 · Watch** | **ASPIRE: Saddle-Point Discovery through Set Prediction and Physical Refinement** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10969) | — |
-| **P2 · Relevant** | **Speedbumps: Rejection Attacks on Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10929) | — |
-| **P0 · Strong** | **Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding** | arXiv 2026 | speculative decoding serving | [Link](https://arxiv.org/abs/2610.23935) | — |
-| **P0 · Strong** | **Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds** | arXiv 2026 | speculative_decoding,llm_serving | [Link](https://arxiv.org/abs/2610.10411) | — |
-| **P1 · Watch** | **RollVerify: Bridging Efficiency and Accuracy in Long-Tail Rollout Reinforcement Learning** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.09914) | — |
-| **P0 · Strong** | **Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.08993) | — |
-| **P1 · Watch** | **Secure Speculative Decoding for Large Language Models** | arXiv 2026 | speculative decoding / inference safety | [Link](https://arxiv.org/abs/2610.08678) | — |
-| **P1 · Watch** | **Zero-Shot Tabular Learning via Hypergraph Reasoning with LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23923) | — |
-| **P0 · Strong** | **Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2610.07822) | — |
-| **P0 · Strong** | **APEX: Speculate smarter, not deeper** | arXiv 2026 | speculative decoding / LLM serving | [Link](https://arxiv.org/abs/2610.07780) | — |
-| **P0 · Strong** | **DLoop: Looped Speculative Decoding** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2610.07659) | — |
-| **P0 · Strong** | **Trajectory-Retrieval Speculative Decoding: When Does a Model's Own History Help?** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2610.07350) | — |
-| **P0 · Strong** | **Verifying Coordination in Parallel Coding Agents: NP-Bench and a Scheduling Planner** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.07261) | — |
-| **P0 · Strong** | **SchemaFill: Efficient LLM Tool Calling via Slot-Parallel Speculative Decoding** | arXiv 2026 | speculative decoding / agent serving | [Link](https://arxiv.org/abs/2610.07086) | — |
-| **P0 · Strong** | **D-Loop: Looped Diffusion Drafting for Speculative Decoding** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2610.06011) | — |
-| **P0 · Strong** | **AdaSpark: Adaptive DSpark with Online Learning for Tree Verification and N-gram Fill** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05774) | — |
-| **P0 · Strong** | **SharpDraft: Accelerating Long-Context Speculative Decoding with Cardinality-Aware Query Scaling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05106) | — |
-| **P0 · Strong** | **SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04875) | — |
-| **P1 · Watch** | **Which Preferences to Train On? End-to-End Multi-Objective Alignment with an Adversarial Preference Distribution** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04845) | — |
-| **P2 · Relevant** | **Trinity: Self-Evolving Vision-Language Models with a Self-Verifier** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04469) | — |
-| **P1 · Watch** | **ALoDLM: Adaptively Looped Diffusion Language Models** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.04198) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
+| **P2 · Relevant** | **ECGJev: Question-Conditioned Option Scoring for 12-Lead ECG Interpretation** | Fresh / preprint | ECG multimodal decision decoding / compact signal-token representation | [Link](https://arxiv.org/abs/2611.02041) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 428 canonical
+## 🏛️ Classical / Historical · 484 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -129,6 +31,7 @@
 | **Canonical** | **DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models** | AAAI 2026 | on-device LLM / speculative decoding / edge inference | [Link](https://doi.org/10.1609/aaai.v40i31.39789) | — |
 | **Canonical** | **Re-SpS: A Reinforcement Learning Approach to Speculative Sampling** | AAAI 2026 | speculative decoding / LLM inference / adaptive draft-tree optimization | [Link](https://arxiv.org/abs/2601.12212) | — |
 | **Canonical** | **Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios** | AAAI 2026 | speculative decoding / large-batch inference / non-autoregressive drafting | [Link](https://arxiv.org/abs/2511.20340) | [Repo](https://github.com/ShiLuohe/SpecFormer) |
+| **Canonical** | **SpecDiff: Accelerating Diffusion Model Inference with Self-Speculation** | AAAI 2026 | speculative_decoding; gpu_kernel_compiler; diffusion_flow | [Link](https://arxiv.org/abs/2509.13848) | — |
 | **Canonical** | **Steering Pretrained Drafters During Speculative Decoding** | AAAI 2026 | speculative decoding / drafter-verifier alignment | [Link](https://arxiv.org/abs/2511.09844) | [Repo](https://github.com/ETH-DISCO/SD-square) |
 | **Canonical** | **Talon: Breaking the Synchronization Barrier in Speculative Decoding with Hybrid Model-based and Retrieve-based Drafting** | AAAI 2026 | speculative decoding / asynchronous draft-verify pipeline / hybrid model-retrieval drafting | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39266) | — |
 | **Canonical** | **Breaking Block Boundaries: Anchor-based History-stable Decoding for Diffusion Large Language Models** | ACL 2026 | Diffusion/flow acceleration and parallel decoding | [Link](https://aclanthology.org/2026.acl-long.945/) | — |
@@ -164,49 +67,71 @@
 | **Canonical** | **Speculative Verification: Exploiting Information Gain for Speculative Decoding** | ACL 2026 Findings | Speculative decoding and LLM serving | [Link](https://aclanthology.org/2026.findings-acl.1809/) | — |
 | **Canonical** | **SPIDE : Serial and Parallel Intertwined Speculative Decoding** | ACL 2026 Findings | Speculative decoding and LLM serving | [Link](https://aclanthology.org/2026.findings-acl.1040/) | — |
 | **Canonical** | **SpeCa: Accelerating Diffusion Transformers with Speculative Feature Caching** | ACM Multimedia 2025 | diffusion speculative caching | [Link](https://arxiv.org/abs/2509.11628) | — |
+| **Canonical** | **BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration** | arXiv | spec | [Link](https://arxiv.org/abs/2610.22877) | — |
+| **Canonical** | **DLite: History-free Speculative Decoding for Agentic AI** | arXiv | spec,agent | [Link](https://arxiv.org/abs/2610.23787) | — |
+| **Canonical** | **On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction** | arXiv | spec | [Link](https://arxiv.org/abs/2610.22543) | — |
+| **Canonical** | **Trajectory-Triggered Sparse Collaborative Decoding** | arXiv |  | [Link](https://arxiv.org/abs/2610.23613) | — |
 | **Canonical** | **Bole: Efficient Tree Speculation for Hybrid-Attention Language Models** | arXiv / 90d targeted recall backfill | LLM serving / speculative decoding / hybrid attention / GPU kernel-runtime co-design | [Link](https://arxiv.org/abs/2608.01651) | — |
+| **Canonical** | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation** | arXiv 2026 | speculative decoding; CPU LLM serving | [Link](https://arxiv.org/abs/2610.28671) | — |
 | **Canonical** | **Accelerating Diffusion Sampling via Speculative Draft Trees** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2609.17691) | — |
 | **Canonical** | **Acceptance-Aware Draft Model Training for Speculative Decoding** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2609.24150) | — |
 | **Canonical** | **Acoustic Progress Propagation for Long-Horizon Speculative Decoding in ASR** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33245) | — |
 | **Canonical** | **AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.19223) | — |
 | **Canonical** | **Adapting Tree-Structured Speculative Decoding to DeepSeek-V4 for Efficient Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24698) | — |
+| **Canonical** | **Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2610.13708) | — |
+| **Canonical** | **AdaSpark: Adaptive DSpark with Online Learning for Tree Verification and N-gram Fill** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05774) | — |
 | **Canonical** | **AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01108) | — |
+| **Canonical** | **APEX: Speculate smarter, not deeper** | arXiv 2026 | speculative decoding / LLM serving | [Link](https://arxiv.org/abs/2610.07780) | — |
 | **Canonical** | **ASPIRE: Asynchronous Batched Self-Speculative Decoding for Long-Context LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17943) | — |
 | **Canonical** | **BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.14643) | — |
 | **Canonical** | **BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference Acceleration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02800) | — |
 | **Canonical** | **BV Loss: Block Verification-Aware Loss for Block Diffusion Speculative Decoding** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2609.34832) | — |
 | **Canonical** | **Carryover Drafting: Recycling Rejected States for Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.14717) | — |
 | **Canonical** | **CAST: Cost-Aware Speculative Trees from One-Pass Block Drafters** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00321) | — |
+| **Canonical** | **Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding** | arXiv 2026 | Speculative decoding / compiler | [Link](https://arxiv.org/abs/2610.25012) | — |
+| **Canonical** | **Contextual Correction of Parallel Draftsfor Speculative Decoding** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2610.12570) | — |
+| **Canonical** | **D-Loop: Looped Diffusion Drafting for Speculative Decoding** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2610.06011) | — |
 | **Canonical** | **DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees** | arXiv 2026 | speculative decoding / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.13524) | — |
 | **Canonical** | **Decoupled Contrastive Decoding via Expert-Aligned Drafting** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2608.12913) | — |
 | **Canonical** | **DEdit: Iterative Draft Editing for Speculative Decoding** | arXiv 2026 | speculative,llm_serving | [Link](https://arxiv.org/abs/2609.38510) | — |
 | **Canonical** | **Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding** | arXiv 2026 | speculative decoding; multimodal serving | [Link](https://arxiv.org/abs/2609.26638) | — |
+| **Canonical** | **DLoop: Looped Speculative Decoding** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2610.07659) | — |
 | **Canonical** | **Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36173) | — |
 | **Canonical** | **Draft-OPD: On-Policy Distillation for Speculative Draft Models** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2605.29343) | — |
 | **Canonical** | **DraftAttention2: Fast Video Diffusion with Low-Resolution-Guided Mixed-Precision Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32628) | — |
 | **Canonical** | **DRelay: Global Draft Context for Prefix-Aware Parallel Speculative Decoding Repair** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01439) | — |
 | **Canonical** | **DScale: Scaling Block-Diffusion Speculative Decoding with Adaptive Verification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37532) | — |
+| **Canonical** | **DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27379) | — |
 | **Canonical** | **DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31047) | — |
 | **Canonical** | **ECHO: Early-layer Collaborative Hierarchical Orchestration with Bonus Logits in Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17241) | — |
 | **Canonical** | **EdgeAgent: Orchestrating On-Device LLM inference for End-User Multi-Agent Systems on CPU-GPU Unified Memory Architectures** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03394) | — |
 | **Canonical** | **Efficient On-Device Diffusion LLM Inference with Mobile NPU** | arXiv 2026 | edge AI / diffusion LLM inference / mobile NPU / speculative decoding / KV reuse | [Link](https://arxiv.org/abs/2606.13740) | — |
+| **Canonical** | **EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.37609) | — |
+| **Canonical** | **Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding** | arXiv 2026 | speculative decoding serving | [Link](https://arxiv.org/abs/2610.23935) | — |
 | **Canonical** | **Faster Block-Diffusion Serving with Distribution-Free Risk Guarantees** | arXiv 2026 | diffusion language model serving | [Link](https://arxiv.org/abs/2609.33887) | — |
 | **Canonical** | **Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs** | arXiv 2026 | diffusion LLM acceleration; KV cache | [Link](https://arxiv.org/abs/2609.26796) | — |
+| **Canonical** | **FlashMap: Flow Map Speculative Decoding** | arXiv 2026 | Speculative decoding / flow drafter | [Link](https://arxiv.org/abs/2610.24365) | — |
 | **Canonical** | **FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17008) | — |
+| **Canonical** | **FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20392) | — |
 | **Canonical** | **GDN Tree-Scan: Served Tree Verification for Recurrent-Hybrid Language Models** | arXiv 2026 | speculative/parallel decoding | [Link](https://arxiv.org/abs/2609.23900) | — |
 | **Canonical** | **Greedy Multi-Path Block Verification for Faster Decoding in Speculative Sampling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.16961) | — |
 | **Canonical** | **GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed** | arXiv 2026 | multimodal,speculative_decoding,physical | [Link](https://arxiv.org/abs/2609.39600) | — |
 | **Canonical** | **GrowMTP: Can RL Grow Its Own Draft Head?** | arXiv 2026 | speculative_decoding,training_efficiency | [Link](https://arxiv.org/abs/2609.16648) | — |
 | **Canonical** | **H-Spec: Parallel Speculative Decoding Without a Drafter-Side KV Cache** | arXiv 2026 | speculative decoding; KV cache | [Link](https://arxiv.org/abs/2609.24197) | — |
 | **Canonical** | **HAWK: Rethinking Multimodal Drafting for Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00623) | — |
+| **Canonical** | **Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26233) | — |
 | **Canonical** | **HeteroReason: Heterogeneous FPGA-GPU Acceleration for Disaggregated Speculative Reasoning** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.28717) | — |
 | **Canonical** | **How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method** | arXiv 2026 | efficient reasoning/agent systems / speculative methods / runtime gating / token cost | [Link](https://arxiv.org/abs/2609.05274) | — |
+| **Canonical** | **HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding** | arXiv 2026 | spec,quant,gen,edge | [Link](https://arxiv.org/abs/2610.21436) | — |
 | **Canonical** | **Interpolated Policy Distillation: A Controllable Continuum Between Off-Policy and On-Policy Distillation** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2609.37170) | — |
 | **Canonical** | **Intra-Prompt Parallel Decoding for Common-Context Question Answering** | arXiv 2026 | LLM serving / parallel decoding / shared-context inference | [Link](https://arxiv.org/abs/2609.05707) | — |
+| **Canonical** | **JetSpec++: Foresight Parallel Drafting with Self Refinements** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19792) | — |
 | **Canonical** | **JetSpec: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.18394) | — |
 | **Canonical** | **Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards** | arXiv 2026 | multimodal/MLLM serving / speculative decoding / efficient OCR | [Link](https://arxiv.org/abs/2609.03181) | [Repo](https://huggingface.co/jinaai/jina-ocr-v1) |
 | **Canonical** | **LADDER: Graph-Guided Diffusion Language Models for Efficient Multi-Hop Reasoning** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.24346) | — |
 | **Canonical** | **LEAP: Learning Efficient Action Proposals For LLM Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02670) | — |
+| **Canonical** | **Learning to Couple: Context-Adaptive Joint Denoising for Diffusion Language Models** | arXiv 2026 | Diffusion LM / parallel decoding | [Link](https://arxiv.org/abs/2610.25723) | — |
+| **Canonical** | **Long-Context Drafting Does Not Require Long-Context Drafters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20865) | — |
 | **Canonical** | **LongSpark: Efficient speculative decoding with a fixed-cost parallel drafter** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37029) | — |
 | **Canonical** | **LoopSpec: Pipelined Self-Speculative Decoding for Looped Transformers** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.17184) | — |
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
@@ -217,43 +142,74 @@
 | **Canonical** | **NanoCP: Taming Load Imbalance in Data-Expert Parallel Decoding under Variable-Length Workloads** | arXiv 2026 | llm_serving,kv,moe,dist | [Link](https://arxiv.org/abs/2605.21100) | — |
 | **Canonical** | **NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction** | arXiv 2026 | LLM training efficiency / latent-space language modeling / speculative decoding | [Link](https://arxiv.org/abs/2609.10715) | — |
 | **Canonical** | **NebulaSD: Many-for-Many Speculative Decoding** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2609.29364) | — |
+| **Canonical** | **Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38095) | — |
+| **Canonical** | **NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32881) | — |
+| **Canonical** | **Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2610.07822) | — |
+| **Canonical** | **ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15246) | — |
 | **Canonical** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
 | **Canonical** | **Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding** | arXiv 2026 | speculative decoding / LLM inference acceleration / drafter training | [Link](https://arxiv.org/abs/2609.09338) | — |
 | **Canonical** | **OUTLETS: Output-Length Prediction from Speculative Decoding Backbones** | arXiv 2026 | LLM serving / speculative decoding / output-length prediction / scheduling | [Link](https://arxiv.org/abs/2609.01068) | — |
+| **Canonical** | **PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28019) | — |
+| **Canonical** | **Parallel Language Models via Variational Decoding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26693) | — |
 | **Canonical** | **PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling** | arXiv 2026 | LLM serving / speculative decoding / edge inference / energy-aware runtime | [Link](https://arxiv.org/abs/2609.09662) | [Repo](https://github.com/imec-nu/PELM) |
+| **Canonical** | **PIG: Parallel Inconsistency Guidance for Accelerating Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17375) | — |
+| **Canonical** | **ProVe: Proposer-Verifier Decoding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27815) | — |
 | **Canonical** | **Rank-Aware Speculative Sampling for Diffusion Draft Trees** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.02251) | — |
+| **Canonical** | **ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20503) | — |
 | **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
 | **Canonical** | **Reciprocal Guidance: Orchestrating Draft and Verify Budgets for Advancing the Diffusion-AR Self-Speculation Frontier** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34388) | — |
 | **Canonical** | **Recovering Off-Policy Supervision for Speculative Decoding** | arXiv 2026 | speculative_decoding,llm_serving | [Link](https://arxiv.org/abs/2609.38795) | — |
 | **Canonical** | **Resource-Efficient Speculative Decoding for Long-Context LLM Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33184) | — |
 | **Canonical** | **Rethinking Soft Tokens for Parallel Decoding in Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37391) | — |
 | **Canonical** | **RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative Decoding** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2609.21827) | — |
+| **Canonical** | **RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training** | arXiv 2026 | llm_serving,kv,spec,sparse | [Link](https://arxiv.org/abs/2610.31098) | — |
 | **Canonical** | **Ripple-Pivot Search: Active Parallel Decoding for Diffusion Large Language Models** | arXiv 2026 | speculative/parallel decoding | [Link](https://arxiv.org/abs/2608.11742) | — |
 | **Canonical** | **RTP-LLM: High-Performance Alibaba LLM Inference Engine** | arXiv 2026 | LLM serving / KV cache / speculative decoding / quantization / multimodal serving | [Link](https://arxiv.org/abs/2605.29639) | [Repo](https://github.com/alibaba/rtp-llm) |
+| **Canonical** | **S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2610.13202) | — |
 | **Canonical** | **S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices** | arXiv 2026 | speculative decoding / MoE systems / edge inference / llama.cpp | [Link](https://arxiv.org/abs/2608.15018) | [Repo](https://github.com/angerybob/S2-MoE) |
 | **Canonical** | **SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2609.36601) | — |
 | **Canonical** | **Scaffold Then Internalize: Representation Injection for Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.35292) | — |
 | **Canonical** | **Scaling E-Commerce Attribute Extraction with Parallel Decoding** | arXiv 2026 | LLM serving / parallel decoding / production inference cost | [Link](https://arxiv.org/abs/2609.09716) | — |
+| **Canonical** | **SchemaFill: Efficient LLM Tool Calling via Slot-Parallel Speculative Decoding** | arXiv 2026 | speculative decoding / agent serving | [Link](https://arxiv.org/abs/2610.07086) | — |
+| **Canonical** | **SchemaWeaver: Accelerating On-Device Mobile Agentic AI via Schema-Guided Parallel LLM Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17436) | — |
 | **Canonical** | **SEED: Self-Speculative Decoding via Implicit Encoder-Decoder** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36590) | — |
 | **Canonical** | **Shallow Queries, Mature Values: Depth-Asynchronous Self-Speculation for Looped Transformers** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2609.34538) | — |
+| **Canonical** | **SharpDraft: Accelerating Long-Context Speculative Decoding with Cardinality-Aware Query Scaling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05106) | — |
 | **Canonical** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | arXiv 2026 | LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache | [Link](https://arxiv.org/abs/2608.24650) | [Repo](https://github.com/casys-kaist/Simthesizer) |
+| **Canonical** | **SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18735) | — |
+| **Canonical** | **SpecFit: Not All Draft Tokens Cost the Same in Offloaded MoE Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15417) | — |
+| **Canonical** | **SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04875) | — |
+| **Canonical** | **SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management** | arXiv 2026 | Speculative decoding/agent serving | [Link](https://arxiv.org/abs/2610.31840) | — |
 | **Canonical** | **Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading** | arXiv 2026 | llm_serving,spec,quant,moe,edge | [Link](https://arxiv.org/abs/2511.14102) | — |
 | **Canonical** | **SPECTRA: Adaptive Execution of Speculative Decoding on a Runtime-Reconfigurable Tiled Architecture** | arXiv 2026 | speculative decoding accelerator | [Link](https://arxiv.org/abs/2609.24847) | — |
+| **Canonical** | **Speculative Forcing for Efficient Autoregressive Video Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22347) | — |
 | **Canonical** | **Speculative Interaction Agents: Building Real-Time Agents with Asynchronous I/O and Speculative Tool Calling** | arXiv 2026 | efficient reasoning/agent systems / asynchronous I/O / speculative tool calling / low-latency interactive agents | [Link](https://arxiv.org/abs/2605.13360) | — |
+| **Canonical** | **Speculative Sampling in Interactive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20556) | — |
 | **Canonical** | **Spexis: Speculative Lookahead Scheduling for LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34370) | — |
+| **Canonical** | **TableTune: Measured, Self-Correcting Draft-Length Tables for Dynamic Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38968) | — |
+| **Canonical** | **TamedFlow: Trajectory-Aware Distillation\\for Teacher-Assisted Diffusion Sampling** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.26025) | — |
 | **Canonical** | **The Diagnosis a Reporter Leaves Unspoken: Surfacing Frozen Tumor Features for Brain-Tumor MRI Reporting** | arXiv 2026 | efficient reasoning/agent systems / multimodal inference / single-pass decoding / healthcare AI | [Link](https://arxiv.org/abs/2609.02411) | — |
 | **Canonical** | **TIDE: Temporal Incremental Draft Engine for Self-Improving LLM Inference** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2602.05145) | — |
 | **Canonical** | **To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.20186) | — |
 | **Canonical** | **TomasuLLM: Out-of-Order Speculative Execution for LLM Agents** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.38201) | — |
+| **Canonical** | **Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds** | arXiv 2026 | speculative_decoding,llm_serving | [Link](https://arxiv.org/abs/2610.10411) | — |
+| **Canonical** | **Trajectory-Retrieval Speculative Decoding: When Does a Model's Own History Help?** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2610.07350) | — |
 | **Canonical** | **Trees from Marginals: Autoregressive drafting with factorized priors** | arXiv 2026 | spec,kernel,llm_serving | [Link](https://arxiv.org/abs/2607.06763) | — |
+| **Canonical** | **TreeSpark: Learning to Draft the Trees You Verify for Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20175) | — |
 | **Canonical** | **TS-DP: Reinforcement Speculative Decoding For Temporal Adaptive Diffusion Policy Acceleration** | arXiv 2026 | llm_serving,spec,gen,physical | [Link](https://arxiv.org/abs/2512.15773) | — |
 | **Canonical** | **Tsubame: Tree Replay for Diffusion-Based Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33652) | — |
 | **Canonical** | **UBTree: Parallel Tree Drafting via Unigram and Bigram Models for Speculative Decoding** | arXiv 2026 | speculative_decoding,llm_serving | [Link](https://arxiv.org/abs/2609.39972) | — |
+| **Canonical** | **ValuSpec: Plug-and-Play Candidate Valuation before Target Verification for Tree-Based Speculative Decoding** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.31338) | — |
+| **Canonical** | **Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.08993) | — |
+| **Canonical** | **Verifying Coordination in Parallel Coding Agents: NP-Bench and a Scheduling Planner** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.07261) | — |
 | **Canonical** | **WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models** | arXiv 2026 | speculative decoding / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.08725) | — |
 | **Canonical** | **WaveFront Decoding: Parallelized Self-Speculative Decoding for Looped Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23033) | — |
 | **Canonical** | **When Parallel Drafter Meets Parallel Speculative Decoding** | arXiv 2026 | spec | [Link](https://arxiv.org/abs/2609.27396) | — |
 | **Canonical** | **When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33334) | — |
+| **Canonical** | **Where Draft Trees Lose Target Mass: Exit-Guided Speculative Decoding** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.11750) | — |
 | **Canonical** | **WhiFlash: Accelerating Speculative Decoding with Token-Level Cross-Paradigm Routing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.07710) | — |
+| **Canonical** | **Why Speculative Decoding Works Better Than Predicted on Sparse MoE Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38981) | — |
+| **Canonical** | **Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context** | arXiv 2026 | speculative decoding; KV cache/long-context | [Link](https://arxiv.org/abs/2607.21535) | — |
 | **Canonical** | **X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding** | arXiv 2026 | speculative decoding / distributed inference / edge-cloud | [Link](https://arxiv.org/abs/2609.09166) | — |
 | **Canonical** | **EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts** | arXiv 2026 / ICML 2026 AdaptFM Workshop | efficient reasoning / RL rollout systems / speculative decoding | [Link](https://arxiv.org/abs/2606.18967) | [Repo](https://github.com/furiosa-ai/EfficientRollout) |
 | **Canonical** | **VeriCache: Turning Lossy KV Cache into Lossless LLM Inference** | arXiv 2026 technical report | LLM serving / KV cache / lossless compression / speculative verification / long-context inference | [Link](https://arxiv.org/abs/2605.17613) | — |
@@ -342,6 +298,7 @@
 | **Canonical** | **Dovetail: A CPU/GPU Heterogeneous Speculative Decoding for LLM inference** | EMNLP 2025 | heterogeneous CPU/GPU inference / speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.879) | — |
 | **Canonical** | **Draft Model Knows When to Stop: Self-Verification Speculative Decoding for Long-Form Generation** | EMNLP 2025 | speculative decoding / efficient reasoning | [Link](https://aclanthology.org/2025.emnlp-main.844/) | — |
 | **Canonical** | **Faster In-Context Learning for LLMs via N-Gram Trie Speculative Decoding** | EMNLP 2025 | speculative decoding / in-context learning | [Link](https://aclanthology.org/2025.emnlp-main.911/) | — |
+| **Canonical** | **LLM s on a Budget? Say HOLA** | EMNLP 2025 | LLM serving, speculative decoding, quantization, sparsity / pruning, edge / cloud / heterogeneous AI systems | [Link](https://aclanthology.org/2025.emnlp-industry.71/) | — |
 | **Canonical** | **QSpec: Speculative Decoding with Complementary Quantization Schemes** | EMNLP 2025 | speculative decoding / quantization | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.240) | — |
 | **Canonical** | **Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance** | EMNLP 2025 | Physical AI / VLA speculative decoding / relaxed action-token verification | [Link](https://arxiv.org/abs/2507.22424) | [Repo](https://github.com/PineTreeWss/SpecVLA) |
 | **Canonical** | **Speculative Streaming: Efficient and Scalable Speculative Decoding with Multi-Stream Attention** | EMNLP 2025 | speculative decoding / multi-stream attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.986) | — |
@@ -386,6 +343,7 @@
 | **Canonical** | **PIMphony: Overcoming Bandwidth and Capacity Inefficiency in PIM-Based Long-Context LLM Inference System** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://arxiv.org/abs/2412.20166) | — |
 | **Canonical** | **RPU** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |
 | **Canonical** | **RPU - A Reasoning Processing Unit** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://arxiv.org/abs/2602.18568) | — |
+| **Canonical** | **Grouped Speculative Decoding for Autoregressive Image Generation** | ICCV 2025 | diffusion/flow acceleration and generative-model efficiency | [Link](https://arxiv.org/abs/2508.07747) | — |
 | **Canonical** | **Growing a Twig to Accelerate Large Vision-Language Models** | ICCV 2025 | VLM acceleration / token pruning + self-speculative decoding | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Shao_Growing_a_Twig_to_Accelerate_Large_Vision-Language_Models_ICCV_2025_paper.html) | [Repo](https://github.com/MILVLG/twigvlm) |
 | **Canonical** | **ATTS: Asynchronous Test-Time Scaling via Conformal Prediction** | ICLR 2026 | Speculative decoding, asynchronous LLM inference, and test-time scaling | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/48c292f57f37569241ea9191a507031d-Abstract-Conference.html) | — |
 | **Canonical** | **Autoregressive Image Generation with Randomized Parallel Decoding** | ICLR 2026 | autoregressive image generation / parallel decoding | [Link](https://arxiv.org/abs/2503.10568) | — |
