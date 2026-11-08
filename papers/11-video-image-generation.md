@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **621 canonical papers** mapped here, plus a broader **115-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **621 canonical papers** mapped here, plus a broader **167-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 115 tracked
+## 🆕 Latest 30 Days · 167 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -112,6 +112,58 @@
 | **P2 · Relevant** | **MPIG: Multi-angle Polarization Image Generation from a Single Polarization Observation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25326) | — |
 | **P2 · Relevant** | **Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control** | arXiv 2026 | Physical AI / video generation | [Link](https://arxiv.org/abs/2610.25223) | — |
 | **P0 · Strong** | **Localization and Neural Splatting on the Edge: An FPGA Scene Memory for Robots** | arXiv 2026 | Physical AI / edge FPGA | [Link](https://arxiv.org/abs/2610.25068) | — |
+| **P2 · Relevant** | **Stable Signer V3: 4D Deformable Primitive Splatting Is All You Need for Sign Language Production** | arXiv 2026 | adjacent_systems | [Link](https://arxiv.org/abs/2610.24926) | — |
+| **P2 · Relevant** | **SpriteStage: Long Horizon Animation Generation via Progressive Scene Programming and Replay** | arXiv 2026 | video generation runtime pipeline | [Link](https://arxiv.org/abs/2610.24869) | — |
+| **P1 · Watch** | **UniAVC: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling** | arXiv 2026 | Multimodal generation scheduling | [Link](https://arxiv.org/abs/2610.24791) | — |
+| **P2 · Relevant** | **Knowledge Diversion: A Novel Paradigm for Pre-training Decomposable Image Generation Models** | arXiv 2026 | adjacent_efficient_ml | [Link](https://arxiv.org/abs/2610.24664) | — |
+| **P2 · Relevant** | **RoMo-GS: Efficient Online 3D Gaussian Splatting for Robot Mapping via Exposure-Integrated Motion Blur** | arXiv 2026 | Physical AI / online 3DGS | [Link](https://arxiv.org/abs/2610.24605) | — |
+| **P2 · Relevant** | **Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning** | arXiv | gen,agent | [Link](https://arxiv.org/abs/2610.23677) | — |
+| **P2 · Relevant** | **LiveSync: Iterative Self-Training for Lip-Sync Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23558) | — |
+| **P2 · Relevant** | **MOSS-Image Technical Report** | arXiv 2026 | image generation model | [Link](https://arxiv.org/abs/2610.23374) | — |
+| **P2 · Relevant** | **Frame-Consistent Feed-Forward 3D Gaussian Splatting from Sparse Unposed Images** | arXiv |  | [Link](https://arxiv.org/abs/2610.23039) | — |
+| **P0 · Strong** | **Sink-Sparse Hybrid Attention for Efficient Inference in T2I/T2V Diffusion Transformers** | arXiv |  | [Link](https://arxiv.org/abs/2610.22975) | — |
+| **P0 · Strong** | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation** | arXiv 2026 | llm_serving,sparse,gen | [Link](https://arxiv.org/abs/2610.22370) | — |
+| **P0 · Strong** | **Speculative Forcing for Efficient Autoregressive Video Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22347) | — |
+| **P2 · Relevant** | **SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22264) | — |
+| **P1 · Watch** | **ManiFusion: Unlocking the High-Throughput Generation via Superposition in Manifold Space** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.21433) | — |
+| **P2 · Relevant** | **The Density of Thought: Predicting and Steering Reasoning in Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21286) | — |
+| **P0 · Strong** | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search** | arXiv 2026 | sparse,attn,gen | [Link](https://arxiv.org/abs/2610.21129) | — |
+| **P1 · Watch** | **ResStreamGS: Residual-Sensitive Dual-Stream Gaussian Splatting for Mobile Volumetric Video Streaming** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21121) | — |
+| **P2 · Relevant** | **Temporal Specification Guidance for Text-to-Video Generation** | arXiv 2026 | peripheral_efficient_ml | [Link](https://arxiv.org/abs/2610.20822) | — |
+| **P0 · Strong** | **Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation** | arXiv 2026 | multimodal_image_generation_efficiency | [Link](https://arxiv.org/abs/2610.20818) | — |
+| **P2 · Relevant** | **CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20603) | — |
+| **P1 · Watch** | **Feed-Forward Multi-View Feature Coding for 3D Gaussian Splatting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20590) | — |
+| **P2 · Relevant** | **Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20571) | — |
+| **P0 · Strong** | **Speculative Sampling in Interactive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20556) | — |
+| **P2 · Relevant** | **VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19847) | — |
+| **P2 · Relevant** | **SceneAE: Scene Generation and Reconstruction in Queryable 3D-Anchored Latent Space** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19708) | — |
+| **P2 · Relevant** | **Kandinsky S2V 1.0: Audio-Driven Avatar Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19290) | — |
+| **P0 · Strong** | **Long-horizon Video Generation with Slot Memory Addressed By Region Tokens** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19257) | — |
+| **P2 · Relevant** | **GAD: Geometry Attention Distillation for Consistent Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18779) | — |
+| **P1 · Watch** | **WAVE-0: Bridging VLA Policies and WAMs with Lightweight Latent Future Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18568) | — |
+| **P2 · Relevant** | **Efficient Scene-Text Refinement via Pixel-Space Grouped Image Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18284) | — |
+| **P2 · Relevant** | **VARI: Robust Text-to-Video Generation via Group-Structured Intent Alignment** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18189) | — |
+| **P1 · Watch** | **CineMem: Attention-Aligned Fine-grained Memory Retrieval for Multi-Shot Long Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17926) | — |
+| **P0 · Strong** | **4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17625) | — |
+| **P0 · Strong** | **PLEDGE: Progressive Lossy Error-Bounded Compression of 3D Gaussian Splatting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17605) | — |
+| **P2 · Relevant** | **Gaussian Splatting for Real-Time Scene Reconstruction: Methods, Systems, and Trade-offs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17513) | — |
+| **P1 · Watch** | **PerturbBridge: Direct Phenotypic Supervision for Cellular Perturbation Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17066) | — |
+| **P2 · Relevant** | **REEL: Learning to Retrieve, Evaluate, and Evolve Visual Memory for Any Long-Horizon Multi-Shot Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16632) | — |
+| **P2 · Relevant** | **Regime-Aware Router Learning for Multi-Domain Medical Image Generation with Diffusion Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16082) | — |
+| **P2 · Relevant** | **Gen Through the Lens: Camera-Controllable Video Generation via Cross-Coordinate Conditioning Fusion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15900) | — |
+| **P0 · Strong** | **TempoKV: Predictive KV Cache Quantization for Autoregressive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15324) | — |
+| **P2 · Relevant** | **AD-GS: Anatomical Density-guided 3D Gaussian Splatting for Sparse-View Dental CBCT Reconstruction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14963) | — |
+| **P2 · Relevant** | **Getting Space Right: Agentic Rewards for Image Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14852) | — |
+| **P1 · Watch** | **PixARG: Pixel-Asynchronous Retrieval-Augmented Diffusion for Fast and Realistic Image Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14713) | — |
+| **P1 · Watch** | **TETRIS-4DGS: Efficient Post-Training Compression of 4D Gaussian Splatting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14663) | — |
+| **P0 · Strong** | **FrameFold: Response-Guided KV Cache Consolidation for Autoregressive Long Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14568) | — |
+| **P2 · Relevant** | **BigCell: Generating Gigapixel Whole-Slide Images** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14261) | — |
+| **P1 · Watch** | **Efficient Confidence-Aware Densification for 3DGS** | arXiv 2026 | video_image_generation_acceleration | [Link](https://arxiv.org/abs/2610.13541) | — |
+| **P2 · Relevant** | **TextVBench: Evaluating Text Rendering and Preservation in Video Generation** | arXiv 2026 | video-generation evaluation benchmark | [Link](https://arxiv.org/abs/2610.13412) | — |
+| **P1 · Watch** | **Exploring Attention Sinks in Text-to-Image Transformers from Diffusion and Autoregressive Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13337) | — |
+| **P2 · Relevant** | **PAGE: Parts-Aware Guidance for Co-Speech Gesture Portrait Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13301) | — |
+| **P1 · Watch** | **Golden Anchor for Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13217) | — |
+| **P1 · Watch** | **MixTok: Adaptive Visual Tokenization with Global 1D Tokens and Sparse 2D Refinement** | arXiv 2026 | video_image_generation_acceleration | [Link](https://arxiv.org/abs/2610.13181) | — |
 | **P2 · Relevant** | **X-World 1.6: Building Controllable Virtual Cities with World Models** | arXiv 2026 | Physical AI;world models;video generation | [Link](https://arxiv.org/abs/2611.00596) | — |
 | **P0 · Strong** | **SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation** | Fresh / preprint | video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.16585) | — |
 | **P0 · Strong** | **SFA: A Statistical Physics-Inspired Diffusion Transformer for Efficient and High-Quality Image Generation** | arXiv 2026 | Diffusion acceleration / efficient attention | [Link](https://arxiv.org/abs/2611.00027) | — |
@@ -124,7 +176,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |
 
-## 🏛️ Classical / Historical · 593 canonical
+## 🏛️ Classical / Historical · 582 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -153,9 +205,7 @@
 | **Canonical** | **Accelerating Training of Autoregressive Video Generation Models via Local Optimization with Representation Continuity** | ACL 2026 Findings | Autoregressive video-generation training efficiency | [Link](https://aclanthology.org/2026.findings-acl.1501/) | — |
 | **Canonical** | **Accelerating Diffusion Models via Parallel Denoising** | ACM Multimedia 2025 | diffusion/image generation acceleration / parallel denoising | [Link](https://dl.acm.org/doi/10.1145/3746027.3755827) | — |
 | **Canonical** | **FlexGaussian: Flexible and Cost-Effective Training-Free Compression for 3D Gaussian Splatting** | ACM Multimedia 2025 | video/image generation acceleration / 3D Gaussian splatting / quantization / pruning / edge deployment | [Link](https://arxiv.org/abs/2507.06671) | [Repo](https://github.com/Supercomputing-System-AI-Lab/FlexGaussian) |
-| **Canonical** | **Sink-Sparse Hybrid Attention for Efficient Inference in T2I/T2V Diffusion Transformers** | arXiv |  | [Link](https://arxiv.org/abs/2610.22975) | — |
 | **Canonical** | **GAN Compression: Efficient Architectures for Interactive Conditional GANs** | arXiv 20 | video/image generation acceleration,quantization/pruning,edge AI | [Link](https://arxiv.org/abs/2003.08936) | [Repo](https://hanlab.mit.edu/projects/gancompression) |
-| **Canonical** | **4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17625) | — |
 | **Canonical** | **Aligned Delta-Triplane Transformers as Occupancy World Models** | arXiv 2026 | efficient world models; video/image generation; autonomous driving | [Link](https://arxiv.org/abs/2503.07338) | — |
 | **Canonical** | **AoiZora: Compiler-Agnostic, Placement-Aware Auto-Parallelization for Video Diffusion Transformers** | arXiv 2026 | video/image generation acceleration;distributed training;compiler | [Link](https://arxiv.org/abs/2606.17566) | — |
 | **Canonical** | **ArborSplat: Online Semantic Gaussian Splatting SLAM for Orchards** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.26315) | — |
@@ -180,7 +230,6 @@
 | **Canonical** | **FeCoSplat: Feedback-Guided Compression for Feed-Forward 3D Gaussian Splatting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33330) | — |
 | **Canonical** | **Fine-Grained Caching for Diffusion Transformers with Few Calibration Conditions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2512.05134) | — |
 | **Canonical** | **FlashAR: Efficient Post-Training Acceleration for Autoregressive Image Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.09430) | — |
-| **Canonical** | **FrameFold: Response-Guided KV Cache Consolidation for Autoregressive Long Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14568) | — |
 | **Canonical** | **FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation** | arXiv 2026 | video_generation,long_context | [Link](https://arxiv.org/abs/2609.38839) | — |
 | **Canonical** | **From Mono to Stereo: Accelerating Binocular Gaussian Splatting via Reprojection and Selective Patching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30741) | — |
 | **Canonical** | **Gaussian Stippling: Efficient Sorting-Free 3D Gaussian Rendering through Hybrid Sampling and Spatiotemporal Reconstruction** | arXiv 2026 | 3dgs,graphics,acceleration | [Link](https://arxiv.org/abs/2609.38488) | — |
@@ -191,7 +240,6 @@
 | **Canonical** | **HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.05739) | — |
 | **Canonical** | **IB-Flow: Information Bottleneck-Guided CFG Distillation for Few-Step Text-to-Image Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2607.09133) | — |
 | **Canonical** | **iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity** | arXiv 2026 | sparse,kernel,gen | [Link](https://arxiv.org/abs/2610.11302) | — |
-| **Canonical** | **Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation** | arXiv 2026 | multimodal_image_generation_efficiency | [Link](https://arxiv.org/abs/2610.20818) | — |
 | **Canonical** | **Keepsake: Selective Spatial Memory for Long-Horizon Video Generation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.06588) | — |
 | **Canonical** | **Laplacian Frequency Hierarchies for Efficient 3D Gaussian Splatting Training** | arXiv 2026 | video/image generation acceleration / 3D Gaussian Splatting / efficient training | [Link](https://arxiv.org/abs/2609.03334) | — |
 | **Canonical** | **Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2606.05737) | — |
@@ -200,7 +248,6 @@
 | **Canonical** | **LiveVVT: High-Fidelity Video Virtual Try-On in Real Time** | arXiv 2026 | video generation acceleration / streaming diffusion / rolling recurrent generation / few-step distillation | [Link](https://arxiv.org/abs/2608.26714) | — |
 | **Canonical** | **LoBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for Large-Scale Scene Reconstruction** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2510.01767) | — |
 | **Canonical** | **LoCoSplat: Real-Time Feed-Forward 3D Gaussian Splatting with Minimal 3D Reasoning** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.04351) | — |
-| **Canonical** | **Long-horizon Video Generation with Slot Memory Addressed By Region Tokens** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19257) | — |
 | **Canonical** | **LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration** | arXiv 2026 | video/image generation acceleration / sparse attention / video diffusion | [Link](https://arxiv.org/abs/2608.12032) | — |
 | **Canonical** | **LPM: Industrial-Scale Generative Video Restoration** | arXiv 2026 | video/image generation acceleration; diffusion serving; industrial video restoration; quantization; TensorRT-LLM | [Link](https://arxiv.org/abs/2607.13460) | — |
 | **Canonical** | **LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.15863) | — |
@@ -211,7 +258,6 @@
 | **Canonical** | **Only What Was Seen: Observation-Gram Compaction of View-Dependent Appearance in 3D Gaussian Splatting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28997) | — |
 | **Canonical** | **Parameterized Stripe Attention for Efficient Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37001) | — |
 | **Canonical** | **Parametric Trajectory Distillation for Few-Step Video Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.11498) | — |
-| **Canonical** | **PLEDGE: Progressive Lossy Error-Bounded Compression of 3D Gaussian Splatting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17605) | — |
 | **Canonical** | **Q-ARVD: Quantizing Autoregressive Video Diffusion Models** | arXiv 2026 | video generation acceleration; autoregressive video diffusion; quantization; Triton kernels | [Link](https://arxiv.org/abs/2605.21072) | [Repo](https://github.com/tsa18/Q-ARVD) |
 | **Canonical** | **QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation** | arXiv 2026 | WAM/video generation; KV quantization | [Link](https://arxiv.org/abs/2609.26425) | — |
 | **Canonical** | **Real-Time Joint Audio-Video Generation by Parallel Adapter Composition** | arXiv 2026 | video_generation,multimodal_serving,diffusion | [Link](https://arxiv.org/abs/2610.10343) | — |
@@ -221,16 +267,12 @@
 | **Canonical** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
 | **Canonical** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **Canonical** | **SparkDiffusion: Mitigating the High-Sparsity Trap --- A Unified Framework for up to $265\times$ Single-GPU Acceleration of Visual Generation** | arXiv 2026 | video/image generation acceleration; sparse attention; quantization | [Link](https://arxiv.org/abs/2609.23153) | — |
-| **Canonical** | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search** | arXiv 2026 | sparse,attn,gen | [Link](https://arxiv.org/abs/2610.21129) | — |
-| **Canonical** | **Speculative Forcing for Efficient Autoregressive Video Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22347) | — |
-| **Canonical** | **Speculative Sampling in Interactive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20556) | — |
 | **Canonical** | **Sphinx: Efficiently Serving Novel View Synthesis using Regression-Guided Selective Refinement** | arXiv 2026 | video/image generation serving | [Link](https://arxiv.org/abs/2511.18672) | — |
 | **Canonical** | **Splaxel: Efficient Distributed Training of 3D Gaussian Splatting for Large-scale Scene Reconstruction via Pixel-level Communication** | arXiv 2026 | video/image generation acceleration;distributed training | [Link](https://arxiv.org/abs/2606.18588) | — |
 | **Canonical** | **Stabilizing Camera-Controlled Novel View Synthesis at Inference Time** | arXiv 2026 | video/image generation acceleration;diffusion/flow | [Link](https://arxiv.org/abs/2609.03639) | — |
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
 | **Canonical** | **TasteRoute: Personalized Routing for Video Generation** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05896) | — |
 | **Canonical** | **TBDub: Production-Oriented Visual Dubbing** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / few-step distillation | [Link](https://arxiv.org/abs/2609.06144) | [Repo](https://github.com/TaoLiveAIGC/TBDub) |
-| **Canonical** | **TempoKV: Predictive KV Cache Quantization for Autoregressive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15324) | — |
 | **Canonical** | **The Golden Path Hypothesis: Reusable Schedules in Diffusion Caching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39343) | — |
 | **Canonical** | **Transform Trained Transformer for Accelerating Native 4K Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2512.13492) | — |
 | **Canonical** | **Two Halves are More than One: Phase-wise Velocity Distillation for Fast and High-Quality Image Generation** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.08070) | — |
@@ -244,7 +286,6 @@
 | **Canonical** | **VoRTeC: Taming Foundation Flow for One-step Real time Video Compression** | arXiv 2026 | video/image generation acceleration / diffusion-flow / real-time decoding | [Link](https://arxiv.org/abs/2609.02291) | — |
 | **Canonical** | **WaveAlign: Cache-Aware Query-Row Scheduling for Sparse Attention in Long-Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34814) | — |
 | **Canonical** | **What Should a Streaming Video Model Remember?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.16353) | — |
-| **Canonical** | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation** | arXiv 2026 | llm_serving,sparse,gen | [Link](https://arxiv.org/abs/2610.22370) | — |
 | **Canonical** | **World Action Modeling with Progressive Visual Planning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02508) | — |
 | **Canonical** | **Anycost GANs for Interactive Image Synthesis and Editing** | arXiv 21 | video/image generation acceleration,edge/cloud/heterogeneous AI | [Link](https://arxiv.org/abs/2103.03243) | [Repo](https://hanlab.mit.edu/projects/anycost-gan) |
 | **Canonical** | **Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models** | arXiv 22 | diffusion/flow acceleration,sparsity,video/image generation,GPU kernel | [Link](https://arxiv.org/abs/2211.02048) | [Repo](https://hanlab.mit.edu/projects/sige) |
@@ -711,7 +752,7 @@
 | **Canonical** | **ZPressor: Bottleneck-Aware Compression for Scalable Feed-Forward 3DGS** | NeurIPS 2025 | Efficient feed-forward 3D Gaussian Splatting | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/a48a6c9a03e87d6426b3f9bd18bbb86b-Abstract-Conference.html) | — |
 | **Canonical** | **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |
 | **Canonical** | **GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning** | RSS 2026 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss22/p093.html) | — |
-| **Canonical** | **TurboFNO: High-Performance Fourier Neural Operator with Fused FFT-GEMM-iFFT on GPU** | SC 2025 | video/image generation acceleration | [Link](https://sc25.conference-program.com/?post_type=page&p=14&id=pap137&sess=sess183) | — |
+| **Canonical** | **TurboFNO: High-Performance Fourier Neural Operator with Fused FFT-GEMM-iFFT on GPU** | SC 2025 | video/image generation acceleration | [Link](https://arxiv.org/abs/2504.11681) | [Repo](https://github.com/shixun404/TurboFNO) |
 | **Canonical** | **Déjà Vu: Efficient Video-Language Query Engine with Learning-based Inter-Frame Computation Reuse** | VLDB/PVLDB Volume 18 | VideoLM inference / inter-frame computation reuse | [Link](https://arxiv.org/abs/2506.14107) | — |
 | **Canonical** | **Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2606.25473) | — |
 | **Canonical** | **Frame Context Packing and Drift Prevention in Next-Frame-Prediction Video Diffusion Models** | Fresh / preprint | Video / Image Generation Acceleration; Diffusion / Flow Acceleration | [Link](https://arxiv.org/abs/2504.12626) | [Repo](https://github.com/lllyasviel/FramePack) |

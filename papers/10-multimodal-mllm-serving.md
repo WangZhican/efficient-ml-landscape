@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **927 canonical papers** mapped here, plus a broader **376-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **928 canonical papers** mapped here, plus a broader **532-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 376 tracked
+## 🆕 Latest 30 Days · 532 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -205,6 +205,7 @@
 | **P0 · Strong** | **TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35489) | — |
 | **P0 · Strong** | **Shared Context, Separate Engines: Streaming Vision--Language Inference on Edge SoCs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35309) | — |
 | **P2 · Relevant** | **AgenticCity-Bench: Longitudinal Multimodal Observations of Urban Dynamics with Agentic Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35293) | — |
+| **P2 · Relevant** | **Beyond Vision-Language Models: Visual-Semantic Affect Graphs for Emotion Recognition in Artworks** | arXiv 2026 | multimodal_vlm_graph_reasoning | [Link](https://arxiv.org/abs/2610.35244) | — |
 | **P2 · Relevant** | **MemVLN: Streaming Episodic Memory for Vision-Language Navigation** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.35066) | — |
 | **P2 · Relevant** | **DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.35044) | — |
 | **P2 · Relevant** | **JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.35010) | — |
@@ -261,6 +262,7 @@
 | **P0 · Strong** | **Rethinking Sequence Compression with Test-time Regression** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.31574) | — |
 | **P2 · Relevant** | **DuoCook: An Overcooked-Inspired Benchmark for Visual Planning and Coordination** | arXiv 2026 | multi-agent visual-planning benchmark | [Link](https://arxiv.org/abs/2610.31511) | — |
 | **P1 · Watch** | **MoG-VLM: Efficient Video Anomaly Detection through Motion-Guided Vision-Language Models** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.31478) | — |
+| **P2 · Relevant** | **From Structured Records to Patient Narratives: Preserving Clinical Alignment in LLM-Generated Health Summaries** | arXiv 2026 | llm_rag_clinical_summarization_pipeline | [Link](https://arxiv.org/abs/2610.31467) | — |
 | **P0 · Strong** | **Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2610.31433) | — |
 | **P2 · Relevant** | **PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.31429) | — |
 | **P0 · Strong** | **FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies** | arXiv 2026 | llm_serving,multimodal,agent,physical | [Link](https://arxiv.org/abs/2610.31427) | — |
@@ -325,11 +327,13 @@
 | **P2 · Relevant** | **Large Multimodal Models for Direct Robot Control: GPT-6 as a Beginning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28259) | — |
 | **P2 · Relevant** | **A Multimodal Engineering GraphRAG Framework for Post-Wind-Event Building Assessment and Recovery Inference** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.28216) | — |
 | **P2 · Relevant** | **Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28184) | — |
+| **P2 · Relevant** | **CAPS: Clinically-Verifiable Anatomy-Prioritized Synthesis for Missing MRI Imputation in Brain Tumor Segmentation** | arXiv 2026 | multimodal_generative_medical_image_synthesis | [Link](https://arxiv.org/abs/2610.28179) | — |
 | **P2 · Relevant** | **Reasoning as a Distribution: Generative Plan Latents for Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28166) | — |
 | **P2 · Relevant** | **FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28109) | — |
 | **P0 · Strong** | **PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28019) | — |
 | **P1 · Watch** | **EventSync: Event-Driven Memory Updates for History-Dependent Manipulation** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.27917) | — |
 | **P2 · Relevant** | **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting** | arXiv 2026 | Physical-AI action generation | [Link](https://arxiv.org/abs/2610.27877) | — |
+| **P2 · Relevant** | **Physical Operating-Condition-Guided Vision-Language Matching for Cavitation Diagnosis in Industrial Pipeline Systems** | arXiv 2026 | vision_language_industrial_diagnosis | [Link](https://arxiv.org/abs/2610.27860) | — |
 | **P2 · Relevant** | **VLA-Retain: Benchmarking Cross-Dimension Effects of Vision Tuning in VLAs** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.27698) | — |
 | **P1 · Watch** | **Reusing Multimodal Agents: Efficient Evaluation of Sound Designs in Games** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.27670) | — |
 | **P1 · Watch** | **PLaCA: Learning Patch-Level Future Latent Change for Action Generation** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27657) | — |
@@ -358,6 +362,7 @@
 | **P1 · Watch** | **Communication-Efficient Federated Domain Generalization in Edge Networks via Dynamic Prototype Regulation** | arXiv 2026 | Edge / distributed multimodal learning | [Link](https://arxiv.org/abs/2610.25810) | — |
 | **P2 · Relevant** | **VHA: VQA-based Hallucination Assessment for Generative Image Super-Resolution** | arXiv 2026 | adjacent_efficient_ml | [Link](https://arxiv.org/abs/2610.25770) | — |
 | **P2 · Relevant** | **Think Densely, Act Sparsely: Latent Expert Cognitive Chains for Vision-Language-Action Autonomous Driving** | arXiv 2026 | Physical AI / VLA driving | [Link](https://arxiv.org/abs/2610.25734) | — |
+| **P2 · Relevant** | **CheXFuse: Guided Differential Joint Attention Fusion for Robust Multimodal Chest X-Ray Classification in Data-Scarce Medical Settings** | arXiv 2026 | multimodal_attention_fusion | [Link](https://arxiv.org/abs/2610.25617) | — |
 | **P2 · Relevant** | **DiffGround: Semantic Difference-Guided Zero-Shot Video Question Grounding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25570) | — |
 | **P0 · Strong** | **StreamAhead: Real-Time Streaming Video Question Answering via Adaptive Precomputation** | arXiv 2026 | Streaming multimodal serving | [Link](https://arxiv.org/abs/2610.25551) | — |
 | **P0 · Strong** | **ReDT: Resolution-Decoupled Visual Geometry Transformer** | arXiv 2026 | efficient multimodal vision attention | [Link](https://arxiv.org/abs/2610.25517) | — |
@@ -371,21 +376,172 @@
 | **P2 · Relevant** | **PLANE: Plug-and-Play Fine-Grained Visual Experts for Hallucination Mitigation in Large Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25146) | — |
 | **P0 · Strong** | **ReTrace: Visual Backtracking for Efficient Multimodal Large Language Models** | arXiv 2026 | Multimodal serving / token compression | [Link](https://arxiv.org/abs/2610.25005) | — |
 | **P1 · Watch** | **Visual Sufficiency Landscapes: Understanding Query-Conditioned Reliability in Visual Token Pruning** | arXiv 2026 | VLM token pruning evaluation | [Link](https://arxiv.org/abs/2610.24968) | — |
+| **P1 · Watch** | **UniAVC: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling** | arXiv 2026 | Multimodal generation scheduling | [Link](https://arxiv.org/abs/2610.24791) | — |
+| **P0 · Strong** | **Are We Evaluating VLM Token Pruning Right? Looking Beyond Accuracy and Token Count** | arXiv 2026 | multimodal token pruning systems evaluation | [Link](https://arxiv.org/abs/2610.24740) | — |
+| **P2 · Relevant** | **From Views to Worlds: Active Exploration over 3D Worlds for Vision-Language Models** | arXiv 2026 | Physical AI 3D perception | [Link](https://arxiv.org/abs/2610.24676) | — |
+| **P1 · Watch** | **SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots** | arXiv 2026 | Physical AI VLM reasoning/latency | [Link](https://arxiv.org/abs/2610.24559) | — |
+| **P0 · Strong** | **Write Once, Query Many: Evolving Compact Reusable Memory for Long Videos** | arXiv 2026 | Long-video memory / multimodal serving | [Link](https://arxiv.org/abs/2610.24537) | — |
+| **P1 · Watch** | **PACE-Mem: Prefix-Aware Complementary Evidence for Multimodal Agents** | arXiv 2026 | multimodal agent memory | [Link](https://arxiv.org/abs/2610.24378) | — |
+| **P2 · Relevant** | **Multimodal Interaction Estimation for Contact-Aware Adaptive Impedance Control** | arXiv 2026 | robot control | [Link](https://arxiv.org/abs/2610.24235) | — |
+| **P2 · Relevant** | **HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation** | arXiv 2026 | Physical AI / video-action navigation | [Link](https://arxiv.org/abs/2610.24122) | — |
+| **P2 · Relevant** | **Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.24108) | — |
+| **P0 · Strong** | **Hierarchical and Query-Aware Visual Token Pruning for High-Resolution LVLMs** | arXiv 2026 | Multimodal token pruning | [Link](https://arxiv.org/abs/2610.24102) | — |
+| **P2 · Relevant** | **MOSS: Multimodal Origami Swamp Robot System** | arXiv 2026 | robot platform | [Link](https://arxiv.org/abs/2610.23813) | — |
+| **P2 · Relevant** | **FedRAPP: Federated Test-Time Prompt Tuning for Vision-Language Models with Reliability-Aware Prompt Personalization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23705) | — |
+| **P0 · Strong** | **HydraLLM: Adaptive Width Slicing for Elastic Text and Vision-Language Models** | arXiv 2026 | Elastic LLM / heterogeneous serving | [Link](https://arxiv.org/abs/2610.23455) | — |
+| **P2 · Relevant** | **GeoReason: Bridging Logical Reasoning and Spatial Fidelity in Remote Sensing Segmentation** | arXiv 2026 | multimodal_llm_reasoning_segmentation | [Link](https://arxiv.org/abs/2610.23416) | — |
+| **P2 · Relevant** | **Look Before You Act: Bridging Active Perception and Vision-Language-Action Models via Observation-Aligned Data Adaptation** | arXiv 2026 | Physical AI / active perception | [Link](https://arxiv.org/abs/2610.23378) | — |
+| **P2 · Relevant** | **Beyond Success Rate: Interventional Evaluation of Memory in Vision-Language-Action Systems** | arXiv | multimodal,physical | [Link](https://arxiv.org/abs/2610.23372) | — |
+| **P2 · Relevant** | **EKT-Router: Expert-Evidence Alignment for Embodied Vision-Language Models** | arXiv 2026 | Physical AI | [Link](https://arxiv.org/abs/2610.33044) | — |
+| **P0 · Strong** | **CatchUp: Depth-Aware Re-Admission of Visual Tokens for Efficient Large Vision-Language Models** | arXiv | multimodal | [Link](https://arxiv.org/abs/2610.23324) | — |
+| **P2 · Relevant** | **CoTA++: Understanding the Repeat Curse in dMLLMs from an Information Flow Perspective** | arXiv 2026 | Diffusion MLLM information flow | [Link](https://arxiv.org/abs/2610.23290) | — |
+| **P1 · Watch** | **NestedVLA: Learning to Consolidate and Generate Skills for Vision-Language-Action Models** | arXiv 2026 | Physical AI / VLA model compression | [Link](https://arxiv.org/abs/2610.23271) | — |
+| **P2 · Relevant** | **MLLM Frame Subset Ensembling for Audio-Visual Video QA and MLLM-based Reranking for Ad-hoc Video Search in TRECVID 2025** | arXiv 2026 | multimodal frame selection | [Link](https://arxiv.org/abs/2610.23214) | — |
+| **P2 · Relevant** | **SimpleVLN: Towards Simple and Frontier Vision-Language Navigation** | arXiv 2026 | Physical AI / navigation | [Link](https://arxiv.org/abs/2610.23203) | — |
+| **P0 · Strong** | **MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models** | arXiv | multimodal,physical | [Link](https://arxiv.org/abs/2610.22951) | — |
+| **P2 · Relevant** | **COMET: Decoupled Distillation, Routing, and Capacity Control for Task-Agnostic Continual Vision--Language Learning** | arXiv 2026 | continual VLM | [Link](https://arxiv.org/abs/2610.22907) | — |
+| **P2 · Relevant** | **FederatedBytes: Tokenizer-Free, Byte-Level Small Language Models for Efficient Multimodal Federated Learning** | arXiv |  | [Link](https://arxiv.org/abs/2610.22906) | — |
+| **P2 · Relevant** | **Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24024) | — |
+| **P2 · Relevant** | **Thinking from Above: Efficient Spatial Reasoning with Bird's-Eye-View Visual Tokens** | arXiv |  | [Link](https://arxiv.org/abs/2610.22700) | — |
+| **P1 · Watch** | **Multimodal Filesystem Memory For Long-Horizon Embodied Agents** | arXiv | physical | [Link](https://arxiv.org/abs/2610.22686) | — |
+| **P2 · Relevant** | **EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video** | arXiv 2026 | Multimodal video reasoning | [Link](https://arxiv.org/abs/2610.22681) | — |
+| **P2 · Relevant** | **Stuck on Shuffle: On Attribute-Object Binding in Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22602) | — |
+| **P0 · Strong** | **MemLLM: End-to-end In-Storage Acceleration of On-device Retrieval-Augmented Generation using Precomputed KV Caches** | arXiv | kv,multimodal,edge | [Link](https://arxiv.org/abs/2610.22579) | — |
+| **P1 · Watch** | **When Plans Change, Remember: Replanning-Guided Visual Memory for Vision-Language-Action Models** | arXiv | multimodal,physical | [Link](https://arxiv.org/abs/2610.22556) | — |
+| **P1 · Watch** | **Nemotron 3.5 Bolt 74B-A9B 24GB: A Hybrid Vision-Language Model for Local AI** | arXiv 2026 | Edge AI / multimodal serving | [Link](https://arxiv.org/abs/2610.33039) | — |
+| **P0 · Strong** | **JAVIS: Joint Audio-Visual Interaction and Streaming for Real-Time Conversational Agents** | arXiv 2026 | multimodal real-time serving | [Link](https://arxiv.org/abs/2610.22499) | — |
+| **P2 · Relevant** | **Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.22363) | — |
+| **P1 · Watch** | **CoDA: Co-Evolution of Data Engines and Action Policies** | arXiv 2026 | llm_serving,multimodal,edge | [Link](https://arxiv.org/abs/2610.22362) | — |
+| **P0 · Strong** | **PACE: Pareto-Adaptive Compression for Efficient Native MLLMs** | arXiv 2026 | Multimodal model compression | [Link](https://arxiv.org/abs/2610.24005) | — |
+| **P1 · Watch** | **MJev-Spatial: System One Spatial Intelligence via Native Attention Matching** | arXiv 2026 | llm_serving,multimodal,edge | [Link](https://arxiv.org/abs/2610.22276) | — |
+| **P2 · Relevant** | **Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.22217) | — |
+| **P1 · Watch** | **MOSS: Mode-Oriented Source Shaping for Robot Flow Matching Policies** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.22193) | — |
+| **P2 · Relevant** | **LAMP: Layerwise Adaptive Mixing of Predictors for Training-Free Few-Shot Vision-Language Adaptation** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.22182) | — |
+| **P1 · Watch** | **REKI: Registering Knowledge in VLAs** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.22178) | — |
+| **P0 · Strong** | **FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models** | arXiv 2026 | llm_serving,sparse,multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.22146) | — |
+| **P1 · Watch** | **Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.22131) | — |
+| **P1 · Watch** | **Memory as Weights: Internalizing Long-Term History for Streaming Videos** | arXiv 2026 | llm_serving,multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.22070) | — |
+| **P1 · Watch** | **VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21985) | — |
+| **P1 · Watch** | **TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control** | arXiv 2026 | multimodal,gen,physical,edge | [Link](https://arxiv.org/abs/2610.21922) | — |
+| **P1 · Watch** | **CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness** | arXiv 2026 | multimodal,gen,agent,physical,edge | [Link](https://arxiv.org/abs/2610.21910) | — |
+| **P1 · Watch** | **PW-Pruning: Phase-Aware Expert Selection for Speech-Centric Omni-Modal Models** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.26891) | — |
+| **P2 · Relevant** | **FuseAdapt: Parameter-Efficient Multimodal Fusion for Semantic Segmentation with Missing Modalities** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21779) | — |
+| **P1 · Watch** | **SPEAR: Selective Preference Elicitation with Adaptive Rewards for VLM-Guided Robotic Manipulation** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.21621) | — |
+| **P2 · Relevant** | **A Flow-Theoretic Multimodal Control Framework Fusing Mental and Physical Engagement for Upper-Limb Rehabilitation** | arXiv 2026 | multimodal exoskeleton control | [Link](https://arxiv.org/abs/2610.21590) | — |
+| **P2 · Relevant** | **Multi-Teacher On-Policy Distillation for Flow-Based Vision-Language-Action Models** | arXiv 2026 | multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.21522) | — |
+| **P1 · Watch** | **ProV-Mem: Proactive Memory for Streaming Video Question Answering** | arXiv 2026 | Streaming multimodal memory | [Link](https://arxiv.org/abs/2610.23998) | — |
+| **P2 · Relevant** | **Cross-Prompt Inference Mitigates Rare-Class Suppression in Imbalanced VLM Finetuning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21470) | — |
+| **P1 · Watch** | **CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.21453) | — |
+| **P1 · Watch** | **Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21434) | — |
+| **P0 · Strong** | **Fast-VLA: You Only Think Once for Robot Manipulation** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21389) | — |
+| **P1 · Watch** | **LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.21362) | — |
+| **P2 · Relevant** | **Online Quantile Omniprediction for Proper Losses** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21342) | — |
+| **P2 · Relevant** | **DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding** | arXiv 2026 | multimodal,agent,edge | [Link](https://arxiv.org/abs/2610.21327) | — |
+| **P2 · Relevant** | **VLA-$\Delta$: Learning Physical State Transition for Vision-Language-Action Models** | arXiv 2026 | llm_serving,multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21306) | — |
+| **P2 · Relevant** | **Do VLAs Really Follow Instructions? Diagnosing How-Level Instruction Following in Vision-Language-Action Models** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21251) | — |
+| **P1 · Watch** | **When to Ask for Help: A Decision-Theoretic Account and Measurement Standard for Slow-Module Scheduling in Dual-System Vision-Language-Action Models** | arXiv 2026 | llm_serving,multimodal,physical | [Link](https://arxiv.org/abs/2610.21160) | — |
+| **P2 · Relevant** | **KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21152) | — |
+| **P2 · Relevant** | **VELD-QA: A Large-Scale Dataset for Visual Evidence Grounding and Question Answering in Long Documents** | arXiv 2026 | long-document multimodal QA benchmark | [Link](https://arxiv.org/abs/2610.20964) | — |
+| **P2 · Relevant** | **A Phenomenology of Neural Geometry in Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20840) | — |
+| **P0 · Strong** | **Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation** | arXiv 2026 | multimodal_image_generation_efficiency | [Link](https://arxiv.org/abs/2610.20818) | — |
+| **P2 · Relevant** | **EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20786) | — |
+| **P1 · Watch** | **GeoThinker-$F$: Endogenous Predictive World Representations for Fast Spatial Intelligence** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20592) | — |
+| **P1 · Watch** | **ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation** | arXiv 2026 | multimodal agent memory compression | [Link](https://arxiv.org/abs/2610.22408) | — |
+| **P2 · Relevant** | **ObjDream: Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20223) | — |
+| **P2 · Relevant** | **Seeing at the Edge: Energy Characterization of Vision-Language Model Inference on Edge Platforms** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20136) | — |
+| **P2 · Relevant** | **OmniPoser: Flexible Human Motion Recovery in the Wild with Masked Flow Matching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19857) | — |
+| **P2 · Relevant** | **SPECTRA-VLA: Base-Fine Hyperspectral Token Transfer at Frozen Vision-Language-Action Interfaces** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19651) | — |
+| **P2 · Relevant** | **VLRLA: Deployment-Time Adaptation of Vision-Language-Action Models through In-Context Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19517) | — |
+| **P2 · Relevant** | **Vision-Language Models Integrate Conflicting Evidence Like Biased Bayesian Observers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19407) | — |
+| **P2 · Relevant** | **Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19366) | — |
+| **P1 · Watch** | **Write Once, Plan Many: Building Reusable Visual Planning Systems from One Scene** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19234) | — |
+| **P2 · Relevant** | **End-to-End Vision-Language-Action Policies for Autonomous Lunar Rover Docking** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19224) | — |
+| **P2 · Relevant** | **Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19108) | — |
+| **P2 · Relevant** | **EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18872) | — |
+| **P1 · Watch** | **Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18858) | — |
+| **P2 · Relevant** | **LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18843) | — |
+| **P0 · Strong** | **SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18735) | — |
+| **P2 · Relevant** | **SPELUNKA: A Framework for Finding Unanticipated Associations in Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23979) | — |
+| **P2 · Relevant** | **MajorTOM:Elliot Pretrain, A Multi-Sensor, Multi-Temporal Pretraining Dataset for Earth Observation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18624) | — |
+| **P2 · Relevant** | **Parameter-Efficient Multimodal Brain Tumor Segmentation With Stage-Wise Shared Adapters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18571) | — |
+| **P2 · Relevant** | **Dual-Domain Sparse-View 4D CBCT Reconstruction with Spatial-Temporal Consistency Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18518) | — |
+| **P2 · Relevant** | **The Smart Buildings Challenge: Learning Foundation Models for Real-World Optimization at Scale** | arXiv 2026 | multimodal / Physical AI / agent infrastructure low-priority | [Link](https://arxiv.org/abs/2610.18511) | — |
+| **P2 · Relevant** | **MemoryVLN: From Ego-Aware Memory Representation to Cross-Context Memory Reuse in Vision-Language Navigation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18478) | — |
+| **P2 · Relevant** | **Thinker-WM: A Unified World Model with Shared Multimodal Representations for Embodied Intelligence** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18447) | — |
+| **P1 · Watch** | **Bifocal: Training-Free Mixed Granularity Visual Token Pruning for Multimodal LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18399) | — |
+| **P2 · Relevant** | **dMRI-F: A Foundation Model for Generalizable Diffusion MRI Analysis from Sparse Acquisitions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17968) | — |
+| **P2 · Relevant** | **MMTA: Benchmarking Multimodal Temporal Analysis with Time Series, Text, and Vision** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.17856) | — |
+| **P1 · Watch** | **DVTR-KD: Distilling Vision-Language Models via Intermediate Visual Token Reconstruction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17853) | — |
+| **P1 · Watch** | **How Much Can We Prune? Exploring the Performance Limits of Visual Token Pruning** | arXiv 2026 | Visual-token pruning limits for VLM efficiency | [Link](https://arxiv.org/abs/2610.23974) | — |
+| **P1 · Watch** | **TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17540) | — |
+| **P0 · Strong** | **TwinPrune: Density-Aware Two-Phase Token Pruning for Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17530) | — |
+| **P2 · Relevant** | **Can a Frontier VLM Serve as a Robot Policy for Memory-Dependent Manipulation?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17350) | — |
+| **P2 · Relevant** | **COMPASS: Membership Inference Attack Against Vision Large Language Models via Adaptive Noise Calibration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17332) | — |
+| **P2 · Relevant** | **Beyond Sparse Captions: Aligning Slide-Level Text and Patch-Level Vision in Pathology** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17233) | — |
+| **P2 · Relevant** | **EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17128) | — |
+| **P2 · Relevant** | **Scaling Unified Multimodal Models to Long-Horizon Interleaved Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17080) | — |
+| **P0 · Strong** | **CausalPrune: Counterfactual Causal Token Pruning for Efficient Large Vision-Language Models** | arXiv 2026 | Multimodal / LVLM token pruning | [Link](https://arxiv.org/abs/2611.00058) | — |
+| **P0 · Strong** | **MODAIC: Coordinated Asynchrony for Decentralized Multimodal Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16987) | — |
+| **P2 · Relevant** | **Estimating Uncertainty of Omnimodal Large Language Models via External Omnimodal Embeddings** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16933) | — |
+| **P0 · Strong** | **FoveaTree: Information-Density Trees for Query-Guided Visual Token Pruning in Video Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16744) | — |
+| **P2 · Relevant** | **Learning When to Trust and Reobserve Sparse-Frame VideoQA from Temporal Sampling Perturbations** | arXiv 2026 | multimodal frame sampling | [Link](https://arxiv.org/abs/2610.23969) | — |
+| **P1 · Watch** | **When 1+1 Backfires: Rethinking Relevance-Diversity Balancing for Sample-Aware Visual Token Reduction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16615) | — |
+| **P2 · Relevant** | **From a Large-Scale Teacher to Efficient Multimodal Students for Search Relevance Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16569) | — |
+| **P2 · Relevant** | **VLA-GAUGE: Systematically Evaluating Generalization and Robustness in Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16567) | — |
+| **P2 · Relevant** | **Pixels or Code? Benchmarking Instruction-Guided Visual Artifact Operation** | arXiv 2026 | visual artifact operation benchmark | [Link](https://arxiv.org/abs/2610.16444) | — |
+| **P2 · Relevant** | **PINT: A Unified Model with Shared Predictive Intent for Robot Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16355) | — |
+| **P1 · Watch** | **Imitation Learning of Avoidance Modes for Efficient Multimodal Model Predictive Control** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.16326) | — |
+| **P2 · Relevant** | **Anomaly-Guided Observation and Two-Level Semantic Feedback for Training-Free Video Anomaly Analysis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16324) | — |
+| **P0 · Strong** | **Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16118) | — |
+| **P2 · Relevant** | **Efficient Hybrid Hard--Soft Signal Temporal Logic MPC for Driving under Multimodal Uncertainty** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15934) | — |
+| **P2 · Relevant** | **When Trackers Fail: VLM-Guided Verification and Recovery for Robust Video Object Segmentation** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.15929) | — |
+| **P2 · Relevant** | **Learning Multimodal Sensor Fusion with JEPA Representations for Breathing Activity and Pose Recognition** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15891) | — |
+| **P1 · Watch** | **Adaptive Look, Flexible Thought: Learning How and How Long to Think in Multimodal Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15810) | — |
+| **P2 · Relevant** | **Reference-Efficient Multimodal Bitstream-Corrupted Video Recovery via Depth-Conditioned Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15806) | — |
+| **P1 · Watch** | **Recovering Low-Bit Failures in Vision-Language-Action Policies via Quantization-Conditioned Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15675) | — |
+| **P2 · Relevant** | **A Persian Vision-Language-Action Dataset and Benchmark for Ambiguity- and Infeasibility-Aware Instruction-to-Plan Grounding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15666) | — |
+| **P2 · Relevant** | **From Stages to States: Unified Iterative Reasoning for MLLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15620) | — |
+| **P2 · Relevant** | **Look Before You Move: Agent-Interface-Aligned Supervision for Open-World Mobile Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15572) | — |
+| **P2 · Relevant** | **Harnessing VLM in Embodied RL: From Reward Regressor to Success Detector via Exploration-Augmented Key-Observation Gating** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15401) | — |
+| **P2 · Relevant** | **EvolvAttack: Backdooring self Evolving VLM Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15244) | — |
+| **P2 · Relevant** | **Verify, Act, Distill: Turning Test-Time Compute into Test-Time Adaptation for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14885) | — |
+| **P2 · Relevant** | **CUSE: Fine-Grained Multimodal Unlearning with Counterfactual Guidance and On-Policy Self-Distillation** | arXiv 2026 | multimodal_llm_adaptation | [Link](https://arxiv.org/abs/2610.14763) | — |
+| **P2 · Relevant** | **PRISM: Precision Forcing for Generalist Vision-Language-Action Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14704) | — |
+| **P2 · Relevant** | **HumanPhys: A Human-Centric Physical-World Perception Benchmark for Real-World Visual Reasoning** | arXiv 2026 | human-centric physical-world perception benchmark | [Link](https://arxiv.org/abs/2610.14679) | — |
+| **P2 · Relevant** | **PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models** | arXiv 2026 | LVLM visual-fixation hallucination benchmark | [Link](https://arxiv.org/abs/2610.14635) | — |
+| **P2 · Relevant** | **Multi-modal Representation Fusion for Long-term Microsurgical Anastomosis Trajectory Anticipation** | arXiv 2026 | Physical-AI trajectory anticipation | [Link](https://arxiv.org/abs/2610.14492) | — |
+| **P1 · Watch** | **Scaling Laws for Multimodal Data Mixtures** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14423) | — |
+| **P2 · Relevant** | **Thinking with Images without Coordinates** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14265) | — |
+| **P0 · Strong** | **LapMerge: Differentiable Exact-Budget Token Merging in Linear Time** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13858) | — |
+| **P2 · Relevant** | **Axiom-0: Hierarchical Self-Refinement for Vision-Language-Action Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14155) | — |
+| **P2 · Relevant** | **Can Multimodal Decision Models Classify Breast Ultrasound Images? Benchmarking CLEF and CLEF-Flash Across Prompts and Datasets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13675) | — |
+| **P0 · Strong** | **AudioTETRIS: Token Elimination via Transitional Importance Signals for Efficient Audio LLMs** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13600) | — |
+| **P2 · Relevant** | **Retrieval-Augmented Multimodal Language Model with Heterogeneous Evidence Integration for Clinical Prognosis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13510) | — |
+| **P2 · Relevant** | **Stacked Intelligent Metasurface-Based MultiModal Feature Fusion for Collaborative Inference in Edge Networks** | arXiv 2026 | edge_cloud_heterogeneous | [Link](https://arxiv.org/abs/2610.13364) | — |
+| **P2 · Relevant** | **MHR-Router: Multimodal Heterogeneous Retrieval-Enhanced Adaptive Routing for VLM Inference** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13278) | — |
+| **P0 · Strong** | **SheafPrune: Sheaf-Guided Graph Propagation for Visual Token Pruning** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13263) | — |
+| **P1 · Watch** | **Dual-Stream Memory for Vision-Language-Action Policies** | arXiv 2026 | vla_physical_ai_serving | [Link](https://arxiv.org/abs/2610.13262) | — |
+| **P1 · Watch** | **Jag: Direct Box Prediction for Efficient Visual Grounding** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13239) | — |
+| **P1 · Watch** | **Monarch-MoE: Structured Experts for Multimodal Continual Instruction Tuning** | arXiv 2026 | moe_systems_accelerators | [Link](https://arxiv.org/abs/2610.13215) | — |
+| **P2 · Relevant** | **Beyond Actions: Learning Future Operation Targets for Vision-Language-Action Models** | arXiv 2026 | vla_physical_ai_serving | [Link](https://arxiv.org/abs/2610.13212) | — |
+| **P1 · Watch** | **MixTok: Adaptive Visual Tokenization with Global 1D Tokens and Sparse 2D Refinement** | arXiv 2026 | video_image_generation_acceleration | [Link](https://arxiv.org/abs/2610.13181) | — |
+| **P1 · Watch** | **Locate, Judge, Read: Role-Specialized Tool Agents over a Knowledge-Point Index for Open-Domain Multimodal Document QA** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13128) | — |
+| **P2 · Relevant** | **GuidedNav: Shaping Vision-Language Navigation Representations through Pre-action Attention and Spatial Guidance** | arXiv 2026 | vla_physical_ai_serving | [Link](https://arxiv.org/abs/2610.13122) | — |
 | **P2 · Relevant** | **Zero-Gated Cross-Attention** | arXiv | multimodal_adapters | [Link](https://arxiv.org/abs/2611.01116) | — |
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P0 · Strong** | **NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation** | Fresh / preprint | VLA efficient inference | [Link](https://arxiv.org/abs/2608.16503) | — |
+| **P2 · Relevant** | **MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic** | arXiv 26 | predictive perception for two-wheelers | [Link](https://arxiv.org/abs/2611.06007) | — |
 | **P0 · Strong** | **GVT3D: Gesture-Vision-Text Token Enrichment for 3D Embodied Reference Understanding** | arXiv 2026 | Physical-AI multimodal perception / point-cloud foveation and compute reduction | [Link](https://arxiv.org/abs/2611.04422) | — |
 | **P2 · Relevant** | **From Single-Shot QA to Continuous Perception: Revisiting the Energy Composition and Optimization Boundary of Edge VLMs** | arXiv 2026 | Edge VLM energy profiling | [Link](https://arxiv.org/abs/2611.00036) | — |
 | **P2 · Relevant** | **FlowBench: Counterfactual Imagination Training for Spatial Intelligence** | arXiv 2026 | Physical-AI world model / VLM training data and evaluation | [Link](https://arxiv.org/abs/2611.03937) | — |
 | **P0 · Strong** | **FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving** | Fresh / preprint | full-stack VLA inference acceleration | [Link](https://arxiv.org/abs/2608.12932) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P2 · Relevant** | **ECGJev: Question-Conditioned Option Scoring for 12-Lead ECG Interpretation** | Fresh / preprint | ECG multimodal decision decoding / compact signal-token representation | [Link](https://arxiv.org/abs/2611.02041) | — |
-| **P0 · Strong** | **CausalPrune: Counterfactual Causal Token Pruning for Efficient Large Vision-Language Models** | arXiv 2026 | Multimodal / LVLM token pruning | [Link](https://arxiv.org/abs/2611.00058) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 863 canonical
+## 🏛️ Classical / Historical · 844 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -487,9 +643,6 @@
 | **Canonical** | **PUMA: Layer-Pruned Language Model for Efficient Unified Multimodal Retrieval with Modality-Adaptive Learning** | ACM Multimedia 2025 | multimodal/MLLM efficiency / pruning / retrieval inference | [Link](https://arxiv.org/abs/2507.08064) | [Repo](https://github.com/iLearn-Lab/ACM-MM25-PUMA) |
 | **Canonical** | **Short-LVLM: Compressing and Accelerating Large Vision-Language Models by Pruning Redundant Layers** | ACM Multimedia 2025 | multimodal/MLLM inference / structural pruning / model compression | [Link](https://arxiv.org/abs/2507.23362) | [Repo](https://github.com/ASGO-MM/Short-LVLM) |
 | **Canonical** | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
-| **Canonical** | **CatchUp: Depth-Aware Re-Admission of Visual Tokens for Efficient Large Vision-Language Models** | arXiv | multimodal | [Link](https://arxiv.org/abs/2610.23324) | — |
-| **Canonical** | **MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models** | arXiv | multimodal,physical | [Link](https://arxiv.org/abs/2610.22951) | — |
-| **Canonical** | **MemLLM: End-to-end In-Storage Acceleration of On-device Retrieval-Augmented Generation using Precomputed KV Caches** | arXiv | kv,multimodal,edge | [Link](https://arxiv.org/abs/2610.22579) | — |
 | **Canonical** | **A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive early exit / flow action-head acceleration | [Link](https://arxiv.org/abs/2604.05672) | [Repo](https://github.com/ATeam-Research/A1) |
 | **Canonical** | **ACPruner: Visual Token Pruning as Biased Attention Coverage Maximization in LVLMs** | arXiv 2026 | multimodal,token_pruning | [Link](https://arxiv.org/abs/2609.34558) | — |
 | **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |
@@ -503,10 +656,8 @@
 | **Canonical** | **Alignment-Guided Flow Transformer for Efficient Vision-Language-Action Policy Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34467) | — |
 | **Canonical** | **Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model** | arXiv 2026 | multimodal/MLLM serving / model compression / video reasoning | [Link](https://arxiv.org/abs/2609.07154) | — |
 | **Canonical** | **AnchorPrune: Relevance-Anchored Contextual Expansion for Visual Token Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.07033) | — |
-| **Canonical** | **Are We Evaluating VLM Token Pruning Right? Looking Beyond Accuracy and Token Count** | arXiv 2026 | multimodal token pruning systems evaluation | [Link](https://arxiv.org/abs/2610.24740) | — |
 | **Canonical** | **ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics** | arXiv 2026 | edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation | [Link](https://arxiv.org/abs/2609.07020) | — |
 | **Canonical** | **ATI-VLA: Action-Centric Predictive Vision-Language-Action Models via Actionable Alignment Then Adaptive Injection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01741) | — |
-| **Canonical** | **AudioTETRIS: Token Elimination via Transitional Importance Signals for Efficient Audio LLMs** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13600) | — |
 | **Canonical** | **AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing** | arXiv 2026 | multimodal generative inference / flow distillation / low-step generation | [Link](https://arxiv.org/abs/2609.08936) | — |
 | **Canonical** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 | **Canonical** | **Beyond Future Prediction: Denoising as Generative Adaptation for Robot Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28339) | — |
@@ -545,7 +696,6 @@
 | **Canonical** | **Efficient Multimodal Inference through Adaptive Acquisition and Sequential Fusion** | arXiv 2026 | multimodal/MLLM serving; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2610.07466) | — |
 | **Canonical** | **Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning** | arXiv 2026 | multimodal,distillation,edge_ai | [Link](https://arxiv.org/abs/2609.16255) | — |
 | **Canonical** | **Efficient Vision-Language-Action Management and Serving for Robot Factories** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-robot multi-model edge serving / SLO-aware multi-GPU runtime | [Link](https://arxiv.org/abs/2609.12075) | — |
-| **Canonical** | **Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16118) | — |
 | **Canonical** | **EMMI: Edge Multi-Modal Intelligence for Communication-Efficient MLLM Inference via Fused Representation Compression** | arXiv 2026 | multimodal/MLLM serving / edge-cloud split inference | [Link](https://arxiv.org/abs/2609.11058) | — |
 | **Canonical** | **Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25131) | — |
 | **Canonical** | **EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37923) | — |
@@ -553,8 +703,6 @@
 | **Canonical** | **ESP: Energy-Score Policy for One-Step Multimodal Action Generation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.07696) | — |
 | **Canonical** | **Event-Driven Refresh and Recurrence Memory to Reduce Stale Grounding in Referring Video Object Segmentation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.38758) | — |
 | **Canonical** | **Exploiting answer-invariant redundancies in satellite imagery for efficient VLM inference on edge** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.29029) | — |
-| **Canonical** | **Fast-VLA: You Only Think Once for Robot Manipulation** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21389) | — |
-| **Canonical** | **FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models** | arXiv 2026 | llm_serving,sparse,multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.22146) | — |
 | **Canonical** | **Federated Binary Gating with Server-Side Vision-Language Inference for Surveillance Anomaly Classification** | arXiv 2026 | multimodal/MLLM serving / edge-cloud gating / selective VLM inference / federated systems | [Link](https://arxiv.org/abs/2609.07403) | — |
 | **Canonical** | **Fewer Tokens, More Self-Teaching: On-Policy Self-Distillation for Extreme Visual Token Reduction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32353) | — |
 | **Canonical** | **Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2606.11854) | — |
@@ -562,7 +710,6 @@
 | **Canonical** | **FlashBack: Knowing When to Remember in Streaming Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01192) | — |
 | **Canonical** | **FlashGaze: Training-Free Multi-Scale Patch Pruning For Efficient Video Understanding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04225) | — |
 | **Canonical** | **FoldQuantVLA: Native Low-Bit Quantization of Vision-Language-Action Models via Consistent Folding** | arXiv 2026 | VLA quantization/Physical AI | [Link](https://arxiv.org/abs/2609.24433) | — |
-| **Canonical** | **FoveaTree: Information-Density Trees for Query-Guided Visual Token Pruning in Video Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16744) | — |
 | **Canonical** | **FRESHLATENT: Channel-Aware Latent Adaptation for Resource-Constrained Embodied VLM Perception** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30629) | — |
 | **Canonical** | **From Token Importance to Conditional Removability: Rethinking Visual Token Pruning in Multimodal Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.26484) | — |
 | **Canonical** | **G$^2$TR: Generation-Guided Visual Token Reduction for Separate-Encoder Unified Multimodal Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.12309) | — |
@@ -571,12 +718,8 @@
 | **Canonical** | **GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed** | arXiv 2026 | multimodal,speculative_decoding,physical | [Link](https://arxiv.org/abs/2609.39600) | — |
 | **Canonical** | **GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.00536) | — |
 | **Canonical** | **HAWK: Rethinking Multimodal Drafting for Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00623) | — |
-| **Canonical** | **Hierarchical and Query-Aware Visual Token Pruning for High-Resolution LVLMs** | arXiv 2026 | Multimodal token pruning | [Link](https://arxiv.org/abs/2610.24102) | — |
 | **Canonical** | **History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.06480) | — |
-| **Canonical** | **HydraLLM: Adaptive Width Slicing for Elastic Text and Vision-Language Models** | arXiv 2026 | Elastic LLM / heterogeneous serving | [Link](https://arxiv.org/abs/2610.23455) | — |
 | **Canonical** | **IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / action head / single-step generation | [Link](https://arxiv.org/abs/2609.10915) | — |
-| **Canonical** | **Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation** | arXiv 2026 | multimodal_image_generation_efficiency | [Link](https://arxiv.org/abs/2610.20818) | — |
-| **Canonical** | **JAVIS: Joint Audio-Visual Interaction and Streaming for Real-Time Conversational Agents** | arXiv 2026 | multimodal real-time serving | [Link](https://arxiv.org/abs/2610.22499) | — |
 | **Canonical** | **Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference** | arXiv 2026 | VLA/WAM/Physical AI serving / edge deployment / asynchronous inference / scheduling / runtime | [Link](https://arxiv.org/abs/2607.12659) | [Repo](https://github.com/PKU-SEC-Lab/Jetson-PI) |
 | **Canonical** | **Jev-Mobile: Jev as an Executor for Mobile GUI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30186) | — |
 | **Canonical** | **Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards** | arXiv 2026 | multimodal/MLLM serving / speculative decoding / efficient OCR | [Link](https://arxiv.org/abs/2609.03181) | [Repo](https://huggingface.co/jinaai/jina-ocr-v1) |
@@ -584,7 +727,6 @@
 | **Canonical** | **Just Respect the Semantics: Image-Token Compression via Pre-LLM Semantic Variable-Resolution Tokenization and In-LLM Relevance Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18690) | — |
 | **Canonical** | **KerColle: Unlocking Fine-Grained GPU Concurrency in Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22335) | — |
 | **Canonical** | **KiToke: Distribution-Aware Token Compression for Video Large Language Models** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2604.03414) | — |
-| **Canonical** | **LapMerge: Differentiable Exact-Budget Token Merging in Linear Time** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13858) | — |
 | **Canonical** | **Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.00237) | — |
 | **Canonical** | **Layer-Aware Position Embeddings for Visual Token Pruning in Multimodal Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23715) | — |
 | **Canonical** | **LazySloth: Bounded LLM-based Lazy Tree Search for Fast Long Video Comprehension** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37426) | — |
@@ -609,7 +751,6 @@
 | **Canonical** | **MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration** | arXiv 2026 | quantization; accelerator | [Link](https://arxiv.org/abs/2609.19683) | — |
 | **Canonical** | **MLLMEraser: Achieving Test-Time Unlearning in Multimodal Large Language Models through Activation Steering** | arXiv 2026 | multimodal/MLLM serving; efficient inference | [Link](https://arxiv.org/abs/2510.04217) | — |
 | **Canonical** | **MM-ContextFold: Context Folding for Multimodal Agentic Retrieval** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23121) | — |
-| **Canonical** | **MODAIC: Coordinated Asynchrony for Decentralized Multimodal Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16987) | — |
 | **Canonical** | **Modality-Autoregressive World-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17524) | — |
 | **Canonical** | **Multimodal Resource-Exhaustion Attacks on Vision-Language Models via Joint Pixel-Prompt Optimization** | arXiv 2026 | multimodal/MLLM serving / availability security / resource exhaustion / latency and energy amplification | [Link](https://arxiv.org/abs/2609.05889) | — |
 | **Canonical** | **MWOP: Modality-aware Width-wise Operation Pruning for Efficient MLLMs** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.01434) | — |
@@ -630,7 +771,6 @@
 | **Canonical** | **OTT3R: Multi-View 3D Reconstruction and Fast Dataset Generation at 1% Compute** | arXiv 2026 | edge,multimodal,distillation | [Link](https://arxiv.org/abs/2609.36374) | — |
 | **Canonical** | **P4Q: Co-designing Token Pruning and Quantization for Vision-Language Model Acceleration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34867) | — |
 | **Canonical** | **PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference** | arXiv 2026 | multimodal/MLLM serving / visual token efficiency | [Link](https://arxiv.org/abs/2608.27206) | [Repo](https://github.com/jjL357/PACE) |
-| **Canonical** | **PACE: Pareto-Adaptive Compression for Efficient Native MLLMs** | arXiv 2026 | Multimodal model compression | [Link](https://arxiv.org/abs/2610.24005) | — |
 | **Canonical** | **PathTime-VLA: Path-Time Decoupling for Factorized Post-Training of Vision-Language-Action Policies** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.11771) | — |
 | **Canonical** | **PrefixFlow: Training-Time KV Caching for Schedule-Level Prefix Reuse in LLM RL Training** | arXiv 2026 | kv,moe,dist | [Link](https://arxiv.org/abs/2606.01143) | — |
 | **Canonical** | **PREM: Prefix-Steered Recurrent Memory for Long-Video Understanding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23601) | — |
@@ -671,14 +811,12 @@
 | **Canonical** | **Scout: Open-World Species Recognition on the Edge** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.22897) | — |
 | **Canonical** | **Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.01892) | — |
 | **Canonical** | **ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / Physical-AI protected | [Link](https://arxiv.org/abs/2609.02780) | [Repo](https://github.com/CURRENTF/ShallowStream) |
-| **Canonical** | **SheafPrune: Sheaf-Guided Graph Propagation for Visual Token Pruning** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13263) | — |
 | **Canonical** | **SLIP-VLA: Single-Step Latent Imagination for Policy Learning in Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33575) | — |
 | **Canonical** | **SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15910) | — |
 | **Canonical** | **Slot2Text: Object-Centric Visual Tokenization for Efficient and Spatially Traceable Surgical MLLMs** | arXiv 2026 | multimodal/MLLM serving / visual token reduction | [Link](https://arxiv.org/abs/2608.01473) | — |
 | **Canonical** | **SMoES: Soft Modality-Guided Expert Specialization in MoE-VLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2604.23996) | — |
 | **Canonical** | **SmoLSTM: A Compact Vision-Language-Action Model with Recurrent Memory that Persists** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22854) | — |
 | **Canonical** | **SoundWeaver: Compositional Warm-Starting for Text-to-Audio Diffusion Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.07865) | — |
-| **Canonical** | **SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18735) | — |
 | **Canonical** | **SPACE: Sparse Predictive Attractor via Counterfactual Eviction for Streaming Video Memory** | arXiv 2026 | multimodal_serving | [Link](https://arxiv.org/abs/2609.32592) | — |
 | **Canonical** | **SpikingVLA: Asynchronous Spiking Vision-Language-Action Models** | arXiv 2026 | llm_serving,multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.09710) | — |
 | **Canonical** | **StackTok: Accelerating VLMs Inference with Budget-Adaptive Visual Token Selection** | arXiv 2026 | multimodal_visual_token_pruning | [Link](https://arxiv.org/abs/2609.16841) | — |
@@ -704,7 +842,6 @@
 | **Canonical** | **TReVS: Integrating Textual Relevance and Visual Saliency for Efficient Vision-Language Model Token Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37581) | — |
 | **Canonical** | **Triggering Generalist Reasoning via Predictive Uncertainty for Dual-System VLA** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05025) | — |
 | **Canonical** | **TTE-Flash: Accelerating Reasoning-based Multimodal Representations via Think-Then-Embed Tokens** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.16638) | — |
-| **Canonical** | **TwinPrune: Density-Aware Two-Phase Token Pruning for Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17530) | — |
 | **Canonical** | **UniCache: Task- and Type-Aware KV Cache Compression for Unified Multimodal Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32831) | — |
 | **Canonical** | **V-CoLA: Vision Token Compression with Linear Attention** | arXiv 2026 | sparse,attn,multimodal,edge | [Link](https://arxiv.org/abs/2610.11251) | — |
 | **Canonical** | **Video Codec-Guided Training-Free Token Compression for Video Large Language Models** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.12959) | — |
@@ -727,7 +864,6 @@
 | **Canonical** | **When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05719) | — |
 | **Canonical** | **WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / world-model scheduling / efficient post-training | [Link](https://arxiv.org/abs/2609.03681) | — |
 | **Canonical** | **World-Calibrated Proposal-to-Action Flow for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02323) | — |
-| **Canonical** | **Write Once, Query Many: Evolving Compact Reusable Memory for Long Videos** | arXiv 2026 | Long-video memory / multimodal serving | [Link](https://arxiv.org/abs/2610.24537) | — |
 | **Canonical** | **X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR** | arXiv 2026 | multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference | [Link](https://arxiv.org/abs/2609.08672) | — |
 | **Canonical** | **EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction** | arXiv 22 | edge/cloud heterogeneous AI systems; efficient attention; multimodal vision inference | [Link](https://arxiv.org/abs/2205.14756) | [Repo](https://hanlab.mit.edu/projects/efficientvit) |
 | **Canonical** | **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** | arXiv 23 | quantization; edge/cloud heterogeneous AI; GPU kernels; multimodal serving | [Link](https://arxiv.org/abs/2306.00978) | — |
@@ -1252,3 +1388,4 @@
 | **Canonical** | **Evidence-Driven Dynamic Visual Selector for Efficient Long Video Understanding** | Fresh / preprint | Multimodal and MLLM serving | [Link](https://arxiv.org/abs/2608.05780) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **Canonical** | **MARS Policy: Multimodality Only When It Matters** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2605.29766) | — |
+| **Canonical** | **ReTaKe: Reducing Temporal and Knowledge Redundancy for Long Video Understanding** | Fresh / preprint | multimodal and MLLM serving | [Link](https://arxiv.org/abs/2412.20504) | — |
