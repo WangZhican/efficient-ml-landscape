@@ -1,11 +1,11 @@
 {
   "unique_papers": 8120,
-  "latest_30d_tracked_total": 4844,
-  "latest_30d_quality_gated": 799,
-  "latest_30d_watchlist": 987,
-  "physical_ai_protected_historical_watch": 1588,
-  "latest_30d_relevant_low_priority": 3058,
-  "classical_papers": 7321,
+  "latest_30d_tracked_total": 3666,
+  "latest_30d_quality_gated": 640,
+  "latest_30d_watchlist": 705,
+  "physical_ai_protected_historical_watch": 1661,
+  "latest_30d_relevant_low_priority": 2321,
+  "classical_papers": 7480,
   "latest_strong": 45,
   "papers_with_primary_link": 8091,
   "papers_with_verified_code_link": 702,
@@ -33,6 +33,6 @@
   "venue_active_round": 13,
   "venue_active_round_checked": 27,
   "venue_active_round_status": "IN_PROGRESS_NONZERO",
-  "source_date_beijing": "2026-11-08",
-  "updated_at_beijing": "2026-11-08T14:42:07+08:00"
+  "source_date_beijing": "2026-11-09",
+  "updated_at_beijing": "2026-11-09T06:49:43+08:00"
 }
