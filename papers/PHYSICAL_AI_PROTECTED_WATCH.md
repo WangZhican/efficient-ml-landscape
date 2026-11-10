@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1607 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1610 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -563,11 +563,13 @@
 | **P1 · Watch** | **Predict Before You Step: Auditable Occupancy Forecasting for Dynamic Obstacle Avoidance under Sparse Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25969) | — |
 | **P1 · Watch** | **PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24840) | — |
 | **P1 · Watch** | **PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.30760) | — |
+| **P1 · Watch** | **PoseRWGCN: an attention-free dual-stream RWKV–GCN architecture for real-time 3D human pose estimation** | Complex & Intelligent Systems 2026 | Physical AI perception and real-time 3D pose inference | [Link](https://link.springer.com/article/10.1007/s40747-026-02239-x) | — |
 | **P1 · Watch** | **Population-Scalable Multi-Agent World Modeling** | arXiv 26 | streaming_world | [Link](https://arxiv.org/abs/2608.08600) | — |
 | **P1 · Watch** | **PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.24115) | — |
 | **P1 · Watch** | **PoliFormer: Scaling On-Policy RL with Transformers Results in Masterful Navigators** | CoRL 2024 | VLA/WAM/Physical AI efficiency | [Link](https://proceedings.mlr.press/v270/zeng25a.html) | — |
 | **P1 · Watch** | **PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.02840) | — |
 | **P1 · Watch** | **PointVGGT: Zero-Shot Multiview RGB-D Point Cloud Registration with Visual Geometry Foundation Priors** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.11612) | — |
+| **P1 · Watch** | **PointRWKV: Efficient RWKV-Like Model for Hierarchical Point Cloud Learning** | arXiv | 3D scene perception; efficient attention; Physical AI perception | [Link](https://arxiv.org/abs/2405.15214) | — |
 | **P1 · Watch** | **Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory** | NeurIPS 2025 | Physical AI / streaming 3D perception memory | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/650db8e1b0b016dc270d51c1476e91cf-Abstract-Conference.html) | — |
 | **P1 · Watch** | **POAM: Probabilistic Online Attentive Mapping for Efficient Robotic Information Gathering** | RSS 2024 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss20/p019.html) | — |
 | **P1 · Watch** | **PMTRM: Pseudo-Memory Temporal Re-encoding Module for Embodied Policy Learning** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.11168) | — |
@@ -1191,6 +1193,7 @@
 | **P1 · Watch** | **Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2609.40341) | — |
 | **P1 · Watch** | **Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Chassis Adaptation** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / autonomous driving | [Link](https://arxiv.org/abs/2607.13410) | — |
 | **P1 · Watch** | **Efficient Visual Place Recognition Through Multimodal Semantic Knowledge Integration** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Efficient_Visual_Place_Recognition_Through_Multimodal_Semantic_Knowledge_Integration_ICCV_2025_paper.html) | — |
+| **P1 · Watch** | **Efficient RWKV-based Representation Learning for 3D Point Clouds** | arXiv | Physical AI; 3D perception; efficient point-cloud inference | [Link](https://arxiv.org/abs/2606.10395) | — |
 | **P1 · Watch** | **Efficient Reasoning with Balanced Thinking** | ICLR 2026 | Training-free adaptive reasoning-cost control | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/21c426323068204f4199c490d730e88e-Abstract-Conference.html) | — |
 | **P1 · Watch** | **Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.03509) | — |
 | **P1 · Watch** | **Efficient Multi-Timescale Event Representations for Feed-Forward Object Detection** | arXiv 2026 | VLA/WAM/Physical AI / event perception / feed-forward detection / neuromorphic efficiency | [Link](https://arxiv.org/abs/2609.05049) | — |

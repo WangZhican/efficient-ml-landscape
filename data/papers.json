@@ -17815,6 +17815,77 @@
     ]
   },
   {
+    "title": "ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving",
+    "venue": "arXiv",
+    "topic": "efficient reasoning/agent systems; VLA/WAM/Physical AI serving; runtime/infra; cloud-edge",
+    "arxiv": "2606.25509",
+    "doi": "",
+    "official_id": "arXiv:2606.25509",
+    "paper_url": "https://arxiv.org/abs/2606.25509",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "P0: the official abstract reports a 60% reduction in average end-to-end inference latency with a +2.28 score gain on nuPlan Hard20, and a 25% increase in average speed on NAVSIM. This is directly relevant to resource-aware Physical AI inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "AudioRWKV: Efficient and Stable Bidirectional RWKV for Audio Pattern Recognition",
+    "venue": "arXiv",
+    "topic": "efficient attention; multimodal serving; long-sequence audio inference",
+    "arxiv": "2509.02167",
+    "doi": "",
+    "official_id": "arXiv:2509.02167",
+    "paper_url": "https://arxiv.org/abs/2509.02167",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "P0: the official abstract reports parity between a 22M AudioRWKV-S and a 92M AuM-B model, plus up to 13.3x speedup for long-form audio around 5 minutes 28 seconds.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "AuroraLong: Bringing RNNs Back to Efficient Open-Ended Video Understanding",
+    "venue": "arXiv",
+    "topic": "multimodal/MLLM serving; video understanding; efficient attention; long-context inference",
+    "arxiv": "2507.02591",
+    "doi": "",
+    "official_id": "arXiv:2507.02591",
+    "paper_url": "https://arxiv.org/abs/2507.02591",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "P0: replaces the quadratic Transformer LLM component in a video MLLM with a linear RNN and constant-size hidden state; the official abstract reports a 2B model trained on public data with performance comparable to similarly sized Transformer models and identifies ICCV 2025 camera-ready status.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "BaGuaLu-2: Taming Dynamic Memory Fluctuation for Efficient MoE Model Training over 10,000 GPUs",
     "venue": "arXiv",
     "topic": "",
@@ -18163,6 +18234,30 @@
     ]
   },
   {
+    "title": "LADY: Linear Attention for Autonomous Driving Efficiency without Transformers",
+    "venue": "arXiv",
+    "topic": "VLA/WAM/Physical AI serving; efficient attention; cloud-edge; runtime/infra",
+    "arxiv": "2512.15038",
+    "doi": "",
+    "official_id": "arXiv:2512.15038",
+    "paper_url": "https://arxiv.org/abs/2512.15038",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "P0: the official abstract reports O(1) compute and memory cost with respect to historical sequence length, competitive NAVSIM and Bench2Drive planning accuracy, and edge-device feasibility; accepted by IEEE RAL.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
     "venue": "arXiv",
     "topic": "subquadratic sparse attention / long context",
@@ -18339,6 +18434,29 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "OccRWKV: Rethinking Efficient 3D Semantic Occupancy Prediction with Linear Complexity",
+    "venue": "arXiv",
+    "topic": "VLA/WAM/Physical AI serving; 3D scene perception; efficient attention; runtime/infra",
+    "arxiv": "2409.19987",
+    "doi": "",
+    "official_id": "arXiv:2409.19987",
+    "paper_url": "https://arxiv.org/abs/2409.19987",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "P0: the official abstract reports 22.2 FPS and 20x speedup over the Co-Occ baseline on SemanticKITTI, with explicit robot navigation and autonomous-driving deployment motivation; ICRA 2025.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -18578,6 +18696,53 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ROSA-Tuning: Enhancing Long-Context Modeling via Suffix Matching",
+    "venue": "arXiv",
+    "topic": "KV cache; long-context inference; efficient attention; LLM serving",
+    "arxiv": "2602.02499",
+    "doi": "",
+    "official_id": "arXiv:2602.02499",
+    "paper_url": "https://arxiv.org/abs/2602.02499",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "P0: direct long-context efficiency contribution. The official abstract reports that suffix retrieval substantially restores long-context capability of windowed-attention models to near-global-attention quality while keeping compute and GPU memory close to windowed attention.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "RWKV-edge: Deeply Compressed RWKV for Resource-Constrained Devices",
+    "venue": "arXiv",
+    "topic": "quantization; model compression; edge/cloud/heterogeneous AI systems; Physical AI edge deployment",
+    "arxiv": "2412.10856",
+    "doi": "",
+    "official_id": "arXiv:2412.10856",
+    "paper_url": "https://arxiv.org/abs/2412.10856",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "P0: the official abstract reports 3.4x–5x lower RWKV memory footprint with negligible accuracy degradation and 4x less memory than similarly accurate Transformer LLMs; the motivation explicitly includes mobile robots and smartphones.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

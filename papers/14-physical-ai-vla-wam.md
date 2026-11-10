@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **981 canonical papers** mapped here, plus a broader **1175-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **985 canonical papers** mapped here, plus a broader **1175-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1184,7 +1184,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |
 
-## 🏛️ Classical / Historical · 862 canonical
+## 🏛️ Classical / Historical · 866 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1211,6 +1211,10 @@
 | **Canonical** | **VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model** | AAAI 2026 | gpu_kernel_compiler; multimodal_mllm; physical_ai | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38931) | — |
 | **Canonical** | **MIRTH : Mutual-Information Reasoning with Temporal Hubs for Vision-Language-Action Agents** | ACL 2026 | VLA/WAM/Physical AI serving | [Link](https://aclanthology.org/2026.acl-long.1016/) | — |
 | **Canonical** | **E lastic F low: One-Step Physics-Consistent Policy with Elastic Time Horizons for Language-Guided Manipulation** | ACL 2026 Findings | Physical-AI/VLA action-generation acceleration | [Link](https://aclanthology.org/2026.findings-acl.1186/) | — |
+| **Canonical** | **ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving** | arXiv | efficient reasoning/agent systems; VLA/WAM/Physical AI serving; runtime/infra; cloud-edge | [Link](https://arxiv.org/abs/2606.25509) | — |
+| **Canonical** | **LADY: Linear Attention for Autonomous Driving Efficiency without Transformers** | arXiv | VLA/WAM/Physical AI serving; efficient attention; cloud-edge; runtime/infra | [Link](https://arxiv.org/abs/2512.15038) | — |
+| **Canonical** | **OccRWKV: Rethinking Efficient 3D Semantic Occupancy Prediction with Linear Complexity** | arXiv | VLA/WAM/Physical AI serving; 3D scene perception; efficient attention; runtime/infra | [Link](https://arxiv.org/abs/2409.19987) | — |
+| **Canonical** | **RWKV-edge: Deeply Compressed RWKV for Resource-Constrained Devices** | arXiv | quantization; model compression; edge/cloud/heterogeneous AI systems; Physical AI edge deployment | [Link](https://arxiv.org/abs/2412.10856) | — |
 | **Canonical** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | arXiv / 90d targeted recall backfill | VLA / Physical AI / quantization / accelerator co-design | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **Canonical** | **TSM: Temporal Shift Module for Efficient Video Understanding** | arXiv 18 | video understanding acceleration,edge AI,Physical AI perception | [Link](https://arxiv.org/abs/1811.08383) | [Repo](https://hanlab.mit.edu/projects/tsm) |
 | **Canonical** | **Point-Voxel CNN for Efficient 3D Deep Learning** | arXiv 19 | Physical AI serving,edge AI,sparsity,GPU kernels | [Link](https://arxiv.org/abs/1907.03739) | [Repo](https://hanlab.mit.edu/projects/pvcnn) |
@@ -2051,7 +2055,7 @@
 | **Canonical** | **Think Proprioceptively: State-Grounded Visual Token Selection for VLA Policies** | Fresh / preprint | VLA visual-token pruning | [Link](https://arxiv.org/abs/2602.06575) | — |
 | **Canonical** | **VisualClaw: A Real-Time, Personalized Agent for the Physical World** | Fresh / preprint | Streaming multimodal agents and edge inference | [Link](https://arxiv.org/abs/2606.16295) | — |
 
-## 🛡️ Protected historical P1 watch · 1607
+## 🛡️ Protected historical P1 watch · 1610
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 

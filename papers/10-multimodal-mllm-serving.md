@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **934 canonical papers** mapped here, plus a broader **538-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **936 canonical papers** mapped here, plus a broader **538-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -547,7 +547,7 @@
 | **P2 · Relevant** | **ECGJev: Question-Conditioned Option Scoring for 12-Lead ECG Interpretation** | Fresh / preprint | ECG multimodal decision decoding / compact signal-token representation | [Link](https://arxiv.org/abs/2611.02041) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 850 canonical
+## 🏛️ Classical / Historical · 852 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -649,6 +649,8 @@
 | **Canonical** | **PUMA: Layer-Pruned Language Model for Efficient Unified Multimodal Retrieval with Modality-Adaptive Learning** | ACM Multimedia 2025 | multimodal/MLLM efficiency / pruning / retrieval inference | [Link](https://arxiv.org/abs/2507.08064) | [Repo](https://github.com/iLearn-Lab/ACM-MM25-PUMA) |
 | **Canonical** | **Short-LVLM: Compressing and Accelerating Large Vision-Language Models by Pruning Redundant Layers** | ACM Multimedia 2025 | multimodal/MLLM inference / structural pruning / model compression | [Link](https://arxiv.org/abs/2507.23362) | [Repo](https://github.com/ASGO-MM/Short-LVLM) |
 | **Canonical** | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
+| **Canonical** | **AudioRWKV: Efficient and Stable Bidirectional RWKV for Audio Pattern Recognition** | arXiv | efficient attention; multimodal serving; long-sequence audio inference | [Link](https://arxiv.org/abs/2509.02167) | — |
+| **Canonical** | **AuroraLong: Bringing RNNs Back to Efficient Open-Ended Video Understanding** | arXiv | multimodal/MLLM serving; video understanding; efficient attention; long-context inference | [Link](https://arxiv.org/abs/2507.02591) | — |
 | **Canonical** | **A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive early exit / flow action-head acceleration | [Link](https://arxiv.org/abs/2604.05672) | [Repo](https://github.com/ATeam-Research/A1) |
 | **Canonical** | **ACPruner: Visual Token Pruning as Biased Attention Coverage Maximization in LVLMs** | arXiv 2026 | multimodal,token_pruning | [Link](https://arxiv.org/abs/2609.34558) | — |
 | **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2812 canonical papers** mapped here, plus a broader **1450-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2818 canonical papers** mapped here, plus a broader **1450-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1459,7 +1459,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |
 
-## 🏛️ Classical / Historical · 2457 canonical
+## 🏛️ Classical / Historical · 2463 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1695,8 +1695,14 @@
 | **Canonical** | **Connex: Endpoint Mobility Primitives for Dynamic LLM Serving** | ACM SIGCOMM 2026 | LLM serving; distributed inference; GPU communication; elastic serving; worker migration; endpoint mobility | [Link](https://doi.org/10.1145/3789240.3829200) | — |
 | **Canonical** | **Coordinated Scheduling for MoE LLM Serving** | ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv | MoE systems / LLM serving / coordinated scheduling / expert placement / KV-cache-aware routing | [Link](https://arxiv.org/abs/2606.15177) | — |
 | **Canonical** | **AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving** | arXiv | long-context attention serving / architecture | [Link](https://arxiv.org/abs/2604.26103) | — |
+| **Canonical** | **ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving** | arXiv | efficient reasoning/agent systems; VLA/WAM/Physical AI serving; runtime/infra; cloud-edge | [Link](https://arxiv.org/abs/2606.25509) | — |
+| **Canonical** | **AudioRWKV: Efficient and Stable Bidirectional RWKV for Audio Pattern Recognition** | arXiv | efficient attention; multimodal serving; long-sequence audio inference | [Link](https://arxiv.org/abs/2509.02167) | — |
+| **Canonical** | **AuroraLong: Bringing RNNs Back to Efficient Open-Ended Video Understanding** | arXiv | multimodal/MLLM serving; video understanding; efficient attention; long-context inference | [Link](https://arxiv.org/abs/2507.02591) | — |
 | **Canonical** | **Encode Once, Decode Never: Reusing Audio LM Internals for Efficient Temporal Localization** | arXiv |  | [Link](https://arxiv.org/abs/2602.10230) | — |
+| **Canonical** | **LADY: Linear Attention for Autonomous Driving Efficiency without Transformers** | arXiv | VLA/WAM/Physical AI serving; efficient attention; cloud-edge; runtime/infra | [Link](https://arxiv.org/abs/2512.15038) | — |
 | **Canonical** | **Memory Bandwidth, Not FLOPs: Profiling and Accelerating Query-Based Segmentation Decoders on Edge GPUs** | arXiv |  | [Link](https://arxiv.org/abs/2610.22377) | — |
+| **Canonical** | **OccRWKV: Rethinking Efficient 3D Semantic Occupancy Prediction with Linear Complexity** | arXiv | VLA/WAM/Physical AI serving; 3D scene perception; efficient attention; runtime/infra | [Link](https://arxiv.org/abs/2409.19987) | — |
+| **Canonical** | **ROSA-Tuning: Enhancing Long-Context Modeling via Suffix Matching** | arXiv | KV cache; long-context inference; efficient attention; LLM serving | [Link](https://arxiv.org/abs/2602.02499) | — |
 | **Canonical** | **Slim attention: cut your context memory in half without loss -- K-cache is all you need for MHA** | arXiv | attention memory optimization | [Link](https://arxiv.org/abs/2503.05840) | — |
 | **Canonical** | **To Keep or Not to Keep: Learning KV Cache Retention in Disaggregated LLM Serving Systems** | arXiv | llm_serving,kv | [Link](https://arxiv.org/abs/2610.28637) | — |
 | **Canonical** | **Bole: Efficient Tree Speculation for Hybrid-Attention Language Models** | arXiv / 90d targeted recall backfill | LLM serving / speculative decoding / hybrid attention / GPU kernel-runtime co-design | [Link](https://arxiv.org/abs/2608.01651) | — |

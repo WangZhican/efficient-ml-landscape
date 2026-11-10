@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **927 canonical papers** mapped here, plus a broader **226-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **932 canonical papers** mapped here, plus a broader **226-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -235,7 +235,7 @@
 | **P2 · Relevant** | **AttnSR: Attention Step Reward for Long-Horizon Agentic RL** | arXiv 2026 | efficient agent learning / reinforcement learning | [Link](https://arxiv.org/abs/2611.07932) | — |
 | **P2 · Relevant** | **ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals** | arXiv | looped_transformers | [Link](https://arxiv.org/abs/2611.05234) | — |
 
-## 🏛️ Classical / Historical · 816 canonical
+## 🏛️ Classical / Historical · 821 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -313,7 +313,12 @@
 | **Canonical** | **MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization** | ACM Multimedia 2025 | multimodal LLM quantization / static PTQ / efficient inference | [Link](https://arxiv.org/abs/2502.00425) | [Repo](https://github.com/StiphyJay/MQuant) |
 | **Canonical** | **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
 | **Canonical** | **AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving** | arXiv | long-context attention serving / architecture | [Link](https://arxiv.org/abs/2604.26103) | — |
+| **Canonical** | **AudioRWKV: Efficient and Stable Bidirectional RWKV for Audio Pattern Recognition** | arXiv | efficient attention; multimodal serving; long-sequence audio inference | [Link](https://arxiv.org/abs/2509.02167) | — |
+| **Canonical** | **AuroraLong: Bringing RNNs Back to Efficient Open-Ended Video Understanding** | arXiv | multimodal/MLLM serving; video understanding; efficient attention; long-context inference | [Link](https://arxiv.org/abs/2507.02591) | — |
+| **Canonical** | **LADY: Linear Attention for Autonomous Driving Efficiency without Transformers** | arXiv | VLA/WAM/Physical AI serving; efficient attention; cloud-edge; runtime/infra | [Link](https://arxiv.org/abs/2512.15038) | — |
 | **Canonical** | **Layerwise Repacking: Variable-Length Hybrid-Attention Training without an Extra Redistribution Pass** | arXiv | distributed training/hybrid attention | [Link](https://arxiv.org/abs/2610.35989) | — |
+| **Canonical** | **OccRWKV: Rethinking Efficient 3D Semantic Occupancy Prediction with Linear Complexity** | arXiv | VLA/WAM/Physical AI serving; 3D scene perception; efficient attention; runtime/infra | [Link](https://arxiv.org/abs/2409.19987) | — |
+| **Canonical** | **ROSA-Tuning: Enhancing Long-Context Modeling via Suffix Matching** | arXiv | KV cache; long-context inference; efficient attention; LLM serving | [Link](https://arxiv.org/abs/2602.02499) | — |
 | **Canonical** | **Slim attention: cut your context memory in half without loss -- K-cache is all you need for MHA** | arXiv | attention memory optimization | [Link](https://arxiv.org/abs/2503.05840) | — |
 | **Canonical** | **Bole: Efficient Tree Speculation for Hybrid-Attention Language Models** | arXiv / 90d targeted recall backfill | LLM serving / speculative decoding / hybrid attention / GPU kernel-runtime co-design | [Link](https://arxiv.org/abs/2608.01651) | — |
 | **Canonical** | **SparDA: Sparse Decoupled Attention for Efficient Long-Context LLM Inference** | arXiv / major-group reverse census true miss | long-context LLM inference / sparse attention / KV offload / GPU runtime | [Link](https://arxiv.org/abs/2606.04511) | [Repo](https://github.com/NVlabs/SparDA) |

@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1756 canonical papers** mapped here, plus a broader **1246-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1759 canonical papers** mapped here, plus a broader **1246-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1255,7 +1255,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 1585 canonical
+## 🏛️ Classical / Historical · 1588 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1425,8 +1425,11 @@
 | **Canonical** | **FlexGaussian: Flexible and Cost-Effective Training-Free Compression for 3D Gaussian Splatting** | ACM Multimedia 2025 | video/image generation acceleration / 3D Gaussian splatting / quantization / pruning / edge deployment | [Link](https://arxiv.org/abs/2507.06671) | [Repo](https://github.com/Supercomputing-System-AI-Lab/FlexGaussian) |
 | **Canonical** | **How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression** | ACM Multimedia 2025 | edge video analytics / adaptive video compression | [Link](https://arxiv.org/abs/2510.18409) | [Repo](https://github.com/wyhallenwu/how2compress) |
 | **Canonical** | **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
+| **Canonical** | **ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving** | arXiv | efficient reasoning/agent systems; VLA/WAM/Physical AI serving; runtime/infra; cloud-edge | [Link](https://arxiv.org/abs/2606.25509) | — |
 | **Canonical** | **Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference** | arXiv | edge | [Link](https://arxiv.org/abs/2607.05475) | — |
+| **Canonical** | **LADY: Linear Attention for Autonomous Driving Efficiency without Transformers** | arXiv | VLA/WAM/Physical AI serving; efficient attention; cloud-edge; runtime/infra | [Link](https://arxiv.org/abs/2512.15038) | — |
 | **Canonical** | **Memory Bandwidth, Not FLOPs: Profiling and Accelerating Query-Based Segmentation Decoders on Edge GPUs** | arXiv |  | [Link](https://arxiv.org/abs/2610.22377) | — |
+| **Canonical** | **RWKV-edge: Deeply Compressed RWKV for Resource-Constrained Devices** | arXiv | quantization; model compression; edge/cloud/heterogeneous AI systems; Physical AI edge deployment | [Link](https://arxiv.org/abs/2412.10856) | — |
 | **Canonical** | **Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding** | arXiv 15 | pruning,quantization,edge AI | [Link](https://arxiv.org/abs/1510.00149) | [Repo](https://hanlab.mit.edu/projects/deep-compression) |
 | **Canonical** | **Learning both Weights and Connections for Efficient Neural Network** | arXiv 15 | sparsity/pruning; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/1506.02626) | — |
 | **Canonical** | **EIE: Efficient Inference Engine on Compressed Deep Neural Network** | arXiv 16 | hardware accelerator,pruning,quantization,edge AI | [Link](https://arxiv.org/abs/1602.01528) | [Repo](https://hanlab.mit.edu/projects/eie) |

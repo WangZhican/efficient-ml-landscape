@@ -12505,6 +12505,28 @@
     ]
   },
   {
+    "title": "PoseRWGCN: an attention-free dual-stream RWKV–GCN architecture for real-time 3D human pose estimation",
+    "venue": "Complex & Intelligent Systems 2026",
+    "topic": "Physical AI perception and real-time 3D pose inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "https://link.springer.com/content/pdf/10.1007/s40747-026-02239-x.pdf",
+    "paper_url": "https://link.springer.com/article/10.1007/s40747-026-02239-x",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official Springer open-access article reports a causal real-time RWKV-GCN model for 3D human pose estimation, a 0.6 mm accuracy improvement, and a 62.1% FLOP reduction over its baseline. Its streaming causal mode and embodied-perception relevance make it a high-value Physical-AI watchlist item; retain as P1 and attempt the official Springer PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Attention",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Population-Scalable Multi-Agent World Modeling",
     "venue": "arXiv 26",
     "topic": "streaming_world",
@@ -12613,6 +12635,28 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "PointRWKV: Efficient RWKV-Like Model for Hierarchical Point Cloud Learning",
+    "venue": "arXiv",
+    "topic": "3D scene perception; efficient attention; Physical AI perception",
+    "arxiv": "2405.15214",
+    "doi": "",
+    "official_id": "arXiv:2405.15214",
+    "paper_url": "https://arxiv.org/abs/2405.15214",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "P1 watchlist: the official abstract reports approximately 42% FLOPs savings while outperforming Transformer- and Mamba-based counterparts across point-cloud tasks; retain as a 3D perception efficiency reference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Attention",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -26662,6 +26706,27 @@
       "Quantization",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Efficient RWKV-based Representation Learning for 3D Point Clouds",
+    "venue": "arXiv",
+    "topic": "Physical AI; 3D perception; efficient point-cloud inference",
+    "arxiv": "2606.10395",
+    "doi": "",
+    "official_id": "arXiv:2606.10395",
+    "paper_url": "https://arxiv.org/abs/2606.10395",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The feed describes P-RWKV and PointER for irregular 3D geometry, with local-perception expansion and spatial-context enhancement explicitly reducing computation and latency. This is directly relevant to efficient 3D perception for Physical AI and merits high-value watchlist retention, subject to first-party abstract and PDF verification.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },

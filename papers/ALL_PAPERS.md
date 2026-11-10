@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **8177 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **4763 visible papers = 791 P0 + 945 P1 + 3027 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **8184 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **4763 visible papers = 791 P0 + 945 P1 + 3027 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -4786,7 +4786,7 @@
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |
 
-## 🏛️ Classical / Historical · 7386
+## 🏛️ Classical / Historical · 7393
 
 ### arXiv 2026 · 2072
 
@@ -12025,6 +12025,27 @@
 | **Canonical** | **RoMeo** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | [Link](https://arxiv.org/abs/2506.06095) | — |
 | **Canonical** | **TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform** | PPoPP 2026 | GNN training systems / multi-GPU cache / sparse Tensor Core | [Link](https://ppopp26.sigplan.org/details/PPoPP-2026-papers/50/TAC-Cache-Based-System-for-Accelerating-Billion-Scale-GNN-Training-on-Multi-GPU-Plat) | — |
 
+### arXiv · 16
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving** | arXiv | long-context attention serving / architecture | [Link](https://arxiv.org/abs/2604.26103) | — |
+| **Canonical** | **ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving** | arXiv | efficient reasoning/agent systems; VLA/WAM/Physical AI serving; runtime/infra; cloud-edge | [Link](https://arxiv.org/abs/2606.25509) | — |
+| **Canonical** | **AudioRWKV: Efficient and Stable Bidirectional RWKV for Audio Pattern Recognition** | arXiv | efficient attention; multimodal serving; long-sequence audio inference | [Link](https://arxiv.org/abs/2509.02167) | — |
+| **Canonical** | **AuroraLong: Bringing RNNs Back to Efficient Open-Ended Video Understanding** | arXiv | multimodal/MLLM serving; video understanding; efficient attention; long-context inference | [Link](https://arxiv.org/abs/2507.02591) | — |
+| **Canonical** | **Encode Once, Decode Never: Reusing Audio LM Internals for Efficient Temporal Localization** | arXiv |  | [Link](https://arxiv.org/abs/2602.10230) | — |
+| **Canonical** | **GPUSparse: Fast and Exact Learned Sparse Retrieval on a GPU-Resident Inverted Index** | arXiv | GPU sparse retrieval / exact search | [Link](https://arxiv.org/abs/2606.26441) | — |
+| **Canonical** | **Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference** | arXiv | edge | [Link](https://arxiv.org/abs/2607.05475) | — |
+| **Canonical** | **LADY: Linear Attention for Autonomous Driving Efficiency without Transformers** | arXiv | VLA/WAM/Physical AI serving; efficient attention; cloud-edge; runtime/infra | [Link](https://arxiv.org/abs/2512.15038) | — |
+| **Canonical** | **Layerwise Repacking: Variable-Length Hybrid-Attention Training without an Extra Redistribution Pass** | arXiv | distributed training/hybrid attention | [Link](https://arxiv.org/abs/2610.35989) | — |
+| **Canonical** | **Linear-Time and Constant-Memory Text Embeddings Based on Recurrent Language Models** | arXiv | Efficient long-document embedding inference | [Link](https://arxiv.org/abs/2604.18199) | — |
+| **Canonical** | **Memory Bandwidth, Not FLOPs: Profiling and Accelerating Query-Based Segmentation Decoders on Edge GPUs** | arXiv |  | [Link](https://arxiv.org/abs/2610.22377) | — |
+| **Canonical** | **OccRWKV: Rethinking Efficient 3D Semantic Occupancy Prediction with Linear Complexity** | arXiv | VLA/WAM/Physical AI serving; 3D scene perception; efficient attention; runtime/infra | [Link](https://arxiv.org/abs/2409.19987) | — |
+| **Canonical** | **ROSA-Tuning: Enhancing Long-Context Modeling via Suffix Matching** | arXiv | KV cache; long-context inference; efficient attention; LLM serving | [Link](https://arxiv.org/abs/2602.02499) | — |
+| **Canonical** | **RWKV-edge: Deeply Compressed RWKV for Resource-Constrained Devices** | arXiv | quantization; model compression; edge/cloud/heterogeneous AI systems; Physical AI edge deployment | [Link](https://arxiv.org/abs/2412.10856) | — |
+| **Canonical** | **Slim attention: cut your context memory in half without loss -- K-cache is all you need for MHA** | arXiv | attention memory optimization | [Link](https://arxiv.org/abs/2503.05840) | — |
+| **Canonical** | **To Keep or Not to Keep: Learning KV Cache Retention in Disaggregated LLM Serving Systems** | arXiv | llm_serving,kv | [Link](https://arxiv.org/abs/2610.28637) | — |
+
 ### CoRL 2025 · 16
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -12216,20 +12237,6 @@
 | **Canonical** | **HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference** | MICRO 2026 | quantization / hardware accelerator / KV cache | [Link](https://arxiv.org/abs/2609.00450) | — |
 | **Canonical** | **Kaleido: Algorithm-Hardware Co-Design for Video Diffusion Transformers by Exploiting Latent Space Correlations** | MICRO 2026 | video/image generation acceleration; diffusion/flow acceleration; efficient attention; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.13770) | — |
 | **Canonical** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | MICRO 2026 | LLM inference / MoE / SSM / near-memory processing / architecture co-design | [Link](https://arxiv.org/abs/2608.22613) | — |
-
-### arXiv · 9
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving** | arXiv | long-context attention serving / architecture | [Link](https://arxiv.org/abs/2604.26103) | — |
-| **Canonical** | **Encode Once, Decode Never: Reusing Audio LM Internals for Efficient Temporal Localization** | arXiv |  | [Link](https://arxiv.org/abs/2602.10230) | — |
-| **Canonical** | **GPUSparse: Fast and Exact Learned Sparse Retrieval on a GPU-Resident Inverted Index** | arXiv | GPU sparse retrieval / exact search | [Link](https://arxiv.org/abs/2606.26441) | — |
-| **Canonical** | **Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference** | arXiv | edge | [Link](https://arxiv.org/abs/2607.05475) | — |
-| **Canonical** | **Layerwise Repacking: Variable-Length Hybrid-Attention Training without an Extra Redistribution Pass** | arXiv | distributed training/hybrid attention | [Link](https://arxiv.org/abs/2610.35989) | — |
-| **Canonical** | **Linear-Time and Constant-Memory Text Embeddings Based on Recurrent Language Models** | arXiv | Efficient long-document embedding inference | [Link](https://arxiv.org/abs/2604.18199) | — |
-| **Canonical** | **Memory Bandwidth, Not FLOPs: Profiling and Accelerating Query-Based Segmentation Decoders on Edge GPUs** | arXiv |  | [Link](https://arxiv.org/abs/2610.22377) | — |
-| **Canonical** | **Slim attention: cut your context memory in half without loss -- K-cache is all you need for MHA** | arXiv | attention memory optimization | [Link](https://arxiv.org/abs/2503.05840) | — |
-| **Canonical** | **To Keep or Not to Keep: Learning KV Cache Retention in Disaggregated LLM Serving Systems** | arXiv | llm_serving,kv | [Link](https://arxiv.org/abs/2610.28637) | — |
 
 ### RSS 2025 · 9
 
