@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **1111 canonical papers** mapped here, plus a broader **212-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1112 canonical papers** mapped here, plus a broader **213-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 212 tracked
+## 🆕 Latest 30 Days · 213 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -214,6 +214,7 @@
 | **P0 · Strong** | **Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN** | Fresh / preprint | LLM serving / KV cache / edge | [Link](https://arxiv.org/abs/2608.16477) | — |
 | **P0 · Strong** | **MoNe: Modular Neural Memory for Efficient Long Context Inference** | Fresh / preprint | long-context inference / neural memory | [Link](https://arxiv.org/abs/2608.17616) | — |
 | **P2 · Relevant** | **Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval** | arXiv | long_context_retrieval | [Link](https://arxiv.org/abs/2611.04169) | — |
+| **P1 · Watch** | **Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization** | arXiv 2026 | AI_infrastructure_agents;KV_cache;runtime | [Link](https://arxiv.org/abs/2611.11995) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
@@ -221,7 +222,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 985 canonical
+## 🏛️ Classical / Historical · 986 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1201,6 +1202,7 @@
 | **Canonical** | **ReTaKe: Reducing Temporal and Knowledge Redundancy for Long Video Understanding** | Fresh / preprint | multimodal and MLLM serving | [Link](https://arxiv.org/abs/2412.20504) | — |
 | **Canonical** | **SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2406.15486) | — |
 | **Canonical** | **SAW-INT4: System-Aware 4-Bit KV-Cache Quantization for Real-World LLM Serving** | Fresh / preprint | KV cache/long-context; LLM serving; quantization | [Link](https://arxiv.org/abs/2604.19157) | — |
+| **Canonical** | **Scaling Context Requires Rethinking Attention** | Fresh / preprint | efficient attention / long-context modeling / GPU kernels / FLOP efficiency | [Link](https://arxiv.org/abs/2507.04239) | — |
 | **Canonical** | **SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2405.06219) | — |
 | **Canonical** | **SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification** | Fresh / preprint | LLM serving; speculative decoding | [Link](https://arxiv.org/abs/2305.09781) | — |
 | **Canonical** | **SpecOffload: Unlocking Latent GPU Capacity for LLM Inference on Resource-Constrained Devices** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2505.10259) | — |

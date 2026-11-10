@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-11-10",
   "window_start_beijing": "2026-10-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 4763,
+  "tracked_total": 4776,
   "p0_strong_or_canonical": [
     {
       "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
@@ -38487,6 +38487,93 @@
       ]
     },
     {
+      "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
+      "venue": "arXiv 2026",
+      "topic": "world_model;flow_matching;physical_ai",
+      "arxiv": "2611.11912",
+      "doi": "",
+      "official_id": "arXiv:2611.11912",
+      "paper_url": "https://arxiv.org/abs/2611.11912",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract presents a joint 4D occupancy/LiDAR world model with a flow-matching generator that caches historical context to reduce iterative sampling latency; it reports over 25 FPS on one RTX 4090 and measurable forecasting gains. This is directly relevant to world-model efficiency and Physical AI, but the full paper should validate the cache ablation, latency methodology, and embodied deployment evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+      "venue": "arXiv 2026",
+      "topic": "AI_infrastructure_agents;KV_cache;runtime",
+      "arxiv": "2611.11995",
+      "doi": "",
+      "official_id": "arXiv:2611.11995",
+      "paper_url": "https://arxiv.org/abs/2611.11995",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract introduces a long-horizon AI-infrastructure optimization benchmark with 150 runs and over 10,000 GPU-hours, and reports an agent-discovered KV-cache compression improvement over a human-designed baseline. This is highly relevant to efficient agent systems, KV-cache optimization, and runtime/infra operations; retain for careful review of task validity, reproducibility, and model/tool attribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens",
+      "venue": "arXiv 2026",
+      "topic": "world_model;flow_matching;action_generation;physical_ai",
+      "arxiv": "2611.11887",
+      "doi": "",
+      "official_id": "arXiv:2611.11887",
+      "paper_url": "https://arxiv.org/abs/2611.11887",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract compares one-step stochastic world-model generation with multi-step flow matching and reports better enumerated-future coverage at roughly 1/30 of the 50-step flow-matching latency, plus a one-third long-horizon error reduction on Push-T. It is directly relevant to flow/action-generation efficiency and Physical AI, but its negative planning-success result and real-robot generalization limits require full-paper scrutiny.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "HIST3R: Decomposing and Rectifying State Updates with History for Streaming 3D Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "streaming_3D_reconstruction;world_model;physical_ai",
+      "arxiv": "2611.12011",
+      "doi": "",
+      "official_id": "arXiv:2611.12011",
+      "paper_url": "https://arxiv.org/abs/2611.12011",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract introduces history-guided direction and magnitude correction for recurrent streaming 3D reconstruction while retaining CUT3R memory footprint and inference speed, and reports sizable long-horizon pose/reconstruction improvements. This is relevant to streaming world models, bounded-memory runtime, and Physical AI; retain for deeper review of temporal robustness and end-to-end deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "GSBR: Geometric Support Behavior Regularization for Online RL",
       "venue": "arXiv 2026",
       "topic": "Physical-AI policy learning / online RL throughput and sample efficiency",
@@ -38529,6 +38616,49 @@
       "directions": [
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training",
+      "venue": "arXiv 2026",
+      "topic": "image_generation_acceleration;DiT;distillation",
+      "arxiv": "2611.12042",
+      "doi": "",
+      "official_id": "arXiv:2611.12042",
+      "paper_url": "https://arxiv.org/abs/2611.12042",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract describes four-step DiT distillation with local-response regularization and teacher-guided text supervision, reporting 1.742 s versus 5.818 s teacher inference (3.34x) at the same 40 GB memory requirement and improved text accuracy. This is a direct image-generation acceleration contribution; retain for full-paper review of quality, baseline fairness, and generalization beyond the reported settings.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Adaptive Entropy-Sparing for Efficient Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "efficient_reasoning;token_efficiency",
+      "arxiv": "2611.11901",
+      "doi": "",
+      "official_id": "arXiv:2611.11901",
+      "paper_url": "https://arxiv.org/abs/2611.11901",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract proposes selective entropy-based control of reasoning length and reports up to 52.9% shorter reasoning with up to 3.8% higher mean accuracy across eight benchmarks. This is directly relevant to efficient reasoning and inference-token reduction; retain for deeper review of training overhead, evaluation protocol, and robustness across model families.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     }
   ],
@@ -103249,6 +103379,28 @@
       ]
     },
     {
+      "title": "UltraVoxelGS: Voxel-First Feed-Forward Gaussian Splatting for 3D Ultrasound Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "3D_reconstruction;Gaussian_splatting;medical_imaging",
+      "arxiv": "2611.11951",
+      "doi": "",
+      "official_id": "arXiv:2611.11951",
+      "paper_url": "https://arxiv.org/abs/2611.11951",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract reports feed-forward voxel-to-Gaussian reconstruction that reduces per-sequence processing from 10-20 minutes to about 10 seconds and scales beyond 1,000 frames. The speed result is notable for 3D reconstruction, but the evaluated domain is ultrasound and the abstract gives limited evidence of general ML serving or accelerator relevance; retain only as low-priority spatial-reconstruction context.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "TriMedium: A Cross-Medium Simulator for Embodied Networking Across Air-Ground-Sea",
       "venue": "arXiv 26",
       "topic": "embodied air-ground-sea networking",
@@ -103357,6 +103509,31 @@
       ]
     },
     {
+      "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA;multimodal_robotics;physical_ai",
+      "arxiv": "2611.11981",
+      "doi": "",
+      "official_id": "arXiv:2611.11981",
+      "paper_url": "https://arxiv.org/abs/2611.11981",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract introduces thermal-aware VLA perception and reports real-robot manipulation gains across six tasks, including an 18-percentage-point improvement over the stated RGB-thermal baseline. It is relevant to the protected VLA/Physical-AI landscape, but does not present an inference-efficiency, cache, quantization, pruning, or serving mechanism; retain as model-level context only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model",
       "venue": "arXiv 2026",
       "topic": "Surgical world models and latent action transfer",
@@ -103397,6 +103574,29 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Speculative Self-Distillation enables Efficient Knowledge Internalization",
+      "venue": "arXiv 2026",
+      "topic": "efficient_training;self_distillation;knowledge_updates",
+      "arxiv": "2611.12016",
+      "doi": "",
+      "official_id": "arXiv:2611.12016",
+      "paper_url": "https://arxiv.org/abs/2611.12016",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract describes per-token mixed-policy self-distillation that uses 38-69% fewer supervised tokens than on-policy distillation while retaining similar benchmark performance. It is relevant to efficient model training and knowledge updates, but is not speculative decoding or an inference-serving accelerator; retain as low-priority training-method context.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -103508,6 +103708,30 @@
       ]
     },
     {
+      "title": "Reliability-Adaptive Multimodal Relative Pose Tracking for Underwater Leader-Follower Robots",
+      "venue": "arXiv 2026",
+      "topic": "robotics;embedded_multimodal_perception",
+      "arxiv": "2611.11940",
+      "doi": "",
+      "official_id": "arXiv:2611.11940",
+      "paper_url": "https://arxiv.org/abs/2611.11940",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract reports linear-complexity multimodal pose tracking on Jetson AGX Orin at 17.62 ms and a 2.69x speedup over its Transformer fusion baseline, with real AUV trials. It is useful protected Physical-AI and embedded-perception context, but the contribution is task-specific sensor fusion rather than a reusable serving/runtime or accelerator design.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
       "venue": "arXiv 2026",
       "topic": "heterogeneous and non-von-Neumann ML hardware",
@@ -103615,6 +103839,29 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "MTRDMA: Lightweight User-Space Control-Plane Isolation for Multi-Tenant RDMA",
+      "venue": "arXiv 2026",
+      "topic": "cloud_edge_ai_infrastructure;RDMA",
+      "arxiv": "2611.11991",
+      "doi": "",
+      "official_id": "arXiv:2611.11991",
+      "paper_url": "https://arxiv.org/abs/2611.11991",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract describes user-space quotas and control-plane isolation for commodity RNICs, directly relevant to shared cloud/network infrastructure. However, it does not evaluate ML training or inference workloads and contributes network multi-tenancy isolation rather than an ML serving, kernel, compression, or accelerator mechanism; retain only as low-priority infrastructure context.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -103905,6 +104152,29 @@
       ]
     },
     {
+      "title": "DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing",
+      "venue": "arXiv 2026",
+      "topic": "visual_SLAM;diffusion;3D_Gaussian_splatting",
+      "arxiv": "2611.12038",
+      "doi": "",
+      "official_id": "arXiv:2611.12038",
+      "paper_url": "https://arxiv.org/abs/2611.12038",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract combines diffusion-based background completion with provenance-aware Gaussian mapping for dynamic-scene monocular SLAM. It is adjacent to physical-world perception and diffusion-based scene completion, but does not report an inference-efficiency or serving/runtime improvement; retain at P2 rather than treating diffusion usage alone as acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "Does Validation Loss Predict Real-Robot Success? Evidence from Four Imitation-Learning Policies on a Low-Cost Arm",
       "venue": "arXiv 2026",
       "topic": "real-robot-policy-evaluation",
@@ -104119,6 +104389,27 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "3R-Adapter: Retrieval, Rewiring, and Refinement for Efficient Adaptation of 3D Reconstruction Model",
+      "venue": "arXiv 2026",
+      "topic": "3D_reconstruction;parameter_efficient_adaptation",
+      "arxiv": "2611.11964",
+      "doi": "",
+      "official_id": "arXiv:2611.11964",
+      "paper_url": "https://arxiv.org/abs/2611.11964",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract proposes parameter-efficient adaptation for 3D reconstruction by retrieving and rewiring cross-view relations under domain shift. This is adjacent to efficient adaptation of spatial models, but the abstract does not establish a serving-latency, memory, accelerator, or inference-throughput improvement; retain at P2 pending stronger systems evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -142625,6 +142916,93 @@
       ]
     },
     {
+      "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
+      "venue": "arXiv 2026",
+      "topic": "world_model;flow_matching;physical_ai",
+      "arxiv": "2611.11912",
+      "doi": "",
+      "official_id": "arXiv:2611.11912",
+      "paper_url": "https://arxiv.org/abs/2611.11912",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract presents a joint 4D occupancy/LiDAR world model with a flow-matching generator that caches historical context to reduce iterative sampling latency; it reports over 25 FPS on one RTX 4090 and measurable forecasting gains. This is directly relevant to world-model efficiency and Physical AI, but the full paper should validate the cache ablation, latency methodology, and embodied deployment evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+      "venue": "arXiv 2026",
+      "topic": "AI_infrastructure_agents;KV_cache;runtime",
+      "arxiv": "2611.11995",
+      "doi": "",
+      "official_id": "arXiv:2611.11995",
+      "paper_url": "https://arxiv.org/abs/2611.11995",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract introduces a long-horizon AI-infrastructure optimization benchmark with 150 runs and over 10,000 GPU-hours, and reports an agent-discovered KV-cache compression improvement over a human-designed baseline. This is highly relevant to efficient agent systems, KV-cache optimization, and runtime/infra operations; retain for careful review of task validity, reproducibility, and model/tool attribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens",
+      "venue": "arXiv 2026",
+      "topic": "world_model;flow_matching;action_generation;physical_ai",
+      "arxiv": "2611.11887",
+      "doi": "",
+      "official_id": "arXiv:2611.11887",
+      "paper_url": "https://arxiv.org/abs/2611.11887",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract compares one-step stochastic world-model generation with multi-step flow matching and reports better enumerated-future coverage at roughly 1/30 of the 50-step flow-matching latency, plus a one-third long-horizon error reduction on Push-T. It is directly relevant to flow/action-generation efficiency and Physical AI, but its negative planning-success result and real-robot generalization limits require full-paper scrutiny.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "HIST3R: Decomposing and Rectifying State Updates with History for Streaming 3D Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "streaming_3D_reconstruction;world_model;physical_ai",
+      "arxiv": "2611.12011",
+      "doi": "",
+      "official_id": "arXiv:2611.12011",
+      "paper_url": "https://arxiv.org/abs/2611.12011",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract introduces history-guided direction and magnitude correction for recurrent streaming 3D reconstruction while retaining CUT3R memory footprint and inference speed, and reports sizable long-horizon pose/reconstruction improvements. This is relevant to streaming world models, bounded-memory runtime, and Physical AI; retain for deeper review of temporal robustness and end-to-end deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "GSBR: Geometric Support Behavior Regularization for Online RL",
       "venue": "arXiv 2026",
       "topic": "Physical-AI policy learning / online RL throughput and sample efficiency",
@@ -142667,6 +143045,49 @@
       "directions": [
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training",
+      "venue": "arXiv 2026",
+      "topic": "image_generation_acceleration;DiT;distillation",
+      "arxiv": "2611.12042",
+      "doi": "",
+      "official_id": "arXiv:2611.12042",
+      "paper_url": "https://arxiv.org/abs/2611.12042",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract describes four-step DiT distillation with local-response regularization and teacher-guided text supervision, reporting 1.742 s versus 5.818 s teacher inference (3.34x) at the same 40 GB memory requirement and improved text accuracy. This is a direct image-generation acceleration contribution; retain for full-paper review of quality, baseline fairness, and generalization beyond the reported settings.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Adaptive Entropy-Sparing for Efficient Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "efficient_reasoning;token_efficiency",
+      "arxiv": "2611.11901",
+      "doi": "",
+      "official_id": "arXiv:2611.11901",
+      "paper_url": "https://arxiv.org/abs/2611.11901",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract proposes selective entropy-based control of reasoning length and reports up to 52.9% shorter reasoning with up to 3.8% higher mean accuracy across eight benchmarks. This is directly relevant to efficient reasoning and inference-token reduction; retain for deeper review of training overhead, evaluation protocol, and robustness across model families.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -207385,6 +207806,28 @@
       ]
     },
     {
+      "title": "UltraVoxelGS: Voxel-First Feed-Forward Gaussian Splatting for 3D Ultrasound Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "3D_reconstruction;Gaussian_splatting;medical_imaging",
+      "arxiv": "2611.11951",
+      "doi": "",
+      "official_id": "arXiv:2611.11951",
+      "paper_url": "https://arxiv.org/abs/2611.11951",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract reports feed-forward voxel-to-Gaussian reconstruction that reduces per-sequence processing from 10-20 minutes to about 10 seconds and scales beyond 1,000 frames. The speed result is notable for 3D reconstruction, but the evaluated domain is ultrasound and the abstract gives limited evidence of general ML serving or accelerator relevance; retain only as low-priority spatial-reconstruction context.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "TriMedium: A Cross-Medium Simulator for Embodied Networking Across Air-Ground-Sea",
       "venue": "arXiv 26",
       "topic": "embodied air-ground-sea networking",
@@ -207493,6 +207936,31 @@
       ]
     },
     {
+      "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA;multimodal_robotics;physical_ai",
+      "arxiv": "2611.11981",
+      "doi": "",
+      "official_id": "arXiv:2611.11981",
+      "paper_url": "https://arxiv.org/abs/2611.11981",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract introduces thermal-aware VLA perception and reports real-robot manipulation gains across six tasks, including an 18-percentage-point improvement over the stated RGB-thermal baseline. It is relevant to the protected VLA/Physical-AI landscape, but does not present an inference-efficiency, cache, quantization, pruning, or serving mechanism; retain as model-level context only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model",
       "venue": "arXiv 2026",
       "topic": "Surgical world models and latent action transfer",
@@ -207533,6 +208001,29 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Speculative Self-Distillation enables Efficient Knowledge Internalization",
+      "venue": "arXiv 2026",
+      "topic": "efficient_training;self_distillation;knowledge_updates",
+      "arxiv": "2611.12016",
+      "doi": "",
+      "official_id": "arXiv:2611.12016",
+      "paper_url": "https://arxiv.org/abs/2611.12016",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract describes per-token mixed-policy self-distillation that uses 38-69% fewer supervised tokens than on-policy distillation while retaining similar benchmark performance. It is relevant to efficient model training and knowledge updates, but is not speculative decoding or an inference-serving accelerator; retain as low-priority training-method context.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -207644,6 +208135,30 @@
       ]
     },
     {
+      "title": "Reliability-Adaptive Multimodal Relative Pose Tracking for Underwater Leader-Follower Robots",
+      "venue": "arXiv 2026",
+      "topic": "robotics;embedded_multimodal_perception",
+      "arxiv": "2611.11940",
+      "doi": "",
+      "official_id": "arXiv:2611.11940",
+      "paper_url": "https://arxiv.org/abs/2611.11940",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract reports linear-complexity multimodal pose tracking on Jetson AGX Orin at 17.62 ms and a 2.69x speedup over its Transformer fusion baseline, with real AUV trials. It is useful protected Physical-AI and embedded-perception context, but the contribution is task-specific sensor fusion rather than a reusable serving/runtime or accelerator design.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
       "venue": "arXiv 2026",
       "topic": "heterogeneous and non-von-Neumann ML hardware",
@@ -207751,6 +208266,29 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "MTRDMA: Lightweight User-Space Control-Plane Isolation for Multi-Tenant RDMA",
+      "venue": "arXiv 2026",
+      "topic": "cloud_edge_ai_infrastructure;RDMA",
+      "arxiv": "2611.11991",
+      "doi": "",
+      "official_id": "arXiv:2611.11991",
+      "paper_url": "https://arxiv.org/abs/2611.11991",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract describes user-space quotas and control-plane isolation for commodity RNICs, directly relevant to shared cloud/network infrastructure. However, it does not evaluate ML training or inference workloads and contributes network multi-tenancy isolation rather than an ML serving, kernel, compression, or accelerator mechanism; retain only as low-priority infrastructure context.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -208041,6 +208579,29 @@
       ]
     },
     {
+      "title": "DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing",
+      "venue": "arXiv 2026",
+      "topic": "visual_SLAM;diffusion;3D_Gaussian_splatting",
+      "arxiv": "2611.12038",
+      "doi": "",
+      "official_id": "arXiv:2611.12038",
+      "paper_url": "https://arxiv.org/abs/2611.12038",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract combines diffusion-based background completion with provenance-aware Gaussian mapping for dynamic-scene monocular SLAM. It is adjacent to physical-world perception and diffusion-based scene completion, but does not report an inference-efficiency or serving/runtime improvement; retain at P2 rather than treating diffusion usage alone as acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "Does Validation Loss Predict Real-Robot Success? Evidence from Four Imitation-Learning Policies on a Low-Cost Arm",
       "venue": "arXiv 2026",
       "topic": "real-robot-policy-evaluation",
@@ -208255,6 +208816,27 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "3R-Adapter: Retrieval, Rewiring, and Refinement for Efficient Adaptation of 3D Reconstruction Model",
+      "venue": "arXiv 2026",
+      "topic": "3D_reconstruction;parameter_efficient_adaptation",
+      "arxiv": "2611.11964",
+      "doi": "",
+      "official_id": "arXiv:2611.11964",
+      "paper_url": "https://arxiv.org/abs/2611.11964",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official abstract proposes parameter-efficient adaptation for 3D reconstruction by retrieving and rewiring cross-view relations under domain shift. This is adjacent to efficient adaptation of spatial models, but the abstract does not establish a serving-latency, memory, accelerator, or inference-throughput improvement; retain at P2 pending stronger systems evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {

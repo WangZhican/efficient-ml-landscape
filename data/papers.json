@@ -177699,6 +177699,28 @@
     ]
   },
   {
+    "title": "BlackGoose Rimer: Harnessing RWKV-7 as a Simple yet Superior Replacement for Transformers in Large-Scale Time Series Modeling",
+    "venue": "",
+    "topic": "efficient sequence models; time-series foundation models; training efficiency",
+    "arxiv": "2503.06121",
+    "doi": "",
+    "official_id": "arXiv:2503.06121",
+    "paper_url": "https://arxiv.org/abs/2503.06121",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party feed reports 1.13x–43.3x task-performance gains, a 4.5x reduction in training time, and 1/23 of the original parameter count when integrating RWKV-7 into Timer. These are direct quantitative model-efficiency claims; promote only with the official arXiv title and abstract bound in the preparation step.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "BlackMamba: Mixture of Experts for State-Space Models",
     "venue": "",
     "topic": "MoE and state-space LLM architecture",
@@ -177740,6 +177762,28 @@
     "directions": [
       "Quantization",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "BSBP-RWKV: Background Suppression with Boundary Preservation for Efficient Medical Image Segmentation",
+    "venue": "",
+    "topic": "efficient vision inference; high-resolution segmentation; memory optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "doi:10.1145/3664647.3681033",
+    "paper_url": "https://openreview.net/pdf?id=ULD5RCk0oo",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party OpenReview-hosted MM 2024 paper directly reports a 5.8× complexity reduction and over 62.7% lower GPU memory use per 1024×1024 image at inference versus the cited state of the art, while preserving segmentation accuracy. The abstract and first page identify the method and authors, making this a strong quantified efficient-vision result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -179131,6 +179175,28 @@
     ]
   },
   {
+    "title": "HFE-RWKV: High-Frequency Enhanced RWKV Model for Efficient Left Ventricle Segmentation in Pediatric Echocardiograms",
+    "venue": "",
+    "topic": "efficient vision inference; compact segmentation; healthcare edge AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "doi:10.1109/ICASSP49660.2025.10888300",
+    "paper_url": "https://research.aston.ac.uk/en/publications/hfe-rwkv-high-frequency-enhanced-rwkv-model-for-efficient-left-ve/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The author-affiliated Aston University repository provides the full abstract and links the IEEE ICASSP 2025 record. It reports a 2-percentage-point Dice improvement over U-Mamba while using 67% of its parameters and 26% of its computational complexity on two public datasets. This is a directly quantified accuracy-efficiency trade-off in a compact vision model and merits strong retention.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "How Sparse Attention Approximates Exact Attention? Your Attention is Naturally $n^C$-Sparse",
     "venue": "",
     "topic": "KV cache and long context",
@@ -179437,6 +179503,27 @@
     ]
   },
   {
+    "title": "L3TC: Leveraging RWKV for Learned Lossless Low-Complexity Text Compression",
+    "venue": "",
+    "topic": "model compression; learned text compression; fast decoding",
+    "arxiv": "2412.16642",
+    "doi": "",
+    "official_id": "arXiv:2412.16642",
+    "paper_url": "https://arxiv.org/abs/2412.16642",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official arXiv abstract reports 48% bit savings against gzip, a 50x reduction in model parameters relative to other learned compressors, and real-time decoding at megabytes per second. The paper directly couples a low-complexity learned model with practical decoding efficiency and is a strong compression result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency",
     "venue": "",
     "topic": "diffusion/flow acceleration",
@@ -179478,6 +179565,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "Learnable Sparsification of Die-to-Die Communication via Spike-Based Encoding",
+    "venue": "",
+    "topic": "sparsity; chip-to-chip communication; energy-efficient AI hardware",
+    "arxiv": "2501.08645",
+    "doi": "",
+    "official_id": "arXiv:2501.08645",
+    "paper_url": "https://arxiv.org/abs/2501.08645",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official arXiv abstract describes algorithm-architecture co-design that places learnable spike sparsity at bandwidth-limited chip boundaries while retaining dense ANN computation locally. It reports up to 5.3x energy-efficiency gains and 15.2x latency reductions. RWKV is a benchmark workload rather than the proposed method, so retain it as a direct Efficient-ML hardware result without asserting RWKV-group membership.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -179590,6 +179699,28 @@
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model",
+    "venue": "",
+    "topic": "efficient vision inference; linear attention; segmentation",
+    "arxiv": "2406.19369",
+    "doi": "",
+    "official_id": "arXiv:2406.19369",
+    "paper_url": "https://arxiv.org/abs/2406.19369",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official arXiv abstract describes RWKV-SAM and reports more than 2x speedup over a same-scale Transformer while improving segmentation quality. This is a direct, quantified inference-efficiency result for high-resolution vision workloads and merits strong retention.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Efficient Attention"
     ]
   },
   {
@@ -180356,6 +180487,27 @@
     ]
   },
   {
+    "title": "Robin: RWKV Accelerator using Block Circulant Matrices based on FPGA",
+    "venue": "",
+    "topic": "FPGA accelerator / RWKV inference / algorithm-hardware co-design / weight compression",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "IEEE:11240845",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/11240845",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official IEEE Xplore record identifies this as an ICCAD 2025 FPGA accelerator paper. Its abstract describes PBCM weight compression, configurable circulant compute cores, and DSP48E packing for both circulant and standard matrix operations; it reports up to 3.09x throughput and 7.31x energy-efficiency improvement over a Tesla A100. This is direct accelerator architecture and measurable system-efficiency evidence, so promote as P0.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Robust Classification using Robust Feature Augmentation",
     "venue": "",
     "topic": "efficient robust training; feature augmentation",
@@ -180509,6 +180661,29 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Scaling Context Requires Rethinking Attention",
+    "venue": "",
+    "topic": "efficient attention / long-context modeling / GPU kernels / FLOP efficiency",
+    "arxiv": "2507.04239",
+    "doi": "",
+    "official_id": "arXiv:2507.04239",
+    "paper_url": "https://arxiv.org/abs/2507.04239",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official arXiv metadata and abstract will be checked by the formal preparation consumer. The first-party RWKV feed describes Power Attention, which exposes state-size control through a hyperparameter and balances weight-state FLOPs for long-context sequence modeling. The work also develops optimized GPU kernels and reports better in-context-learning and loss-per-FLOP behavior than exponential and linear attention at long sequences. This is a direct, high-value efficient-attention and GPU-kernel contribution; promote as P0.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
     ]
   },
@@ -181175,6 +181350,28 @@
     ]
   },
   {
+    "title": "TLS-RWKV: Real-Time Online Action Detection with Temporal Label Smoothing",
+    "venue": "",
+    "topic": "Physical AI perception; streaming action detection; edge inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "https://link.springer.com/content/pdf/10.1007/s11063-024-11540-0.pdf",
+    "paper_url": "https://link.springer.com/article/10.1007/s11063-024-11540-0",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official Springer article reports 600+ FPS model inference, over 2x the prior TesTra speed, and 206 FPS CPU end-to-end inference with RGB features. This is a strong real-time streaming perception result with explicit edge-deployment relevance; classify it as Physical-AI-adjacent perception, not action generation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Transformers to SSMs: Distilling Quadratic Knowledge to Subquadratic Models",
     "venue": "",
     "topic": "Transformer to SSM distillation",
@@ -181525,6 +181722,28 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Zig-RiR: Zigzag RWKV-in-RWKV for Efficient Medical Image Segmentation",
+    "venue": "",
+    "topic": "efficient vision architecture / medical segmentation / GPU memory optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "IEEE:10969076",
+    "paper_url": "https://ieeexplore.ieee.org/document/10969076",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party RWKV feed links the IEEE Xplore paper and reports 14.4x faster inference and 89.5% lower GPU memory usage than state-of-the-art methods, while retaining segmentation accuracy across 2D and 3D medical datasets. The nested outer/inner RWKV design and zigzag scanning are a direct, quantitatively strong efficient-architecture contribution. Promote as P0 and attempt the official IEEE PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   }
 ]

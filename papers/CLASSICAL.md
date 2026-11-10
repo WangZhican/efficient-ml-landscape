@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **7393 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **7403 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -5993,7 +5993,7 @@
 | **Canonical** | **Waking Up Blind: Cold-Start Optimization of Supervision-Free Agentic Trajectories for Grounded Visual Perception** | ACL 2026 Findings | Efficient multimodal and Physical-AI agent training | [Link](https://aclanthology.org/2026.findings-acl.538/) | — |
 | **Canonical** | **Zipage: Maintain High Request Concurrency for LLM Reasoning through Compressed P aged A ttention** | ACL 2026 Findings | LLM serving and high-concurrency KV cache | [Link](https://aclanthology.org/2026.findings-acl.381/) | — |
 
-## Fresh / Preprint · 149
+## Fresh / Preprint · 159
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -6015,8 +6015,10 @@
 | **Canonical** | **Attention Drift: What Autoregressive Speculative Decoding Models Learn** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2605.09992) | — |
 | **Canonical** | **AutoL2S: Auto Long-Short Reasoning for Efficient Large Language Models** | Fresh / preprint | efficient LLM reasoning; long-short CoT | [Link](https://arxiv.org/abs/2505.22662) | — |
 | **Canonical** | **Bidirectional Sparse Attention for Faster Video Diffusion Training** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2509.01085) | — |
+| **Canonical** | **BlackGoose Rimer: Harnessing RWKV-7 as a Simple yet Superior Replacement for Transformers in Large-Scale Time Series Modeling** | Fresh / preprint | efficient sequence models; time-series foundation models; training efficiency | [Link](https://arxiv.org/abs/2503.06121) | — |
 | **Canonical** | **BlackMamba: Mixture of Experts for State-Space Models** | Fresh / preprint | MoE and state-space LLM architecture | [Link](https://arxiv.org/abs/2402.01771) | — |
 | **Canonical** | **Boundary-Protection W8A8 HiFloat8 Quantization for Large-Scale Text-to-Video Diffusion Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2606.00957) | — |
+| **Canonical** | **BSBP-RWKV: Background Suppression with Boundary Preservation for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision inference; high-resolution segmentation; memory optimization | [Link](https://openreview.net/pdf?id=ULD5RCk0oo) | — |
 | **Canonical** | **CAST: Continuous and Differentiable Semi-Structured Sparsity-Aware Training for Large Language Models** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2509.25996) | — |
 | **Canonical** | **CATS: Contextually-Aware Thresholding for Sparsity in Large Language Models** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2404.08763) | — |
 | **Canonical** | **Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2606.25473) | — |
@@ -6059,6 +6061,7 @@
 | **Canonical** | **Hardware-aligned Hierarchical Sparse Attention for Efficient Long-term Memory Access** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2504.16795) | — |
 | **Canonical** | **HeadNeRF: A Real-time NeRF-based Parametric Head Model** | Fresh / preprint | Neural rendering acceleration | [Link](https://arxiv.org/abs/2112.05637) | — |
 | **Canonical** | **Hexa-MoE: Efficient and Heterogeneous-aware Training for Mixture-of-Experts** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2411.01288) | [Repo](https://github.com/UNITES-Lab/HEXA-MoE) |
+| **Canonical** | **HFE-RWKV: High-Frequency Enhanced RWKV Model for Efficient Left Ventricle Segmentation in Pediatric Echocardiograms** | Fresh / preprint | efficient vision inference; compact segmentation; healthcare edge AI | [Link](https://research.aston.ac.uk/en/publications/hfe-rwkv-high-frequency-enhanced-rwkv-model-for-efficient-left-ve/) | — |
 | **Canonical** | **How Sparse Attention Approximates Exact Attention? Your Attention is Naturally $n^C$-Sparse** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2404.02690) | — |
 | **Canonical** | **HSR-Enhanced Sparse Attention Acceleration** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2410.10165) | — |
 | **Canonical** | **HybridStitch: Pixel and Timestep Level Model Stitching for Diffusion Acceleration** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2603.07815) | — |
@@ -6072,11 +6075,14 @@
 | **Canonical** | **Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models** | Fresh / preprint | flow distillation inference acceleration | [Link](https://arxiv.org/abs/2512.02636) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **Canonical** | **KernelBench-Verified: Do LLM-Generated Kernels Actually Beat PyTorch?** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2607.16241) | — |
+| **Canonical** | **L3TC: Leveraging RWKV for Learned Lossless Low-Complexity Text Compression** | Fresh / preprint | model compression; learned text compression; fast decoding | [Link](https://arxiv.org/abs/2412.16642) | — |
 | **Canonical** | **Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2510.08431) | — |
 | **Canonical** | **LEANN: A Low-Storage Vector Index** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2506.08276) | — |
+| **Canonical** | **Learnable Sparsification of Die-to-Die Communication via Spike-Based Encoding** | Fresh / preprint | sparsity; chip-to-chip communication; energy-efficient AI hardware | [Link](https://arxiv.org/abs/2501.08645) | — |
 | **Canonical** | **Learning to Discover at Test Time** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2601.16175) | — |
 | **Canonical** | **Low-Precision Random Fourier Features for Memory-Constrained Kernel Approximation** | Fresh / preprint | low-precision quantization and memory-efficient kernel approximation | [Link](https://arxiv.org/abs/1811.00155) | — |
 | **Canonical** | **LT2: Linear-Time Looped Transformers** | Fresh / preprint | Linear-time attention and efficient reasoning | [Link](https://arxiv.org/abs/2605.20670) | — |
+| **Canonical** | **Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model** | Fresh / preprint | efficient vision inference; linear attention; segmentation | [Link](https://arxiv.org/abs/2406.19369) | — |
 | **Canonical** | **MARS Policy: Multimodality Only When It Matters** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2605.29766) | — |
 | **Canonical** | **MCR-DL: Mix-and-Match Communication Runtime for Deep Learning** | Fresh / preprint | Distributed training communication runtime | [Link](https://arxiv.org/abs/2303.08374) | — |
 | **Canonical** | **MiniCPM4: Ultra-Efficient LLMs on End Devices** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2506.07900) | — |
@@ -6102,11 +6108,13 @@
 | **Canonical** | **Quantized SO(3)-Equivariant Graph Neural Networks for Efficient Molecular Property Prediction** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2601.02213) | — |
 | **Canonical** | **Quantized Training of Gradient Boosting Decision Trees** | Fresh / preprint | low-precision training; GBDT quantization | [Link](https://arxiv.org/abs/2207.09682) | — |
 | **Canonical** | **ReTaKe: Reducing Temporal and Knowledge Redundancy for Long Video Understanding** | Fresh / preprint | multimodal and MLLM serving | [Link](https://arxiv.org/abs/2412.20504) | — |
+| **Canonical** | **Robin: RWKV Accelerator using Block Circulant Matrices based on FPGA** | Fresh / preprint | FPGA accelerator / RWKV inference / algorithm-hardware co-design / weight compression | [Link](https://ieeexplore.ieee.org/abstract/document/11240845) | — |
 | **Canonical** | **Robust Classification using Robust Feature Augmentation** | Fresh / preprint | efficient robust training; feature augmentation | [Link](https://arxiv.org/abs/1905.10904) | — |
 | **Canonical** | **SageAttention2: Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2411.10958) | — |
 | **Canonical** | **SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2410.02367) | — |
 | **Canonical** | **SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2406.15486) | — |
 | **Canonical** | **SAW-INT4: System-Aware 4-Bit KV-Cache Quantization for Real-World LLM Serving** | Fresh / preprint | KV cache/long-context; LLM serving; quantization | [Link](https://arxiv.org/abs/2604.19157) | — |
+| **Canonical** | **Scaling Context Requires Rethinking Attention** | Fresh / preprint | efficient attention / long-context modeling / GPU kernels / FLOP efficiency | [Link](https://arxiv.org/abs/2507.04239) | — |
 | **Canonical** | **Scaling Up Efficient Small Language Models Serving and Deployment for Semantic Job Search** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2510.22101) | — |
 | **Canonical** | **Search Your Block Floating Point Scales!** | Fresh / preprint | quantization; efficient attention | [Link](https://arxiv.org/abs/2605.12464) | — |
 | **Canonical** | **Semantic Search At LinkedIn** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2602.07309) | — |
@@ -6131,6 +6139,7 @@
 | **Canonical** | **Think Proprioceptively: State-Grounded Visual Token Selection for VLA Policies** | Fresh / preprint | VLA visual-token pruning | [Link](https://arxiv.org/abs/2602.06575) | — |
 | **Canonical** | **Threshold Neuron: A Brain-inspired Artificial Neuron for Efficient On-device Inference** | Fresh / preprint | Efficient on-device inference hardware | [Link](https://arxiv.org/abs/2412.13902) | — |
 | **Canonical** | **Time and Memory Trade-off of KV-Cache Compression in Tensor Transformer Decoding** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2503.11108) | — |
+| **Canonical** | **TLS-RWKV: Real-Time Online Action Detection with Temporal Label Smoothing** | Fresh / preprint | Physical AI perception; streaming action detection; edge inference | [Link](https://link.springer.com/article/10.1007/s11063-024-11540-0) | — |
 | **Canonical** | **Transformers to SSMs: Distilling Quadratic Knowledge to Subquadratic Models** | Fresh / preprint | Transformer to SSM distillation | [Link](https://arxiv.org/abs/2408.10189) | — |
 | **Canonical** | **TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding** | Fresh / preprint | speculative decoding / LLM inference | [Link](https://arxiv.org/abs/2608.26112) | — |
 | **Canonical** | **Tropical: Enhancing SLO Attainment in Disaggregated LLM Serving via SLO-Aware Multiplexing** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2606.16264) | — |
@@ -6146,6 +6155,7 @@
 | **Canonical** | **XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2411.15100) | — |
 | **Canonical** | **XQuant: Breaking the Memory Wall for LLM Inference with KV Cache Rematerialization** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2508.10395) | — |
 | **Canonical** | **xRAG: Extreme Context Compression for Retrieval-augmented Generation with One Token** | Fresh / preprint | Extreme context compression for RAG | [Link](https://arxiv.org/abs/2405.13792) | — |
+| **Canonical** | **Zig-RiR: Zigzag RWKV-in-RWKV for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision architecture / medical segmentation / GPU memory optimization | [Link](https://ieeexplore.ieee.org/document/10969076) | — |
 
 ## MLSys 2026 · 107
 

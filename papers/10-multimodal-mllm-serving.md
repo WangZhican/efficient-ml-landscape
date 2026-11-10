@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **936 canonical papers** mapped here, plus a broader **538-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **936 canonical papers** mapped here, plus a broader **540-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 538 tracked
+## 🆕 Latest 30 Days · 540 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -534,8 +534,10 @@
 | **P2 · Relevant** | **Harnessing VLM in Embodied RL: From Reward Regressor to Success Detector via Exploration-Augmented Key-Observation Gating** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15401) | — |
 | **P2 · Relevant** | **EvolvAttack: Backdooring self Evolving VLM Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15244) | — |
 | **P2 · Relevant** | **Zero-Gated Cross-Attention** | arXiv | multimodal_adapters | [Link](https://arxiv.org/abs/2611.01116) | — |
+| **P2 · Relevant** | **Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation** | arXiv 2026 | VLA;multimodal_robotics;physical_ai | [Link](https://arxiv.org/abs/2611.11981) | — |
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
+| **P2 · Relevant** | **Reliability-Adaptive Multimodal Relative Pose Tracking for Underwater Leader-Follower Robots** | arXiv 2026 | robotics;embedded_multimodal_perception | [Link](https://arxiv.org/abs/2611.11940) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P0 · Strong** | **NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation** | Fresh / preprint | VLA efficient inference | [Link](https://arxiv.org/abs/2608.16503) | — |
 | **P2 · Relevant** | **MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic** | arXiv 26 | predictive perception for two-wheelers | [Link](https://arxiv.org/abs/2611.06007) | — |

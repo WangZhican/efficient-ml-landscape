@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **1093 canonical papers** mapped here, plus a broader **365-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1095 canonical papers** mapped here, plus a broader **365-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -374,7 +374,7 @@
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 
-## 🏛️ Classical / Historical · 990 canonical
+## 🏛️ Classical / Historical · 992 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1354,12 +1354,14 @@
 | **Canonical** | **A 122.2μJ/Token Reasoning LLM Accelerator with Reinforcement Fine-Tune Featuring Two-Level KV-Cache Compression and Spike-Driven Predictive Update** | VLSI Symposium 2026 | reasoning LLM accelerator / KV compression / RL fine-tuning | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577555) | — |
 | **Canonical** | **Accelerating Large Language Model Training with Hybrid GPU-based Compression** | Fresh / preprint | Distributed LLM training acceleration | [Link](https://arxiv.org/abs/2409.02423) | — |
 | **Canonical** | **Arctic Long Sequence Training: Scalable And Efficient Training For Multi-Million Token Sequences** | Fresh / preprint | long-context distributed training | [Link](https://arxiv.org/abs/2506.13996) | — |
+| **Canonical** | **BlackGoose Rimer: Harnessing RWKV-7 as a Simple yet Superior Replacement for Transformers in Large-Scale Time Series Modeling** | Fresh / preprint | efficient sequence models; time-series foundation models; training efficiency | [Link](https://arxiv.org/abs/2503.06121) | — |
 | **Canonical** | **Expert Coupling in MoE Pretraining: Reducing All-to-All Overhead with Correlated Placement and Token Shuffling** | Fresh / preprint | Distributed MoE training | [Link](https://arxiv.org/abs/2610.09372) | — |
 | **Canonical** | **Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization** | Fresh / preprint | efficient LLM pretraining optimization | [Link](https://arxiv.org/abs/2606.16899) | — |
 | **Canonical** | **Gecko: An Efficient Neural Architecture Inherently Processing Sequences with Arbitrary Lengths** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2601.06463) | — |
 | **Canonical** | **GNNPipe: Scaling Deep GNN Training with Pipelined Model Parallelism** | Fresh / preprint | distributed GNN training; model parallelism | [Link](https://arxiv.org/abs/2308.10087) | — |
 | **Canonical** | **Hexa-MoE: Efficient and Heterogeneous-aware Training for Mixture-of-Experts** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2411.01288) | [Repo](https://github.com/UNITES-Lab/HEXA-MoE) |
 | **Canonical** | **Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2510.08431) | — |
+| **Canonical** | **Learnable Sparsification of Die-to-Die Communication via Spike-Based Encoding** | Fresh / preprint | sparsity; chip-to-chip communication; energy-efficient AI hardware | [Link](https://arxiv.org/abs/2501.08645) | — |
 | **Canonical** | **MARS Policy: Multimodality Only When It Matters** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2605.29766) | — |
 | **Canonical** | **MCR-DL: Mix-and-Match Communication Runtime for Deep Learning** | Fresh / preprint | Distributed training communication runtime | [Link](https://arxiv.org/abs/2303.08374) | — |
 | **Canonical** | **Occult: Optimizing Collaborative Communication across Experts for Accelerated Parallel MoE Training and Inference** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2505.13345) | [Repo](https://github.com/UNITES-Lab/Occult) |

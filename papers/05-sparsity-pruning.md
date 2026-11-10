@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **1202 canonical papers** mapped here, plus a broader **415-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1203 canonical papers** mapped here, plus a broader **416-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 415 tracked
+## 🆕 Latest 30 Days · 416 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -415,6 +415,7 @@
 | **P1 · Watch** | **SARATHI: Decoupled Data-Free Probing and Adaptive Reconstruction for Structured LLM Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15514) | — |
 | **P1 · Watch** | **WUSPruner: Second-Moment-Optimal Transforms for Structured Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15394) | — |
 | **P2 · Relevant** | **Explicit Bounds on Hoffman Constants for Sparse Polyhedral Regularizers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15241) | — |
+| **P2 · Relevant** | **Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation** | arXiv 2026 | VLA;multimodal_robotics;physical_ai | [Link](https://arxiv.org/abs/2611.11981) | — |
 | **P0 · Strong** | **SparseWAM: Driving World-Action Models are Worth 16 Register Tokens** | arXiv 2026 | Physical AI / sparse world-action models | [Link](https://arxiv.org/abs/2611.00044) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
@@ -424,7 +425,7 @@
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 
-## 🏛️ Classical / Historical · 1092 canonical
+## 🏛️ Classical / Historical · 1093 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1502,6 +1503,7 @@
 | **Canonical** | **HSR-Enhanced Sparse Attention Acceleration** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2410.10165) | — |
 | **Canonical** | **Iterative Structured Pruning for Large Language Models with Multi-Domain Calibration** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2601.02674) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
+| **Canonical** | **Learnable Sparsification of Die-to-Die Communication via Spike-Based Encoding** | Fresh / preprint | sparsity; chip-to-chip communication; energy-efficient AI hardware | [Link](https://arxiv.org/abs/2501.08645) | — |
 | **Canonical** | **LT2: Linear-Time Looped Transformers** | Fresh / preprint | Linear-time attention and efficient reasoning | [Link](https://arxiv.org/abs/2605.20670) | — |
 | **Canonical** | **Occult: Optimizing Collaborative Communication across Experts for Accelerated Parallel MoE Training and Inference** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2505.13345) | [Repo](https://github.com/UNITES-Lab/Occult) |
 | **Canonical** | **On Fine-Grained I/O Complexity of Attention Backward Passes** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2410.09397) | — |

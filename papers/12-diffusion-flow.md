@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **1096 canonical papers** mapped here, plus a broader **286-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1096 canonical papers** mapped here, plus a broader **289-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 286 tracked
+## 🆕 Latest 30 Days · 289 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -285,11 +285,14 @@
 | **P2 · Relevant** | **MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics** | arXiv 26 | robot policy generalization benchmark | [Link](https://arxiv.org/abs/2611.05567) | — |
 | **P0 · Strong** | **Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models** | Fresh / preprint | video generation acceleration / flow matching | [Link](https://arxiv.org/abs/2608.17695) | — |
 | **P0 · Strong** | **LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching** | Fresh / preprint | diffusion/video generation acceleration / feature caching | [Link](https://arxiv.org/abs/2608.17973) | — |
+| **P1 · Watch** | **How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens** | arXiv 2026 | world_model;flow_matching;action_generation;physical_ai | [Link](https://arxiv.org/abs/2611.11887) | — |
 | **P2 · Relevant** | **History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models** | arXiv 2026 | video_generation_distillation | [Link](https://arxiv.org/abs/2611.02782) | — |
 | **P1 · Watch** | **GSBR: Geometric Support Behavior Regularization for Online RL** | arXiv 2026 | Physical-AI policy learning / online RL throughput and sample efficiency | [Link](https://arxiv.org/abs/2611.05295) | — |
 | **P1 · Watch** | **GPWM: Modeling the World as 3D Particle Motion** | arXiv 26 | generative physical world model | [Link](https://arxiv.org/abs/2611.08338) | — |
 | **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
+| **P1 · Watch** | **Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training** | arXiv 2026 | image_generation_acceleration;DiT;distillation | [Link](https://arxiv.org/abs/2611.12042) | — |
 | **P0 · Strong** | **DriveCache: Action-Aware Caching for Driving World Model Inference** | Fresh / preprint | world-model / diffusion caching | [Link](https://arxiv.org/abs/2608.16354) | — |
+| **P2 · Relevant** | **DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing** | arXiv 2026 | visual_SLAM;diffusion;3D_Gaussian_splatting | [Link](https://arxiv.org/abs/2611.12038) | — |
 | **P2 · Relevant** | **Does Validation Loss Predict Real-Robot Success? Evidence from Four Imitation-Learning Policies on a Low-Cost Arm** | arXiv 2026 | real-robot-policy-evaluation | [Link](https://arxiv.org/abs/2611.00283) | — |
 | **P2 · Relevant** | **Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning** | arXiv 2026 | Physical-AI action policy and diffusion/VLA post-training | [Link](https://arxiv.org/abs/2611.05667) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |

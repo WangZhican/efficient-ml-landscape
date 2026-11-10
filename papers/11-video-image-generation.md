@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **622 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **622 canonical papers** mapped here, plus a broader **163-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 160 tracked
+## 🆕 Latest 30 Days · 163 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -158,6 +158,7 @@
 | **P2 · Relevant** | **Gen Through the Lens: Camera-Controllable Video Generation via Cross-Coordinate Conditioning Fusion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15900) | — |
 | **P0 · Strong** | **TempoKV: Predictive KV Cache Quantization for Autoregressive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15324) | — |
 | **P2 · Relevant** | **X-World 1.6: Building Controllable Virtual Cities with World Models** | arXiv 2026 | Physical AI;world models;video generation | [Link](https://arxiv.org/abs/2611.00596) | — |
+| **P2 · Relevant** | **UltraVoxelGS: Voxel-First Feed-Forward Gaussian Splatting for 3D Ultrasound Reconstruction** | arXiv 2026 | 3D_reconstruction;Gaussian_splatting;medical_imaging | [Link](https://arxiv.org/abs/2611.11951) | — |
 | **P0 · Strong** | **SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation** | Fresh / preprint | video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.16585) | — |
 | **P0 · Strong** | **SFA: A Statistical Physics-Inspired Diffusion Transformer for Efficient and High-Quality Image Generation** | arXiv 2026 | Diffusion acceleration / efficient attention | [Link](https://arxiv.org/abs/2611.00027) | — |
 | **P2 · Relevant** | **ReactWorld: Structuring Interaction Responses for Embodied Video Generation** | arXiv 2026 | llm_serving;gen;physical | [Link](https://arxiv.org/abs/2611.06120) | — |
@@ -165,6 +166,8 @@
 | **P0 · Strong** | **LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching** | Fresh / preprint | diffusion/video generation acceleration / feature caching | [Link](https://arxiv.org/abs/2608.17973) | — |
 | **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
 | **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
+| **P1 · Watch** | **Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training** | arXiv 2026 | image_generation_acceleration;DiT;distillation | [Link](https://arxiv.org/abs/2611.12042) | — |
+| **P2 · Relevant** | **DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing** | arXiv 2026 | visual_SLAM;diffusion;3D_Gaussian_splatting | [Link](https://arxiv.org/abs/2611.12038) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |

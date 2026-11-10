@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **985 canonical papers** mapped here, plus a broader **1175-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **986 canonical papers** mapped here, plus a broader **1180-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1175 tracked
+## 🆕 Latest 30 Days · 1180 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1148,6 +1148,7 @@
 | **P2 · Relevant** | **Toward Uncertainty-Aware, Physics-Grounded Human World Models** | arXiv 2026 | Physical AI / uncertainty-aware human world models | [Link](https://arxiv.org/abs/2611.03428) | — |
 | **P2 · Relevant** | **Touch\'{e}World tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds** | arXiv 2026 | physical;edge | [Link](https://arxiv.org/abs/2611.06061) | — |
 | **P2 · Relevant** | **Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models** | arXiv 2026 | JEPA world-model planning for navigation and manipulation | [Link](https://arxiv.org/abs/2611.05847) | — |
+| **P2 · Relevant** | **Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation** | arXiv 2026 | VLA;multimodal_robotics;physical_ai | [Link](https://arxiv.org/abs/2611.11981) | — |
 | **P2 · Relevant** | **SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model** | arXiv 2026 | Surgical world models and latent action transfer | [Link](https://arxiv.org/abs/2611.05443) | — |
 | **P2 · Relevant** | **Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.01666) | — |
 | **P2 · Relevant** | **Spectrally Routed Diffusion Policy for Multi-Task Robotic Manipulation** | arXiv 2026 | Physical-AI diffusion policy / low-rank expert routing | [Link](https://arxiv.org/abs/2611.04477) | — |
@@ -1156,6 +1157,7 @@
 | **P2 · Relevant** | **Roz: A Taste Test for World Model Latents** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.00612) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
 | **P2 · Relevant** | **Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up** | arXiv 2026 | physical-ai/world-model reliability | [Link](https://arxiv.org/abs/2611.02699) | — |
+| **P2 · Relevant** | **Reliability-Adaptive Multimodal Relative Pose Tracking for Underwater Leader-Follower Robots** | arXiv 2026 | robotics;embedded_multimodal_perception | [Link](https://arxiv.org/abs/2611.11940) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P2 · Relevant** | **ReactWorld: Structuring Interaction Responses for Embodied Video Generation** | arXiv 2026 | llm_serving;gen;physical | [Link](https://arxiv.org/abs/2611.06120) | — |
 | **P2 · Relevant** | **PointPilot: Unified Robotic Manipulation via Object-Centric 3D Point Flow Prediction** | arXiv 2026 | Point-flow robotic manipulation / embodied action generation | [Link](https://arxiv.org/abs/2611.02930) | — |
@@ -1167,8 +1169,11 @@
 | **P2 · Relevant** | **MKD2World: A Typed Spatial MarkDown World Model For Web Agents** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2611.06544) | — |
 | **P2 · Relevant** | **MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics** | arXiv 26 | robot policy generalization benchmark | [Link](https://arxiv.org/abs/2611.05567) | — |
 | **P0 · Strong** | **MAC-v2: Long-horizon model-based value expansion from pixels** | arXiv 26 | efficient latent world-model reasoning | [Link](https://arxiv.org/abs/2611.07245) | — |
+| **P1 · Watch** | **LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting** | arXiv 2026 | world_model;flow_matching;physical_ai | [Link](https://arxiv.org/abs/2611.11912) | — |
 | **P2 · Relevant** | **Learning Robotic World Models with Semantic and Visual Feedback** | arXiv 2026 | robotic world models / embodied learning | [Link](https://arxiv.org/abs/2611.07850) | — |
 | **P2 · Relevant** | **Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model** | arXiv 2026 | Autonomous-driving language world models | [Link](https://arxiv.org/abs/2611.05448) | — |
+| **P1 · Watch** | **How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens** | arXiv 2026 | world_model;flow_matching;action_generation;physical_ai | [Link](https://arxiv.org/abs/2611.11887) | — |
+| **P1 · Watch** | **HIST3R: Decomposing and Rectifying State Updates with History for Streaming 3D Reconstruction** | arXiv 2026 | streaming_3D_reconstruction;world_model;physical_ai | [Link](https://arxiv.org/abs/2611.12011) | — |
 | **P0 · Strong** | **HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL** | Fresh / preprint | VLA / humanoid efficient adaptation | [Link](https://arxiv.org/abs/2608.16837) | — |
 | **P0 · Strong** | **GVT3D: Gesture-Vision-Text Token Enrichment for 3D Embodied Reference Understanding** | arXiv 2026 | Physical-AI multimodal perception / point-cloud foveation and compute reduction | [Link](https://arxiv.org/abs/2611.04422) | — |
 | **P1 · Watch** | **GSBR: Geometric Support Behavior Regularization for Online RL** | arXiv 2026 | Physical-AI policy learning / online RL throughput and sample efficiency | [Link](https://arxiv.org/abs/2611.05295) | — |
@@ -1184,7 +1189,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |
 
-## 🏛️ Classical / Historical · 866 canonical
+## 🏛️ Classical / Historical · 867 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2053,9 +2058,10 @@
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **Canonical** | **MARS Policy: Multimodality Only When It Matters** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2605.29766) | — |
 | **Canonical** | **Think Proprioceptively: State-Grounded Visual Token Selection for VLA Policies** | Fresh / preprint | VLA visual-token pruning | [Link](https://arxiv.org/abs/2602.06575) | — |
+| **Canonical** | **TLS-RWKV: Real-Time Online Action Detection with Temporal Label Smoothing** | Fresh / preprint | Physical AI perception; streaming action detection; edge inference | [Link](https://link.springer.com/article/10.1007/s11063-024-11540-0) | — |
 | **Canonical** | **VisualClaw: A Real-Time, Personalized Agent for the Physical World** | Fresh / preprint | Streaming multimodal agents and edge inference | [Link](https://arxiv.org/abs/2606.16295) | — |
 
-## 🛡️ Protected historical P1 watch · 1610
+## 🛡️ Protected historical P1 watch · 1613
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 

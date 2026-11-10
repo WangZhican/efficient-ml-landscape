@@ -1,10 +1,10 @@
 # 02 · Speculative Decoding
 
-> **525 canonical papers** mapped here, plus a broader **118-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **525 canonical papers** mapped here, plus a broader **119-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 118 tracked
+## 🆕 Latest 30 Days · 119 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -123,6 +123,7 @@
 | **P2 · Relevant** | **Verifying Autoware Controller Node by Combining Model Verification and Runtime Monitoring** | arXiv 2026 | physical_ai_runtime_infra | [Link](https://arxiv.org/abs/2610.15418) | — |
 | **P0 · Strong** | **SpecFit: Not All Draft Tokens Cost the Same in Offloaded MoE Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15417) | — |
 | **P0 · Strong** | **ObsSpec: Accelerating Agentic Reinforcement Learning with Observation Speculation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15246) | — |
+| **P2 · Relevant** | **Speculative Self-Distillation enables Efficient Knowledge Internalization** | arXiv 2026 | efficient_training;self_distillation;knowledge_updates | [Link](https://arxiv.org/abs/2611.12016) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P2 · Relevant** | **ECGJev: Question-Conditioned Option Scoring for 12-Lead ECG Interpretation** | Fresh / preprint | ECG multimodal decision decoding / compact signal-token representation | [Link](https://arxiv.org/abs/2611.02041) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |

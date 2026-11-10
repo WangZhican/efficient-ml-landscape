@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **2818 canonical papers** mapped here, plus a broader **1450-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2819 canonical papers** mapped here, plus a broader **1457-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1450 tracked
+## 🆕 Latest 30 Days · 1457 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1420,18 +1420,23 @@
 | **P2 · Relevant** | **When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.01815) | — |
 | **P2 · Relevant** | **WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation** | arXiv 2026 | Physical AI / world-model simulation | [Link](https://arxiv.org/abs/2611.07939) | — |
 | **P2 · Relevant** | **Value Forcing: Aligning Return Distributions at All Noise Levels** | arXiv 2026 | robotics-RL-value-learning | [Link](https://arxiv.org/abs/2611.02160) | — |
+| **P2 · Relevant** | **UltraVoxelGS: Voxel-First Feed-Forward Gaussian Splatting for 3D Ultrasound Reconstruction** | arXiv 2026 | 3D_reconstruction;Gaussian_splatting;medical_imaging | [Link](https://arxiv.org/abs/2611.11951) | — |
 | **P2 · Relevant** | **Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models** | arXiv 2026 | JEPA world-model planning for navigation and manipulation | [Link](https://arxiv.org/abs/2611.05847) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
 | **P0 · Strong** | **TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling** | Fresh / preprint | agentic RL infrastructure | [Link](https://arxiv.org/abs/2608.10402) | — |
+| **P2 · Relevant** | **Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation** | arXiv 2026 | VLA;multimodal_robotics;physical_ai | [Link](https://arxiv.org/abs/2611.11981) | — |
 | **P0 · Strong** | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |
 | **P2 · Relevant** | **SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model** | arXiv 2026 | Surgical world models and latent action transfer | [Link](https://arxiv.org/abs/2611.05443) | — |
+| **P2 · Relevant** | **Speculative Self-Distillation enables Efficient Knowledge Internalization** | arXiv 2026 | efficient_training;self_distillation;knowledge_updates | [Link](https://arxiv.org/abs/2611.12016) | — |
 | **P2 · Relevant** | **Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up** | arXiv 2026 | physical-ai/world-model reliability | [Link](https://arxiv.org/abs/2611.02699) | — |
+| **P2 · Relevant** | **Reliability-Adaptive Multimodal Relative Pose Tracking for Underwater Leader-Follower Robots** | arXiv 2026 | robotics;embedded_multimodal_perception | [Link](https://arxiv.org/abs/2611.11940) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
 | **P2 · Relevant** | **Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits** | arXiv 2026 | heterogeneous and non-von-Neumann ML hardware | [Link](https://arxiv.org/abs/2611.05355) | — |
 | **P2 · Relevant** | **ReactWorld: Structuring Interaction Responses for Embodied Video Generation** | arXiv 2026 | llm_serving;gen;physical | [Link](https://arxiv.org/abs/2611.06120) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P2 · Relevant** | **PointPilot: Unified Robotic Manipulation via Object-Centric 3D Point Flow Prediction** | arXiv 2026 | Point-flow robotic manipulation / embodied action generation | [Link](https://arxiv.org/abs/2611.02930) | — |
 | **P0 · Strong** | **Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN** | Fresh / preprint | LLM serving / KV cache / edge | [Link](https://arxiv.org/abs/2608.16477) | — |
+| **P2 · Relevant** | **MTRDMA: Lightweight User-Space Control-Plane Isolation for Multi-Tenant RDMA** | arXiv 2026 | cloud_edge_ai_infrastructure;RDMA | [Link](https://arxiv.org/abs/2611.11991) | — |
 | **P2 · Relevant** | **MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic** | arXiv 26 | predictive perception for two-wheelers | [Link](https://arxiv.org/abs/2611.06007) | — |
 | **P2 · Relevant** | **Learning Robotic World Models with Semantic and Visual Feedback** | arXiv 2026 | robotic world models / embodied learning | [Link](https://arxiv.org/abs/2611.07850) | — |
 | **P2 · Relevant** | **Learning a patient world model for health system simulation in intensive care** | arXiv 2026 | world-model reuse / healthcare simulation | [Link](https://arxiv.org/abs/2611.08392) | — |
@@ -1449,6 +1454,7 @@
 | **P0 · Strong** | **Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack** | Fresh / preprint | CPU INT8 inference / PyTorch-TorchAO / TorchInductor | [Link](https://arxiv.org/abs/2608.18182) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P2 · Relevant** | **ECGJev: Question-Conditioned Option Scoring for 12-Lead ECG Interpretation** | Fresh / preprint | ECG multimodal decision decoding / compact signal-token representation | [Link](https://arxiv.org/abs/2611.02041) | — |
+| **P2 · Relevant** | **DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing** | arXiv 2026 | visual_SLAM;diffusion;3D_Gaussian_splatting | [Link](https://arxiv.org/abs/2611.12038) | — |
 | **P2 · Relevant** | **Does Validation Loss Predict Real-Robot Success? Evidence from Four Imitation-Learning Policies on a Low-Cost Arm** | arXiv 2026 | real-robot-policy-evaluation | [Link](https://arxiv.org/abs/2611.00283) | — |
 | **P0 · Strong** | **DiA: Directional Adapter** | arXiv 2026 | Video recognition / parameter-efficient inference | [Link](https://arxiv.org/abs/2611.00029) | — |
 | **P0 · Strong** | **CoRun: Padding is Simple and Efficient for Deterministic LLM Inference** | Fresh / preprint | LLM serving / deterministic inference / fixed-shape scheduling | [Link](https://arxiv.org/abs/2608.14376) | — |
@@ -1457,9 +1463,10 @@
 | **P2 · Relevant** | **ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals** | arXiv | looped_transformers | [Link](https://arxiv.org/abs/2611.05234) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
+| **P2 · Relevant** | **3R-Adapter: Retrieval, Rewiring, and Refinement for Efficient Adaptation of 3D Reconstruction Model** | arXiv 2026 | 3D_reconstruction;parameter_efficient_adaptation | [Link](https://arxiv.org/abs/2611.11964) | — |
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |
 
-## 🏛️ Classical / Historical · 2463 canonical
+## 🏛️ Classical / Historical · 2464 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -3909,6 +3916,7 @@
 | **Canonical** | **PQCache: Product Quantization-based KVCache for Long Context LLM Inference** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2407.12820) | — |
 | **Canonical** | **ProxSparse: Regularized Learning of Semi-Structured Sparsity Masks for Pretrained LLMs** | Fresh / preprint | LLM pruning; semi-structured sparsity | [Link](https://arxiv.org/abs/2502.00258) | — |
 | **Canonical** | **ReTaKe: Reducing Temporal and Knowledge Redundancy for Long Video Understanding** | Fresh / preprint | multimodal and MLLM serving | [Link](https://arxiv.org/abs/2412.20504) | — |
+| **Canonical** | **Robin: RWKV Accelerator using Block Circulant Matrices based on FPGA** | Fresh / preprint | FPGA accelerator / RWKV inference / algorithm-hardware co-design / weight compression | [Link](https://ieeexplore.ieee.org/abstract/document/11240845) | — |
 | **Canonical** | **SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2406.15486) | — |
 | **Canonical** | **SAW-INT4: System-Aware 4-Bit KV-Cache Quantization for Real-World LLM Serving** | Fresh / preprint | KV cache/long-context; LLM serving; quantization | [Link](https://arxiv.org/abs/2604.19157) | — |
 | **Canonical** | **Scaling Up Efficient Small Language Models Serving and Deployment for Semantic Job Search** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2510.22101) | — |

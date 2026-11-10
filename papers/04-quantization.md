@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **1196 canonical papers** mapped here, plus a broader **639-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1201 canonical papers** mapped here, plus a broader **640-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 639 tracked
+## 🆕 Latest 30 Days · 640 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -638,6 +638,7 @@
 | **P2 · Relevant** | **Generative Quantum Machine Learning Methods for Cancer Detection using Augmented Datasets** | arXiv 2026 | generative_quantum_ml_image_augmentation | [Link](https://arxiv.org/abs/2610.15110) | — |
 | **P1 · Watch** | **VLCQ: Post-training quantization for deep neural networks using variable length coding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15092) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
+| **P2 · Relevant** | **Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation** | arXiv 2026 | VLA;multimodal_robotics;physical_ai | [Link](https://arxiv.org/abs/2611.11981) | — |
 | **P0 · Strong** | **Real-Time Obstacle Detection and Distance Estimation on Smartphones for Visually Impaired and Distracted Pedestrians** | arXiv 2026 | Edge AI / smartphone inference acceleration | [Link](https://arxiv.org/abs/2611.00040) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P1 · Watch** | **OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining** | arXiv 2026 | Physical AI / navigation world models | [Link](https://arxiv.org/abs/2611.01844) | — |
@@ -648,7 +649,7 @@
 | **P0 · Strong** | **Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack** | Fresh / preprint | CPU INT8 inference / PyTorch-TorchAO / TorchInductor | [Link](https://arxiv.org/abs/2608.18182) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 1055 canonical
+## 🏛️ Classical / Historical · 1060 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1680,16 +1681,20 @@
 | **Canonical** | **6Bit-Diffusion: Inference-Time Mixed-Precision Quantization for Video Diffusion Models** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2603.18742) | — |
 | **Canonical** | **A$^2$ATS: Retrieval-Based KV Cache Reduction via Windowed Rotary Position Embedding and Query-Aware Vector Quantization** | Fresh / preprint | KV-cache compression and efficient LLM serving | [Link](https://arxiv.org/abs/2502.12665) | — |
 | **Canonical** | **Accurate INT8 Training Through Dynamic Block-Level Fallback** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2503.08040) | — |
+| **Canonical** | **BlackGoose Rimer: Harnessing RWKV-7 as a Simple yet Superior Replacement for Transformers in Large-Scale Time Series Modeling** | Fresh / preprint | efficient sequence models; time-series foundation models; training efficiency | [Link](https://arxiv.org/abs/2503.06121) | — |
 | **Canonical** | **Boundary-Protection W8A8 HiFloat8 Quantization for Large-Scale Text-to-Video Diffusion Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2606.00957) | — |
+| **Canonical** | **BSBP-RWKV: Background Suppression with Boundary Preservation for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision inference; high-resolution segmentation; memory optimization | [Link](https://openreview.net/pdf?id=ULD5RCk0oo) | — |
 | **Canonical** | **EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices** | Fresh / preprint | edge/cloud/heterogeneous AI systems / mobile LLM inference / quantization / NPU runtime | [Link](https://arxiv.org/abs/2604.09083) | — |
 | **Canonical** | **FCOS: A Two-Stage Recoverable Model Pruning Framework for Automatic Modulation Recognition** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2505.21571) | — |
 | **Canonical** | **FlexQ: Efficient Post-training INT6 Quantization for LLM Serving via Algorithm-System Co-Design** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2508.04405) | — |
 | **Canonical** | **FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design** | Fresh / preprint | LLM quantization kernel serving | [Link](https://arxiv.org/abs/2401.14112) | — |
 | **Canonical** | **HadaCore: Tensor Core Accelerated Hadamard Transform Kernel** | Fresh / preprint | GPU kernels; Tensor Core acceleration; mixed precision | [Link](https://arxiv.org/abs/2412.08832) | — |
 | **Canonical** | **HeadNeRF: A Real-time NeRF-based Parametric Head Model** | Fresh / preprint | Neural rendering acceleration | [Link](https://arxiv.org/abs/2112.05637) | — |
+| **Canonical** | **HFE-RWKV: High-Frequency Enhanced RWKV Model for Efficient Left Ventricle Segmentation in Pediatric Echocardiograms** | Fresh / preprint | efficient vision inference; compact segmentation; healthcare edge AI | [Link](https://research.aston.ac.uk/en/publications/hfe-rwkv-high-frequency-enhanced-rwkv-model-for-efficient-left-ve/) | — |
 | **Canonical** | **Identifying Sensitive Weights via Post-quantization Integral** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2503.01901) | — |
 | **Canonical** | **Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2403.12422) | — |
 | **Canonical** | **Low-Precision Random Fourier Features for Memory-Constrained Kernel Approximation** | Fresh / preprint | low-precision quantization and memory-efficient kernel approximation | [Link](https://arxiv.org/abs/1811.00155) | — |
+| **Canonical** | **Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model** | Fresh / preprint | efficient vision inference; linear attention; segmentation | [Link](https://arxiv.org/abs/2406.19369) | — |
 | **Canonical** | **MiniCPM4: Ultra-Efficient LLMs on End Devices** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2506.07900) | — |
 | **Canonical** | **MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2505.05799) | — |
 | **Canonical** | **Oscillation-Reduced MXFP4 Training for Vision Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2502.20853) | — |
@@ -1707,3 +1712,4 @@
 | **Canonical** | **TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2512.16093) | — |
 | **Canonical** | **UWC: Unit-wise Calibration Towards Rapid Network Compression** | Fresh / preprint | Efficient model quantization | [Link](https://arxiv.org/abs/2201.06376) | — |
 | **Canonical** | **XQuant: Breaking the Memory Wall for LLM Inference with KV Cache Rematerialization** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2508.10395) | — |
+| **Canonical** | **Zig-RiR: Zigzag RWKV-in-RWKV for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision architecture / medical segmentation / GPU memory optimization | [Link](https://ieeexplore.ieee.org/document/10969076) | — |

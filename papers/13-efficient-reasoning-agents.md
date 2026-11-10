@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1704 canonical papers** mapped here, plus a broader **1440-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1704 canonical papers** mapped here, plus a broader **1442-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1440 tracked
+## 🆕 Latest 30 Days · 1442 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1437,6 +1437,7 @@
 | **P2 · Relevant** | **ReactWorld: Structuring Interaction Responses for Embodied Video Generation** | arXiv 2026 | llm_serving;gen;physical | [Link](https://arxiv.org/abs/2611.06120) | — |
 | **P2 · Relevant** | **MKD2World: A Typed Spatial MarkDown World Model For Web Agents** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2611.06544) | — |
 | **P0 · Strong** | **MAC-v2: Long-horizon model-based value expansion from pixels** | arXiv 26 | efficient latent world-model reasoning | [Link](https://arxiv.org/abs/2611.07245) | — |
+| **P1 · Watch** | **Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization** | arXiv 2026 | AI_infrastructure_agents;KV_cache;runtime | [Link](https://arxiv.org/abs/2611.11995) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
 | **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
@@ -1448,6 +1449,7 @@
 | **P2 · Relevant** | **Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks** | arXiv 26 | efficient reasoning/agent systems (evaluation infrastructure) | [Link](https://arxiv.org/abs/2611.08417) | — |
 | **P2 · Relevant** | **AttnSR: Attention Step Reward for Long-Horizon Agentic RL** | arXiv 2026 | efficient agent learning / reinforcement learning | [Link](https://arxiv.org/abs/2611.07932) | — |
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |
+| **P1 · Watch** | **Adaptive Entropy-Sparing for Efficient Reasoning** | arXiv 2026 | efficient_reasoning;token_efficiency | [Link](https://arxiv.org/abs/2611.11901) | — |
 
 ## 🏛️ Classical / Historical · 1539 canonical
 

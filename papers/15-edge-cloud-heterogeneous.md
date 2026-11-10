@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1759 canonical papers** mapped here, plus a broader **1246-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1762 canonical papers** mapped here, plus a broader **1248-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1246 tracked
+## 🆕 Latest 30 Days · 1248 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1241,10 +1241,12 @@
 | **P2 · Relevant** | **BrainAid: Efficient Brain Tumor Detection Using Lightweight CNNs and Explainable AI for Resource-Constrained Environments** | arXiv 2026 | edge_ai_deployment | [Link](https://arxiv.org/abs/2610.15077) | — |
 | **P2 · Relevant** | **TriMedium: A Cross-Medium Simulator for Embodied Networking Across Air-Ground-Sea** | arXiv 26 | embodied air-ground-sea networking | [Link](https://arxiv.org/abs/2611.04763) | — |
 | **P2 · Relevant** | **Touch\'{e}World tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds** | arXiv 2026 | physical;edge | [Link](https://arxiv.org/abs/2611.06061) | — |
+| **P2 · Relevant** | **Speculative Self-Distillation enables Efficient Knowledge Internalization** | arXiv 2026 | efficient_training;self_distillation;knowledge_updates | [Link](https://arxiv.org/abs/2611.12016) | — |
 | **P0 · Strong** | **Real-Time Obstacle Detection and Distance Estimation on Smartphones for Visually Impaired and Distracted Pedestrians** | arXiv 2026 | Edge AI / smartphone inference acceleration | [Link](https://arxiv.org/abs/2611.00040) | — |
 | **P2 · Relevant** | **Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits** | arXiv 2026 | heterogeneous and non-von-Neumann ML hardware | [Link](https://arxiv.org/abs/2611.05355) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P0 · Strong** | **Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN** | Fresh / preprint | LLM serving / KV cache / edge | [Link](https://arxiv.org/abs/2608.16477) | — |
+| **P2 · Relevant** | **MTRDMA: Lightweight User-Space Control-Plane Isolation for Multi-Tenant RDMA** | arXiv 2026 | cloud_edge_ai_infrastructure;RDMA | [Link](https://arxiv.org/abs/2611.11991) | — |
 | **P0 · Strong** | **HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads** | Fresh / preprint | LLM serving / heterogeneous chiplets / architecture-runtime co-design | [Link](https://arxiv.org/abs/2608.19395) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P2 · Relevant** | **From Single-Shot QA to Continuous Perception: Revisiting the Energy Composition and Optimization Boundary of Edge VLMs** | arXiv 2026 | Edge VLM energy profiling | [Link](https://arxiv.org/abs/2611.00036) | — |
@@ -1255,7 +1257,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 1588 canonical
+## 🏛️ Classical / Historical · 1591 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2833,8 +2835,10 @@
 | **Canonical** | **EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices** | Fresh / preprint | edge/cloud/heterogeneous AI systems / mobile LLM inference / quantization / NPU runtime | [Link](https://arxiv.org/abs/2604.09083) | — |
 | **Canonical** | **Efficient Adversarial Training with Transferable Adversarial Examples** | Fresh / preprint | efficient adversarial training | [Link](https://arxiv.org/abs/1912.11969) | — |
 | **Canonical** | **Hexa-MoE: Efficient and Heterogeneous-aware Training for Mixture-of-Experts** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2411.01288) | [Repo](https://github.com/UNITES-Lab/HEXA-MoE) |
+| **Canonical** | **HFE-RWKV: High-Frequency Enhanced RWKV Model for Efficient Left Ventricle Segmentation in Pediatric Echocardiograms** | Fresh / preprint | efficient vision inference; compact segmentation; healthcare edge AI | [Link](https://research.aston.ac.uk/en/publications/hfe-rwkv-high-frequency-enhanced-rwkv-model-for-efficient-left-ve/) | — |
 | **Canonical** | **HyMCache: A KV Cache Framework for Multi-Turn LLM Serving with CXL-Hybrid Memory** | Fresh / preprint | LLM serving / KV cache / CXL-hybrid memory / disaggregated inference | [Link](https://arxiv.org/abs/2607.18141) | — |
 | **Canonical** | **Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models** | Fresh / preprint | flow distillation inference acceleration | [Link](https://arxiv.org/abs/2512.02636) | — |
+| **Canonical** | **L3TC: Leveraging RWKV for Learned Lossless Low-Complexity Text Compression** | Fresh / preprint | model compression; learned text compression; fast decoding | [Link](https://arxiv.org/abs/2412.16642) | — |
 | **Canonical** | **MiniCPM4: Ultra-Efficient LLMs on End Devices** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2506.07900) | — |
 | **Canonical** | **Neuromorphic Principles for Efficient Large Language Models on Intel Loihi 2** | Fresh / preprint | Neuromorphic LLM inference | [Link](https://arxiv.org/abs/2503.18002) | — |
 | **Canonical** | **ReTaKe: Reducing Temporal and Knowledge Redundancy for Long Video Understanding** | Fresh / preprint | multimodal and MLLM serving | [Link](https://arxiv.org/abs/2412.20504) | — |
@@ -2845,5 +2849,6 @@
 | **Canonical** | **Stereo Image Coding for Machines with Joint Visual Feature Compression** | Fresh / preprint | Machine vision; stereo feature compression; edge/cloud data movement | [Link](https://arxiv.org/abs/2502.14190) | — |
 | **Canonical** | **SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing** | Fresh / preprint | LLM serving / KV cache / multi-turn agents / NVLink memory sharing | [Link](https://arxiv.org/abs/2606.16135) | — |
 | **Canonical** | **Threshold Neuron: A Brain-inspired Artificial Neuron for Efficient On-device Inference** | Fresh / preprint | Efficient on-device inference hardware | [Link](https://arxiv.org/abs/2412.13902) | — |
+| **Canonical** | **TLS-RWKV: Real-Time Online Action Detection with Temporal Label Smoothing** | Fresh / preprint | Physical AI perception; streaming action detection; edge inference | [Link](https://link.springer.com/article/10.1007/s11063-024-11540-0) | — |
 | **Canonical** | **Transformers to SSMs: Distilling Quadratic Knowledge to Subquadratic Models** | Fresh / preprint | Transformer to SSM distillation | [Link](https://arxiv.org/abs/2408.10189) | — |
 | **Canonical** | **VisualClaw: A Real-Time, Personalized Agent for the Physical World** | Fresh / preprint | Streaming multimodal agents and edge inference | [Link](https://arxiv.org/abs/2606.16295) | — |

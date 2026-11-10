@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1610 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1613 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -403,6 +403,7 @@
 | **P1 · Watch** | **S$^2$-MLLM: Boosting Spatial Reasoning Capability of MLLMs for 3D Visual Grounding with Structural Guidance** | CVPR 2026 | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2512.01223) | — |
 | **P1 · Watch** | **RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.36791) | — |
 | **P1 · Watch** | **RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.06559) | — |
+| **P1 · Watch** | **RWKV-VIO: An Efficient and Low-Drift Visual–Inertial Odometry Using an End-to-End Deep Network** | Fresh / preprint | Physical AI / visual-inertial odometry / edge perception | [Link](https://www.mdpi.com/1424-8220/25/18/5737) | — |
 | **P1 · Watch** | **RSJEV: Discriminative Remote Sensing Scene Classification with Multimodal Large Language Models** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.08539) | — |
 | **P1 · Watch** | **RPFQ-ViT: Rotated Phase-Frame Quantization for Extremely Low-Bit Weights in Vision Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04457) | — |
 | **P1 · Watch** | **RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36851) | — |
@@ -420,6 +421,7 @@
 | **P1 · Watch** | **RobotSeg: A Model and Dataset for Segmenting Robots in Image and Video** | CVPR 2026 | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2511.22950) | — |
 | **P1 · Watch** | **RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / data engine / scalable demonstration retrieval | [Link](https://arxiv.org/abs/2609.03199) | — |
 | **P1 · Watch** | **Robotic Long-Horizon Manipulation with Bayesian Non-parametric Skill Priors** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2503.21975) | — |
+| **P1 · Watch** | **Robotic control optimization based on receptance-weighted reinforcement learning** | Fresh / preprint | Physical AI / robotic control / offline reinforcement learning | [Link](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13801/138011N/Robotic-control-optimization-based-on-receptance-weighted-reinforcement-learning/10.1117/12.3076952.short) | — |
 | **P1 · Watch** | **Robot-GST: geometry-aware spatial-temporal robot policy representation and evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33872) | — |
 | **P1 · Watch** | **Robot-Factored World Models via Robot Rendering** | arXiv 2026 | Physical AI / action-conditioned world models | [Link](https://arxiv.org/abs/2607.22535) | — |
 | **P1 · Watch** | **Robot Control Stack: A Lean Ecosystem for Robot Learning at Scale** | ICRA 2026 | physical_ai_runtime | [Link](https://arxiv.org/abs/2509.14932) | — |
@@ -1229,6 +1231,7 @@
 | **P1 · Watch** | **Dual-Layer Semantic-Spatial Belief Mapping for Aerial Object Goal Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / persistent spatial memory / VLM navigation | [Link](https://arxiv.org/abs/2609.08164) | — |
 | **P1 · Watch** | **Dual Process Motion Planning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01260) | — |
 | **P1 · Watch** | **DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation** | Fresh / preprint | Physical AI and WAM serving | [Link](https://arxiv.org/abs/2607.04927) | — |
+| **P1 · Watch** | **DSM-Seg: A CNN-RWKV Hybrid Framework for Forward-Looking Sonar Image Segmentation in Deep-Sea Mining** | Fresh / preprint | Physical AI / underwater robotics / real-time sonar perception | [Link](https://www.mdpi.com/2072-4292/17/17/2997) | — |
 | **P1 · Watch** | **DSDyn-VLA: A Dual-Stream Dynamic Manipulation Framework with Motion Perception, Future Awareness, and Realtime Correction** | arXiv 2026 | physical,vla | [Link](https://arxiv.org/abs/2609.39198) | — |
 | **P1 · Watch** | **Driving with Advice: Large Model as Motion Advisor for Joint Planning** | AAAI 2026 | multimodal_mllm; diffusion_flow; agent_reasoning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37088) | — |
 | **P1 · Watch** | **DriverGaze360: OmniDirectional Driver Attention with Object-Level Guidance** | CVPR 2026 | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2512.14266) | — |

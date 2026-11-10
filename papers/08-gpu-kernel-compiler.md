@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **1475 canonical papers** mapped here, plus a broader **489-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1478 canonical papers** mapped here, plus a broader **492-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 489 tracked
+## 🆕 Latest 30 Days · 492 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -482,8 +482,11 @@
 | **P0 · Strong** | **SFA: A Statistical Physics-Inspired Diffusion Transformer for Efficient and High-Quality Image Generation** | arXiv 2026 | Diffusion acceleration / efficient attention | [Link](https://arxiv.org/abs/2611.00027) | — |
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P0 · Strong** | **rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment** | Fresh / preprint | GPU kernel / Triton / RL infrastructure | [Link](https://arxiv.org/abs/2608.17641) | — |
+| **P2 · Relevant** | **Reliability-Adaptive Multimodal Relative Pose Tracking for Underwater Leader-Follower Robots** | arXiv 2026 | robotics;embedded_multimodal_perception | [Link](https://arxiv.org/abs/2611.11940) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P0 · Strong** | **PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX** | Fresh / preprint | GPU kernel / LLM code generation / benchmark | [Link](https://arxiv.org/abs/2608.17379) | — |
+| **P2 · Relevant** | **MTRDMA: Lightweight User-Space Control-Plane Isolation for Multi-Tenant RDMA** | arXiv 2026 | cloud_edge_ai_infrastructure;RDMA | [Link](https://arxiv.org/abs/2611.11991) | — |
+| **P1 · Watch** | **Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization** | arXiv 2026 | AI_infrastructure_agents;KV_cache;runtime | [Link](https://arxiv.org/abs/2611.11995) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
@@ -498,7 +501,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🏛️ Classical / Historical · 1256 canonical
+## 🏛️ Classical / Historical · 1259 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1734,6 +1737,7 @@
 | **Canonical** | **Accurate INT8 Training Through Dynamic Block-Level Fallback** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2503.08040) | — |
 | **Canonical** | **Arctic Long Sequence Training: Scalable And Efficient Training For Multi-Million Token Sequences** | Fresh / preprint | long-context distributed training | [Link](https://arxiv.org/abs/2506.13996) | — |
 | **Canonical** | **Astra: A Multi-Agent System for GPU Kernel Performance Optimization** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2509.07506) | — |
+| **Canonical** | **BSBP-RWKV: Background Suppression with Boundary Preservation for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision inference; high-resolution segmentation; memory optimization | [Link](https://openreview.net/pdf?id=ULD5RCk0oo) | — |
 | **Canonical** | **Chipmunk: Training-Free Acceleration of Diffusion Transformers with Dynamic Column-Sparse Deltas** | Fresh / preprint | video diffusion acceleration sparse kernels | [Link](https://arxiv.org/abs/2506.03275) | — |
 | **Canonical** | **CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs** | Fresh / preprint | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2605.19269) | — |
 | **Canonical** | **DeepSeek-V3 Technical Report** | Fresh / preprint | MoE systems and accelerators | [Link](https://arxiv.org/abs/2412.19437) | — |
@@ -1750,6 +1754,7 @@
 | **Canonical** | **PowerFusion: A Tensor Compiler with Explicit Data Movement Description and Instruction-level Graph IR** | Fresh / preprint | GPU kernels and tensor compilers | [Link](https://arxiv.org/abs/2307.04995) | — |
 | **Canonical** | **Quantized Training of Gradient Boosting Decision Trees** | Fresh / preprint | low-precision training; GBDT quantization | [Link](https://arxiv.org/abs/2207.09682) | — |
 | **Canonical** | **SAW-INT4: System-Aware 4-Bit KV-Cache Quantization for Real-World LLM Serving** | Fresh / preprint | KV cache/long-context; LLM serving; quantization | [Link](https://arxiv.org/abs/2604.19157) | — |
+| **Canonical** | **Scaling Context Requires Rethinking Attention** | Fresh / preprint | efficient attention / long-context modeling / GPU kernels / FLOP efficiency | [Link](https://arxiv.org/abs/2507.04239) | — |
 | **Canonical** | **Scaling Up Efficient Small Language Models Serving and Deployment for Semantic Job Search** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2510.22101) | — |
 | **Canonical** | **SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2509.24006) | — |
 | **Canonical** | **Sparsity-Aware Low-Rank Representation for Efficient Fine-Tuning of Large Language Models** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2601.16991) | — |
@@ -1758,3 +1763,4 @@
 | **Canonical** | **SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing** | Fresh / preprint | LLM serving / KV cache / multi-turn agents / NVLink memory sharing | [Link](https://arxiv.org/abs/2606.16135) | — |
 | **Canonical** | **Threshold Neuron: A Brain-inspired Artificial Neuron for Efficient On-device Inference** | Fresh / preprint | Efficient on-device inference hardware | [Link](https://arxiv.org/abs/2412.13902) | — |
 | **Canonical** | **TurboServe: Serving Streaming Video Generation Efficiently and Economically** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2606.19271) | — |
+| **Canonical** | **Zig-RiR: Zigzag RWKV-in-RWKV for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision architecture / medical segmentation / GPU memory optimization | [Link](https://ieeexplore.ieee.org/document/10969076) | — |

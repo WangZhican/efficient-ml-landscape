@@ -8921,6 +8921,29 @@
     ]
   },
   {
+    "title": "RWKV-VIO: An Efficient and Low-Drift Visual–Inertial Odometry Using an End-to-End Deep Network",
+    "venue": "",
+    "topic": "Physical AI / visual-inertial odometry / edge perception",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "DOI:10.3390/s25185737",
+    "paper_url": "https://www.mdpi.com/1424-8220/25/18/5737",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The first-party MDPI Sensors article reports 4.59 ms inference time and 217.86 fps for RWKV-VIO, compared with 22.80 ms for VIFT and 46.81 ms for DeepVO, and a 37.97M-parameter model. This is a high-value efficiency result for visual-inertial odometry and physical-world perception. Keep as P1 watchlist rather than P0 because the reported runtime is not tied to a clearly specified edge deployment target in the available article summary; verify and retain the official PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Speculative Decoding",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "RSJEV: Discriminative Remote Sensing Scene Classification with Multimodal Large Language Models",
     "venue": "arXiv 2026",
     "topic": "Efficient ML / Physical AI",
@@ -9303,6 +9326,30 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Robotic control optimization based on receptance-weighted reinforcement learning",
+    "venue": "",
+    "topic": "Physical AI / robotic control / offline reinforcement learning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "DOI:10.1117/12.3076952",
+    "paper_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13801/138011N/Robotic-control-optimization-based-on-receptance-weighted-reinforcement-learning/10.1117/12.3076952.short",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The first-party RWKV feed links the SPIE proceedings record and describes replacing Decision Transformer attention with an RWKV-based sequence model for D4RL robotic-control tasks, reporting faster performance and higher accuracy. This is directly relevant to physical-world control, but the feed lacks a reproducible latency or control-rate figure; retain as P1 watchlist and verify the official proceedings PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -27514,6 +27561,28 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "DSM-Seg: A CNN-RWKV Hybrid Framework for Forward-Looking Sonar Image Segmentation in Deep-Sea Mining",
+    "venue": "",
+    "topic": "Physical AI / underwater robotics / real-time sonar perception",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "DOI:10.3390/rs17172997",
+    "paper_url": "https://www.mdpi.com/2072-4292/17/17/2997",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The first-party RWKV feed links the MDPI Remote Sensing article and describes forward-looking sonar segmentation for deep-sea mining vehicles, with a physical-prior semantic-guidance module and RWKV global fusion for real-time perception. This is a protected Physical-AI application with a concrete vehicle-perception setting; retain as P1 watchlist while checking the official PDF for measured frame rate and compute cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
     ]
   },

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **8184 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **4763 visible papers = 791 P0 + 945 P1 + 3027 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **8194 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **4776 visible papers = 791 P0 + 951 P1 + 3034 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -800,7 +800,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 945
+## 🧭 P1 · Watch · 951
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -1749,10 +1749,16 @@
 | **P1 · Watch** | **VLCQ: Post-training quantization for deep neural networks using variable length coding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15092) | — |
 | **P1 · Watch** | **SCANO: Restoring Boundary-Condition Completeness in Sampled Meshes with a Sliced-Cross-Attention Neural Operator for 3D Thermal Fields** | arXiv | neural_operator_efficiency | [Link](https://arxiv.org/abs/2611.04603) | — |
 | **P1 · Watch** | **OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining** | arXiv 2026 | Physical AI / navigation world models | [Link](https://arxiv.org/abs/2611.01844) | — |
+| **P1 · Watch** | **LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting** | arXiv 2026 | world_model;flow_matching;physical_ai | [Link](https://arxiv.org/abs/2611.11912) | — |
+| **P1 · Watch** | **Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization** | arXiv 2026 | AI_infrastructure_agents;KV_cache;runtime | [Link](https://arxiv.org/abs/2611.11995) | — |
+| **P1 · Watch** | **How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens** | arXiv 2026 | world_model;flow_matching;action_generation;physical_ai | [Link](https://arxiv.org/abs/2611.11887) | — |
+| **P1 · Watch** | **HIST3R: Decomposing and Rectifying State Updates with History for Streaming 3D Reconstruction** | arXiv 2026 | streaming_3D_reconstruction;world_model;physical_ai | [Link](https://arxiv.org/abs/2611.12011) | — |
 | **P1 · Watch** | **GSBR: Geometric Support Behavior Regularization for Online RL** | arXiv 2026 | Physical-AI policy learning / online RL throughput and sample efficiency | [Link](https://arxiv.org/abs/2611.05295) | — |
 | **P1 · Watch** | **GPWM: Modeling the World as 3D Particle Motion** | arXiv 26 | generative physical world model | [Link](https://arxiv.org/abs/2611.08338) | — |
+| **P1 · Watch** | **Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training** | arXiv 2026 | image_generation_acceleration;DiT;distillation | [Link](https://arxiv.org/abs/2611.12042) | — |
+| **P1 · Watch** | **Adaptive Entropy-Sparing for Efficient Reasoning** | arXiv 2026 | efficient_reasoning;token_efficiency | [Link](https://arxiv.org/abs/2611.11901) | — |
 
-## 📎 P2 · Relevant, lower priority · 3027
+## 📎 P2 · Relevant, lower priority · 3034
 
 > Directly in scope and therefore retained for recall, even when current quality/impact evidence is not strong enough for Watch or Canonical promotion.
 
@@ -4744,23 +4750,28 @@
 | **P2 · Relevant** | **When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.01815) | — |
 | **P2 · Relevant** | **WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation** | arXiv 2026 | Physical AI / world-model simulation | [Link](https://arxiv.org/abs/2611.07939) | — |
 | **P2 · Relevant** | **Value Forcing: Aligning Return Distributions at All Noise Levels** | arXiv 2026 | robotics-RL-value-learning | [Link](https://arxiv.org/abs/2611.02160) | — |
+| **P2 · Relevant** | **UltraVoxelGS: Voxel-First Feed-Forward Gaussian Splatting for 3D Ultrasound Reconstruction** | arXiv 2026 | 3D_reconstruction;Gaussian_splatting;medical_imaging | [Link](https://arxiv.org/abs/2611.11951) | — |
 | **P2 · Relevant** | **TriMedium: A Cross-Medium Simulator for Embodied Networking Across Air-Ground-Sea** | arXiv 26 | embodied air-ground-sea networking | [Link](https://arxiv.org/abs/2611.04763) | — |
 | **P2 · Relevant** | **Training-Free Character-Length Control in Summarization with Diffusion Language Models** | arXiv 2026 | diffusion language-model inference control | [Link](https://arxiv.org/abs/2611.06371) | — |
 | **P2 · Relevant** | **Toward Uncertainty-Aware, Physics-Grounded Human World Models** | arXiv 2026 | Physical AI / uncertainty-aware human world models | [Link](https://arxiv.org/abs/2611.03428) | — |
 | **P2 · Relevant** | **Touch\'{e}World tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds** | arXiv 2026 | physical;edge | [Link](https://arxiv.org/abs/2611.06061) | — |
 | **P2 · Relevant** | **Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models** | arXiv 2026 | JEPA world-model planning for navigation and manipulation | [Link](https://arxiv.org/abs/2611.05847) | — |
+| **P2 · Relevant** | **Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation** | arXiv 2026 | VLA;multimodal_robotics;physical_ai | [Link](https://arxiv.org/abs/2611.11981) | — |
 | **P2 · Relevant** | **SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model** | arXiv 2026 | Surgical world models and latent action transfer | [Link](https://arxiv.org/abs/2611.05443) | — |
 | **P2 · Relevant** | **Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.01666) | — |
+| **P2 · Relevant** | **Speculative Self-Distillation enables Efficient Knowledge Internalization** | arXiv 2026 | efficient_training;self_distillation;knowledge_updates | [Link](https://arxiv.org/abs/2611.12016) | — |
 | **P2 · Relevant** | **Spectrally Routed Diffusion Policy for Multi-Task Robotic Manipulation** | arXiv 2026 | Physical-AI diffusion policy / low-rank expert routing | [Link](https://arxiv.org/abs/2611.04477) | — |
 | **P2 · Relevant** | **Shades of Success: Evaluating Manipulation Quality from Object-Centric Constraints** | arXiv 2026 | embodied-task-quality | [Link](https://arxiv.org/abs/2611.01250) | — |
 | **P2 · Relevant** | **RubricWorld: World Model-Guided Rubric Optimization for LLM Graders** | arXiv 2026 | Agentic evaluation / rubric optimization | [Link](https://arxiv.org/abs/2611.01986) | — |
 | **P2 · Relevant** | **Roz: A Taste Test for World Model Latents** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.00612) | — |
 | **P2 · Relevant** | **Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up** | arXiv 2026 | physical-ai/world-model reliability | [Link](https://arxiv.org/abs/2611.02699) | — |
+| **P2 · Relevant** | **Reliability-Adaptive Multimodal Relative Pose Tracking for Underwater Leader-Follower Robots** | arXiv 2026 | robotics;embedded_multimodal_perception | [Link](https://arxiv.org/abs/2611.11940) | — |
 | **P2 · Relevant** | **Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits** | arXiv 2026 | heterogeneous and non-von-Neumann ML hardware | [Link](https://arxiv.org/abs/2611.05355) | — |
 | **P2 · Relevant** | **ReactWorld: Structuring Interaction Responses for Embodied Video Generation** | arXiv 2026 | llm_serving;gen;physical | [Link](https://arxiv.org/abs/2611.06120) | — |
 | **P2 · Relevant** | **PointPilot: Unified Robotic Manipulation via Object-Centric 3D Point Flow Prediction** | arXiv 2026 | Point-flow robotic manipulation / embodied action generation | [Link](https://arxiv.org/abs/2611.02930) | — |
 | **P2 · Relevant** | **Patch Attention Wisely: Understanding Patch Length in Attention-Based Forecasting** | arXiv 2026 | efficient attention architecture / time-series forecasting | [Link](https://arxiv.org/abs/2611.08160) | — |
 | **P2 · Relevant** | **Old Is Not False: Valid-Time Memory for Interactive Video World Models** | arXiv 2026 | Physical AI;video world models;memory | [Link](https://arxiv.org/abs/2611.00758) | — |
+| **P2 · Relevant** | **MTRDMA: Lightweight User-Space Control-Plane Isolation for Multi-Tenant RDMA** | arXiv 2026 | cloud_edge_ai_infrastructure;RDMA | [Link](https://arxiv.org/abs/2611.11991) | — |
 | **P2 · Relevant** | **MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic** | arXiv 26 | predictive perception for two-wheelers | [Link](https://arxiv.org/abs/2611.06007) | — |
 | **P2 · Relevant** | **Motion-guided Contrastive Regularization For Latent World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2611.06901) | — |
 | **P2 · Relevant** | **MKD2World: A Typed Spatial MarkDown World Model For Web Agents** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2611.06544) | — |
@@ -4774,6 +4785,7 @@
 | **P2 · Relevant** | **From Single-Shot QA to Continuous Perception: Revisiting the Energy Composition and Optimization Boundary of Edge VLMs** | arXiv 2026 | Edge VLM energy profiling | [Link](https://arxiv.org/abs/2611.00036) | — |
 | **P2 · Relevant** | **FlowBench: Counterfactual Imagination Training for Spatial Intelligence** | arXiv 2026 | Physical-AI world model / VLM training data and evaluation | [Link](https://arxiv.org/abs/2611.03937) | — |
 | **P2 · Relevant** | **ECGJev: Question-Conditioned Option Scoring for 12-Lead ECG Interpretation** | Fresh / preprint | ECG multimodal decision decoding / compact signal-token representation | [Link](https://arxiv.org/abs/2611.02041) | — |
+| **P2 · Relevant** | **DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing** | arXiv 2026 | visual_SLAM;diffusion;3D_Gaussian_splatting | [Link](https://arxiv.org/abs/2611.12038) | — |
 | **P2 · Relevant** | **Does Validation Loss Predict Real-Robot Success? Evidence from Four Imitation-Learning Policies on a Low-Cost Arm** | arXiv 2026 | real-robot-policy-evaluation | [Link](https://arxiv.org/abs/2611.00283) | — |
 | **P2 · Relevant** | **Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2611.06653) | — |
 | **P2 · Relevant** | **Decision Transformer with Task-Aware Representations for Offline Meta-Reinforcement Learning** | arXiv 2026 | Physical-AI / offline meta-RL / shared-backbone parameter sharing | [Link](https://arxiv.org/abs/2611.04010) | — |
@@ -4784,9 +4796,10 @@
 | **P2 · Relevant** | **AttnSR: Attention Step Reward for Long-Horizon Agentic RL** | arXiv 2026 | efficient agent learning / reinforcement learning | [Link](https://arxiv.org/abs/2611.07932) | — |
 | **P2 · Relevant** | **ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals** | arXiv | looped_transformers | [Link](https://arxiv.org/abs/2611.05234) | — |
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |
+| **P2 · Relevant** | **3R-Adapter: Retrieval, Rewiring, and Refinement for Efficient Adaptation of 3D Reconstruction Model** | arXiv 2026 | 3D_reconstruction;parameter_efficient_adaptation | [Link](https://arxiv.org/abs/2611.11964) | — |
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |
 
-## 🏛️ Classical / Historical · 7393
+## 🏛️ Classical / Historical · 7403
 
 ### arXiv 2026 · 2072
 
@@ -10777,7 +10790,7 @@
 | **Canonical** | **Waking Up Blind: Cold-Start Optimization of Supervision-Free Agentic Trajectories for Grounded Visual Perception** | ACL 2026 Findings | Efficient multimodal and Physical-AI agent training | [Link](https://aclanthology.org/2026.findings-acl.538/) | — |
 | **Canonical** | **Zipage: Maintain High Request Concurrency for LLM Reasoning through Compressed P aged A ttention** | ACL 2026 Findings | LLM serving and high-concurrency KV cache | [Link](https://aclanthology.org/2026.findings-acl.381/) | — |
 
-### Fresh / Preprint · 149
+### Fresh / Preprint · 159
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -10799,8 +10812,10 @@
 | **Canonical** | **Attention Drift: What Autoregressive Speculative Decoding Models Learn** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2605.09992) | — |
 | **Canonical** | **AutoL2S: Auto Long-Short Reasoning for Efficient Large Language Models** | Fresh / preprint | efficient LLM reasoning; long-short CoT | [Link](https://arxiv.org/abs/2505.22662) | — |
 | **Canonical** | **Bidirectional Sparse Attention for Faster Video Diffusion Training** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2509.01085) | — |
+| **Canonical** | **BlackGoose Rimer: Harnessing RWKV-7 as a Simple yet Superior Replacement for Transformers in Large-Scale Time Series Modeling** | Fresh / preprint | efficient sequence models; time-series foundation models; training efficiency | [Link](https://arxiv.org/abs/2503.06121) | — |
 | **Canonical** | **BlackMamba: Mixture of Experts for State-Space Models** | Fresh / preprint | MoE and state-space LLM architecture | [Link](https://arxiv.org/abs/2402.01771) | — |
 | **Canonical** | **Boundary-Protection W8A8 HiFloat8 Quantization for Large-Scale Text-to-Video Diffusion Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2606.00957) | — |
+| **Canonical** | **BSBP-RWKV: Background Suppression with Boundary Preservation for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision inference; high-resolution segmentation; memory optimization | [Link](https://openreview.net/pdf?id=ULD5RCk0oo) | — |
 | **Canonical** | **CAST: Continuous and Differentiable Semi-Structured Sparsity-Aware Training for Large Language Models** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2509.25996) | — |
 | **Canonical** | **CATS: Contextually-Aware Thresholding for Sparsity in Large Language Models** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2404.08763) | — |
 | **Canonical** | **Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2606.25473) | — |
@@ -10843,6 +10858,7 @@
 | **Canonical** | **Hardware-aligned Hierarchical Sparse Attention for Efficient Long-term Memory Access** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2504.16795) | — |
 | **Canonical** | **HeadNeRF: A Real-time NeRF-based Parametric Head Model** | Fresh / preprint | Neural rendering acceleration | [Link](https://arxiv.org/abs/2112.05637) | — |
 | **Canonical** | **Hexa-MoE: Efficient and Heterogeneous-aware Training for Mixture-of-Experts** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2411.01288) | [Repo](https://github.com/UNITES-Lab/HEXA-MoE) |
+| **Canonical** | **HFE-RWKV: High-Frequency Enhanced RWKV Model for Efficient Left Ventricle Segmentation in Pediatric Echocardiograms** | Fresh / preprint | efficient vision inference; compact segmentation; healthcare edge AI | [Link](https://research.aston.ac.uk/en/publications/hfe-rwkv-high-frequency-enhanced-rwkv-model-for-efficient-left-ve/) | — |
 | **Canonical** | **How Sparse Attention Approximates Exact Attention? Your Attention is Naturally $n^C$-Sparse** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2404.02690) | — |
 | **Canonical** | **HSR-Enhanced Sparse Attention Acceleration** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2410.10165) | — |
 | **Canonical** | **HybridStitch: Pixel and Timestep Level Model Stitching for Diffusion Acceleration** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2603.07815) | — |
@@ -10856,11 +10872,14 @@
 | **Canonical** | **Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models** | Fresh / preprint | flow distillation inference acceleration | [Link](https://arxiv.org/abs/2512.02636) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **Canonical** | **KernelBench-Verified: Do LLM-Generated Kernels Actually Beat PyTorch?** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2607.16241) | — |
+| **Canonical** | **L3TC: Leveraging RWKV for Learned Lossless Low-Complexity Text Compression** | Fresh / preprint | model compression; learned text compression; fast decoding | [Link](https://arxiv.org/abs/2412.16642) | — |
 | **Canonical** | **Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2510.08431) | — |
 | **Canonical** | **LEANN: A Low-Storage Vector Index** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2506.08276) | — |
+| **Canonical** | **Learnable Sparsification of Die-to-Die Communication via Spike-Based Encoding** | Fresh / preprint | sparsity; chip-to-chip communication; energy-efficient AI hardware | [Link](https://arxiv.org/abs/2501.08645) | — |
 | **Canonical** | **Learning to Discover at Test Time** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2601.16175) | — |
 | **Canonical** | **Low-Precision Random Fourier Features for Memory-Constrained Kernel Approximation** | Fresh / preprint | low-precision quantization and memory-efficient kernel approximation | [Link](https://arxiv.org/abs/1811.00155) | — |
 | **Canonical** | **LT2: Linear-Time Looped Transformers** | Fresh / preprint | Linear-time attention and efficient reasoning | [Link](https://arxiv.org/abs/2605.20670) | — |
+| **Canonical** | **Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model** | Fresh / preprint | efficient vision inference; linear attention; segmentation | [Link](https://arxiv.org/abs/2406.19369) | — |
 | **Canonical** | **MARS Policy: Multimodality Only When It Matters** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2605.29766) | — |
 | **Canonical** | **MCR-DL: Mix-and-Match Communication Runtime for Deep Learning** | Fresh / preprint | Distributed training communication runtime | [Link](https://arxiv.org/abs/2303.08374) | — |
 | **Canonical** | **MiniCPM4: Ultra-Efficient LLMs on End Devices** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2506.07900) | — |
@@ -10886,11 +10905,13 @@
 | **Canonical** | **Quantized SO(3)-Equivariant Graph Neural Networks for Efficient Molecular Property Prediction** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2601.02213) | — |
 | **Canonical** | **Quantized Training of Gradient Boosting Decision Trees** | Fresh / preprint | low-precision training; GBDT quantization | [Link](https://arxiv.org/abs/2207.09682) | — |
 | **Canonical** | **ReTaKe: Reducing Temporal and Knowledge Redundancy for Long Video Understanding** | Fresh / preprint | multimodal and MLLM serving | [Link](https://arxiv.org/abs/2412.20504) | — |
+| **Canonical** | **Robin: RWKV Accelerator using Block Circulant Matrices based on FPGA** | Fresh / preprint | FPGA accelerator / RWKV inference / algorithm-hardware co-design / weight compression | [Link](https://ieeexplore.ieee.org/abstract/document/11240845) | — |
 | **Canonical** | **Robust Classification using Robust Feature Augmentation** | Fresh / preprint | efficient robust training; feature augmentation | [Link](https://arxiv.org/abs/1905.10904) | — |
 | **Canonical** | **SageAttention2: Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2411.10958) | — |
 | **Canonical** | **SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2410.02367) | — |
 | **Canonical** | **SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2406.15486) | — |
 | **Canonical** | **SAW-INT4: System-Aware 4-Bit KV-Cache Quantization for Real-World LLM Serving** | Fresh / preprint | KV cache/long-context; LLM serving; quantization | [Link](https://arxiv.org/abs/2604.19157) | — |
+| **Canonical** | **Scaling Context Requires Rethinking Attention** | Fresh / preprint | efficient attention / long-context modeling / GPU kernels / FLOP efficiency | [Link](https://arxiv.org/abs/2507.04239) | — |
 | **Canonical** | **Scaling Up Efficient Small Language Models Serving and Deployment for Semantic Job Search** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2510.22101) | — |
 | **Canonical** | **Search Your Block Floating Point Scales!** | Fresh / preprint | quantization; efficient attention | [Link](https://arxiv.org/abs/2605.12464) | — |
 | **Canonical** | **Semantic Search At LinkedIn** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2602.07309) | — |
@@ -10915,6 +10936,7 @@
 | **Canonical** | **Think Proprioceptively: State-Grounded Visual Token Selection for VLA Policies** | Fresh / preprint | VLA visual-token pruning | [Link](https://arxiv.org/abs/2602.06575) | — |
 | **Canonical** | **Threshold Neuron: A Brain-inspired Artificial Neuron for Efficient On-device Inference** | Fresh / preprint | Efficient on-device inference hardware | [Link](https://arxiv.org/abs/2412.13902) | — |
 | **Canonical** | **Time and Memory Trade-off of KV-Cache Compression in Tensor Transformer Decoding** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2503.11108) | — |
+| **Canonical** | **TLS-RWKV: Real-Time Online Action Detection with Temporal Label Smoothing** | Fresh / preprint | Physical AI perception; streaming action detection; edge inference | [Link](https://link.springer.com/article/10.1007/s11063-024-11540-0) | — |
 | **Canonical** | **Transformers to SSMs: Distilling Quadratic Knowledge to Subquadratic Models** | Fresh / preprint | Transformer to SSM distillation | [Link](https://arxiv.org/abs/2408.10189) | — |
 | **Canonical** | **TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding** | Fresh / preprint | speculative decoding / LLM inference | [Link](https://arxiv.org/abs/2608.26112) | — |
 | **Canonical** | **Tropical: Enhancing SLO Attainment in Disaggregated LLM Serving via SLO-Aware Multiplexing** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2606.16264) | — |
@@ -10930,6 +10952,7 @@
 | **Canonical** | **XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2411.15100) | — |
 | **Canonical** | **XQuant: Breaking the Memory Wall for LLM Inference with KV Cache Rematerialization** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2508.10395) | — |
 | **Canonical** | **xRAG: Extreme Context Compression for Retrieval-augmented Generation with One Token** | Fresh / preprint | Extreme context compression for RAG | [Link](https://arxiv.org/abs/2405.13792) | — |
+| **Canonical** | **Zig-RiR: Zigzag RWKV-in-RWKV for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision architecture / medical segmentation / GPU memory optimization | [Link](https://ieeexplore.ieee.org/document/10969076) | — |
 
 ### MLSys 2026 · 107
 

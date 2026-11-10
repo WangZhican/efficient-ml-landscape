@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-11-10**: **4763 tracked papers = 791 P0 + 945 P1 + 3027 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-11-10**: **4776 tracked papers = 791 P0 + 951 P1 + 3034 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -1749,8 +1749,14 @@
 | **P1 · Watch** | **VLCQ: Post-training quantization for deep neural networks using variable length coding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15092) | — |
 | **P1 · Watch** | **SCANO: Restoring Boundary-Condition Completeness in Sampled Meshes with a Sliced-Cross-Attention Neural Operator for 3D Thermal Fields** | arXiv | neural_operator_efficiency | [Link](https://arxiv.org/abs/2611.04603) | — |
 | **P1 · Watch** | **OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining** | arXiv 2026 | Physical AI / navigation world models | [Link](https://arxiv.org/abs/2611.01844) | — |
+| **P1 · Watch** | **LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting** | arXiv 2026 | world_model;flow_matching;physical_ai | [Link](https://arxiv.org/abs/2611.11912) | — |
+| **P1 · Watch** | **Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization** | arXiv 2026 | AI_infrastructure_agents;KV_cache;runtime | [Link](https://arxiv.org/abs/2611.11995) | — |
+| **P1 · Watch** | **How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens** | arXiv 2026 | world_model;flow_matching;action_generation;physical_ai | [Link](https://arxiv.org/abs/2611.11887) | — |
+| **P1 · Watch** | **HIST3R: Decomposing and Rectifying State Updates with History for Streaming 3D Reconstruction** | arXiv 2026 | streaming_3D_reconstruction;world_model;physical_ai | [Link](https://arxiv.org/abs/2611.12011) | — |
 | **P1 · Watch** | **GSBR: Geometric Support Behavior Regularization for Online RL** | arXiv 2026 | Physical-AI policy learning / online RL throughput and sample efficiency | [Link](https://arxiv.org/abs/2611.05295) | — |
 | **P1 · Watch** | **GPWM: Modeling the World as 3D Particle Motion** | arXiv 26 | generative physical world model | [Link](https://arxiv.org/abs/2611.08338) | — |
+| **P1 · Watch** | **Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training** | arXiv 2026 | image_generation_acceleration;DiT;distillation | [Link](https://arxiv.org/abs/2611.12042) | — |
+| **P1 · Watch** | **Adaptive Entropy-Sparing for Efficient Reasoning** | arXiv 2026 | efficient_reasoning;token_efficiency | [Link](https://arxiv.org/abs/2611.11901) | — |
 
 ## P2 · Relevant, lower priority
 
@@ -4744,23 +4750,28 @@
 | **P2 · Relevant** | **When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.01815) | — |
 | **P2 · Relevant** | **WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation** | arXiv 2026 | Physical AI / world-model simulation | [Link](https://arxiv.org/abs/2611.07939) | — |
 | **P2 · Relevant** | **Value Forcing: Aligning Return Distributions at All Noise Levels** | arXiv 2026 | robotics-RL-value-learning | [Link](https://arxiv.org/abs/2611.02160) | — |
+| **P2 · Relevant** | **UltraVoxelGS: Voxel-First Feed-Forward Gaussian Splatting for 3D Ultrasound Reconstruction** | arXiv 2026 | 3D_reconstruction;Gaussian_splatting;medical_imaging | [Link](https://arxiv.org/abs/2611.11951) | — |
 | **P2 · Relevant** | **TriMedium: A Cross-Medium Simulator for Embodied Networking Across Air-Ground-Sea** | arXiv 26 | embodied air-ground-sea networking | [Link](https://arxiv.org/abs/2611.04763) | — |
 | **P2 · Relevant** | **Training-Free Character-Length Control in Summarization with Diffusion Language Models** | arXiv 2026 | diffusion language-model inference control | [Link](https://arxiv.org/abs/2611.06371) | — |
 | **P2 · Relevant** | **Toward Uncertainty-Aware, Physics-Grounded Human World Models** | arXiv 2026 | Physical AI / uncertainty-aware human world models | [Link](https://arxiv.org/abs/2611.03428) | — |
 | **P2 · Relevant** | **Touch\'{e}World tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds** | arXiv 2026 | physical;edge | [Link](https://arxiv.org/abs/2611.06061) | — |
 | **P2 · Relevant** | **Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models** | arXiv 2026 | JEPA world-model planning for navigation and manipulation | [Link](https://arxiv.org/abs/2611.05847) | — |
+| **P2 · Relevant** | **Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation** | arXiv 2026 | VLA;multimodal_robotics;physical_ai | [Link](https://arxiv.org/abs/2611.11981) | — |
 | **P2 · Relevant** | **SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model** | arXiv 2026 | Surgical world models and latent action transfer | [Link](https://arxiv.org/abs/2611.05443) | — |
 | **P2 · Relevant** | **Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.01666) | — |
+| **P2 · Relevant** | **Speculative Self-Distillation enables Efficient Knowledge Internalization** | arXiv 2026 | efficient_training;self_distillation;knowledge_updates | [Link](https://arxiv.org/abs/2611.12016) | — |
 | **P2 · Relevant** | **Spectrally Routed Diffusion Policy for Multi-Task Robotic Manipulation** | arXiv 2026 | Physical-AI diffusion policy / low-rank expert routing | [Link](https://arxiv.org/abs/2611.04477) | — |
 | **P2 · Relevant** | **Shades of Success: Evaluating Manipulation Quality from Object-Centric Constraints** | arXiv 2026 | embodied-task-quality | [Link](https://arxiv.org/abs/2611.01250) | — |
 | **P2 · Relevant** | **RubricWorld: World Model-Guided Rubric Optimization for LLM Graders** | arXiv 2026 | Agentic evaluation / rubric optimization | [Link](https://arxiv.org/abs/2611.01986) | — |
 | **P2 · Relevant** | **Roz: A Taste Test for World Model Latents** | arXiv 2026 | Physical AI;world-model evaluation | [Link](https://arxiv.org/abs/2611.00612) | — |
 | **P2 · Relevant** | **Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up** | arXiv 2026 | physical-ai/world-model reliability | [Link](https://arxiv.org/abs/2611.02699) | — |
+| **P2 · Relevant** | **Reliability-Adaptive Multimodal Relative Pose Tracking for Underwater Leader-Follower Robots** | arXiv 2026 | robotics;embedded_multimodal_perception | [Link](https://arxiv.org/abs/2611.11940) | — |
 | **P2 · Relevant** | **Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits** | arXiv 2026 | heterogeneous and non-von-Neumann ML hardware | [Link](https://arxiv.org/abs/2611.05355) | — |
 | **P2 · Relevant** | **ReactWorld: Structuring Interaction Responses for Embodied Video Generation** | arXiv 2026 | llm_serving;gen;physical | [Link](https://arxiv.org/abs/2611.06120) | — |
 | **P2 · Relevant** | **PointPilot: Unified Robotic Manipulation via Object-Centric 3D Point Flow Prediction** | arXiv 2026 | Point-flow robotic manipulation / embodied action generation | [Link](https://arxiv.org/abs/2611.02930) | — |
 | **P2 · Relevant** | **Patch Attention Wisely: Understanding Patch Length in Attention-Based Forecasting** | arXiv 2026 | efficient attention architecture / time-series forecasting | [Link](https://arxiv.org/abs/2611.08160) | — |
 | **P2 · Relevant** | **Old Is Not False: Valid-Time Memory for Interactive Video World Models** | arXiv 2026 | Physical AI;video world models;memory | [Link](https://arxiv.org/abs/2611.00758) | — |
+| **P2 · Relevant** | **MTRDMA: Lightweight User-Space Control-Plane Isolation for Multi-Tenant RDMA** | arXiv 2026 | cloud_edge_ai_infrastructure;RDMA | [Link](https://arxiv.org/abs/2611.11991) | — |
 | **P2 · Relevant** | **MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic** | arXiv 26 | predictive perception for two-wheelers | [Link](https://arxiv.org/abs/2611.06007) | — |
 | **P2 · Relevant** | **Motion-guided Contrastive Regularization For Latent World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2611.06901) | — |
 | **P2 · Relevant** | **MKD2World: A Typed Spatial MarkDown World Model For Web Agents** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2611.06544) | — |
@@ -4774,6 +4785,7 @@
 | **P2 · Relevant** | **From Single-Shot QA to Continuous Perception: Revisiting the Energy Composition and Optimization Boundary of Edge VLMs** | arXiv 2026 | Edge VLM energy profiling | [Link](https://arxiv.org/abs/2611.00036) | — |
 | **P2 · Relevant** | **FlowBench: Counterfactual Imagination Training for Spatial Intelligence** | arXiv 2026 | Physical-AI world model / VLM training data and evaluation | [Link](https://arxiv.org/abs/2611.03937) | — |
 | **P2 · Relevant** | **ECGJev: Question-Conditioned Option Scoring for 12-Lead ECG Interpretation** | Fresh / preprint | ECG multimodal decision decoding / compact signal-token representation | [Link](https://arxiv.org/abs/2611.02041) | — |
+| **P2 · Relevant** | **DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing** | arXiv 2026 | visual_SLAM;diffusion;3D_Gaussian_splatting | [Link](https://arxiv.org/abs/2611.12038) | — |
 | **P2 · Relevant** | **Does Validation Loss Predict Real-Robot Success? Evidence from Four Imitation-Learning Policies on a Low-Cost Arm** | arXiv 2026 | real-robot-policy-evaluation | [Link](https://arxiv.org/abs/2611.00283) | — |
 | **P2 · Relevant** | **Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2611.06653) | — |
 | **P2 · Relevant** | **Decision Transformer with Task-Aware Representations for Offline Meta-Reinforcement Learning** | arXiv 2026 | Physical-AI / offline meta-RL / shared-backbone parameter sharing | [Link](https://arxiv.org/abs/2611.04010) | — |
@@ -4784,4 +4796,5 @@
 | **P2 · Relevant** | **AttnSR: Attention Step Reward for Long-Horizon Agentic RL** | arXiv 2026 | efficient agent learning / reinforcement learning | [Link](https://arxiv.org/abs/2611.07932) | — |
 | **P2 · Relevant** | **ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals** | arXiv | looped_transformers | [Link](https://arxiv.org/abs/2611.05234) | — |
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |
+| **P2 · Relevant** | **3R-Adapter: Retrieval, Rewiring, and Refinement for Efficient Adaptation of 3D Reconstruction Model** | arXiv 2026 | 3D_reconstruction;parameter_efficient_adaptation | [Link](https://arxiv.org/abs/2611.11964) | — |
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |

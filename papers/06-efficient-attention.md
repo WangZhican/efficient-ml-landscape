@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **932 canonical papers** mapped here, plus a broader **226-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **934 canonical papers** mapped here, plus a broader **226-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -235,7 +235,7 @@
 | **P2 · Relevant** | **AttnSR: Attention Step Reward for Long-Horizon Agentic RL** | arXiv 2026 | efficient agent learning / reinforcement learning | [Link](https://arxiv.org/abs/2611.07932) | — |
 | **P2 · Relevant** | **ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals** | arXiv | looped_transformers | [Link](https://arxiv.org/abs/2611.05234) | — |
 
-## 🏛️ Classical / Historical · 821 canonical
+## 🏛️ Classical / Historical · 823 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1045,11 +1045,13 @@
 | **Canonical** | **HSR-Enhanced Sparse Attention Acceleration** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2410.10165) | — |
 | **Canonical** | **In-context KV-Cache Eviction for LLMs via Attention-Gate** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2410.12876) | — |
 | **Canonical** | **LT2: Linear-Time Looped Transformers** | Fresh / preprint | Linear-time attention and efficient reasoning | [Link](https://arxiv.org/abs/2605.20670) | — |
+| **Canonical** | **Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model** | Fresh / preprint | efficient vision inference; linear attention; segmentation | [Link](https://arxiv.org/abs/2406.19369) | — |
 | **Canonical** | **Multi-Segment Attention: Enabling Efficient KV-Cache Management for Faster Large Language Model Serving** | Fresh / preprint | LLM serving / KV cache / efficient attention / agentic serving | [Link](https://arxiv.org/abs/2606.02964) | — |
 | **Canonical** | **On Fine-Grained I/O Complexity of Attention Backward Passes** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2410.09397) | — |
 | **Canonical** | **SageAttention2: Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2411.10958) | — |
 | **Canonical** | **SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2410.02367) | — |
 | **Canonical** | **SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2406.15486) | — |
+| **Canonical** | **Scaling Context Requires Rethinking Attention** | Fresh / preprint | efficient attention / long-context modeling / GPU kernels / FLOP efficiency | [Link](https://arxiv.org/abs/2507.04239) | — |
 | **Canonical** | **Search Your Block Floating Point Scales!** | Fresh / preprint | quantization; efficient attention | [Link](https://arxiv.org/abs/2605.12464) | — |
 | **Canonical** | **SLA2: Sparse-Linear Attention with Learnable Routing and QAT** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2602.12675) | — |
 | **Canonical** | **SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2509.24006) | — |
