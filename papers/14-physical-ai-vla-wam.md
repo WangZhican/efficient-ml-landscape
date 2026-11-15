@@ -1493,7 +1493,7 @@
 | **Canonical** | **TLS-RWKV: Real-Time Online Action Detection with Temporal Label Smoothing** | Fresh / preprint | Physical AI perception; streaming action detection; edge inference | [Link](https://link.springer.com/article/10.1007/s11063-024-11540-0) | — |
 | **Canonical** | **VisualClaw: A Real-Time, Personalized Agent for the Physical World** | Fresh / preprint | Streaming multimodal agents and edge inference | [Link](https://arxiv.org/abs/2606.16295) | — |
 
-## 🛡️ Protected historical P1 watch · 1835
+## 🛡️ Protected historical P1 watch · 1839
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 

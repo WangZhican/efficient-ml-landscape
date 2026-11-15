@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1835 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1839 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -848,6 +848,7 @@
 | **P1 · Watch** | **Mini Diffuser: Fast Multi-Task Diffusion Policy Training Using Two-Level Mini-Batches** | ICRA 2026 | video/image generation acceleration; diffusion/flow acceleration; edge/cloud/heterogeneous systems | [Link](https://arxiv.org/abs/2505.09430) | — |
 | **P1 · Watch** | **MindDriver: Introducing Progressive Multimodal Reasoning for Autonomous Driving** | CVPR 2026 | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2602.21952) | — |
 | **P1 · Watch** | **Mind-VLA: Instruction-Aware Spatial Representation Alignment for Vision-Language-Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2608.04633) | — |
+| **P1 · Watch** | **MimicIK: Real-Time Generative Inverse Kinematics from Teleoperation with FK Consistency** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2606.15148) | — |
 | **P1 · Watch** | **MIKASA-Robo-VLA: Benchmarking Memory in VLA Models for Long-Horizon Manipulation** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.00604) | — |
 | **P1 · Watch** | **Migration as a Steady-State Execution Primitive: A Runtime for Virtual Stationarity in Low-Earth Orbit** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32720) | — |
 | **P1 · Watch** | **Micro Neural Policies for Safe Real-Time Robotic Control** | arXiv 2026 | Physical AI / edge deployment | [Link](https://arxiv.org/abs/2610.08541) | — |
@@ -877,6 +878,7 @@
 | **P1 · Watch** | **MedPCFM-TED: One-Step Point Cloud Flow Matching for Implant Generation via Teacher-Guided Endpoint Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.16934) | — |
 | **P1 · Watch** | **Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32417) | — |
 | **P1 · Watch** | **Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.07470) | — |
+| **P1 · Watch** | **MeanFuser: Fast One-Step Multi-Modal Trajectory Generation and Adaptive Reconstruction via MeanFlow for End-to-End Autonomous Driving** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2602.20060) | — |
 | **P1 · Watch** | **ME-VLM: A Unified VLM for Embodied Cognition and Agent Coordination** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24526) | — |
 | **P1 · Watch** | **ME-Dex 1.0: Bringing Heterogeneous Tactile Sensing into World Action Modeling** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.21449) | — |
 | **P1 · Watch** | **MDE-VIO: Enhancing Visual-Inertial Odometry Using Learned Depth Priors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.11323) | — |
@@ -1012,6 +1014,7 @@
 | **P1 · Watch** | **La Agente Óptima: Towards Agentic Self-Driving Laboratories** | arXiv 2026 | VLA/WAM/Physical AI serving / autonomous experimentation / conditional agent invocation | [Link](https://arxiv.org/abs/2609.04564) | — |
 | **P1 · Watch** | **L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.40614) | — |
 | **P1 · Watch** | **KPI: A Promptable Kernel for Physical Interaction on Humanoids** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.36151) | — |
+| **P1 · Watch** | **KoopmanFlow: Spectrally Decoupled Generative Control Policy via Koopman Structural Bias** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2603.13781) | — |
 | **P1 · Watch** | **Koopman-Accelerated Model-Based Diffusion for Real-Time Robot Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28920) | — |
 | **P1 · Watch** | **Keep the Effect, Drop the Actor: Programmable Effect-to-Execution World-Action Models** | arXiv 26 | vla_wam,action_flow | [Link](https://arxiv.org/abs/2610.02398) | — |
 | **P1 · Watch** | **KAN We Flow? Advancing Robotic Manipulation with 3D Flow Matching via KAN & RWKV** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.01115) | — |
@@ -1228,6 +1231,7 @@
 | **P1 · Watch** | **Friction-Aware Safety Locomotion for Wheeled-legged Robots using Vision Language Models and Reinforcement Learning** | Fresh / preprint | Physical AI; VLM/RL; safety locomotion | [Link](https://arxiv.org/abs/2409.09845) | — |
 | **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
 | **P1 · Watch** | **Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation** | arXiv 2026 | Physical AI / VLA action generation / frequency-aware flow matching | [Link](https://arxiv.org/abs/2606.20135) | — |
+| **P1 · Watch** | **FreqNav: Stage-Wise Frequency Routing for Object-Oriented Aerial Vision-Language Navigation** | Fresh / preprint | VLA/WAM and Physical AI | [Link](https://arxiv.org/abs/2608.00970) | — |
 | **P1 · Watch** | **FreeLoc: Online Floorplan Localization via Diffusion-Aided Pose Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.05011) | — |
 | **P1 · Watch** | **Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips** | arXiv 2026 | Streaming world models / training efficiency | [Link](https://arxiv.org/abs/2610.25666) | — |
 | **P1 · Watch** | **FRAMES: Failure Recovery And Monitoring of Embodied Skills for Humanoid Loco-Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22538) | — |

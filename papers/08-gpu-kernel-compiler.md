@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **1545 canonical papers** mapped here, plus a broader **338-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1545 canonical papers** mapped here, plus a broader **339-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 338 tracked
+## 🆕 Latest 30 Days · 339 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -207,6 +207,7 @@
 | **P1 · Watch** | **NUMA-Torch: Compiler-Driven NUMA-Aware LLM Prefill on Multi-Socket CPUs** | arXiv 2026 | LLM serving / compiler and memory systems | [Link](https://arxiv.org/abs/2611.07105) | — |
 | **P2 · Relevant** | **Neural Image Compression with Internal-External Prior Fusion and Alignment** | arXiv 2026 | neural_image_compression | [Link](https://arxiv.org/abs/2611.07644) | — |
 | **P1 · Watch** | **Naviq: An Open-Source System-on-Chip Simulator for Rapid Prototyping, Verification, and Design Space Exploration** | arXiv 2026 | GPU kernel/DSL/compilers; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2611.02023) | — |
+| **P2 · Relevant** | **NatureFusion: Rethinking Infrared and Visible Image Fusion as Natural Complementary Enhancement** | Fresh / preprint | video and image generation acceleration | [Link](https://arxiv.org/abs/2611.01607) | — |
 | **P0 · Strong** | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation** | arXiv 2026 | kv;quant;gen | [Link](https://arxiv.org/abs/2611.06377) | — |
 | **P2 · Relevant** | **MUPA${}^2$S: Multimodal Unified Perception with Asymmetric Attention for Stress Assessment** | arXiv 2026 | Parameter-efficient multimodal fusion | [Link](https://arxiv.org/abs/2611.01974) | — |
 | **P0 · Strong** | **Multi-GPU MoE Inference with Adaptive Expert Offloading** | arXiv 2026 | MoE serving / multi-GPU CPU-GPU expert offloading | [Link](https://arxiv.org/abs/2611.10219) | — |

@@ -1,10 +1,10 @@
 # 📚 Paper Library
 
-> **8410 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **2270 visible papers = 452 P0 + 298 P1 + 1520 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **8414 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **2272 visible papers = 453 P0 + 298 P1 + 1521 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 452
+## 🆕 P0 · Strong / Canonical recent · 453
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -197,6 +197,7 @@
 | **P0 · Strong** | **Shallow Encoding Emits Deep Memories** | arXiv 2026 | llm_serving;kv;agent | [Link](https://arxiv.org/abs/2611.06084) | — |
 | **P0 · Strong** | **SFA: A Statistical Physics-Inspired Diffusion Transformer for Efficient and High-Quality Image Generation** | arXiv 2026 | Diffusion acceleration / efficient attention | [Link](https://arxiv.org/abs/2611.00027) | — |
 | **P0 · Strong** | **Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control** | arXiv 2026 | Physical AI;VLA serving;KV cache;admission control | [Link](https://arxiv.org/abs/2611.01404) | — |
+| **P0 · Strong** | **SepLRM: A Foundation Model Paradigm for Recommendation** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2611.10356) | — |
 | **P0 · Strong** | **Semantic Caches for LLM Web Services Leave Their Error Budget Unspent** | arXiv 2026 | LLM serving / semantic caching | [Link](https://arxiv.org/abs/2611.02498) | — |
 | **P0 · Strong** | **Self-Refining Prompt Induction for Streaming Text-to-SQL** | arXiv 2026 | Prompt compression for streaming LLM agents | [Link](https://arxiv.org/abs/2611.00960) | — |
 | **P0 · Strong** | **Seeing What Matters, Verifying What Pays: Load-Adaptive Speculative Decoding for Vision-Language Models** | arXiv 2026 | speculative decoding;MLLM serving;visual token efficiency | [Link](https://arxiv.org/abs/2611.01617) | — |
@@ -766,7 +767,7 @@
 | **P1 · Watch** | **A Bridge from Paste to Place: Physics-Guided One-Step Image Composition via Object-Scene Interaction** | arXiv 2026 | one_step_flow_image_generation | [Link](https://arxiv.org/abs/2611.09387) | — |
 | **P1 · Watch** | **4K Image Super-Resolution on Mobile NPUs: Mobile AI 2026 Challenge Report** | arXiv 2026 | edge/cloud;heterogeneous AI;hardware accelerators | [Link](https://arxiv.org/abs/2611.00963) | — |
 
-## 📎 P2 · Relevant, lower priority · 1520
+## 📎 P2 · Relevant, lower priority · 1521
 
 > Directly in scope and therefore retained for recall, even when current quality/impact evidence is not strong enough for Watch or Canonical promotion.
 
@@ -1708,6 +1709,7 @@
 | **P2 · Relevant** | **NEIGHBOR: Aligning Service Behaviour and Evidence Use in an LLM Agent for Community Resident Services** | arXiv 2026 | llm_agent_service_deployment | [Link](https://arxiv.org/abs/2611.01836) | — |
 | **P2 · Relevant** | **Nearly Linear-Time Follow-the-Perturbed-Leader for Weakly Observable Graph Bandits** | arXiv 2026 | online_learning_algorithmic_efficiency | [Link](https://arxiv.org/abs/2611.04307) | — |
 | **P2 · Relevant** | **Navigating Runtime Dynamism in Semantic Query Serving** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2611.04248) | — |
+| **P2 · Relevant** | **NatureFusion: Rethinking Infrared and Visible Image Fusion as Natural Complementary Enhancement** | Fresh / preprint | video and image generation acceleration | [Link](https://arxiv.org/abs/2611.01607) | — |
 | **P2 · Relevant** | **Myoelectric Control for Upper-Limb Exoskeletons: A Decoder-Shaper-Controller Framework, Design Guidelines, and Future Directions** | arXiv 2026 | Physical AI / exoskeleton control | [Link](https://arxiv.org/abs/2611.03418) | — |
 | **P2 · Relevant** | **MusiSPARQ: Subscription-Aware Adaptive Resource Control for Musical Metaverse Services** | arXiv 2026 | edge-cloud inference-service resource orchestration | [Link](https://arxiv.org/abs/2611.04011) | — |
 | **P2 · Relevant** | **MUPA${}^2$S: Multimodal Unified Perception with Asymmetric Attention for Stress Assessment** | arXiv 2026 | Parameter-efficient multimodal fusion | [Link](https://arxiv.org/abs/2611.01974) | — |
@@ -2293,7 +2295,7 @@
 | **P2 · Relevant** | **$\Sigma$-LeWM: Learning World Models via S-Information for Robot Control** | arXiv 2026 | physical_ai_action_predictor_and_runtime | [Link](https://arxiv.org/abs/2611.12732) | — |
 | **P2 · Relevant** | **$\mathcal{C}^\infty$ Smooth Trajectory Planning with Application to Soft Robots** | arXiv 2026 | Physical AI / soft-robot trajectory planning | [Link](https://arxiv.org/abs/2611.05615) | — |
 
-## 🏛️ Classical / Historical · 7958
+## 🏛️ Classical / Historical · 7961
 
 ### arXiv 2026 · 2573
 
@@ -8631,7 +8633,7 @@
 | **Canonical** | **ZEUS: Accelerating Diffusion Models with Only Second-Order Predictor** | arXiv 26 | diffusion_flow_acceleration | [Link](https://arxiv.org/abs/2604.01552) | — |
 | **Canonical** | **ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training** | arXiv 26 | vla_wam,cloud_edge | [Link](https://arxiv.org/abs/2609.00188) | — |
 
-### Fresh / Preprint · 163
+### Fresh / Preprint · 166
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -8655,6 +8657,7 @@
 | **Canonical** | **Bidirectional Sparse Attention for Faster Video Diffusion Training** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2509.01085) | — |
 | **Canonical** | **BlackGoose Rimer: Harnessing RWKV-7 as a Simple yet Superior Replacement for Transformers in Large-Scale Time Series Modeling** | Fresh / preprint | efficient sequence models; time-series foundation models; training efficiency | [Link](https://arxiv.org/abs/2503.06121) | — |
 | **Canonical** | **BlackMamba: Mixture of Experts for State-Space Models** | Fresh / preprint | MoE and state-space LLM architecture | [Link](https://arxiv.org/abs/2402.01771) | — |
+| **Canonical** | **BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2606.31315) | — |
 | **Canonical** | **Boundary-Protection W8A8 HiFloat8 Quantization for Large-Scale Text-to-Video Diffusion Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2606.00957) | — |
 | **Canonical** | **BSBP-RWKV: Background Suppression with Boundary Preservation for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision inference; high-resolution segmentation; memory optimization | [Link](https://openreview.net/pdf?id=ULD5RCk0oo) | — |
 | **Canonical** | **CAST: Continuous and Differentiable Semi-Structured Sparsity-Aware Training for Large Language Models** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2509.25996) | — |
@@ -8665,6 +8668,7 @@
 | **Canonical** | **Class-Proportional Coreset Selection for Difficulty-Separable Data** | Fresh / preprint | efficient training; dataset pruning; coreset selection | [Link](https://arxiv.org/abs/2507.10904) | — |
 | **Canonical** | **CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs** | Fresh / preprint | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2605.19269) | — |
 | **Canonical** | **Compressed Convolutional Attention: Efficient Attention in a Compressed Latent Space** | Fresh / preprint | Efficient attention and long-context serving | [Link](https://arxiv.org/abs/2510.04476) | — |
+| **Canonical** | **Compute Only Once: UG-Separation for Efficient Large Recommendation Models** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2602.10455) | — |
 | **Canonical** | **CRISP: Pre-LLM Yet Text-Driven Visual Token Pruning for Efficient LVLM Inference** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2607.16326) | — |
 | **Canonical** | **DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2405.04434) | — |
 | **Canonical** | **DeepSeek-V3 Technical Report** | Fresh / preprint | MoE systems and accelerators | [Link](https://arxiv.org/abs/2412.19437) | — |
@@ -8713,6 +8717,7 @@
 | **Canonical** | **JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs** | Fresh / preprint | Efficient agent harnesses | [Link](https://arxiv.org/abs/2610.21412) | — |
 | **Canonical** | **Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models** | Fresh / preprint | flow distillation inference acceleration | [Link](https://arxiv.org/abs/2512.02636) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
+| **Canonical** | **K2-Think: A Parameter-Efficient Reasoning System** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2509.07604) | — |
 | **Canonical** | **KernelBench-Verified: Do LLM-Generated Kernels Actually Beat PyTorch?** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2607.16241) | — |
 | **Canonical** | **L3TC: Leveraging RWKV for Learned Lossless Low-Complexity Text Compression** | Fresh / preprint | model compression; learned text compression; fast decoding | [Link](https://arxiv.org/abs/2412.16642) | — |
 | **Canonical** | **Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2510.08431) | — |

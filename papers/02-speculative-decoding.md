@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **541 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **543 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -64,7 +64,7 @@
 | **P2 · Relevant** | **Agentic Behavior Engineering: A Design-by-Contract Methodology for Specifying, Verifying, and Governing Enterprise AI Agents** | arXiv 2026 | Agent systems / behavior contracts | [Link](https://arxiv.org/abs/2611.05454) | — |
 | **P1 · Watch** | **Adversarial Speculative Reasoning Improves Long Horizon Agents** | arXiv 2026 | speculative_decoding_reasoning | [Link](https://arxiv.org/abs/2611.05345) | — |
 
-## 🏛️ Classical / Historical · 500 canonical
+## 🏛️ Classical / Historical · 502 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -555,8 +555,10 @@
 | **Canonical** | **SPECTRA: An Asymmetric-Precision Speculative Decoding LLM Accelerator with Product Quantization and Reconfigurable Flip-Flop Buffers in 28nm CMOS** | VLSI Symposium 2026 | speculative decoding / LLM accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577608) | — |
 | **Canonical** | **AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks** | Fresh / preprint | speculative decoding / LLM serving / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.04974) | — |
 | **Canonical** | **Attention Drift: What Autoregressive Speculative Decoding Models Learn** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2605.09992) | — |
+| **Canonical** | **BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2606.31315) | — |
 | **Canonical** | **DIVERSED: Relaxed Speculative Decoding via Dynamic Ensemble Verification** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2604.07622) | — |
 | **Canonical** | **DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation** | Fresh / preprint | Speculative decoding and LLM serving | [Link](https://arxiv.org/abs/2607.05147) | — |
+| **Canonical** | **K2-Think: A Parameter-Efficient Reasoning System** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2509.07604) | — |
 | **Canonical** | **Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning** | Fresh / preprint | MoE inference, NVFP4, speculative decoding, agentic reasoning | [Link](https://arxiv.org/abs/2604.12374) | — |
 | **Canonical** | **Not-a-Bandit: Provably No-Regret Drafter Selection in Speculative Decoding for LLMs** | Fresh / preprint | speculative decoding; drafter selection | [Link](https://arxiv.org/abs/2510.20064) | — |
 | **Canonical** | **Out-of-Vocabulary Sampling Boosts Speculative Decoding** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2506.03206) | — |

@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **7958 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **7961 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -6340,7 +6340,7 @@
 | **Canonical** | **ZEUS: Accelerating Diffusion Models with Only Second-Order Predictor** | arXiv 26 | diffusion_flow_acceleration | [Link](https://arxiv.org/abs/2604.01552) | — |
 | **Canonical** | **ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training** | arXiv 26 | vla_wam,cloud_edge | [Link](https://arxiv.org/abs/2609.00188) | — |
 
-## Fresh / Preprint · 163
+## Fresh / Preprint · 166
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -6364,6 +6364,7 @@
 | **Canonical** | **Bidirectional Sparse Attention for Faster Video Diffusion Training** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2509.01085) | — |
 | **Canonical** | **BlackGoose Rimer: Harnessing RWKV-7 as a Simple yet Superior Replacement for Transformers in Large-Scale Time Series Modeling** | Fresh / preprint | efficient sequence models; time-series foundation models; training efficiency | [Link](https://arxiv.org/abs/2503.06121) | — |
 | **Canonical** | **BlackMamba: Mixture of Experts for State-Space Models** | Fresh / preprint | MoE and state-space LLM architecture | [Link](https://arxiv.org/abs/2402.01771) | — |
+| **Canonical** | **BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2606.31315) | — |
 | **Canonical** | **Boundary-Protection W8A8 HiFloat8 Quantization for Large-Scale Text-to-Video Diffusion Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2606.00957) | — |
 | **Canonical** | **BSBP-RWKV: Background Suppression with Boundary Preservation for Efficient Medical Image Segmentation** | Fresh / preprint | efficient vision inference; high-resolution segmentation; memory optimization | [Link](https://openreview.net/pdf?id=ULD5RCk0oo) | — |
 | **Canonical** | **CAST: Continuous and Differentiable Semi-Structured Sparsity-Aware Training for Large Language Models** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2509.25996) | — |
@@ -6374,6 +6375,7 @@
 | **Canonical** | **Class-Proportional Coreset Selection for Difficulty-Separable Data** | Fresh / preprint | efficient training; dataset pruning; coreset selection | [Link](https://arxiv.org/abs/2507.10904) | — |
 | **Canonical** | **CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs** | Fresh / preprint | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2605.19269) | — |
 | **Canonical** | **Compressed Convolutional Attention: Efficient Attention in a Compressed Latent Space** | Fresh / preprint | Efficient attention and long-context serving | [Link](https://arxiv.org/abs/2510.04476) | — |
+| **Canonical** | **Compute Only Once: UG-Separation for Efficient Large Recommendation Models** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2602.10455) | — |
 | **Canonical** | **CRISP: Pre-LLM Yet Text-Driven Visual Token Pruning for Efficient LVLM Inference** | Fresh / preprint | sparsity and pruning | [Link](https://arxiv.org/abs/2607.16326) | — |
 | **Canonical** | **DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2405.04434) | — |
 | **Canonical** | **DeepSeek-V3 Technical Report** | Fresh / preprint | MoE systems and accelerators | [Link](https://arxiv.org/abs/2412.19437) | — |
@@ -6422,6 +6424,7 @@
 | **Canonical** | **JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs** | Fresh / preprint | Efficient agent harnesses | [Link](https://arxiv.org/abs/2610.21412) | — |
 | **Canonical** | **Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models** | Fresh / preprint | flow distillation inference acceleration | [Link](https://arxiv.org/abs/2512.02636) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
+| **Canonical** | **K2-Think: A Parameter-Efficient Reasoning System** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2509.07604) | — |
 | **Canonical** | **KernelBench-Verified: Do LLM-Generated Kernels Actually Beat PyTorch?** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2607.16241) | — |
 | **Canonical** | **L3TC: Leveraging RWKV for Learned Lossless Low-Complexity Text Compression** | Fresh / preprint | model compression; learned text compression; fast decoding | [Link](https://arxiv.org/abs/2412.16642) | — |
 | **Canonical** | **Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2510.08431) | — |

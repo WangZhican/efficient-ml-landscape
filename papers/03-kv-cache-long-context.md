@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **1150 canonical papers** mapped here, plus a broader **134-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1152 canonical papers** mapped here, plus a broader **135-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 134 tracked
+## 🆕 Latest 30 Days · 135 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -65,6 +65,7 @@
 | **P0 · Strong** | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference** | arXiv 2026 | llm_low_bit_quantization | [Link](https://arxiv.org/abs/2611.08363) | — |
 | **P2 · Relevant** | **SLA-Aware Task Offloading in the IoT Edge-Cloud Continuum: Class-Weighted Deep Reinforcement Learning Against an Exact Optimum** | arXiv 2026 | edge_cloud_task_offloading_evaluation | [Link](https://arxiv.org/abs/2611.10638) | — |
 | **P0 · Strong** | **Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control** | arXiv 2026 | Physical AI;VLA serving;KV cache;admission control | [Link](https://arxiv.org/abs/2611.01404) | — |
+| **P0 · Strong** | **SepLRM: A Foundation Model Paradigm for Recommendation** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2611.10356) | — |
 | **P1 · Watch** | **SceneBound: How Much Should a Streaming 3D Reconstruction Model Remember?** | arXiv 2026 | Physical AI;KV cache;streaming agent | [Link](https://arxiv.org/abs/2611.00756) | — |
 | **P2 · Relevant** | **Same Answer, Different Future: Dissociating Belief Content and Evidence Weight in Language Models** | arXiv 2026 | llm_memory_long_context | [Link](https://arxiv.org/abs/2611.07913) | — |
 | **P0 · Strong** | **Runway Characters: Serving a 57B Video Diffusion Transformer for Real-Time Conversation** | arXiv 2026 | Real-time video diffusion serving, KV cache and FP8 optimization | [Link](https://arxiv.org/abs/2611.05642) | — |
@@ -143,7 +144,7 @@
 | **P0 · Strong** | **Accelerating Offloading-Based MoE Inference by Interleaving Concurrent Requests** | arXiv 2026 | moe_systems | [Link](https://arxiv.org/abs/2611.04794) | — |
 | **P0 · Strong** | **Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining** | arXiv 2026 | kv;sparse | [Link](https://arxiv.org/abs/2611.06133) | — |
 
-## 🏛️ Classical / Historical · 1062 canonical
+## 🏛️ Classical / Historical · 1063 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1180,6 +1181,7 @@
 | **Canonical** | **Apple Intelligence Foundation Language Models: Tech Report 2025** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2507.13575) | — |
 | **Canonical** | **Arctic Long Sequence Training: Scalable And Efficient Training For Multi-Million Token Sequences** | Fresh / preprint | long-context distributed training | [Link](https://arxiv.org/abs/2506.13996) | — |
 | **Canonical** | **Compressed Convolutional Attention: Efficient Attention in a Compressed Latent Space** | Fresh / preprint | Efficient attention and long-context serving | [Link](https://arxiv.org/abs/2510.04476) | — |
+| **Canonical** | **Compute Only Once: UG-Separation for Efficient Large Recommendation Models** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2602.10455) | — |
 | **Canonical** | **DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2405.04434) | — |
 | **Canonical** | **DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models** | Fresh / preprint | Efficient attention and sparsity | [Link](https://arxiv.org/abs/2512.02556) | — |
 | **Canonical** | **DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2606.19348) | — |

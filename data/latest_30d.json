@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-11-15",
-  "window_start_beijing": "2026-10-16",
+  "window_end_beijing": "2026-11-16",
+  "window_start_beijing": "2026-10-17",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 2270,
+  "tracked_total": 2272,
   "p0_strong_or_canonical": [
     {
       "title": "Theoretical and Empirical Analysis of Sparse Convolution",
@@ -4284,6 +4284,27 @@
         "KV Cache / Long Context",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SepLRM: A Foundation Model Paradigm for Recommendation",
+      "venue": "",
+      "topic": "KV cache and long context",
+      "arxiv": "2611.10356",
+      "doi": "",
+      "official_id": "arXiv:2611.10356",
+      "paper_url": "https://arxiv.org/abs/2611.10356",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "Official arXiv title/abstract directly evidences a high-value efficiency mechanism and system context in KV cache and long context; P0 under UNLIMITED_QUALITY_GATED, with no promotion quota.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -37365,6 +37386,30 @@
       ]
     },
     {
+      "title": "NatureFusion: Rethinking Infrared and Visible Image Fusion as Natural Complementary Enhancement",
+      "venue": "",
+      "topic": "video and image generation acceleration",
+      "arxiv": "2611.01607",
+      "doi": "",
+      "official_id": "arXiv:2611.01607",
+      "paper_url": "https://arxiv.org/abs/2611.01607",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official arXiv abstract describes conditional-flow-matching image fusion with lightweight adapters, but does not provide direct serving, inference-latency, throughput, or compute-saving evidence; retain as low-priority adjacent multimodal context.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Myoelectric Control for Upper-Limb Exoskeletons: A Decoder-Shaper-Controller Framework, Design Guidelines, and Future Directions",
       "venue": "arXiv 2026",
       "topic": "Physical AI / exoskeleton control",
@@ -54363,6 +54408,27 @@
         "KV Cache / Long Context",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SepLRM: A Foundation Model Paradigm for Recommendation",
+      "venue": "",
+      "topic": "KV cache and long context",
+      "arxiv": "2611.10356",
+      "doi": "",
+      "official_id": "arXiv:2611.10356",
+      "paper_url": "https://arxiv.org/abs/2611.10356",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "Official arXiv title/abstract directly evidences a high-value efficiency mechanism and system context in KV cache and long context; P0 under UNLIMITED_QUALITY_GATED, with no promotion quota.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -87437,6 +87503,30 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "NatureFusion: Rethinking Infrared and Visible Image Fusion as Natural Complementary Enhancement",
+      "venue": "",
+      "topic": "video and image generation acceleration",
+      "arxiv": "2611.01607",
+      "doi": "",
+      "official_id": "arXiv:2611.01607",
+      "paper_url": "https://arxiv.org/abs/2611.01607",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official arXiv abstract describes conditional-flow-matching image fusion with lightweight adapters, but does not provide direct serving, inference-latency, throughput, or compute-saving evidence; retain as low-priority adjacent multimodal context.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
       ]
     },
     {

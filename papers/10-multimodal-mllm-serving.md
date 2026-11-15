@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **951 canonical papers** mapped here, plus a broader **266-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **951 canonical papers** mapped here, plus a broader **267-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 266 tracked
+## 🆕 Latest 30 Days · 267 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -170,6 +170,7 @@
 | **P0 · Strong** | **OCRia-1 Technical Report** | arXiv 2026 | Document VLM / efficient multimodal inference | [Link](https://arxiv.org/abs/2611.00092) | — |
 | **P2 · Relevant** | **OCR in the Foundation Model Era: From Specialist Models to Unified Models** | arXiv 2026 | foundation_model_ocr_survey | [Link](https://arxiv.org/abs/2611.04874) | — |
 | **P0 · Strong** | **NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation** | Fresh / preprint | VLA efficient inference | [Link](https://arxiv.org/abs/2608.16503) | — |
+| **P2 · Relevant** | **NatureFusion: Rethinking Infrared and Visible Image Fusion as Natural Complementary Enhancement** | Fresh / preprint | video and image generation acceleration | [Link](https://arxiv.org/abs/2611.01607) | — |
 | **P2 · Relevant** | **MUPA${}^2$S: Multimodal Unified Perception with Asymmetric Attention for Stress Assessment** | arXiv 2026 | Parameter-efficient multimodal fusion | [Link](https://arxiv.org/abs/2611.01974) | — |
 | **P2 · Relevant** | **MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic** | arXiv 26 | predictive perception for two-wheelers | [Link](https://arxiv.org/abs/2611.06007) | — |
 | **P2 · Relevant** | **MotionDecipher: LLM-Assisted Clinical Interpretation of Human Motion Signals for Efficient Gait Analysis** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2611.08795) | — |

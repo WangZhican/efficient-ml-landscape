@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-11-15**: **2270 tracked papers = 452 P0 + 298 P1 + 1520 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-11-16**: **2272 tracked papers = 453 P0 + 298 P1 + 1521 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -197,6 +197,7 @@
 | **P0 · Strong** | **Shallow Encoding Emits Deep Memories** | arXiv 2026 | llm_serving;kv;agent | [Link](https://arxiv.org/abs/2611.06084) | — |
 | **P0 · Strong** | **SFA: A Statistical Physics-Inspired Diffusion Transformer for Efficient and High-Quality Image Generation** | arXiv 2026 | Diffusion acceleration / efficient attention | [Link](https://arxiv.org/abs/2611.00027) | — |
 | **P0 · Strong** | **Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control** | arXiv 2026 | Physical AI;VLA serving;KV cache;admission control | [Link](https://arxiv.org/abs/2611.01404) | — |
+| **P0 · Strong** | **SepLRM: A Foundation Model Paradigm for Recommendation** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2611.10356) | — |
 | **P0 · Strong** | **Semantic Caches for LLM Web Services Leave Their Error Budget Unspent** | arXiv 2026 | LLM serving / semantic caching | [Link](https://arxiv.org/abs/2611.02498) | — |
 | **P0 · Strong** | **Self-Refining Prompt Induction for Streaming Text-to-SQL** | arXiv 2026 | Prompt compression for streaming LLM agents | [Link](https://arxiv.org/abs/2611.00960) | — |
 | **P0 · Strong** | **Seeing What Matters, Verifying What Pays: Load-Adaptive Speculative Decoding for Vision-Language Models** | arXiv 2026 | speculative decoding;MLLM serving;visual token efficiency | [Link](https://arxiv.org/abs/2611.01617) | — |
@@ -1708,6 +1709,7 @@
 | **P2 · Relevant** | **NEIGHBOR: Aligning Service Behaviour and Evidence Use in an LLM Agent for Community Resident Services** | arXiv 2026 | llm_agent_service_deployment | [Link](https://arxiv.org/abs/2611.01836) | — |
 | **P2 · Relevant** | **Nearly Linear-Time Follow-the-Perturbed-Leader for Weakly Observable Graph Bandits** | arXiv 2026 | online_learning_algorithmic_efficiency | [Link](https://arxiv.org/abs/2611.04307) | — |
 | **P2 · Relevant** | **Navigating Runtime Dynamism in Semantic Query Serving** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2611.04248) | — |
+| **P2 · Relevant** | **NatureFusion: Rethinking Infrared and Visible Image Fusion as Natural Complementary Enhancement** | Fresh / preprint | video and image generation acceleration | [Link](https://arxiv.org/abs/2611.01607) | — |
 | **P2 · Relevant** | **Myoelectric Control for Upper-Limb Exoskeletons: A Decoder-Shaper-Controller Framework, Design Guidelines, and Future Directions** | arXiv 2026 | Physical AI / exoskeleton control | [Link](https://arxiv.org/abs/2611.03418) | — |
 | **P2 · Relevant** | **MusiSPARQ: Subscription-Aware Adaptive Resource Control for Musical Metaverse Services** | arXiv 2026 | edge-cloud inference-service resource orchestration | [Link](https://arxiv.org/abs/2611.04011) | — |
 | **P2 · Relevant** | **MUPA${}^2$S: Multimodal Unified Perception with Asymmetric Attention for Stress Assessment** | arXiv 2026 | Parameter-efficient multimodal fusion | [Link](https://arxiv.org/abs/2611.01974) | — |

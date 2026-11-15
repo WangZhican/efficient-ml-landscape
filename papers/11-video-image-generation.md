@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **629 canonical papers** mapped here, plus a broader **88-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **629 canonical papers** mapped here, plus a broader **89-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 88 tracked
+## 🆕 Latest 30 Days · 89 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -62,6 +62,7 @@
 | **P0 · Strong** | **PAM-Mamba - Efficient Dense Action Detection using Mamba** | arXiv 2026 | video/image generation acceleration;efficient attention | [Link](https://arxiv.org/abs/2611.00423) | — |
 | **P0 · Strong** | **OneReel: Efficient Multi-Scene Video Generation with Scene-Structured Attention** | arXiv 2026 | Multi-scene video generation / scene-structured sparse attention | [Link](https://arxiv.org/abs/2611.10594) | — |
 | **P2 · Relevant** | **OmniOPD: Stable On-Policy Distillation for Joint Audio-Video Generation** | arXiv 2026 | multimodal/MLLM serving; video/image generation acceleration | [Link](https://arxiv.org/abs/2611.02803) | — |
+| **P2 · Relevant** | **NatureFusion: Rethinking Infrared and Visible Image Fusion as Natural Complementary Enhancement** | Fresh / preprint | video and image generation acceleration | [Link](https://arxiv.org/abs/2611.01607) | — |
 | **P0 · Strong** | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation** | arXiv 2026 | kv;quant;gen | [Link](https://arxiv.org/abs/2611.06377) | — |
 | **P2 · Relevant** | **METRIC-GS: Selective Metric-Scale Estimation for 3D Gaussian Splatting** | arXiv 2026 | adjacent_ml_research:cs.CV | [Link](https://arxiv.org/abs/2611.06020) | — |
 | **P0 · Strong** | **Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models** | Fresh / preprint | video generation acceleration / flow matching | [Link](https://arxiv.org/abs/2608.17695) | — |

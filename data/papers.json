@@ -182484,6 +182484,28 @@
     ]
   },
   {
+    "title": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
+    "venue": "",
+    "topic": "speculative decoding",
+    "arxiv": "2606.31315",
+    "doi": "",
+    "official_id": "arXiv:2606.31315",
+    "paper_url": "https://arxiv.org/abs/2606.31315",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv title/abstract directly evidences a high-value efficiency mechanism and system context in speculative decoding; P0 under UNLIMITED_QUALITY_GATED, with no promotion quota.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Boundary-Protection W8A8 HiFloat8 Quantization for Large-Scale Text-to-Video Diffusion Transformers",
     "venue": "",
     "topic": "quantization",
@@ -182721,6 +182743,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Compute Only Once: UG-Separation for Efficient Large Recommendation Models",
+    "venue": "",
+    "topic": "KV cache and long context",
+    "arxiv": "2602.10455",
+    "doi": "",
+    "official_id": "arXiv:2602.10455",
+    "paper_url": "https://arxiv.org/abs/2602.10455",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv title/abstract directly evidences a high-value efficiency mechanism and system context in KV cache and long context; P0 under UNLIMITED_QUALITY_GATED, with no promotion quota.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -184246,6 +184289,28 @@
     ]
   },
   {
+    "title": "K2-Think: A Parameter-Efficient Reasoning System",
+    "venue": "",
+    "topic": "speculative decoding",
+    "arxiv": "2509.07604",
+    "doi": "",
+    "official_id": "arXiv:2509.07604",
+    "paper_url": "https://arxiv.org/abs/2509.07604",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv title/abstract directly evidences a high-value efficiency mechanism and system context in speculative decoding; P0 under UNLIMITED_QUALITY_GATED, with no promotion quota.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "KernelBench-Verified: Do LLM-Generated Kernels Actually Beat PyTorch?",
     "venue": "",
     "topic": "GPU kernels, DSLs, compilers",
@@ -185588,6 +185653,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "SepLRM: A Foundation Model Paradigm for Recommendation",
+    "venue": "",
+    "topic": "KV cache and long context",
+    "arxiv": "2611.10356",
+    "doi": "",
+    "official_id": "arXiv:2611.10356",
+    "paper_url": "https://arxiv.org/abs/2611.10356",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv title/abstract directly evidences a high-value efficiency mechanism and system context in KV cache and long context; P0 under UNLIMITED_QUALITY_GATED, with no promotion quota.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context"
     ]
   },
   {

@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1760 canonical papers** mapped here, plus a broader **701-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1761 canonical papers** mapped here, plus a broader **701-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -710,7 +710,7 @@
 | **P2 · Relevant** | **A Deep Reinforcement Learning Framework for Real-Time Electric Vehicle Charging Management in IoEV-Enabled Smart Cities** | arXiv 2026 | Edge AI application case | [Link](https://arxiv.org/abs/2611.01751) | — |
 | **P1 · Watch** | **A Controlled Experimental Evaluation of Configuration and Cache Architecture in LLM Serving Engines** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.05991) | — |
 
-## 🏛️ Classical / Historical · 1660 canonical
+## 🏛️ Classical / Historical · 1661 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2365,6 +2365,7 @@
 | **Canonical** | **Goedel-Architect: Streamlining Formal Theorem Proving with Blueprint Generation and Refinement** | Fresh / preprint | cost-efficient agentic reasoning | [Link](https://arxiv.org/abs/2606.06468) | — |
 | **Canonical** | **HyMCache: A KV Cache Framework for Multi-Turn LLM Serving with CXL-Hybrid Memory** | Fresh / preprint | LLM serving / KV cache / CXL-hybrid memory / disaggregated inference | [Link](https://arxiv.org/abs/2607.18141) | — |
 | **Canonical** | **JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs** | Fresh / preprint | Efficient agent harnesses | [Link](https://arxiv.org/abs/2610.21412) | — |
+| **Canonical** | **K2-Think: A Parameter-Efficient Reasoning System** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2509.07604) | — |
 | **Canonical** | **Learning to Discover at Test Time** | Fresh / preprint | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2601.16175) | — |
 | **Canonical** | **LT2: Linear-Time Looped Transformers** | Fresh / preprint | Linear-time attention and efficient reasoning | [Link](https://arxiv.org/abs/2605.20670) | — |
 | **Canonical** | **Multi-Segment Attention: Enabling Efficient KV-Cache Management for Faster Large Language Model Serving** | Fresh / preprint | LLM serving / KV cache / efficient attention / agentic serving | [Link](https://arxiv.org/abs/2606.02964) | — |

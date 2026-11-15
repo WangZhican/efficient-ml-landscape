@@ -18942,6 +18942,28 @@
     ]
   },
   {
+    "title": "MimicIK: Real-Time Generative Inverse Kinematics from Teleoperation with FK Consistency",
+    "venue": "",
+    "topic": "VLA/WAM and Physical AI",
+    "arxiv": "2606.15148",
+    "doi": "",
+    "official_id": "arXiv:2606.15148",
+    "paper_url": "https://arxiv.org/abs/2606.15148",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv title/abstract evidences an efficiency mechanism or efficient reasoning contribution in VLA/WAM and Physical AI; retain for deeper reading, but P0 evidence is insufficient.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "MIKASA-Robo-VLA: Benchmarking Memory in VLA Models for Long-Horizon Manipulation",
     "venue": "arXiv 2026",
     "topic": "physical_ai",
@@ -19591,6 +19613,28 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "MeanFuser: Fast One-Step Multi-Modal Trajectory Generation and Adaptive Reconstruction via MeanFlow for End-to-End Autonomous Driving",
+    "venue": "",
+    "topic": "VLA/WAM and Physical AI",
+    "arxiv": "2602.20060",
+    "doi": "",
+    "official_id": "arXiv:2602.20060",
+    "paper_url": "https://arxiv.org/abs/2602.20060",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv title/abstract evidences an efficiency mechanism or efficient reasoning contribution in VLA/WAM and Physical AI; retain for deeper reading, but P0 evidence is insufficient.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -22623,6 +22667,28 @@
     "is_latest_30d": false,
     "directions": [
       "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "KoopmanFlow: Spectrally Decoupled Generative Control Policy via Koopman Structural Bias",
+    "venue": "",
+    "topic": "VLA/WAM and Physical AI",
+    "arxiv": "2603.13781",
+    "doi": "",
+    "official_id": "arXiv:2603.13781",
+    "paper_url": "https://arxiv.org/abs/2603.13781",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv title/abstract evidences an efficiency mechanism or efficient reasoning contribution in VLA/WAM and Physical AI; retain for deeper reading, but P0 evidence is insufficient.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -27466,6 +27532,29 @@
     "directions": [
       "Quantization",
       "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FreqNav: Stage-Wise Frequency Routing for Object-Oriented Aerial Vision-Language Navigation",
+    "venue": "",
+    "topic": "VLA/WAM and Physical AI",
+    "arxiv": "2608.00970",
+    "doi": "",
+    "official_id": "arXiv:2608.00970",
+    "paper_url": "https://arxiv.org/abs/2608.00970",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv title/abstract evidences an efficiency mechanism or efficient reasoning contribution in VLA/WAM and Physical AI; retain for deeper reading, but P0 evidence is insufficient.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },

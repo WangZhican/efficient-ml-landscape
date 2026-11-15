@@ -1,19 +1,19 @@
 {
-  "unique_papers": 8410,
-  "latest_30d_tracked_total": 2270,
-  "latest_30d_quality_gated": 452,
+  "unique_papers": 8414,
+  "latest_30d_tracked_total": 2272,
+  "latest_30d_quality_gated": 453,
   "latest_30d_watchlist": 298,
-  "physical_ai_protected_historical_watch": 1835,
-  "latest_30d_relevant_low_priority": 1520,
-  "classical_papers": 7958,
+  "physical_ai_protected_historical_watch": 1839,
+  "latest_30d_relevant_low_priority": 1521,
+  "classical_papers": 7961,
   "latest_strong": 45,
-  "papers_with_primary_link": 8381,
+  "papers_with_primary_link": 8385,
   "papers_with_verified_code_link": 709,
   "venues": 131,
   "direction_counts": {
     "LLM Serving": 2899,
-    "Speculative Decoding": 541,
-    "KV Cache / Long Context": 1150,
+    "Speculative Decoding": 543,
+    "KV Cache / Long Context": 1152,
     "Quantization": 1243,
     "Sparsity / Pruning": 1234,
     "Efficient Attention": 952,
@@ -22,8 +22,8 @@
     "Distributed Training / Inference": 1122,
     "Multimodal / MLLM Serving": 951,
     "Video / Image Generation": 629,
-    "Diffusion / Flow Acceleration": 1125,
-    "Efficient Reasoning / Agents": 1760,
+    "Diffusion / Flow Acceleration": 1126,
+    "Efficient Reasoning / Agents": 1761,
     "VLA / WAM / Physical AI": 1017,
     "Edge / Cloud / Heterogeneous AI": 1804
   },
@@ -33,6 +33,6 @@
   "venue_active_round": 13,
   "venue_active_round_checked": 27,
   "venue_active_round_status": "IN_PROGRESS_NONZERO_TRUE_MISS",
-  "source_date_beijing": "2026-11-15",
-  "updated_at_beijing": "2026-11-15T22:13:01+08:00"
+  "source_date_beijing": "2026-11-16",
+  "updated_at_beijing": "2026-11-16T03:28:27+08:00"
 }

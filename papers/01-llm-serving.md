@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **2899 canonical papers** mapped here, plus a broader **925-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2899 canonical papers** mapped here, plus a broader **926-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 925 tracked
+## 🆕 Latest 30 Days · 926 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -584,6 +584,7 @@
 | **P2 · Relevant** | **NEIGHBOR: Aligning Service Behaviour and Evidence Use in an LLM Agent for Community Resident Services** | arXiv 2026 | llm_agent_service_deployment | [Link](https://arxiv.org/abs/2611.01836) | — |
 | **P0 · Strong** | **Nebula: Distributed Position-Independent Caching for LLM Serving** | arXiv 2026 | distributed_kv_cache_llm_serving | [Link](https://arxiv.org/abs/2611.09474) | — |
 | **P2 · Relevant** | **Navigating Runtime Dynamism in Semantic Query Serving** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2611.04248) | — |
+| **P2 · Relevant** | **NatureFusion: Rethinking Infrared and Visible Image Fusion as Natural Complementary Enhancement** | Fresh / preprint | video and image generation acceleration | [Link](https://arxiv.org/abs/2611.01607) | — |
 | **P0 · Strong** | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation** | arXiv 2026 | kv;quant;gen | [Link](https://arxiv.org/abs/2611.06377) | — |
 | **P2 · Relevant** | **Myoelectric Control for Upper-Limb Exoskeletons: A Decoder-Shaper-Controller Framework, Design Guidelines, and Future Directions** | arXiv 2026 | Physical AI / exoskeleton control | [Link](https://arxiv.org/abs/2611.03418) | — |
 | **P0 · Strong** | **MXCode: Vector Quantization for MX-Native Inference at Scale** | arXiv 2026 | quantization;LLM inference;MXFP4 | [Link](https://arxiv.org/abs/2611.00403) | — |
