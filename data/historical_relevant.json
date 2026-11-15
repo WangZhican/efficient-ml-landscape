@@ -140662,30 +140662,6 @@
       ]
     },
     {
-      "title": "Exploring Diffusion with Test-Time Training on Efficient Image Restoration",
-      "venue": "",
-      "topic": "diffusion acceleration / test-time training / image restoration",
-      "arxiv": "2506.14541",
-      "doi": "",
-      "official_id": "arXiv:2506.14541",
-      "paper_url": "https://arxiv.org/abs/2506.14541",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "The official arXiv metadata and abstract will be checked by the formal preparation consumer. The first-party RWKV feed describes DiffRWKVIR, combining test-time training, 2D RWKV scanning, chunk-wise parallelism, and compact image priors to accelerate diffusion-based restoration. This is a high-value diffusion-efficiency direction, but the feed does not quantify sampling latency or end-to-end speedup; retain as P1 watchlist.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": false,
-      "directions": [
-        "Quantization",
-        "Distributed Training / Inference",
-        "Diffusion / Flow Acceleration",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
       "title": "FEAT: Full-Dimensional Efficient Attention Transformer for Medical Video Generation",
       "venue": "",
       "topic": "video generation acceleration / efficient attention / spatiotemporal-channel modeling",
