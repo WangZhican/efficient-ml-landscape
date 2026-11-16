@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2901 canonical papers** mapped here, plus a broader **1644-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2902 canonical papers** mapped here, plus a broader **1644-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1653,7 +1653,7 @@
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |
 | **P2 · Relevant** | **$\Sigma$-LeWM: Learning World Models via S-Information for Robot Control** | arXiv 2026 | physical_ai_action_predictor_and_runtime | [Link](https://arxiv.org/abs/2611.12732) | — |
 
-## 🏛️ Classical / Historical · 2535 canonical
+## 🏛️ Classical / Historical · 2536 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -3577,6 +3577,7 @@
 | **Canonical** | **FreqKV: Key-Value Compression in Frequency Domain for Context Window Extension** | ICLR 2026 | Long-context KV-cache compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ac4c13a5c6ec1bba68c9ce1d908321d2-Abstract-Conference.html) | — |
 | **Canonical** | **From Text to Talk: Audio-Language Model Needs Non-Autoregressive Joint Training** | ICLR 2026 | Parallel non-autoregressive audio generation for multimodal inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fa85fd32bffe2a6312a663a235632d3d-Abstract-Conference.html) | — |
 | **Canonical** | **FutureFill: Fast Generation from Convolutional Sequence Models** | ICLR 2026 | Quasilinear autoregressive generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1cf44d82a4606ca64b3cc98d823eb35a-Abstract-Conference.html) | — |
+| **Canonical** | **GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception** | ICLR 2026 | VLA/WAM/Physical AI serving; 3D Gaussian perception and heterogeneous sensor fusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b8932994f80e23f6dd535f0762ed3ef4-Abstract-Conference.html) | — |
 | **Canonical** | **GlowQ: Group-Shared LOw-Rank Approximation for Quantized LLMs** | ICLR 2026 | Low-rank correction for quantized LLM serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c9f95e9ec39fa5ad3d0a562b993b92aa-Abstract-Conference.html) | — |
 | **Canonical** | **ICaRus: Identical Cache Reuse for Efficient Multi-Model Inference** | ICLR 2026 | multi-model LLM serving / cross-model KV cache reuse | [Link](https://arxiv.org/abs/2603.13281) | — |
 | **Canonical** | **Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation** | ICLR 2026 | Low-compute multimodal 3D segmentation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f124f4073d65f21cc13de94490574a3f-Abstract-Conference.html) | — |

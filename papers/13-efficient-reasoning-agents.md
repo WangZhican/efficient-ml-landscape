@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1763 canonical papers** mapped here, plus a broader **1395-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1767 canonical papers** mapped here, plus a broader **1395-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1404,7 +1404,7 @@
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |
 | **P2 · Relevant** | **Action Representation for Spatial Generalization in Robot World Models** | arXiv 2026 | Physical AI / robot world-model action representations | [Link](https://arxiv.org/abs/2611.11869) | — |
 
-## 🏛️ Classical / Historical · 1596 canonical
+## 🏛️ Classical / Historical · 1600 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2574,6 +2574,7 @@
 | **Canonical** | **DeepCompress: A Dual Reward Strategy for Dynamically Exploring and Compressing Reasoning Chains** | ICLR 2026 | adaptive reasoning-chain compression for efficient LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8c64e090102b00fe0b8342e04dd7e72a-Abstract-Conference.html) | — |
 | **Canonical** | **Demystifying and Enhancing the Efficiency of Large Language Model Based Search Agents** | ICLR 2026 | High-throughput, low-latency LLM search-agent serving | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/44bed3ea6eb269aa71ef1f9630c0139b-Abstract-Conference.html) | — |
 | **Canonical** | **DiffAdapt: Difficulty-Adaptive Reasoning for Token-Efficient LLM Inference** | ICLR 2026 | Adaptive compute and token budgeting for reasoning inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/353d4deedc4aac78b24924c485cdb4a3-Abstract-Conference.html) | — |
+| **Canonical** | **Divide, Harmonize, Then Conquer It: Shooting Multi-Commodity Flow Problems with Multimodal Language Models** | ICLR 2026 | Efficient MLLM agents for network allocation; multi-agent decomposition and harmonization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/cf68c8b43e692c63deec7b1242bbb3a0-Abstract-Conference.html) | — |
 | **Canonical** | **DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization** | ICLR 2026 | reducing reasoning-token and latency overhead in LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/dc146cfab1e4519222cd2f40ca6a7a50-Abstract-Conference.html) | — |
 | **Canonical** | **Dynamic Early Exit in Reasoning Models** | ICLR 2026 | test-time reasoning inference acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8df90a1440ce782d1f5607b7a38f2531-Abstract-Conference.html) | — |
 | **Canonical** | **Dynamic Speculative Agent Planning** | ICLR 2026 | Lossless speculative acceleration for LLM agents | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0d1986a61e30e5fa408c81216a616e20-Abstract-Conference.html) | — |
@@ -2589,6 +2590,7 @@
 | **Canonical** | **Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction** | ICLR 2026 | Compute-efficient LLM theorem proving and reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e8be77982beb73d7ed0bbf122f9f3c-Abstract-Conference.html) | — |
 | **Canonical** | **GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning** | ICLR 2026 | compute-efficient reasoning RL | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/61715c5379f9061abc9d8efe3f1723e4-Abstract-Conference.html) | — |
 | **Canonical** | **GPS: Graph-guided Proactive Information Seeking in Large Language Models** | ICLR 2026 | Efficient proactive RAG clarification | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1f49b7fbd7c7afc52c1db0d4ed1a338d-Abstract-Conference.html) | — |
+| **Canonical** | **Graph-Theoretic Intrinsic Reward: Guiding RL with Effective Resistance** | ICLR 2026 | Efficient reasoning/agent systems; sample-efficient reinforcement learning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4ec3ddc465c6d650c9c419fb91f1c00a-Abstract-Conference.html) | — |
 | **Canonical** | **GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs** | ICLR 2026 | Cost-efficient routing for multi-agent LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c86ed90b14e55f2ecf838a755e404b06-Abstract-Conference.html) | — |
 | **Canonical** | **Guided Query Refinement: Multimodal Hybrid Retrieval with Test-Time Optimization** | ICLR 2026 | Efficient multimodal retrieval | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/015d6a156390d23c19d17651d60b3db6-Abstract-Conference.html) | — |
 | **Canonical** | **Guided Speculative Inference for Efficient Test-Time Alignment of LLMs** | ICLR 2026 | reward-guided speculative inference for LLM reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/79cab89b43ac21c6941ad9735df95d30-Abstract-Conference.html) | — |
@@ -2635,6 +2637,7 @@
 | **Canonical** | **PM-KVQ: Progressive Mixed-precision KV Cache Quantization for Long-CoT LLMs** | ICLR 2026 | progressive KV-cache quantization for long reasoning contexts | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/afb8caec018d3c8f6ef8b81fa52386fe-Abstract-Conference.html) | — |
 | **Canonical** | **PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction For Continual Learning** | ICLR 2026 | reusable skills for step-efficient LLM agents | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e350897ed832f9cad6f2e223e7acad6d-Abstract-Conference.html) | — |
 | **Canonical** | **Predicting LLM Reasoning Performance with Small Proxy Model** | ICLR 2026 | Compute-efficient reasoning-model evaluation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f91bd64a3620aad8e70a27ad9cb3ca57-Abstract-Conference.html) | — |
+| **Canonical** | **PrismAudio: Decomposed Chain-of-Thought and Multi-dimensional Rewards for Video-to-Audio Generation** | ICLR 2026 | Video-to-audio generation; efficient reinforcement-learning optimization with hybrid ODE-SDE sampling | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/2aca4acf8af2a649baaefb633c26a75f-Abstract-Conference.html) | — |
 | **Canonical** | **Probing to Refine: Reinforcement Distillation of LLM Reasoners via Explanatory Inversion** | ICLR 2026 | Efficient reasoning-model distillation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/30b28eb87fe7a6c4af8520293317d4c6-Abstract-Conference.html) | — |
 | **Canonical** | **Prompt Curriculum Learning for Efficient LLM Post-Training** | ICLR 2026 | difficulty-aware prompt selection for RL post-training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/601b42cebb3650ddb075770e2a85f428-Abstract-Conference.html) | — |
 | **Canonical** | **ProofOptimizer: Training Language Models to Simplify Proofs without Human Demonstrations** | ICLR 2026 | Proof-length and verification-cost reduction for reasoning LMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/60917970c4257e50aff60d1d7bde2edf-Abstract-Conference.html) | — |
@@ -2661,6 +2664,7 @@
 | **Canonical** | **SCRIBES: Web-Scale Script-Based Semi-Structured Data Extraction with Reinforcement Learning** | ICLR 2026 | Reusable-script extraction for resource-efficient LLM data pipelines | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d8af89af081e3e3b52fca7c92bd6ccab-Abstract-Conference.html) | — |
 | **Canonical** | **Segment-Level Attribution for Selective Learning of Long Reasoning Traces** | ICLR 2026 | selective SFT and reasoning-output efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/38d9676061e0601823e6227d4979e962-Abstract-Conference.html) | — |
 | **Canonical** | **Self-Aligned Reward: Towards Effective and Efficient Reasoners** | ICLR 2026 | Concise reasoning and efficient LLM reinforcement learning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc30caeb45721bab13507c50199e6403-Abstract-Conference.html) | — |
+| **Canonical** | **Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People** | ICLR 2026 | Efficient reasoning agents; Monte Carlo inference and information-seeking under cost constraints | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/2720270c315bd769b1ecb8513f865c1c-Abstract-Conference.html) | — |
 | **Canonical** | **SIM-CoT: Supervised Implicit Chain-of-Thought** | ICLR 2026 | Token-efficient implicit reasoning for LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5d087955ee13fe9a7402eedec879b9c3-Abstract-Conference.html) | — |
 | **Canonical** | **SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models** | ICLR 2026 | Token-efficient MLLM reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1f0c0cd6caaa4863af5f12608edf63e-Abstract-Conference.html) | — |
 | **Canonical** | **Slow-Fast Policy Optimization: Reposition-Before-Update for LLM Reasoning** | ICLR 2026 | Fast-slow reasoning RL optimization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1ac50421cc847c5866eb8ff920e6d790-Abstract-Conference.html) | — |

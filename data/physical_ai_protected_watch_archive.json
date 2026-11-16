@@ -24771,6 +24771,30 @@
     ]
   },
   {
+    "title": "From Sparse to Dense: Spatio-Temporal Fusion for Multi-View 3D Human Pose Estimation with DenseWarper",
+    "venue": "ICLR 2026",
+    "topic": "VLA/WAM/Physical AI serving; sparse multi-view perception and temporal fusion",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:1bf3dbbd6346f50627e2ab1795f90435",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1bf3dbbd6346f50627e2ab1795f90435-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official ICLR abstract introduces sparse-interleaved camera inputs that exploit temporal dependencies across views and explicitly states that N cameras can theoretically increase output pose frame rate by N times. This is a concrete throughput/data-efficiency result in 3D perception and a strong Physical-AI workload; attempt the official proceedings PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "From Social Reasoning to Embodied Interaction: An Agentic Framework for Social Robots",
     "venue": "arXiv 2026",
     "topic": "",
@@ -29044,6 +29068,31 @@
     ]
   },
   {
+    "title": "DriveAgent-R1: Advancing VLM-based Autonomous Driving with Active Perception and Hybrid Thinking",
+    "venue": "ICLR 2026",
+    "topic": "Physical-AI/VLA serving; 3B autonomous-driving agent with adaptive text-only and tool-augmented visual reasoning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:cbb776e737ec3ea5925887f8740c68b4",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/cbb776e737ec3ea5925887f8740c68b4-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract presents a 3B autonomous-driving VLM agent that adaptively switches between efficient text-only reasoning and tool-augmented visual reasoning based on scene complexity, with active perception and competitive driving performance. This is a protected Physical-AI serving candidate with a concrete adaptive-compute design, although the abstract does not quantify the cost reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving",
     "venue": "arXiv 2026",
     "topic": "",
@@ -30712,6 +30761,29 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "DeAltHDR: Learning HDR Video Reconstruction from Degraded Alternating Exposure Sequences",
+    "venue": "ICLR 2026",
+    "topic": "Efficient video reconstruction; adaptive sparse cross-attention with controllable inference cost",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:6e1caf62e7074b95aaa8904d44e02054",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6e1caf62e7074b95aaa8904d44e02054-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract introduces flow-guided masked attention with dynamic sparse cross-attention and a controllable attention ratio for adaptive inference cost in HDR video reconstruction. This is a high-value efficient-attention and video-inference mechanism, although the abstract does not provide a numeric speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -35526,6 +35598,28 @@
       "Quantization",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ARINBEV: Bird's-Eye View Layout Estimation with Conditional Autoregressive Model",
+    "venue": "ICLR 2026",
+    "topic": "Lightweight autoregressive BEV perception for autonomous driving",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:1b2d5407ac2e88ed20b9700d371d529e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1b2d5407ac2e88ed20b9700d371d529e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official abstract replaces multi-phase encoder-decoder designs with a single-stage decoder-only BEV estimator and reports 1.7x fewer parameters and 1.8x faster training while maintaining strong nuScenes and Argoverse2 mIoU. This is a direct efficiency result in an autonomous-driving perception workload and merits a primary-PDF attempt.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {

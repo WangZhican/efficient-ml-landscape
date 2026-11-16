@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1805 canonical papers** mapped here, plus a broader **1223-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1806 canonical papers** mapped here, plus a broader **1223-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1232,7 +1232,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 1646 canonical
+## 🏛️ Classical / Historical · 1647 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2430,6 +2430,7 @@
 | **Canonical** | **Fly-CL: A Fly-Inspired Framework for Enhancing Efficient Decorrelation and Reduced Training Time in Pre-trained Model-based Continual Representation Learning** | ICLR 2026 | reduced training time for continual representation learning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3b5c7c9c5c7bd77eb73d0baec7a07165-Abstract-Conference.html) | — |
 | **Canonical** | **FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference** | ICLR 2026 | KV cache retrieval / CPU-GPU hybrid memory / long-context inference | [Link](https://arxiv.org/abs/2505.13109) | — |
 | **Canonical** | **GAGA: Gaussianity-Aware Gaussian Approximation for Efficient 3D Molecular Generation** | ICLR 2026 | Trajectory truncation for efficient 3D molecular generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/08de3c1eb4adc7ac3c1949048422d895-Abstract-Conference.html) | — |
+| **Canonical** | **GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception** | ICLR 2026 | VLA/WAM/Physical AI serving; 3D Gaussian perception and heterogeneous sensor fusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b8932994f80e23f6dd535f0762ed3ef4-Abstract-Conference.html) | — |
 | **Canonical** | **Gelato: Graph Edit Distance via Autoregressive Neural Combinatorial Optimization** | ICLR 2026 | Fast neural graph edit distance | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1943190d92efee1fccfc8d6579b0f8d9-Abstract-Conference.html) | — |
 | **Canonical** | **GenDR: Lighten Generative Detail Restoration** | ICLR 2026 | Lightweight generative detail restoration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/061d5d1b7d97117764f205d4e038f9eb-Abstract-Conference.html) | — |
 | **Canonical** | **Generalised Flow Maps for Few-Step Generative Modelling on Riemannian Manifolds** | ICLR 2026 | Few-step flow-map generation on Riemannian manifolds | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/346e8ab35a0f1255b8dddcc40f94f0c3-Abstract-Conference.html) | — |

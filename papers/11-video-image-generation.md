@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **630 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **631 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -169,7 +169,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P2 · Relevant** | **AgiWorld: An Agentic Video World Model for Building Persistent Worlds** | arXiv 2026 | Agentic video world models | [Link](https://arxiv.org/abs/2611.02341) | — |
 
-## 🏛️ Classical / Historical · 594 canonical
+## 🏛️ Classical / Historical · 595 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -648,6 +648,7 @@
 | **Canonical** | **StochasticSplats: Stochastic Rasterization for Sorting-Free 3D Gaussian Splatting** | ICCV 2025 | 3D scene representation and efficient rendering/scene computation | [Link](https://arxiv.org/abs/2503.24366) | — |
 | **Canonical** | **Training-free and Adaptive Sparse Attention for Efficient Long Video Generation** | ICCV 2025 | diffusion/flow acceleration and generative-model efficiency | [Link](https://arxiv.org/abs/2502.21079) | — |
 | **Canonical** | **VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory** | ICCV 2025 | efficient vision-model inference and computer-vision systems | [Link](https://arxiv.org/abs/2506.18903) | — |
+| **Canonical** | **3DGEER: 3D Gaussian Rendering Made Exact and Efficient for Generic Cameras** | ICLR 2026 | 3D Gaussian Splatting rendering acceleration; scene representation and physical-world perception | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e112a4671e8779aa9f640a0e3f81bd26-Abstract-Conference.html) | — |
 | **Canonical** | **Adapting Self-Supervised Representations as a Latent Space for Efficient Generation** | ICLR 2026 | Compact latent representations and efficient image generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c9c988de81687d84e05616c0182c4308-Abstract-Conference.html) | — |
 | **Canonical** | **Autoregressive Image Generation with Randomized Parallel Decoding** | ICLR 2026 | autoregressive image generation / parallel decoding | [Link](https://arxiv.org/abs/2503.10568) | — |
 | **Canonical** | **BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation** | ICLR 2026 | joint block-sparse attention and step distillation for video generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5bcb807ae43ad0851a6ba6162a866404-Abstract-Conference.html) | — |

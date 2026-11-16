@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **1244 canonical papers** mapped here, plus a broader **613-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1246 canonical papers** mapped here, plus a broader **613-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -622,7 +622,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving** | arXiv 2026 | Physical AI; world-model planning | [Link](https://arxiv.org/abs/2611.16579) | — |
 
-## 🏛️ Classical / Historical · 1105 canonical
+## 🏛️ Classical / Historical · 1107 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1381,6 +1381,7 @@
 | **Canonical** | **ViM-VQ: Efficient Post-Training Vector Quantization for Visual Mamba** | ICCV 2025 | efficient ML / AI systems (first-party abstract triage) | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Deng_ViM-VQ_Efficient_Post-Training_Vector_Quantization_for_Visual_Mamba_ICCV_2025_paper.html) | — |
 | **Canonical** | **VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_VQ-VLA_Improving_Vision-Language-Action_Models_via_Scaling_Vector-Quantized_Action_Tokenizers_ICCV_2025_paper.html) | — |
 | **Canonical** | **3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis** | ICLR 2026 | Low-energy, linear-complexity spiking architecture for point-cloud analysis | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/27c8b849acba6793f0b73f7ee7ea7397-Abstract-Conference.html) | — |
+| **Canonical** | **A Memory-Efficient Hierarchical Algorithm for Large-scale Optimal Transport Problems** | ICLR 2026 | Memory-efficient optimal transport; hierarchical pruning for image and 3D point-cloud workloads | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/aeae2c860cbe283ef73344c4ecd52567-Abstract-Conference.html) | — |
 | **Canonical** | **Achieving low-bit Muon through subspace preservation and grid quantization** | ICLR 2026 | LLM training optimizer-state quantization and memory efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e1af74bc0a8ab547b27e507d71be506a-Abstract-Conference.html) | — |
 | **Canonical** | **Adaptive Social Learning via Mode Policy Optimization for Language Agents** | ICLR 2026 | Adaptive token-efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/063d1fadbde557466bf5bcffe814a64e-Abstract-Conference.html) | — |
 | **Canonical** | **AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent** | ICLR 2026 | Asynchronous and partial-rollout RL training for tool-using reasoning agents | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5c38f580f7040711b2ccf773e137b539-Abstract-Conference.html) | — |
@@ -1485,6 +1486,7 @@
 | **Canonical** | **Scaling Speech Tokenizers with Diffusion Autoencoders** | ICLR 2026 | Low-rate, low-bit-rate speech representation for speech-language models | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b93fda2862db7a7ac4a5c412adfb1ac2-Abstract-Conference.html) | — |
 | **Canonical** | **Seesaw: Accelerating Training by Balancing Batch Size and Learning Rate Scheduling** | ICLR 2026 | Wall-clock-efficient large-model pretraining schedules | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/187f9ba4cd5a59477305ac712282a1cd-Abstract-Conference.html) | — |
 | **Canonical** | **Self-Speculative Masked Diffusions** | ICLR 2026 | Speculative decoding and reduced function evaluations for masked diffusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c87c05d73d61cf5b636293e9284bdd80-Abstract-Conference.html) | — |
+| **Canonical** | **Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People** | ICLR 2026 | Efficient reasoning agents; Monte Carlo inference and information-seeking under cost constraints | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/2720270c315bd769b1ecb8513f865c1c-Abstract-Conference.html) | — |
 | **Canonical** | **SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models** | ICLR 2026 | Token-efficient MLLM reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1f0c0cd6caaa4863af5f12608edf63e-Abstract-Conference.html) | — |
 | **Canonical** | **SliderQuant: Accurate Post-Training Quantization for LLMs** | ICLR 2026 | Layer-sensitive post-training quantization for LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b08ac1692309611b6f1adce96e96816f-Abstract-Conference.html) | — |
 | **Canonical** | **Slow-Fast Policy Optimization: Reposition-Before-Update for LLM Reasoning** | ICLR 2026 | Fast-slow reasoning RL optimization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1ac50421cc847c5866eb8ff920e6d790-Abstract-Conference.html) | — |

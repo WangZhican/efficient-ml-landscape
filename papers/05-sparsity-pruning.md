@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **1237 canonical papers** mapped here, plus a broader **405-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1241 canonical papers** mapped here, plus a broader **405-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -414,7 +414,7 @@
 | **P0 · Strong** | **CausalPrune: Counterfactual Causal Token Pruning for Efficient Large Vision-Language Models** | arXiv 2026 | Multimodal / LVLM token pruning | [Link](https://arxiv.org/abs/2611.00058) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 
-## 🏛️ Classical / Historical · 1124 canonical
+## 🏛️ Classical / Historical · 1128 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1179,6 +1179,7 @@
 | **Canonical** | **ZipVL: Accelerating Vision-Language Models through Dynamic Token Sparsity** | ICCV 2025 | VLM dynamic token sparsity / KV efficiency | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/He_ZipVL_Accelerating_Vision-Language_Models_through_Dynamic_Token_Sparsity_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **Pixelated Butterfly: Simple and Efficient Sparse training for Neural Network Models** | ICLR 2022 | sparsity/pruning; GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2112.00029) | [Repo](https://github.com/HazyResearch/fly) |
 | **Canonical** | **A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers** | ICLR 2026 | Diffusion Transformer conditioning; dimension pruning and compute reduction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1ec299a5229034141e58aeded0d0b9de-Abstract-Conference.html) | — |
+| **Canonical** | **A Memory-Efficient Hierarchical Algorithm for Large-scale Optimal Transport Problems** | ICLR 2026 | Memory-efficient optimal transport; hierarchical pruning for image and 3D point-cloud workloads | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/aeae2c860cbe283ef73344c4ecd52567-Abstract-Conference.html) | — |
 | **Canonical** | **Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation** | ICLR 2026 | Action-conditioned visual-token pruning for VLA inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1223ca2b14513106ad55db6a537337f9-Abstract-Conference.html) | — |
 | **Canonical** | **AIRE-Prune: Asymptotic Impulse-Response Energy for State Pruning in State Space Models** | ICLR 2026 | Post-training state-dimension pruning for SSM efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/45be6ff115a0700433fb862cfaa591f4-Abstract-Conference.html) | — |
 | **Canonical** | **ARMOR: High-Performance Semi-Structured Pruning via Adaptive Matrix Factorization** | ICLR 2026 | Hardware-friendly 2:4 LLM pruning with low-overhead wrappers | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/38656b01f067b7f8a9df867d0e0ce27d-Abstract-Conference.html) | — |
@@ -1207,12 +1208,15 @@
 | **Canonical** | **FROST: Filtering Reasoning Outliers with Attention for Efficient Reasoning** | ICLR 2026 | Reasoning-path pruning and token-efficient inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b21ae5a5df83632324b61b595ab653b9-Abstract-Conference.html) | — |
 | **Canonical** | **FrugalRAG: Less is More in RL Finetuning for Multi-hop Question Answering** | ICLR 2026 | Adaptive retrieval-step reduction for RAG | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ede6f43d254731152970009c172d5561-Abstract-Conference.html) | — |
 | **Canonical** | **GAPrune: Gradient-Alignment Pruning for Domain-Aware Embeddings** | ICLR 2026 | Domain-aware pruning for embedding-model compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d26ba998a503ba13f784ca624e63d339-Abstract-Conference.html) | — |
+| **Canonical** | **GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception** | ICLR 2026 | VLA/WAM/Physical AI serving; 3D Gaussian perception and heterogeneous sensor fusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b8932994f80e23f6dd535f0762ed3ef4-Abstract-Conference.html) | — |
 | **Canonical** | **GPS: Graph-guided Proactive Information Seeking in Large Language Models** | ICLR 2026 | Efficient proactive RAG clarification | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1f49b7fbd7c7afc52c1db0d4ed1a338d-Abstract-Conference.html) | — |
 | **Canonical** | **GPTailor: Large Language Model Pruning Through Layer Cutting and Stitching** | ICLR 2026 | LLM layer pruning and compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5c99f2254833533c2a8ca0e0be04d77e-Abstract-Conference.html) | — |
 | **Canonical** | **GradPruner: Gradient-guided Layer Pruning Enabling Efficient Fine-Tuning and Inference for LLMs** | ICLR 2026 | gradient-guided structured LLM pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d2a82382022ed312cf10025f47388235-Abstract-Conference.html) | — |
+| **Canonical** | **Graph-Theoretic Intrinsic Reward: Guiding RL with Effective Resistance** | ICLR 2026 | Efficient reasoning/agent systems; sample-efficient reinforcement learning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4ec3ddc465c6d650c9c419fb91f1c00a-Abstract-Conference.html) | — |
 | **Canonical** | **HEAPr: Hessian-based Efficient Atomic Expert Pruning in Output Space** | ICLR 2026 | Fine-grained MoE expert pruning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d47e75c3429b407e440405b317ef8054-Abstract-Conference.html) | — |
 | **Canonical** | **HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit** | ICLR 2026 | Vision-token pruning and efficient MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e0d77d3ce77fb7369663c27d7bcc838-Abstract-Conference.html) | — |
 | **Canonical** | **Hilbert-Guided Sparse Local Attention** | ICLR 2026 | block-sparse local attention for high-resolution vision | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/16f8a0852b31bc9dc791ecf313247a57-Abstract-Conference.html) | — |
+| **Canonical** | **Hyperbolic Aware Minimization: Implicit Bias for Sparsity** | ICLR 2026 | Sparsity/pruning; efficient ML optimization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/acbe7aede2933b40a37a30f3bebe6a31-Abstract-Conference.html) | — |
 | **Canonical** | **Inconsistency Biases in Dynamic Data Pruning** | ICLR 2026 | Data-pruned efficient training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e7be1f4c6212c24919cd743512477c13-Abstract-Conference.html) | — |
 | **Canonical** | **IncVGGT: Incremental VGGT for Memory-Bounded Long-Range 3D Reconstruction** | ICLR 2026 | Memory-bounded long-sequence 3D reconstruction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0a4096f09ab230082df548f901d4f79e-Abstract-Conference.html) | — |
 | **Canonical** | **InfLLM-V2: Dense-Sparse Switchable Attention for Seamless Short-to-Long Adaptation** | ICLR 2026 | trainable sparse attention for long-context LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/716e60181e1782f5bd0a629033f85310-Abstract-Conference.html) | — |

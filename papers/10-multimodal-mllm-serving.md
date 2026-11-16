@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **951 canonical papers** mapped here, plus a broader **535-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **953 canonical papers** mapped here, plus a broader **535-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -544,7 +544,7 @@
 | **P0 · Strong** | **CausalPrune: Counterfactual Causal Token Pruning for Efficient Large Vision-Language Models** | arXiv 2026 | Multimodal / LVLM token pruning | [Link](https://arxiv.org/abs/2611.00058) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 869 canonical
+## 🏛️ Classical / Historical · 871 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1192,6 +1192,7 @@
 | **Canonical** | **Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation** | ICLR 2026 | Action-conditioned visual-token pruning for VLA inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1223ca2b14513106ad55db6a537337f9-Abstract-Conference.html) | — |
 | **Canonical** | **Catching the Details: Self-Distilled RoI Predictors for Fine-Grained MLLM Perception** | ICLR 2026 | compute-efficient high-resolution MLLM perception | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/dc6319dde4fb182b22fb902da9418566-Abstract-Conference.html) | — |
 | **Canonical** | **Divid: Disentangled Spatial-Temporal Modeling within LLMs for Temporally Grounded Video Understanding** | ICLR 2026 | Spatial-temporal token efficiency for long-video LLM understanding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1c85c302ece39939c1b334c78f7ee1b8-Abstract-Conference.html) | — |
+| **Canonical** | **Divide, Harmonize, Then Conquer It: Shooting Multi-Commodity Flow Problems with Multimodal Language Models** | ICLR 2026 | Efficient MLLM agents for network allocation; multi-agent decomposition and harmonization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/cf68c8b43e692c63deec7b1242bbb3a0-Abstract-Conference.html) | — |
 | **Canonical** | **DTP: Delta-Guided Two Stage Pruning for Mamba-based Multimodal Large Language Models** | ICLR 2026 | Visual-token pruning for Mamba MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/78bee25eb4309dedc6f2066eb0e2a76c-Abstract-Conference.html) | — |
 | **Canonical** | **Efficient Discriminative Joint Encoders for Large Scale Vision-Language Reranking** | ICLR 2026 | High-throughput vision-language retrieval inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/48736dba3b8d933fabbfdb4f22a7be71-Abstract-Conference.html) | — |
 | **Canonical** | **Efficient Multimodal Spatial Reasoning via Dynamic and Asymmetric Routing** | ICLR 2026 | Token and KV-cache reduction for multimodal reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4bd2ab7c614bc9ce646ba5559bb1fa67-Abstract-Conference.html) | — |
@@ -1228,6 +1229,7 @@
 | **Canonical** | **Photon: Speedup Volume Understanding with Efficient Multimodal Large Language Models** | ICLR 2026 | Adaptive token scheduling for 3D medical MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/633780c1344d0c95e4d2dd3431fe08d9-Abstract-Conference.html) | — |
 | **Canonical** | **PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models** | ICLR 2026 | Position-preserving visual-token compression for efficient MLLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/6e73c39cc428c7d264d9820319f31e79-Abstract-Conference.html) | — |
 | **Canonical** | **PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance** | ICLR 2026 | Video-LLM token compression and throughput | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e2169d93e05fe605a3a77dfe33025be1-Abstract-Conference.html) | — |
+| **Canonical** | **PrismAudio: Decomposed Chain-of-Thought and Multi-dimensional Rewards for Video-to-Audio Generation** | ICLR 2026 | Video-to-audio generation; efficient reinforcement-learning optimization with hybrid ODE-SDE sampling | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/2aca4acf8af2a649baaefb633c26a75f-Abstract-Conference.html) | — |
 | **Canonical** | **Prune Redundancy, Preserve Essence: Vision Token Compression in VLMs via Synergistic Importance-Diversity** | ICLR 2026 | Training-free VLM visual-token compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/555479a201da27c97aaeed842d16ca49-Abstract-Conference.html) | — |
 | **Canonical** | **QueryStream: Advancing Streaming Video Understanding with Query-Aware Pruning and Proactive Response** | ICLR 2026 | Query-aware token pruning for streaming video understanding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0b17d256cf1fe1cc084922a8c6b565b7-Abstract-Conference.html) | — |
 | **Canonical** | **QVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization** | ICLR 2026 | action-aware quantization for VLA deployment | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fa064215307efaad75bebc7a2e3194a4-Abstract-Conference.html) | — |

@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **1019 canonical papers** mapped here, plus a broader **1097-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1021 canonical papers** mapped here, plus a broader **1097-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1106,7 +1106,7 @@
 | **P2 · Relevant** | **$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering** | arXiv 2026 | Tactile-conditioned action refinement / velocity-field steering | [Link](https://arxiv.org/abs/2611.01483) | — |
 | **P2 · Relevant** | **$\Sigma$-LeWM: Learning World Models via S-Information for Robot Control** | arXiv 2026 | physical_ai_action_predictor_and_runtime | [Link](https://arxiv.org/abs/2611.12732) | — |
 
-## 🏛️ Classical / Historical · 887 canonical
+## 🏛️ Classical / Historical · 889 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1774,6 +1774,7 @@
 | **Canonical** | **VLDrive: Vision-Augmented Lightweight MLLMs for Efficient Language-grounded Autonomous Driving** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_VLDrive_Vision-Augmented_Lightweight_MLLMs_for_Efficient_Language-grounded_Autonomous_Driving_ICCV_2025_paper.html) | — |
 | **Canonical** | **VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers** | ICCV 2025 | multimodal/MLLM serving and efficient vision inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_VQ-VLA_Improving_Vision-Language-Action_Models_via_Scaling_Vector-Quantized_Action_Tokenizers_ICCV_2025_paper.html) | — |
 | **Canonical** | **A Noise is Worth Diffusion Guidance** | ICLR 2026 | Diffusion sampling guidance and image-generation efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/985786d06c1e45e9e8c65f7aca3547e4-Abstract-Conference.html) | — |
+| **Canonical** | **A Schrödinger Eigenfunction Method for Long-Horizon Stochastic Optimal Control** | ICLR 2026 | Efficient long-horizon control; neural eigensystem learning with horizon-independent memory complexity | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d0fb09e889b9d6e25961929361b9c3e2-Abstract-Conference.html) | — |
 | **Canonical** | **Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation** | ICLR 2026 | Action-conditioned visual-token pruning for VLA inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1223ca2b14513106ad55db6a537337f9-Abstract-Conference.html) | — |
 | **Canonical** | **ATTS: Asynchronous Test-Time Scaling via Conformal Prediction** | ICLR 2026 | Speculative decoding, asynchronous LLM inference, and test-time scaling | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/48c292f57f37569241ea9191a507031d-Abstract-Conference.html) | — |
 | **Canonical** | **Beyond Skeletons: Learning Animation Directly from Driving Videos with Same2X Training Strategy** | ICLR 2026 | Video animation generation and efficient training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d6df31b1be98e04be48af8bedb95b499-Abstract-Conference.html) | — |
@@ -1810,6 +1811,7 @@
 | **Canonical** | **From Parameters to Behaviors: Unsupervised Compression of the Policy Space** | ICLR 2026 | low-dimensional policy-space compression for sample-efficient RL | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5c3760faa9de12a0ff5afb839581a09f-Abstract-Conference.html) | — |
 | **Canonical** | **From Tokens to Nodes: Semantic-Guided Motion Control for Dynamic 3D Gaussian Splatting** | ICLR 2026 | Motion-adaptive 3D reconstruction compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/16c628ab12dc4caca8e7712affa6c767-Abstract-Conference.html) | — |
 | **Canonical** | **FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models** | ICLR 2026 | Diffusion language-model decoding and low-step generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/20b8fd57404ab88a8b5dea0f05e2080f-Abstract-Conference.html) | — |
+| **Canonical** | **GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception** | ICLR 2026 | VLA/WAM/Physical AI serving; 3D Gaussian perception and heterogeneous sensor fusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b8932994f80e23f6dd535f0762ed3ef4-Abstract-Conference.html) | — |
 | **Canonical** | **GoldenStart: Q-Guided Priors and Entropy Control for Distilling Flow Policies** | ICLR 2026 | One-step flow-policy distillation for efficient robot control | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/391aae9ccaf95a3d80dde4c8408f2c91-Abstract-Conference.html) | — |
 | **Canonical** | **HiPRAG: Hierarchical Process Rewards for Efficient Agentic Retrieval Augmented Generation** | ICLR 2026 | Efficient agentic RAG and search control | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/85255cf8f2d2318cc7cffd0b1bc66625-Abstract-Conference.html) | — |
 | **Canonical** | **Hybrid Training for Vision-Language-Action Models** | ICLR 2026 | Training VLAs to skip chain-of-thought at inference while retaining its benefits | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/db77389415a3e7aa66dd4f4fef384270-Abstract-Conference.html) | — |
@@ -1998,7 +2000,7 @@
 | **Canonical** | **TLS-RWKV: Real-Time Online Action Detection with Temporal Label Smoothing** | Fresh / preprint | Physical AI perception; streaming action detection; edge inference | [Link](https://link.springer.com/article/10.1007/s11063-024-11540-0) | — |
 | **Canonical** | **VisualClaw: A Real-Time, Personalized Agent for the Physical World** | Fresh / preprint | Streaming multimodal agents and edge inference | [Link](https://arxiv.org/abs/2606.16295) | — |
 
-## 🛡️ Protected historical P1 watch · 1690
+## 🛡️ Protected historical P1 watch · 1694
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 

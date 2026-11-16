@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **1545 canonical papers** mapped here, plus a broader **541-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1546 canonical papers** mapped here, plus a broader **541-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -550,7 +550,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🏛️ Classical / Historical · 1309 canonical
+## 🏛️ Classical / Historical · 1310 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1453,6 +1453,7 @@
 | **Canonical** | **FlexLinearAttention: Compiling a Unified Abstraction into Scalable Kernels for Linear Attention** | ICLR 2026 | domain-specific compiler and scalable kernels for linear attention | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d029c97ee0db162c60f2ebc9cb93387e-Abstract-Conference.html) | — |
 | **Canonical** | **FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference** | ICLR 2026 | KV cache retrieval / CPU-GPU hybrid memory / long-context inference | [Link](https://arxiv.org/abs/2505.13109) | — |
 | **Canonical** | **From Large to Small: Transferring CUDA Optimization Expertise via Reasoning Graph** | ICLR 2026 | GPU kernel optimization and small-model CUDA code generation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c4e40d310af1be55f2c0f32cb16a9a16-Abstract-Conference.html) | — |
+| **Canonical** | **GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception** | ICLR 2026 | VLA/WAM/Physical AI serving; 3D Gaussian perception and heterogeneous sensor fusion | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b8932994f80e23f6dd535f0762ed3ef4-Abstract-Conference.html) | — |
 | **Canonical** | **GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs** | ICLR 2026 | Cost-efficient routing for multi-agent LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/c86ed90b14e55f2ecf838a755e404b06-Abstract-Conference.html) | — |
 | **Canonical** | **Hilbert-Guided Sparse Local Attention** | ICLR 2026 | block-sparse local attention for high-resolution vision | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/16f8a0852b31bc9dc791ecf313247a57-Abstract-Conference.html) | — |
 | **Canonical** | **IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs** | ICLR 2026 | KV cache / CPU-GPU offload / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94de1ef32f1b564b885720ab89fd95af-Abstract-Conference.html) | — |

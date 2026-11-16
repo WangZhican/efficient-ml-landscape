@@ -115653,6 +115653,27 @@
     ]
   },
   {
+    "title": "3DGEER: 3D Gaussian Rendering Made Exact and Efficient for Generic Cameras",
+    "venue": "ICLR 2026",
+    "topic": "3D Gaussian Splatting rendering acceleration; scene representation and physical-world perception",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:e112a4671e8779aa9f640a0e3f81bd26",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e112a4671e8779aa9f640a0e3f81bd26-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reports a geometrically exact Gaussian renderer with tighter ray-Gaussian association and a 5x speedup over prior projective-exact ray-based rendering baselines. This is a direct, measured rendering-efficiency contribution in the 3DGS scene-representation stack and merits a primary-PDF attempt.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis",
     "venue": "ICLR 2026",
     "topic": "Low-energy, linear-complexity spiking architecture for point-cloud analysis",
@@ -115717,6 +115738,28 @@
     ]
   },
   {
+    "title": "A Memory-Efficient Hierarchical Algorithm for Large-scale Optimal Transport Problems",
+    "venue": "ICLR 2026",
+    "topic": "Memory-efficient optimal transport; hierarchical pruning for image and 3D point-cloud workloads",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:aeae2c860cbe283ef73344c4ecd52567",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/aeae2c860cbe283ef73344c4ecd52567-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract introduces HALO with hierarchical decomposition and active pruning, reporting an 8.9× speedup and 70.5% memory reduction on 1024² images, plus a 1.84× speedup and 83.2% memory reduction on 3D point clouds. These are substantial, directly quantified compute and memory gains on ML-relevant workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "A Noise is Worth Diffusion Guidance",
     "venue": "ICLR 2026",
     "topic": "Diffusion sampling guidance and image-generation efficiency",
@@ -115759,6 +115802,27 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "A Schrödinger Eigenfunction Method for Long-Horizon Stochastic Optimal Control",
+    "venue": "ICLR 2026",
+    "topic": "Efficient long-horizon control; neural eigensystem learning with horizon-independent memory complexity",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:d0fb09e889b9d6e25961929361b9c3e2",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d0fb09e889b9d6e25961929361b9c3e2-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract reduces memory and runtime complexity from O(Td) to O(d) for a class of long-horizon stochastic-control problems, while reporting an order-of-magnitude control-accuracy improvement. This is a strong algorithmic efficiency result with direct relevance to long-horizon control and Physical-AI runtime.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -118482,6 +118546,28 @@
     ]
   },
   {
+    "title": "Divide, Harmonize, Then Conquer It: Shooting Multi-Commodity Flow Problems with Multimodal Language Models",
+    "venue": "ICLR 2026",
+    "topic": "Efficient MLLM agents for network allocation; multi-agent decomposition and harmonization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:cf68c8b43e692c63deec7b1242bbb3a0",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/cf68c8b43e692c63deec7b1242bbb3a0-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract introduces Pram, an MLLM-powered agent that decomposes multi-commodity-flow allocation into local subproblems and harmonizes them with multi-agent RL. It reports runtimes one to two orders of magnitude lower than linear-programming solvers while retaining near-optimal allocation quality and robustness, making this a strong systems-relevant efficiency result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Do We Need All the Synthetic Data? Targeted Image Augmentation via Diffusion Models",
     "venue": "ICLR 2026",
     "topic": "Targeted synthetic-data selection for compute-efficient image-model training",
@@ -120735,6 +120821,31 @@
     ]
   },
   {
+    "title": "GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception",
+    "venue": "ICLR 2026",
+    "topic": "VLA/WAM/Physical AI serving; 3D Gaussian perception and heterogeneous sensor fusion",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:b8932994f80e23f6dd535f0762ed3ef4",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b8932994f80e23f6dd535f0762ed3ef4-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official ICLR abstract introduces a unified 3D Gaussian representation for multi-modal fusion perception and explicitly reports retaining only about 30% of Gaussians while achieving roughly 4.5x faster perception. This is a direct representation-sparsity and runtime-efficiency result in a protected physical-AI workload; attempt the official proceedings PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Gelato: Graph Edit Distance via Autoregressive Neural Combinatorial Optimization",
     "venue": "ICLR 2026",
     "topic": "Fast neural graph edit distance",
@@ -121052,6 +121163,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Graph-Theoretic Intrinsic Reward: Guiding RL with Effective Resistance",
+    "venue": "ICLR 2026",
+    "topic": "Efficient reasoning/agent systems; sample-efficient reinforcement learning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:4ec3ddc465c6d650c9c419fb91f1c00a",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4ec3ddc465c6d650c9c419fb91f1c00a-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official ICLR abstract uses effective resistance from graph theory as an intrinsic reward to guide exploration in sparse-reward RL and reports faster convergence with up to 56% fewer environment timesteps. This is a concrete sample-efficiency improvement for agent learning; attempt the official proceedings PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -121467,6 +121600,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Hyperbolic Aware Minimization: Implicit Bias for Sparsity",
+    "venue": "ICLR 2026",
+    "topic": "Sparsity/pruning; efficient ML optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:acbe7aede2933b40a37a30f3bebe6a31",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/acbe7aede2933b40a37a30f3bebe6a31-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official ICLR abstract introduces a hyperbolic-aware minimization method with an implicit bias toward sparse solutions and a lightweight hyperbolic mirror-descent step. It explicitly reports lower compute and memory requirements than pointwise over-parameterization while improving performance. This is a direct algorithmic efficiency contribution relevant to sparsity and pruning; attempt the official proceedings PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning"
     ]
   },
   {
@@ -125561,6 +125715,28 @@
     ]
   },
   {
+    "title": "PrismAudio: Decomposed Chain-of-Thought and Multi-dimensional Rewards for Video-to-Audio Generation",
+    "venue": "ICLR 2026",
+    "topic": "Video-to-audio generation; efficient reinforcement-learning optimization with hybrid ODE-SDE sampling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:2aca4acf8af2a649baaefb633c26a75f",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2aca4acf8af2a649baaefb633c26a75f-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract presents a V2A generation framework with decomposed multimodal reasoning and explicitly introduces Fast-GRPO using hybrid ODE-SDE sampling to dramatically reduce training overhead relative to existing GRPO implementations. This is a direct efficiency contribution in multimodal generation, aligned with the protected generation-acceleration scope.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Probing to Refine: Reinforcement Distillation of LLM Reasoners via Explanatory Inversion",
     "venue": "ICLR 2026",
     "topic": "Efficient reasoning-model distillation",
@@ -127962,6 +128138,28 @@
     "directions": [
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People",
+    "venue": "ICLR 2026",
+    "topic": "Efficient reasoning agents; Monte Carlo inference and information-seeking under cost constraints",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:2720270c315bd769b1ecb8513f865c1c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2720270c315bd769b1ecb8513f865c1c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official abstract introduces Bayesian-experimental-design-inspired Monte Carlo inference strategies for information-seeking agents and reports that weaker models can outperform humans and frontier systems at approximately 1% of GPT-5's cost. This is a direct, quantified agent-inference cost reduction with a concrete runtime strategy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
