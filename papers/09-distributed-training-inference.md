@@ -1,54 +1,13 @@
 # 09 · Distributed Training / Inference
 
-> **1122 canonical papers** mapped here, plus a broader **383-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1150 canonical papers** mapped here, plus a broader **432-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 383 tracked
+## 🆕 Latest 30 Days · 432 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
-| **P2 · Relevant** | **Collaborative Task Allocation for Heterogeneous Multi-Robot Systems Through Iterative Clustering** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2611.17213) | — |
-| **P2 · Relevant** | **STeP-C: Real-Time Neural Compression for Distributed Fiber-Optic Sensing at Scale** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.17126) | — |
-| **P2 · Relevant** | **DPA: Decentralized Primal Averaging with Quasi-Global Momentum for Highly Heterogeneous Data** | arXiv 2026 | Decentralized distributed training | [Link](https://arxiv.org/abs/2611.16871) | — |
-| **P2 · Relevant** | **Safe and Efficient Navigation Considering Texting Pedestrians via Attention-Aware Cost-map Tuning** | arXiv 2026 | Physical AI; navigation | [Link](https://arxiv.org/abs/2611.16725) | — |
-| **P0 · Strong** | **Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination** | arXiv 2026 | LLM-agent serving; KV cache; scheduling | [Link](https://arxiv.org/abs/2611.16661) | — |
-| **P2 · Relevant** | **Machine Learning for Scalable Multi-AP Coordination in IEEE 802.11bn Networks** | arXiv 2026 | ML-based network coordination | [Link](https://arxiv.org/abs/2611.16634) | — |
-| **P2 · Relevant** | **AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents** | arXiv 2026 | Physical AI; agent-memory benchmark | [Link](https://arxiv.org/abs/2611.16590) | — |
-| **P2 · Relevant** | **HALight: Heterogeneous Multi-Agent Reinforcement Learning for Traffic Signal Control under Lane-Level Missing Observations** | arXiv 2026 | multi-agent RL; traffic control | [Link](https://arxiv.org/abs/2611.16574) | — |
-| **P0 · Strong** | **SS-HSDP: Efficient and Flexible Sharded Data Parallelism via Runtime-Update Decoupling** | arXiv 2026 | distributed training; sharded data parallelism | [Link](https://arxiv.org/abs/2611.16467) | — |
-| **P2 · Relevant** | **LoCoJAX: Host-Local Coordination for Small-Model RL on TPUs** | arXiv 2026 | edge / cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2611.16301) | — |
-| **P2 · Relevant** | **Scaling Pêlagos: Multi-GPU Orchestration for Relay Belief-Propagation Decoding** | arXiv 2026 | multi-GPU orchestration | [Link](https://arxiv.org/abs/2611.16285) | — |
-| **P2 · Relevant** | **One Fuzzer, Many Reasoners: Adaptive Neuro-Symbolic Fuzzing with Reliability-Calibrated and Context-Gated Guidance** | arXiv 2026 | Neural-symbolic testing efficiency | [Link](https://arxiv.org/abs/2611.16211) | — |
-| **P2 · Relevant** | **Accelerating Distributed Variational Quantum Computing over Wireless Networks with Incentive Mechanism Design** | arXiv 2026 | distributed_quantum_ml_systems | [Link](https://arxiv.org/abs/2611.16155) | — |
-| **P2 · Relevant** | **A Unified Interpretable Semantic Framework for Multi-Modal Fiber Sensing Under Data Scarcity** | arXiv 2026 | multimodal sensing | [Link](https://arxiv.org/abs/2611.16027) | — |
-| **P2 · Relevant** | **Efficient Knowledge Transfer in Federated Bayesian Optimization through Neural Network Surrogates** | arXiv 2026 | distributed training / inference | [Link](https://arxiv.org/abs/2611.15707) | — |
-| **P2 · Relevant** | **Rateless Coding for Efficient Model Broadcast in Federated Learning** | arXiv 2026 | distributed training / inference | [Link](https://arxiv.org/abs/2611.15499) | — |
-| **P2 · Relevant** | **Communication-Efficient Federated Multi-View Clustering via View-Aware Quantization** | arXiv 2026 | quantization / sparsity / pruning | [Link](https://arxiv.org/abs/2611.15270) | — |
-| **P2 · Relevant** | **Sparse Matrix Multiplication Exponent 1.5 in the Low-bandwidth Model** | arXiv 2026 | sparse and distributed computation | [Link](https://arxiv.org/abs/2611.15201) | — |
-| **P2 · Relevant** | **AI4Plasma I: Data-Efficient Surrogate Modeling of Capacitively Coupled Plasma Fields** | arXiv 2026 | edge / cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2611.15002) | — |
-| **P0 · Strong** | **SubGPU Pipelining: Intra-GPU Fine-Grained Spatial Parallelism for LLM Inference** | arXiv 2026 | GPU kernel / DSL / compilers | [Link](https://arxiv.org/abs/2611.14904) | — |
-| **P0 · Strong** | **Together Compiler: Continual Compilation for AI Inference** | arXiv 2026 | GPU kernel / DSL / compilers | [Link](https://arxiv.org/abs/2611.14681) | — |
-| **P1 · Watch** | **LM-SimBench: A Unified Framework, Dataset, and Benchmark for Large Language Model Training Simulation** | arXiv 2026 | high-value efficient-ML systems adjacency | [Link](https://arxiv.org/abs/2611.14285) | — |
-| **P2 · Relevant** | **Energy-Proportional Serverless Computing on SBC Clusters** | arXiv 2026 | efficient-ML technical adjacency | [Link](https://arxiv.org/abs/2611.14026) | — |
-| **P2 · Relevant** | **Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence** | arXiv 2026 | Exact-integer model runtime and verifiable distributed inference | [Link](https://arxiv.org/abs/2611.13730) | — |
-| **P2 · Relevant** | **Broad-Persistent Advising in Interactive Reinforcement Learning via Latent State Encoding** | arXiv 2026 | Latent-state advice reuse for reinforcement-learning efficiency | [Link](https://arxiv.org/abs/2611.13712) | — |
-| **P0 · Strong** | **Train High, Ship Low: Efficient LoRA Synchronization for Distributed On-Policy Post-Training** | arXiv 2026 | Communication-efficient synchronization for distributed on-policy LLM post-training | [Link](https://arxiv.org/abs/2611.13306) | — |
-| **P0 · Strong** | **Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding** | arXiv 2026 | Distributed LLM decoding and request-local attention/KV placement | [Link](https://arxiv.org/abs/2611.13293) | — |
-| **P1 · Watch** | **Network-Co-Designed Dynamic Sparsification for Dependable Distributed Robot Learning over 3GPP Networks** | arXiv 2026 | Network-co-designed dynamic sparsification for distributed robot learning | [Link](https://arxiv.org/abs/2611.13282) | — |
-| **P0 · Strong** | **One-Sided Expert-Parallel All-to-All for Mixture-of-Experts Inference over NVLink** | arXiv 2026 | MoE inference communication and expert-parallel GPU systems | [Link](https://arxiv.org/abs/2611.13188) | — |
-| **P2 · Relevant** | **Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2611.12878) | — |
-| **P2 · Relevant** | **Adapting Multi-Stage Distributed Real-Time Systems Design to Vehicular Edge Computing** | arXiv 2026 | vehicular edge scheduling | [Link](https://arxiv.org/abs/2611.12370) | — |
-| **P0 · Strong** | **Release Sooner, Expose Less: Offloading MoE Dispatch in NCCL-EP under Dual-Batch Overlap** | arXiv 2026 | llm_serving;moe | [Link](https://arxiv.org/abs/2611.12362) | — |
-| **P2 · Relevant** | **One-Shot Federated Graph Learning via High-Fidelity Proxies and Transferability-Guided Collaboration** | arXiv 2026 | federated_graph_learning_communication_efficiency | [Link](https://arxiv.org/abs/2611.12131) | — |
-| **P2 · Relevant** | **DeFSM: Robust and Efficient Decentralization of Federated Submodular Maximization** | arXiv 2026 | federated_robust_data_selection | [Link](https://arxiv.org/abs/2611.11866) | — |
-| **P0 · Strong** | **OverlapAdvisor: Modeling and Adapting Computation-Communication Overlap for Distributed MoE Serving** | arXiv 2026 | Distributed MoE serving / computation-communication overlap | [Link](https://arxiv.org/abs/2611.11857) | — |
-| **P2 · Relevant** | **Rethinking Adaptive Routing on Dragonfly** | arXiv 2026 | HPC interconnect / distributed systems | [Link](https://arxiv.org/abs/2611.11811) | — |
-| **P2 · Relevant** | **Graph-Sparse Distributed Predictive Control for Multi-Robot Motion Planning vianEdge-Consensus ADMM** | arXiv 2026 | multi-robot distributed control | [Link](https://arxiv.org/abs/2611.11755) | — |
-| **P2 · Relevant** | **Reproducible quantum clustering for single-cell transcriptome atlases** | arXiv 2026 | large_scale_scientific_ml_adjacent | [Link](https://arxiv.org/abs/2611.11745) | — |
-| **P0 · Strong** | **InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure** | arXiv 2026 | Distributed LLM training / agentic infrastructure optimization | [Link](https://arxiv.org/abs/2611.11558) | — |
-| **P2 · Relevant** | **Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer** | arXiv 2026 | LLM-guided parameter search for quantum circuits | [Link](https://arxiv.org/abs/2611.11537) | — |
-| **P0 · Strong** | **Ostinato: Fast CPU-GPU MoE Inference for Local Agents via Resident Experts in Every Forward Pass** | arXiv 2026 | Local-agent serving / CPU-GPU MoE inference | [Link](https://arxiv.org/abs/2611.11533) | — |
 | **P2 · Relevant** | **Orthogonal Updates for the Win: Towards Accelerated Adaptive Minimax Optimization** | arXiv 2026 | Adaptive orthogonal updates and variance reduction for minimax ML training | [Link](https://arxiv.org/abs/2611.11387) | — |
 | **P0 · Strong** | **OOM: Offload-Optimized Full-Parameter MoE Training via Memory-Execution Co-Design** | arXiv 2026 | Distributed MoE training / host-GPU memory-execution co-design | [Link](https://arxiv.org/abs/2611.11364) | — |
 | **P2 · Relevant** | **NCCL-BOT: Closing the Loop on NCCL's Cost Model with Online Bandits** | arXiv 2026 | distributed_training_collective_tuning | [Link](https://arxiv.org/abs/2611.11303) | — |
@@ -66,6 +25,7 @@
 | **P2 · Relevant** | **DICOMPUTE: An Economic and Privacy-Aware Framework for Distributed Artificial Intelligence Inference** | arXiv 2026 | Distributed AI inference / privacy-aware architecture | [Link](https://arxiv.org/abs/2611.10804) | — |
 | **P2 · Relevant** | **Matchability-Aware Conformal Prediction for Open-Ended Language Model Generation** | arXiv 2026 | llm_generation_uncertainty_calibration | [Link](https://arxiv.org/abs/2611.10738) | — |
 | **P2 · Relevant** | **FedSGN: Federated Sparse Grassmann Newton Learning for IoT Anomaly Detection** | arXiv 2026 | federated_sparse_edge_learning | [Link](https://arxiv.org/abs/2611.10718) | — |
+| **P2 · Relevant** | **Distributed Intelligent Ad Hoc Routing Agents for Communication at Protests During Internet Shutdowns** | arXiv 2026 | distributed agent systems and resource-efficient communication | [Link](https://arxiv.org/abs/2611.10708) | — |
 | **P2 · Relevant** | **Performance Benchmarking of Federated Learning Frameworks for Medical Image Classification** | arXiv 2026 | federated_learning_framework_resource_benchmark | [Link](https://arxiv.org/abs/2611.10688) | — |
 | **P2 · Relevant** | **Exploration via Exploitation: The Blessing of Reward Diversity in Personalized Federated RL** | arXiv 2026 | Personalized federated RL with linear speedup | [Link](https://arxiv.org/abs/2611.12964) | — |
 | **P2 · Relevant** | **RBLA+: Efficient Rank-Specific LoRA Adapter Extraction for Federated Fine-Tuning with Heterogeneous Clients** | arXiv 2026 | Rank-specific LoRA adapter extraction for heterogeneous federated fine-tuning | [Link](https://arxiv.org/abs/2611.12961) | — |
@@ -116,25 +76,6 @@
 | **P0 · Strong** | **flash-comm: Self-Synchronizing Collective Communication for LLM Decoding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.06634) | — |
 | **P2 · Relevant** | **RAGAM-AI: A Hybrid Reinforcement Learning based Agentic approach powered by Generative AI for Edge Resource Management** | arXiv 2026 | llm_serving;agent | [Link](https://arxiv.org/abs/2611.06554) | — |
 | **P2 · Relevant** | **Distributed Consensus, Optimization, and Learning under Communication Constraints** | arXiv 2026 | communication_efficient_distributed_learning | [Link](https://arxiv.org/abs/2611.06524) | — |
-| **P2 · Relevant** | **On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer** | arXiv 2026 | LLM inference / cross-model transfer | [Link](https://arxiv.org/abs/2611.06976) | — |
-| **P1 · Watch** | **Hardwired Distributed Processing Units for Inference: Neural Decisions at the Sensor that Free the Host** | arXiv 2026 | gpu_kernel_compiler_accelerator | [Link](https://arxiv.org/abs/2611.06436) | — |
-| **P2 · Relevant** | **FedXCrop: Privacy-Preserving Crop Disease Detection via Federated Learning with Post-Aggregation Explainability under Non-IID Farm Distributions** | arXiv 2026 | federated learning; distributed training | [Link](https://arxiv.org/abs/2611.06221) | — |
-| **P2 · Relevant** | **Cross-Modal Semantic Successive Refinement for Generative Image Communication over Underwater Acoustic Channels** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2611.06205) | — |
-| **P0 · Strong** | **Chiron: Cache Management Empowered by LLM Intelligence for AI Workloads** | arXiv 2026 | moe_systems | [Link](https://arxiv.org/abs/2611.06179) | — |
-| **P0 · Strong** | **Ab Initio Accuracy Beyond the Cutoff: Distributed Message-Passing Equivariant Attention at Tens-of-Millions-of-Atom Scale** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.06122) | — |
-| **P2 · Relevant** | **3D Pose Estimation in Projection Space via Pixel-level Visible Light Communication** | arXiv 2026 | Physical AI / aerial-robot perception | [Link](https://arxiv.org/abs/2611.06121) | — |
-| **P2 · Relevant** | **SWEOps-Bench: Evaluating Agents for End-to-End Resolution of Software-Induced Cloud Incidents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.06099) | — |
-| **P0 · Strong** | **vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference** | arXiv 2026 | llm_serving;moe;dist | [Link](https://arxiv.org/abs/2611.06057) | — |
-| **P2 · Relevant** | **Alleviating Limited Effectiveness and Multi-Class Collapse in Deep Graph-level Clustering** | arXiv 2026 | graph_clustering_algorithmic_efficiency | [Link](https://arxiv.org/abs/2611.06052) | — |
-| **P2 · Relevant** | **Ray-Tracing-Based Dynamic Channel Sounding With Autoregressive Wi-Fi CSI Prediction** | arXiv 2026 | Physical AI / wireless sensing | [Link](https://arxiv.org/abs/2611.05970) | — |
-| **P1 · Watch** | **Split-KV: Efficient Context Parallelism for Training Diffusion Drafters** | arXiv 2026 | speculative decoding; diffusion drafters; context parallelism | [Link](https://arxiv.org/abs/2611.05926) | — |
-| **P1 · Watch** | **CHARM+: Cross-Hardware Attention with Re-Merge Multistream Mechanism** | arXiv 2026 | distributed training; efficient attention; cross-hardware communication | [Link](https://arxiv.org/abs/2611.05906) | — |
-| **P0 · Strong** | **Scheduling Data to Compute: Hierarchical Data Pipelining for LLM Training on AMD GPUs** | arXiv 2026 | LLM training data movement and AMD GPU systems | [Link](https://arxiv.org/abs/2611.05751) | — |
-| **P0 · Strong** | **Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning** | arXiv 2026 | Multi-agent LLM systems / shared KV cache / training efficiency | [Link](https://arxiv.org/abs/2611.06956) | — |
-| **P2 · Relevant** | **Data-Efficient Scaling-Law Discovery for Recommendation Systems via Coupled Hyperparameter Scaling** | arXiv 2026 | Compute-efficient scaling-law discovery for ranking models | [Link](https://arxiv.org/abs/2611.05643) | — |
-| **P2 · Relevant** | **Energy-efficient End-to-End Communication System with Spiking Neural Networks** | arXiv 2026 | Energy-efficient spiking neural network inference for edge communication | [Link](https://arxiv.org/abs/2611.05550) | — |
-| **P2 · Relevant** | **HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation** | arXiv 2026 | agentic_memory_communication | [Link](https://arxiv.org/abs/2611.05319) | — |
-| **P2 · Relevant** | **Reality and Perceptual Gaps in Expressive Swarm Robotics** | arXiv 2026 | swarm_robotics_deployment | [Link](https://arxiv.org/abs/2611.05244) | — |
 | **P2 · Relevant** | **QPP-Aware MCX over Tactical Edge 3D Networks in Public-Safety Communications** | arXiv 2026 | Edge communications / tactical services | [Link](https://arxiv.org/abs/2611.05165) | — |
 | **P2 · Relevant** | **Distributed Linear Bandits for Freshness-Aware Preprocessing in MEC-Enabled Digital Twin Networks** | arXiv 2026 | mec_digital_twin_bandits | [Link](https://arxiv.org/abs/2611.05115) | — |
 | **P0 · Strong** | **Workload-Static Optical Circuit Switching For Scalable LLM Inference Decode** | arXiv 2026 | llm_decode_network_fabric | [Link](https://arxiv.org/abs/2611.05104) | — |
@@ -162,6 +103,7 @@
 | **P2 · Relevant** | **Bridging Neural Tangent Kernel Analysis and Reinforcement Learning for Deep Function Approximation** | arXiv 2026 | sample-efficient RL / training dynamics | [Link](https://arxiv.org/abs/2611.03435) | — |
 | **P2 · Relevant** | **From Reactive to Agentic Resilience: Multi-Timescale AI-RAN Orchestration Under Signaling Storms** | arXiv 2026 | AI-RAN / multi-timescale orchestration | [Link](https://arxiv.org/abs/2611.03406) | — |
 | **P2 · Relevant** | **Multi-GPU Acceleration of Interface Problems in FEniCS, with Application to Cardiac Modeling** | arXiv 2026 | gpu_hpc_acceleration | [Link](https://arxiv.org/abs/2611.03181) | — |
+| **P2 · Relevant** | **Inner optimizers in active-learning Kriging reliability analysis: a pre-specified comparison and the unconservative estimates left by unlearned failure modes** | arXiv 2026 | active_learning_optimization_efficiency | [Link](https://arxiv.org/abs/2611.03117) | — |
 | **P2 · Relevant** | **Networked AI: Architecture, Theory, and Applications** | arXiv 2026 | networked AI / distributed agent efficiency | [Link](https://arxiv.org/abs/2611.03063) | — |
 | **P2 · Relevant** | **Resilient Cell-Free MIMO ISAC Under Uncertainties: An Impairment-Aware Graph Neural Network Framework** | arXiv 2026 | edge_cloud | [Link](https://arxiv.org/abs/2611.03054) | — |
 | **P2 · Relevant** | **Hybrid Federated Learning for Multimodal Fusion under Missing Modalities and Site Heterogeneity** | arXiv 2026 | distributed_training | [Link](https://arxiv.org/abs/2611.03032) | — |
@@ -184,6 +126,7 @@
 | **P2 · Relevant** | **AI-Aided and AI-Oriented Integrated Sensing, Communication, and Computation: A Survey** | arXiv 2026 | AI-ISCC systems survey | [Link](https://arxiv.org/abs/2611.01521) | — |
 | **P2 · Relevant** | **Sensitivity Inflation from Cross-Record Precision Routing in Private Quantized Fine-Tuning** | arXiv 2026 | quantization;distributed training | [Link](https://arxiv.org/abs/2611.01411) | — |
 | **P2 · Relevant** | **SpecUltra: A Unified Foundation Model for Heterogeneous Spectral Images** | arXiv 2026 | edge/cloud;multimodal | [Link](https://arxiv.org/abs/2611.01396) | — |
+| **P2 · Relevant** | **Eliminating Servers in State Machine Replication** | arXiv 2026 | serverless distributed storage and cloud runtime | [Link](https://arxiv.org/abs/2611.01363) | — |
 | **P0 · Strong** | **STLT: A Novel System for Energy-Aware Distributed Inference in the Edge-Cloud-Space Continuum** | arXiv 2026 | edge/cloud;distributed inference;heterogeneous systems | [Link](https://arxiv.org/abs/2611.01233) | — |
 | **P2 · Relevant** | **Compile as Hypothesis: A Headroom Typology for Prompt Optimization on Real Reasoning Models** | arXiv 2026 | efficient reasoning | [Link](https://arxiv.org/abs/2611.01135) | — |
 | **P2 · Relevant** | **Appointed-Time Fault-Tolerant Fast Terminal Sliding Control for UAVs with a Tracking Error-Based Disturbance Observer** | arXiv 2026 | Physical AI;runtime/infra | [Link](https://arxiv.org/abs/2611.01061) | — |
@@ -295,6 +238,7 @@
 | **P2 · Relevant** | **When is early stopping beneficial under label noise? A phase diagram for kernel gradient flow** | arXiv 2026 | training dynamics and early stopping | [Link](https://arxiv.org/abs/2610.33846) | — |
 | **P2 · Relevant** | **Scalable Unrolled Chains for MRI Reconstruction** | arXiv 2026 | Efficient training | [Link](https://arxiv.org/abs/2610.33695) | — |
 | **P2 · Relevant** | **Collective Collaboration of Recursive Autonomous Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33515) | — |
+| **P2 · Relevant** | **Nemo: Efficient Caching with Index Pushdown for Disaggregated OLTP Databases** | arXiv 2026 | disaggregated database caching and storage systems | [Link](https://arxiv.org/abs/2610.33306) | — |
 | **P2 · Relevant** | **CCAaaS: An Orchestration Platform for High-Velocity Design, Development, and Deployment of Data Center Transports at Meta** | arXiv 2026 | Distributed AI infrastructure | [Link](https://arxiv.org/abs/2610.33231) | — |
 | **P2 · Relevant** | **Kernelised covariance matrices, dimension reduction and imbalanced spectral clustering** | arXiv 2026 | efficient dimension reduction and clustering | [Link](https://arxiv.org/abs/2610.33177) | — |
 | **P2 · Relevant** | **When Human Corrections Travel: Safety in Federated VLA Adaptation** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32888) | — |
@@ -303,6 +247,7 @@
 | **P2 · Relevant** | **PCFBench: How Far Can Large Vision-Language Models Go in Physics-aware Photonic Inverse Design?** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32485) | — |
 | **P2 · Relevant** | **Sharpness-aware Orthogonalized Momentum Algorithms** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32465) | — |
 | **P1 · Watch** | **Heterogeneous Space Data Centers: A Key Paradigm for Future Non-Terrestrial and In-Orbit Services** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32260) | — |
+| **P2 · Relevant** | **MetaDB: Putting File-System Structure Back into Distributed Databases** | arXiv 2026 | distributed metadata storage and cloud infrastructure | [Link](https://arxiv.org/abs/2610.32247) | — |
 | **P2 · Relevant** | **Federated Nonparametric Regression with Heterogeneous Clients** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.32178) | — |
 | **P2 · Relevant** | **Understanding Communication Failures in Multi-Agent LLM Systems** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32060) | — |
 | **P0 · Strong** | **HyScale: Scaling Long-Context Training for Learned Sparse Attention** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32057) | — |
@@ -315,11 +260,13 @@
 | **P2 · Relevant** | **Federated Graph Retrieval-Augmented Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.30728) | — |
 | **P2 · Relevant** | **HDLouvain: High-Throughput Incremental Clustering for Hyperdimensional Data** | arXiv 2026 | gpu_heterogeneous_efficiency | [Link](https://arxiv.org/abs/2610.30687) | — |
 | **P1 · Watch** | **OMRC: Multipath Reliability for Direct-Connect Optical Interconnects** | arXiv 2026 | distributed_training_inference | [Link](https://arxiv.org/abs/2610.30551) | — |
+| **P2 · Relevant** | **Resource-Aware Scheduling for Distributed Quantum Computing** | arXiv 2026 | heterogeneous accelerator runtime scheduling | [Link](https://arxiv.org/abs/2610.30482) | — |
 | **P2 · Relevant** | **Secure Agentic AI and Multimodal Intelligence in 6G Communication Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.30436) | — |
 | **P2 · Relevant** | **The End of Consensus Research?** | arXiv 2026 | AI-assisted protocol research harness | [Link](https://arxiv.org/abs/2610.30114) | — |
 | **P2 · Relevant** | **Enumeration-based Triangle Counting on GPUs** | arXiv 2026 | kernel,dist | [Link](https://arxiv.org/abs/2610.29988) | — |
 | **P2 · Relevant** | **D-Pingmesh: Dynamic Probing and Fault Localization for Reconfigurable Datacenter Networks** | arXiv 2026 | datacenter network observability | [Link](https://arxiv.org/abs/2610.29787) | — |
 | **P1 · Watch** | **Benchmarking Coding Agents for System-Level Performance Optimization** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29695) | — |
+| **P2 · Relevant** | **SemQAM: A Unified Generative Image Codec for Joint Semantic-Channel Coding and Modulation** | arXiv 2026 | Image coding; generative codecs; efficient decoding | [Link](https://arxiv.org/abs/2610.29643) | — |
 | **P2 · Relevant** | **Recursive Code Evolution for Task-Oriented Semantic Communications** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29641) | — |
 | **P0 · Strong** | **RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2610.29544) | — |
 | **P2 · Relevant** | **Asynchronous, Generation-Free ABC: Streaming AMIS Reweighting for Heterogeneous Simulator Workloads on HPC** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29506) | — |
@@ -347,52 +294,154 @@
 | **P2 · Relevant** | **Physics-Inspired Optimizers beyond the Edge of Stability: Period-Two Orbits and Delayed Instability** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.27321) | — |
 | **P2 · Relevant** | **A Hybrid TFT-NBEATS Framework for Robust Multi-Horizon Photovoltaic Power Forecasting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.27155) | — |
 | **P2 · Relevant** | **Learning to Refer: Inference-Time Collaboration in Decentralized Federated Learning** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.26800) | — |
-| **P1 · Watch** | **Polar Switch: Fast Muon Orthogonalization with Polynomial Circuits** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26742) | — |
-| **P2 · Relevant** | **GeoSplit: Selective Edge--Server Map Acquisition for Cross-User Travel-Mode Recognition** | arXiv 2026 | dist | [Link](https://arxiv.org/abs/2610.26707) | — |
-| **P2 · Relevant** | **A Type System for Communication-Safe Hardware Design** | arXiv 2026 | hardware design and compiler type systems | [Link](https://arxiv.org/abs/2610.26599) | — |
-| **P1 · Watch** | **A 105 MS/s 4.18 nJ/inference 0.765 $\text{mm}^\text{2}$ Mixed-Signal Streaming ML Engine for Wireless Baseband in 12LP+ FinFET** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.26552) | — |
-| **P0 · Strong** | **UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.26530) | — |
-| **P2 · Relevant** | **CARRS: A Constraint-Aware, Real-Time Routing System for Emergency Vehicles in Urban Environments** | arXiv 2026 | real-time emergency routing | [Link](https://arxiv.org/abs/2610.26346) | — |
-| **P2 · Relevant** | **Mobile Embodied Agent Network (MEAN): Integrated Framework, Enabling Technologies, and Task-Driven Deployment** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26297) | — |
-| **P2 · Relevant** | **Learning SOCP Solver Dynamics with Graph Neural Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26285) | — |
-| **P0 · Strong** | **GeoTrain: Energy-Aware Automatic Parallelism for Foundation Model Training on Heterogeneous Geo-Distributed Resources** | arXiv 2026 | llm_serving,dist,edge | [Link](https://arxiv.org/abs/2610.26178) | — |
-| **P2 · Relevant** | **Dynamical Batching: How Class-Cycling Training Shapes the Internal Structure of Neural Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26156) | — |
-| **P2 · Relevant** | **Physics-Driven Framework for QoS-Constrained Satellite System with Non-Linear PA Distortion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26153) | — |
-| **P2 · Relevant** | **Superposed analog memory for vector storage in neural networks** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.26118) | — |
-| **P2 · Relevant** | **Understanding When Reflective Prompt and Skill Optimization Helps on Locally Served Reasoning Models: A Two-Model Study of GEPA and SkillOpt** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26020) | — |
-| **P0 · Strong** | **Asynchronous On-Policy Self-Distillation** | arXiv 2026 | Distributed training / asynchronous RL distillation | [Link](https://arxiv.org/abs/2610.25880) | — |
-| **P1 · Watch** | **Communication-Efficient Federated Domain Generalization in Edge Networks via Dynamic Prototype Regulation** | arXiv 2026 | Edge / distributed multimodal learning | [Link](https://arxiv.org/abs/2610.25810) | — |
-| **P0 · Strong** | **Learning from Fleet Experience: A Collective Learning Paradigm for Robots** | arXiv 2026 | Physical AI / fleet learning infrastructure | [Link](https://arxiv.org/abs/2610.25736) | — |
-| **P1 · Watch** | **PFedQFT: Personalized Federated Quantum-Inspired Fine-Tuning for Medical Large Language Models** | arXiv 2026 | parameter- and communication-efficient federated LLM fine-tuning | [Link](https://arxiv.org/abs/2610.25712) | — |
-| **P1 · Watch** | **AdaFedXplain: Adaptive Federated Learning with Explainable AI for Ransomware Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25318) | — |
-| **P2 · Relevant** | **Triple Overlap in Pipelined Krylov Methods on Multi-GPU Systems** | arXiv 2026 | Multi-GPU Krylov pipeline overlap | [Link](https://arxiv.org/abs/2610.25058) | — |
-| **P0 · Strong** | **Arctic-SWE: Revisiting the Long Horizon Agent Training by Modeling-System Co-Design** | arXiv 2026 | agent training systems | [Link](https://arxiv.org/abs/2610.24914) | — |
-| **P1 · Watch** | **Do We Need the Largest LLMs for Every Clinical Decision?** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.26937) | — |
-| **P0 · Strong** | **FlowMaker: From Tasks to Cost-Efficient Generative AI Workflow Deployments** | arXiv 2026 | LLM workflow serving | [Link](https://arxiv.org/abs/2610.24861) | — |
-| **P1 · Watch** | **Toward Collective Model Intelligence: Characterizing and Coordinating Models** | arXiv 2026 | Multi-model serving / routing | [Link](https://arxiv.org/abs/2610.24739) | — |
-| **P0 · Strong** | **AdamPM: Memory-Efficient LLM Optimization via Moment Pooling** | arXiv 2026 | LLM optimizer-state memory pooling | [Link](https://arxiv.org/abs/2610.24598) | — |
-| **P2 · Relevant** | **A Multi-Step Inertial ADMM Algorithm for Federated Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24536) | — |
-| **P0 · Strong** | **ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning** | arXiv 2026 | efficient RLVR rollout probing | [Link](https://arxiv.org/abs/2610.24515) | — |
-| **P2 · Relevant** | **Steerable Pluralistic Policy Alignment from Anonymized Crowd Feedback** | arXiv 2026 | RL / post-training efficiency | [Link](https://arxiv.org/abs/2610.26914) | — |
-| **P0 · Strong** | **Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud, Heterogeneous LLM Inference Fleets** | arXiv 2026 | Heterogeneous LLM serving | [Link](https://arxiv.org/abs/2610.24355) | — |
-| **P1 · Watch** | **SigmaTrace: Library-Agnostic Observability for CPU/GPU-Initiated RDMA Communication** | arXiv 2026 | GPU communication observability | [Link](https://arxiv.org/abs/2610.24328) | — |
+| **P0 · Strong** | **Zero-SM NCCL: A Systematic Guide to Designing and Deploying SM-Free GPU Communication** | arXiv 2026 | gpu-communication | [Link](https://arxiv.org/abs/2611.18075) | — |
+| **P1 · Watch** | **Where Demand Meets Supply: Spatial Elastic Consensus for Low-Bandwidth Collaborative Perception** | arXiv 2026 | efficient_agent_systems | [Link](https://arxiv.org/abs/2611.22439) | — |
+| **P2 · Relevant** | **When Cooperation Must Change: Semantic Strategy Unlearning in Multi-Agent Reinforcement Learning** | arXiv 2026 | multi-agent-rl | [Link](https://arxiv.org/abs/2611.17917) | — |
+| **P2 · Relevant** | **What Makes Good Datasets for Intelligent Multi-Modal Sensing-Communication Integration?** | arXiv 2026 | Multimodal sensing-communication dataset quality and model utility | [Link](https://arxiv.org/abs/2611.19206) | — |
+| **P2 · Relevant** | **Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer** | arXiv 2026 | LLM-guided parameter search for quantum circuits | [Link](https://arxiv.org/abs/2611.11537) | — |
+| **P2 · Relevant** | **VISTA: A Framework for Vision-Informed Semantic Traffic Awareness** | arXiv 2026 | edge_multimodal_traffic_communication | [Link](https://arxiv.org/abs/2611.20458) | — |
+| **P0 · Strong** | **vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference** | arXiv 2026 | llm_serving;moe;dist | [Link](https://arxiv.org/abs/2611.06057) | — |
+| **P2 · Relevant** | **V2V Communications Using Blockchain-Enabled 6G Technology and Federated Learning** | arXiv 2026 | Edge/cloud heterogeneous AI systems; federated learning | [Link](https://arxiv.org/abs/2611.21932) | — |
+| **P0 · Strong** | **Transfer Once, Ask Locally: Compact Audio-Visual Memory for On-Device Question Answering** | arXiv 2026 | llm_serving;sparse;edge | [Link](https://arxiv.org/abs/2611.23085) | — |
+| **P0 · Strong** | **Train High, Ship Low: Efficient LoRA Synchronization for Distributed On-Policy Post-Training** | arXiv 2026 | Communication-efficient synchronization for distributed on-policy LLM post-training | [Link](https://arxiv.org/abs/2611.13306) | — |
+| **P2 · Relevant** | **Top-Level Operational Equilibrium: When is the response of a distributed system predictable from its own telemetry?** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2611.20780) | — |
+| **P0 · Strong** | **Together Compiler: Continual Compilation for AI Inference** | arXiv 2026 | GPU kernel / DSL / compilers | [Link](https://arxiv.org/abs/2611.14681) | — |
+| **P0 · Strong** | **TIDE: Reclaiming Lost Performance In On-Policy Reinforcement Learning** | arXiv 2026 | llm-rl-training-systems | [Link](https://arxiv.org/abs/2611.17924) | — |
+| **P2 · Relevant** | **The Bipartible Architecture Pattern: Transparently Directing HTTP Requests over InfiniBand** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2611.21442) | — |
 | **P0 · Strong** | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |
+| **P1 · Watch** | **TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks** | arXiv 2026 | Distributed training/inference; MoE; speculative decoding; agent runtime; heterogeneous chips | [Link](https://arxiv.org/abs/2611.22115) | — |
+| **P2 · Relevant** | **Technical Report of Auriga's 1:10 Scale Autonomous Vehicle Robot** | arXiv 2026 | edge_physical_ai_robot_platform | [Link](https://arxiv.org/abs/2611.18855) | — |
+| **P0 · Strong** | **TAILROLL: Tail-Aware Rollout Acceleration for RL-Based LLM Post-Training** | arXiv 2026 | Distributed training; LLM rollout serving; KV-cache migration | [Link](https://arxiv.org/abs/2611.22206) | — |
+| **P2 · Relevant** | **SWEOps-Bench: Evaluating Agents for End-to-End Resolution of Software-Induced Cloud Incidents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.06099) | — |
+| **P0 · Strong** | **SURMA: Efficient Fine-Grained Communication Offload for SuperPOD** | arXiv 2026 | gpu_scaleup_kv_cache_communication | [Link](https://arxiv.org/abs/2611.21274) | — |
+| **P0 · Strong** | **Superfluid: Local AI Server for Distributed LLM Inference** | arXiv 2026 | local-distributed-serving | [Link](https://arxiv.org/abs/2611.17753) | — |
+| **P0 · Strong** | **Supercharging Olmo-core for Efficient and Scalable MoE Training** | arXiv 2026 | Large-scale MoE training systems | [Link](https://arxiv.org/abs/2611.18956) | — |
+| **P0 · Strong** | **SubGPU Pipelining: Intra-GPU Fine-Grained Spatial Parallelism for LLM Inference** | arXiv 2026 | GPU kernel / DSL / compilers | [Link](https://arxiv.org/abs/2611.14904) | — |
+| **P2 · Relevant** | **STORMGUIDE-FL: Stochastic Remote Guidance for Efficient Mining of Federated Streaming Data** | arXiv 2026 | distributed_training_edge_cloud | [Link](https://arxiv.org/abs/2611.20975) | — |
+| **P2 · Relevant** | **STeP-C: Real-Time Neural Compression for Distributed Fiber-Optic Sensing at Scale** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.17126) | — |
+| **P0 · Strong** | **SS-HSDP: Efficient and Flexible Sharded Data Parallelism via Runtime-Update Decoupling** | arXiv 2026 | distributed training; sharded data parallelism | [Link](https://arxiv.org/abs/2611.16467) | — |
+| **P1 · Watch** | **Split-KV: Efficient Context Parallelism for Training Diffusion Drafters** | arXiv 2026 | speculative decoding; diffusion drafters; context parallelism | [Link](https://arxiv.org/abs/2611.05926) | — |
+| **P0 · Strong** | **SPICE: Sparse Parameter Gossip for LLM Pretraining** | arXiv 2026 | llm_serving;dist | [Link](https://arxiv.org/abs/2611.23053) | — |
+| **P2 · Relevant** | **Sparse Matrix Multiplication Exponent 1.5 in the Low-bandwidth Model** | arXiv 2026 | sparse and distributed computation | [Link](https://arxiv.org/abs/2611.15201) | — |
+| **P0 · Strong** | **SMELL: Sparsity-aware Memory Efficient Federated Fine-tuning for Long-context LLMs** | arXiv 2026 | federated_long_context_llm_memory_efficiency | [Link](https://arxiv.org/abs/2611.19349) | — |
+| **P2 · Relevant** | **SliceWise: Traffic-Aware Multi-Agent RL with Temporal Encoding for Joint Slice Admission and Resource Orchestration in O-RAN** | arXiv 2026 | edge_cloud_distributed_ai_control | [Link](https://arxiv.org/abs/2611.19357) | — |
+| **P2 · Relevant** | **Simplicity Goes Far: Auditing Prompt Optimizers with Demonstration-Conditioned Prompt Search** | arXiv 2026 | adjacent_ml_research:cs.AI | [Link](https://arxiv.org/abs/2611.22605) | — |
+| **P2 · Relevant** | **Semantics First, Pixels Later: Mission-Driven Event Streams for Drone Video over Bandwidth-Starved Links** | arXiv 2026 | semantic_event_streams_for_drone_edge_cloud | [Link](https://arxiv.org/abs/2611.19463) | — |
+| **P1 · Watch** | **Semantic Communication via Analog RF Computing: When the Radio Computes the Meaning** | arXiv 2026 | Edge/cloud heterogeneous AI systems; low-power inference hardware | [Link](https://arxiv.org/abs/2611.22100) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
+| **P0 · Strong** | **Scheduling Data to Compute: Hierarchical Data Pipelining for LLM Training on AMD GPUs** | arXiv 2026 | LLM training data movement and AMD GPU systems | [Link](https://arxiv.org/abs/2611.05751) | — |
+| **P2 · Relevant** | **Scaling Pêlagos: Multi-GPU Orchestration for Relay Belief-Propagation Decoding** | arXiv 2026 | multi-GPU orchestration | [Link](https://arxiv.org/abs/2611.16285) | — |
+| **P2 · Relevant** | **Safe and Efficient Navigation Considering Texting Pedestrians via Attention-Aware Cost-map Tuning** | arXiv 2026 | Physical AI; navigation | [Link](https://arxiv.org/abs/2611.16725) | — |
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
+| **P2 · Relevant** | **Rethinking Adaptive Routing on Dragonfly** | arXiv 2026 | HPC interconnect / distributed systems | [Link](https://arxiv.org/abs/2611.11811) | — |
+| **P2 · Relevant** | **Reproducible quantum clustering for single-cell transcriptome atlases** | arXiv 2026 | large_scale_scientific_ml_adjacent | [Link](https://arxiv.org/abs/2611.11745) | — |
+| **P0 · Strong** | **Release Sooner, Expose Less: Offloading MoE Dispatch in NCCL-EP under Dual-Batch Overlap** | arXiv 2026 | llm_serving;moe | [Link](https://arxiv.org/abs/2611.12362) | — |
+| **P2 · Relevant** | **Regularized Score Centering** | arXiv 2026 | Efficient reasoning and agent systems; RL post-training | [Link](https://arxiv.org/abs/2611.21791) | — |
+| **P0 · Strong** | **Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination** | arXiv 2026 | LLM-agent serving; KV cache; scheduling | [Link](https://arxiv.org/abs/2611.16661) | — |
+| **P0 · Strong** | **ReCALM: A Residual-enhanced Crowdsourced Analytic Learning Mechanism for Distributed Continual Service Construction** | arXiv 2026 | distributed_continual_training_efficiency | [Link](https://arxiv.org/abs/2611.19276) | — |
+| **P2 · Relevant** | **Reality and Perceptual Gaps in Expressive Swarm Robotics** | arXiv 2026 | swarm_robotics_deployment | [Link](https://arxiv.org/abs/2611.05244) | — |
+| **P2 · Relevant** | **Ray-Tracing-Based Dynamic Channel Sounding With Autoregressive Wi-Fi CSI Prediction** | arXiv 2026 | Physical AI / wireless sensing | [Link](https://arxiv.org/abs/2611.05970) | — |
+| **P2 · Relevant** | **Rateless Coding for Efficient Model Broadcast in Federated Learning** | arXiv 2026 | distributed training / inference | [Link](https://arxiv.org/abs/2611.15499) | — |
+| **P1 · Watch** | **QTOP: Scaling Humanoid Motion Tracking with Quantile Critics** | arXiv 2026 | VLA/WAM/Physical AI training | [Link](https://arxiv.org/abs/2611.20791) | — |
+| **P1 · Watch** | **Projected Penalty-Gradient Tracking for Communication-Efficient Byzantine-Resilient Federated Learning** | arXiv 2026 | dist;edge | [Link](https://arxiv.org/abs/2611.22929) | — |
+| **P2 · Relevant** | **Privacy-Preserving Clustering Algorithm and Parameter Selection for Collaborative Population Stratification Using Distributed PCA** | arXiv 2026 | Distributed-PCA low-rank summaries for privacy-preserving clustering | [Link](https://arxiv.org/abs/2611.18925) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
+| **P2 · Relevant** | **Practical Semantic Communication for General-Purpose Networks: Compression of High-Dimensional Embeddings Under Quantization** | arXiv 2026 | edge_cloud_embedding_compression | [Link](https://arxiv.org/abs/2611.20863) | — |
 | **P2 · Relevant** | **Personalized health coaching via coachable health age and counterfactual wearable trajectories** | arXiv 2026 | Wearable world models / health coaching agents | [Link](https://arxiv.org/abs/2611.08568) | — |
+| **P0 · Strong** | **OverlapAdvisor: Modeling and Adapting Computation-Communication Overlap for Distributed MoE Serving** | arXiv 2026 | Distributed MoE serving / computation-communication overlap | [Link](https://arxiv.org/abs/2611.11857) | — |
+| **P2 · Relevant** | **Over-the-Air Semantic Alignment via Dual Stacked Intelligent Metasurfaces** | arXiv 2026 | wave_domain_semantic_alignment_hardware | [Link](https://arxiv.org/abs/2611.19515) | — |
+| **P0 · Strong** | **Ostinato: Fast CPU-GPU MoE Inference for Local Agents via Resident Experts in Every Forward Pass** | arXiv 2026 | Local-agent serving / CPU-GPU MoE inference | [Link](https://arxiv.org/abs/2611.11533) | — |
+| **P0 · Strong** | **One-Sided Expert-Parallel All-to-All for Mixture-of-Experts Inference over NVLink** | arXiv 2026 | MoE inference communication and expert-parallel GPU systems | [Link](https://arxiv.org/abs/2611.13188) | — |
+| **P2 · Relevant** | **One-Shot Federated Graph Learning via High-Fidelity Proxies and Transferability-Guided Collaboration** | arXiv 2026 | federated_graph_learning_communication_efficiency | [Link](https://arxiv.org/abs/2611.12131) | — |
+| **P2 · Relevant** | **One Fuzzer, Many Reasoners: Adaptive Neuro-Symbolic Fuzzing with Reliability-Calibrated and Context-Gated Guidance** | arXiv 2026 | Neural-symbolic testing efficiency | [Link](https://arxiv.org/abs/2611.16211) | — |
+| **P2 · Relevant** | **On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer** | arXiv 2026 | LLM inference / cross-model transfer | [Link](https://arxiv.org/abs/2611.06976) | — |
+| **P0 · Strong** | **Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning** | arXiv 2026 | Multi-agent LLM systems / shared KV cache / training efficiency | [Link](https://arxiv.org/abs/2611.06956) | — |
+| **P1 · Watch** | **Network-Native DNN Architecture Synthesis for Distributed Inference** | arXiv 2026 | Network-native distributed inference | [Link](https://arxiv.org/abs/2611.20824) | — |
+| **P1 · Watch** | **Network-Co-Designed Dynamic Sparsification for Dependable Distributed Robot Learning over 3GPP Networks** | arXiv 2026 | Network-co-designed dynamic sparsification for distributed robot learning | [Link](https://arxiv.org/abs/2611.13282) | — |
+| **P2 · Relevant** | **Muon Attains $\mathcal{O}(\varepsilon^{-3})$ Iteration Complexity under Shuffling** | arXiv 2026 | muon-training-optimization-theory | [Link](https://arxiv.org/abs/2611.18124) | — |
+| **P2 · Relevant** | **Machine Learning for Scalable Multi-AP Coordination in IEEE 802.11bn Networks** | arXiv 2026 | ML-based network coordination | [Link](https://arxiv.org/abs/2611.16634) | — |
+| **P2 · Relevant** | **LoCoJAX: Host-Local Coordination for Small-Model RL on TPUs** | arXiv 2026 | edge / cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2611.16301) | — |
+| **P1 · Watch** | **LM-SimBench: A Unified Framework, Dataset, and Benchmark for Large Language Model Training Simulation** | arXiv 2026 | high-value efficient-ML systems adjacency | [Link](https://arxiv.org/abs/2611.14285) | — |
+| **P2 · Relevant** | **Linglong Agent Service: A Runtime for Centralized Agent Reasoning and Distributed Execution** | arXiv 2026 | efficient_reasoning_agent_systems | [Link](https://arxiv.org/abs/2611.21129) | — |
+| **P0 · Strong** | **Learning Stratified Policies for Inference-Time Objectives** | arXiv 2026 | adjacent_ml_research:cs.AI,cs.LG | [Link](https://arxiv.org/abs/2611.23154) | — |
+| **P2 · Relevant** | **Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency** | arXiv 2026 | efficient_agent_systems | [Link](https://arxiv.org/abs/2611.23198) | — |
+| **P2 · Relevant** | **Large Language Model-based Optimization for Wireless Communication: A Survey** | arXiv 2026 | LLM 驱动的无线资源优化与边云系统 | [Link](https://arxiv.org/abs/2611.19876) | — |
+| **P0 · Strong** | **LACCO: Local Accumulation with Computation--Communication Overlap** | arXiv 2026 | communication-overlapped-llm-training | [Link](https://arxiv.org/abs/2611.17991) | — |
+| **P0 · Strong** | **InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure** | arXiv 2026 | Distributed LLM training / agentic infrastructure optimization | [Link](https://arxiv.org/abs/2611.11558) | — |
+| **P1 · Watch** | **Implicit-Reasoning-Enabled Elastic Semantic Communications for AI-Agent Networks** | arXiv 2026 | elastic_device_edge_agent_inference | [Link](https://arxiv.org/abs/2611.20399) | — |
+| **P2 · Relevant** | **IANN: A Unified Framework for Equivariant InterAtomic Neural Networks with User-Friendly Implementation** | arXiv 2026 | distributed_ml_training_inference | [Link](https://arxiv.org/abs/2611.19793) | — |
+| **P0 · Strong** | **How well does graph superoptimization transfer? Adapting tensor-graph superoptimizer to a Triton-based NPU** | arXiv 2026 | kernel;edge | [Link](https://arxiv.org/abs/2611.22844) | — |
+| **P2 · Relevant** | **Hivemind: A Federated Protocol for AI-Mediated Tacit Knowledge Sharing in Organisations** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2611.20988) | — |
+| **P2 · Relevant** | **HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation** | arXiv 2026 | agentic_memory_communication | [Link](https://arxiv.org/abs/2611.05319) | — |
+| **P1 · Watch** | **Hardwired Distributed Processing Units for Inference: Neural Decisions at the Sensor that Free the Host** | arXiv 2026 | gpu_kernel_compiler_accelerator | [Link](https://arxiv.org/abs/2611.06436) | — |
+| **P2 · Relevant** | **HALight: Heterogeneous Multi-Agent Reinforcement Learning for Traffic Signal Control under Lane-Level Missing Observations** | arXiv 2026 | multi-agent RL; traffic control | [Link](https://arxiv.org/abs/2611.16574) | — |
+| **P2 · Relevant** | **Graph-Sparse Distributed Predictive Control for Multi-Robot Motion Planning vianEdge-Consensus ADMM** | arXiv 2026 | multi-robot distributed control | [Link](https://arxiv.org/abs/2611.11755) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
+| **P2 · Relevant** | **Generative Design with Real-time Physics Explainability: Towards Product Definition in the Age of AI** | arXiv 2026 | physics-guided-generative-design | [Link](https://arxiv.org/abs/2611.17560) | — |
+| **P0 · Strong** | **Fuse-All MoE Inference Kernel with Load Balancing on TPUs** | arXiv 2026 | moe-serving | [Link](https://arxiv.org/abs/2611.17857) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
+| **P2 · Relevant** | **From Isolated Protocols to Integrated Pipelines: Benchmarking IoT Communication in the MASA Living Lab** | arXiv 2026 | IoT and edge communication pipeline performance | [Link](https://arxiv.org/abs/2611.15595) | — |
+| **P2 · Relevant** | **FedXCrop: Privacy-Preserving Crop Disease Detection via Federated Learning with Post-Aggregation Explainability under Non-IID Farm Distributions** | arXiv 2026 | federated learning; distributed training | [Link](https://arxiv.org/abs/2611.06221) | — |
+| **P2 · Relevant** | **Federated TD Learning in Heterogeneous Environments with Average Rewards: A Two-timescale Approach with Polyak-Ruppert Averaging** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2611.21370) | — |
 | **P2 · Relevant** | **Federated Lightweight Transformer for Network-Layer Cyberattack Detection in O-RAN** | arXiv 2026 | federated_edge_transformer | [Link](https://arxiv.org/abs/2611.09992) | — |
+| **P2 · Relevant** | **Fair and Efficient Distributed EV Charging Coordination Using Threshold Cryptography and Machine Learning** | arXiv 2026 | distributed-ev-charging-coordination | [Link](https://arxiv.org/abs/2611.17577) | — |
+| **P2 · Relevant** | **Explainable Federated Learning via Global-Local Attribution Alignment** | arXiv 2026 | distributed_training_federated_learning | [Link](https://arxiv.org/abs/2611.20445) | — |
+| **P1 · Watch** | **ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents** | arXiv 2026 | embodied-agent-learning | [Link](https://arxiv.org/abs/2611.18176) | — |
+| **P2 · Relevant** | **Energy-Proportional Serverless Computing on SBC Clusters** | arXiv 2026 | efficient-ML technical adjacency | [Link](https://arxiv.org/abs/2611.14026) | — |
+| **P2 · Relevant** | **Energy-efficient End-to-End Communication System with Spiking Neural Networks** | arXiv 2026 | Energy-efficient spiking neural network inference for edge communication | [Link](https://arxiv.org/abs/2611.05550) | — |
+| **P2 · Relevant** | **EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations** | arXiv 2026 | physical_ai_multi_robot_systems | [Link](https://arxiv.org/abs/2611.20100) | — |
+| **P0 · Strong** | **Efficient Multi-View Generation with Iterative Global-Local Proxy Attention** | arXiv 2026 | diffusion_multiview_proxy_attention | [Link](https://arxiv.org/abs/2611.20703) | — |
+| **P2 · Relevant** | **Efficient Machine Learning Interatomic Potentials** | arXiv 2026 | adjacent_ml_research:cond-mat.mtrl-sci,cs.LG | [Link](https://arxiv.org/abs/2611.22444) | — |
+| **P2 · Relevant** | **Efficient Knowledge Transfer in Federated Bayesian Optimization through Neural Network Surrogates** | arXiv 2026 | distributed training / inference | [Link](https://arxiv.org/abs/2611.15707) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
+| **P2 · Relevant** | **DPA: Decentralized Primal Averaging with Quasi-Global Momentum for Highly Heterogeneous Data** | arXiv 2026 | Decentralized distributed training | [Link](https://arxiv.org/abs/2611.16871) | — |
+| **P1 · Watch** | **Disaggregated LLM Inference in Space: A Communication Feasibility Study** | arXiv 2026 | Disaggregated inference over orbital links | [Link](https://arxiv.org/abs/2611.20893) | — |
+| **P0 · Strong** | **Direction or Magnitude? Learning Scalars over Task-Calibrated Directions** | arXiv 2026 | peft-training-efficiency | [Link](https://arxiv.org/abs/2611.17784) | — |
+| **P2 · Relevant** | **Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence** | arXiv 2026 | Exact-integer model runtime and verifiable distributed inference | [Link](https://arxiv.org/abs/2611.13730) | — |
+| **P2 · Relevant** | **Detecting Small Space Objects for Space Situational Awareness with Collaborative Edge AI** | arXiv 2026 | edge_cloud_multiview_inference | [Link](https://arxiv.org/abs/2611.19394) | — |
+| **P2 · Relevant** | **DeFSM: Robust and Efficient Decentralization of Federated Submodular Maximization** | arXiv 2026 | federated_robust_data_selection | [Link](https://arxiv.org/abs/2611.11866) | — |
+| **P0 · Strong** | **Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding** | arXiv 2026 | Distributed LLM decoding and request-local attention/KV placement | [Link](https://arxiv.org/abs/2611.13293) | — |
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
+| **P2 · Relevant** | **Data-Efficient Scaling-Law Discovery for Recommendation Systems via Coupled Hyperparameter Scaling** | arXiv 2026 | Compute-efficient scaling-law discovery for ranking models | [Link](https://arxiv.org/abs/2611.05643) | — |
+| **P0 · Strong** | **DAQ: Decision-Aligned Post-Training Quantization for Spiking Transformers** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2611.22611) | — |
+| **P1 · Watch** | **Cross3DGS: Unified Vulkan-Based 3D Gaussian Splatting Training from Workstations to Mobile Devices** | arXiv 2026 | Edge/cloud heterogeneous systems; 3DGS training; GPU portability | [Link](https://arxiv.org/abs/2611.22240) | — |
+| **P1 · Watch** | **Cross-Modal StateKV Injection for Communication in Multi-LLM Systems across Temporal Segments** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.22304) | — |
+| **P2 · Relevant** | **Cross-Modal Semantic Successive Refinement for Generative Image Communication over Underwater Acoustic Channels** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2611.06205) | — |
+| **P1 · Watch** | **Coordinating Distributed AI Servers with Industrial Loads to Reduce Grid-Interconnection Needs** | arXiv 2026 | ai_datacenter_cloud_edge_infrastructure | [Link](https://arxiv.org/abs/2611.18951) | — |
+| **P2 · Relevant** | **Conflict, Feasibility, Faithfulness, Displacement: Four Quantities That Come Apart in Federated Dual-Cone Aggregation** | arXiv 2026 | federated_gradient_aggregation | [Link](https://arxiv.org/abs/2611.18014) | — |
+| **P0 · Strong** | **Compiling Specialized GPU-Initiated Networking** | arXiv 2026 | gpu-initiated-networking | [Link](https://arxiv.org/abs/2611.18145) | — |
+| **P2 · Relevant** | **Communication-Efficient Federated Multi-View Clustering via View-Aware Quantization** | arXiv 2026 | quantization / sparsity / pruning | [Link](https://arxiv.org/abs/2611.15270) | — |
+| **P2 · Relevant** | **Communication-Efficient Distributionally Robust Federated Averaging with Multi-Source Data** | arXiv 2026 | distributed_training_federated_learning | [Link](https://arxiv.org/abs/2611.20060) | — |
+| **P0 · Strong** | **Communicate the Change: Efficient Expert Parallelism via Activation Compression** | arXiv 2026 | MoE systems; distributed training and inference; communication compression | [Link](https://arxiv.org/abs/2611.22215) | — |
+| **P1 · Watch** | **Collecting Infrastructure-Level Measures for Energy Analysis in Modern Computing Infrastructures** | arXiv 2026 | Distributed systems; GPU/cluster infrastructure; LLM inference energy | [Link](https://arxiv.org/abs/2611.22160) | — |
+| **P2 · Relevant** | **Collaborative Task Allocation for Heterogeneous Multi-Robot Systems Through Iterative Clustering** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2611.17213) | — |
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
+| **P0 · Strong** | **Chiron: Cache Management Empowered by LLM Intelligence for AI Workloads** | arXiv 2026 | moe_systems | [Link](https://arxiv.org/abs/2611.06179) | — |
+| **P1 · Watch** | **CHARM+: Cross-Hardware Attention with Re-Merge Multistream Mechanism** | arXiv 2026 | distributed training; efficient attention; cross-hardware communication | [Link](https://arxiv.org/abs/2611.05906) | — |
+| **P0 · Strong** | **CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2611.21584) | — |
+| **P2 · Relevant** | **Causal AI-Driven Secure mmWave Beam Alignment with Defensive Variational Autoencoders** | arXiv 2026 | efficient-causal-wireless-beam-alignment | [Link](https://arxiv.org/abs/2611.18321) | — |
+| **P0 · Strong** | **Callo: Serving Cache-Miss Requests with Speculative Decoding on Invalidated KV under Prefill-Decode Disaggregation** | arXiv 2026 | kv-serving | [Link](https://arxiv.org/abs/2611.18459) | — |
+| **P2 · Relevant** | **Broad-Persistent Advising in Interactive Reinforcement Learning via Latent State Encoding** | arXiv 2026 | Latent-state advice reuse for reinforcement-learning efficiency | [Link](https://arxiv.org/abs/2611.13712) | — |
+| **P2 · Relevant** | **BRepA: Graph-Based B-Rep Pretraining for Unified CAD Understanding and Generation** | arXiv 2026 | Diffusion training efficiency | [Link](https://arxiv.org/abs/2611.22903) | — |
 | **P1 · Watch** | **BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU** | arXiv 2026 | Physical AI; humanoid policy-training efficiency | [Link](https://arxiv.org/abs/2611.16422) | — |
+| **P0 · Strong** | **Benchmarking LLM Inference on Desktop-Scale NVIDIA Grace Blackwell Clusters** | arXiv 2026 | Desktop-scale multi-GPU LLM inference | [Link](https://arxiv.org/abs/2611.20289) | — |
+| **P2 · Relevant** | **AVD: A Multi-Sensor Teleoperated Wheelchair Platform with Safety-Aware Control** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2611.20720) | — |
+| **P2 · Relevant** | **AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents** | arXiv 2026 | Physical AI; agent-memory benchmark | [Link](https://arxiv.org/abs/2611.16590) | — |
 | **P2 · Relevant** | **Are UFOs Real? Introducing Unified Factored Organizers** | Fresh / preprint | Algorithmic training efficiency / representation learning | [Link](https://arxiv.org/abs/2611.11862) | — |
+| **P2 · Relevant** | **Alleviating Limited Effectiveness and Multi-Class Collapse in Deep Graph-level Clustering** | arXiv 2026 | graph_clustering_algorithmic_efficiency | [Link](https://arxiv.org/abs/2611.06052) | — |
+| **P2 · Relevant** | **AI4Plasma I: Data-Efficient Surrogate Modeling of Capacitively Coupled Plasma Fields** | arXiv 2026 | edge / cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2611.15002) | — |
+| **P2 · Relevant** | **Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2611.12878) | — |
+| **P2 · Relevant** | **Adapting Multi-Stage Distributed Real-Time Systems Design to Vehicular Edge Computing** | arXiv 2026 | vehicular edge scheduling | [Link](https://arxiv.org/abs/2611.12370) | — |
+| **P1 · Watch** | **AdaModalX: Synchronization-Free MFM Inference for Distributed Multimodal Mobile Sensing via Progressive Data Orchestration** | arXiv 2026 | Asynchronous multimodal inference | [Link](https://arxiv.org/abs/2611.20464) | — |
 | **P2 · Relevant** | **ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving** | arXiv 2026 | Physical AI; world-model planning | [Link](https://arxiv.org/abs/2611.16579) | — |
+| **P2 · Relevant** | **Accelerating Variational Cone-Beam CT Reconstruction with Learned Warm Starts** | arXiv 2026 | scientific_ml_acceleration | [Link](https://arxiv.org/abs/2611.18801) | — |
+| **P2 · Relevant** | **Accelerating Distributed Variational Quantum Computing over Wireless Networks with Incentive Mechanism Design** | arXiv 2026 | distributed_quantum_ml_systems | [Link](https://arxiv.org/abs/2611.16155) | — |
+| **P0 · Strong** | **Ab Initio Accuracy Beyond the Cutoff: Distributed Message-Passing Equivariant Attention at Tens-of-Millions-of-Atom Scale** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.06122) | — |
+| **P2 · Relevant** | **A Unified Interpretable Semantic Framework for Multi-Modal Fiber Sensing Under Data Scarcity** | arXiv 2026 | multimodal sensing | [Link](https://arxiv.org/abs/2611.16027) | — |
+| **P2 · Relevant** | **3D Pose Estimation in Projection Space via Pixel-level Visible Light Communication** | arXiv 2026 | Physical AI / aerial-robot perception | [Link](https://arxiv.org/abs/2611.06121) | — |
 
-## 🏛️ Classical / Historical · 1019 canonical
+## 🏛️ Classical / Historical · 1034 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -494,6 +543,7 @@
 | **Canonical** | **Accelerating Disaggregated RL for Visual Generative LLMs with Diffusion-Based Parallelism and Trainer-Assisted Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.24369) | — |
 | **Canonical** | **Accelerating Sharded Data Parallelism at Scale with Federated Learning** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.20359) | — |
 | **Canonical** | **ACE: Adapter Consolidation across Experts for Parameter-Efficient Fine-Tuning of MoE LLMs** | arXiv 2026 | MoE systems/accelerators / distributed training / PEFT | [Link](https://arxiv.org/abs/2609.06072) | [Repo](https://github.com/UbiquitousAILab/ACE) |
+| **Canonical** | **AdamPM: Memory-Efficient LLM Optimization via Moment Pooling** | arXiv 2026 | LLM optimizer-state memory pooling | [Link](https://arxiv.org/abs/2610.24598) | — |
 | **Canonical** | **Adaptive Bayesian Partner Selection for Federated Clinical Centers** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2609.16446) | — |
 | **Canonical** | **Adaptive Context Parallelism for Production LLM Serving** | arXiv 2026 | LLM serving / context parallelism / adaptive placement / prefix cache / cluster reconfiguration | [Link](https://arxiv.org/abs/2609.04774) | — |
 | **Canonical** | **AEGIS: Runtime-Guided GPU Collocation for Multi-Tenant Deep Learning Training** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2508.19073) | — |
@@ -502,11 +552,14 @@
 | **Canonical** | **AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14804) | — |
 | **Canonical** | **AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts** | arXiv 2026 | LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication | [Link](https://arxiv.org/abs/2609.00993) | — |
 | **Canonical** | **Always Learning, Always Mixing: Efficient and Simple Data Mixing All the Time** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.15220) | — |
+| **Canonical** | **AMUSE: Anytime Muon with Stable Gradient Evaluation** | arXiv 2026 | large-model-training-optimizer | [Link](https://arxiv.org/abs/2605.22432) | — |
 | **Canonical** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **Canonical** | **AoiZora: Compiler-Agnostic, Placement-Aware Auto-Parallelization for Video Diffusion Transformers** | arXiv 2026 | video/image generation acceleration;distributed training;compiler | [Link](https://arxiv.org/abs/2606.17566) | — |
+| **Canonical** | **Arctic-SWE: Revisiting the Long Horizon Agent Training by Modeling-System Co-Design** | arXiv 2026 | agent training systems | [Link](https://arxiv.org/abs/2610.24914) | — |
 | **Canonical** | **Argus: Orchestrating Cross-Layer GPU Performance Measurements around Semantic Regions** | arXiv 2026 | GPU kernel/DSL/compilers / AI infra / performance tooling | [Link](https://arxiv.org/abs/2609.12299) | — |
 | **Canonical** | **AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs** | arXiv 2026 | efficient reasoning/agent systems / distributed RL training / heterogeneous elastic execution | [Link](https://arxiv.org/abs/2605.15565) | [Repo](https://github.com/Infini-AI-Lab/astraflow) |
 | **Canonical** | **AsyncFlow: An Asynchronous Streaming RL Framework for Efficient LLM Post-Training** | arXiv 2026 | distributed training/inference / efficient reasoning/agent systems / LLM post-training systems | [Link](https://arxiv.org/abs/2507.01663) | — |
+| **Canonical** | **Asynchronous On-Policy Self-Distillation** | arXiv 2026 | Distributed training / asynchronous RL distillation | [Link](https://arxiv.org/abs/2610.25880) | — |
 | **Canonical** | **Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters** | arXiv 2026 | distributed inference / compound AI serving / heterogeneous clusters / SLO-aware deployment optimization | [Link](https://arxiv.org/abs/2609.04513) | — |
 | **Canonical** | **AutoLoCo: Communication Efficient Distributed LLM Training via Adaptive Synchronization** | arXiv 2026 | distributed_training_inference | [Link](https://arxiv.org/abs/2609.36662) | — |
 | **Canonical** | **Bandwidth-Aware and Cost-Efficient Pipeline Parallel Scheduling in Geo-Distributed LLM Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.25375) | — |
@@ -516,6 +569,7 @@
 | **Canonical** | **Beyond Uniform Compression: Budgeted Transmission Allocation for Extreme Federated Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39646) | — |
 | **Canonical** | **Block Parallelism For Efficient Distributed Long-Context Diffusion Language Model Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19242) | — |
 | **Canonical** | **Breaking the Duplex Barrier: Lane-Granularity OCS Scheduling for LLM Training** | arXiv 2026 | distributed_llm_training | [Link](https://arxiv.org/abs/2609.14253) | — |
+| **Canonical** | **BrownoutMoE: Learning Structure-Aware Expert Grouping for Adaptive Mixture-of-Experts Model Serving** | arXiv 2026 | MoE serving and expert placement | [Link](https://arxiv.org/abs/2607.04164) | — |
 | **Canonical** | **BSIPipe: Bidirectional Sequence-Level Interleaved Pipeline Parallelism for Long-Sequence Large Language Model Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14935) | — |
 | **Canonical** | **ByteSplat: Efficient Distributed 3D Gaussian Splatting Training via Intra- and Inter-GPU communication reduction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02851) | — |
 | **Canonical** | **CacheDyG: Decoupling Temporal Propagation for Efficient Dynamic Graph Learning** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2609.25814) | — |
@@ -579,6 +633,7 @@
 | **Canonical** | **Entwine: Coordinating Tiled Computation and Fine-Grained Communication across GPUs** | arXiv 2026 | distributed training/inference / GPU communication overlap / tensor parallelism | [Link](https://arxiv.org/abs/2609.11562) | — |
 | **Canonical** | **EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37923) | — |
 | **Canonical** | **Epoch: Compiling Diffusion Blocks for Sparse MoE Serving** | arXiv 2026 | MoE systems/accelerators / diffusion language model serving / compiler-runtime | [Link](https://arxiv.org/abs/2609.09748) | — |
+| **Canonical** | **ETAS: An Effect-Typed Language for Agent Systems** | arXiv 2026 | efficient_agent_compiler_harness | [Link](https://arxiv.org/abs/2607.17780) | — |
 | **Canonical** | **ETH: Data-Balanced Heterogeneous Pipeline Parallelism for Training Large Models** | arXiv 2026 | dist,edge | [Link](https://arxiv.org/abs/2610.22035) | — |
 | **Canonical** | **Event-Driven ML Pipeline Orchestration for Manufacturing: An AWS Industry Experience** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.06890) | — |
 | **Canonical** | **Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable** | arXiv 2026 | distributed training/inference / GPU systems / compiler | [Link](https://arxiv.org/abs/2609.03905) | — |
@@ -596,6 +651,7 @@
 | **Canonical** | **FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17901) | — |
 | **Canonical** | **FlashVector: Agent for Hierarchical Model Serving Stack Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17391) | — |
 | **Canonical** | **FLoKD: Adaptive Knowledge Distillation for Federated Low-Rank LLM over Wireless Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.13580) | — |
+| **Canonical** | **FlowMaker: From Tasks to Cost-Efficient Generative AI Workflow Deployments** | arXiv 2026 | LLM workflow serving | [Link](https://arxiv.org/abs/2610.24861) | — |
 | **Canonical** | **FluidPD: In-Place Elasticity for SLO-Aware Prefill-Decode Disaggregated LLM Serving** | arXiv 2026 | LLM serving; distributed inference | [Link](https://arxiv.org/abs/2610.06917) | — |
 | **Canonical** | **Flux: Optimal Scheduling of Optical Circuit Switches for LLM Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25949) | — |
 | **Canonical** | **Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic perception / optimization runtime | [Link](https://arxiv.org/abs/2609.03222) | — |
@@ -604,6 +660,7 @@
 | **Canonical** | **Gefen: Optimized Stochastic Optimizer** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.13894) | — |
 | **Canonical** | **GeoFP8: Geometry-Aware FP8 Gradient Compression for Distributed LLM Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.07494) | — |
 | **Canonical** | **GeoMesh: Workload-Balanced and Sign-Compressed Geo-Distributed LLM Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18388) | — |
+| **Canonical** | **GeoTrain: Energy-Aware Automatic Parallelism for Foundation Model Training on Heterogeneous Geo-Distributed Resources** | arXiv 2026 | llm_serving,dist,edge | [Link](https://arxiv.org/abs/2610.26178) | — |
 | **Canonical** | **Goal-Oriented Communications for Physical AI: Design and Testbed** | arXiv 2026 | physical_ai_cloud_edge | [Link](https://arxiv.org/abs/2609.15895) | — |
 | **Canonical** | **GPU-Accelerated Hypergraph Partitioning and Placement to Map SNNs on Neuromorphic Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / neuromorphic accelerator / GPU compiler-mapping | [Link](https://arxiv.org/abs/2609.07577) | — |
 | **Canonical** | **GPU-Initiated Communication: Dissecting Down to the Bone** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01380) | — |
@@ -612,6 +669,7 @@
 | **Canonical** | **Hardware-aware Calibrated Clustered Attention for Efficient Visual Geometric Transformers** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09274) | — |
 | **Canonical** | **HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing** | arXiv 2026 | MoE systems/accelerators / 3D near-memory processing / hybrid parallelism / runtime scheduling | [Link](https://arxiv.org/abs/2609.08682) | — |
 | **Canonical** | **Heddle: Learning Structural Templates for Parallelism Planning on Heterogeneous GPU Clusters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34244) | — |
+| **Canonical** | **HetCCL: Efficient LLM Training on Heterogeneous Vendor GPUs** | arXiv 2026 | heterogeneous-llm-training | [Link](https://arxiv.org/abs/2601.22585) | — |
 | **Canonical** | **Higher-Order Geometric Updates for Levenberg-Marquardt Method via Riemann Normal Coordinates** | arXiv 2026 | distributed | [Link](https://arxiv.org/abs/2607.07623) | — |
 | **Canonical** | **HO-SFL: Hybrid-Order Split Federated Learning with Backprop-Free Clients and Dimension-Free Aggregation** | arXiv 2026 | distributed | [Link](https://arxiv.org/abs/2603.14773) | — |
 | **Canonical** | **HOCCL: Offloading Collective Communication from GPU Cores to Accelerate Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34334) | — |
@@ -623,10 +681,12 @@
 | **Canonical** | **Implementation of Zero-shot Semantic Communication on Software Defined Radio** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05764) | — |
 | **Canonical** | **Improvise, Adapt, Overcome: An On-The-Fly Multifidelity Algorithm for Efficient Machine Learning** | arXiv 2026 | distributed training;efficient ML | [Link](https://arxiv.org/abs/2606.02662) | — |
 | **Canonical** | **In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion** | arXiv 2026 | video_generation,diffusion,kv_cache | [Link](https://arxiv.org/abs/2609.32540) | — |
+| **Canonical** | **Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud, Heterogeneous LLM Inference Fleets** | arXiv 2026 | Heterogeneous LLM serving | [Link](https://arxiv.org/abs/2610.24355) | — |
 | **Canonical** | **KVCompass: A Discovery Plane for Internet-Scale Prefix Cache Sharing in LLM Serving** | arXiv 2026 | Distributed KV-cache serving | [Link](https://arxiv.org/abs/2610.24179) | — |
 | **Canonical** | **Lantern: Finding Committable Transactions via Back-Propagation on DAGs** | arXiv 2026 | distributed training/inference / data systems / transaction runtime | [Link](https://arxiv.org/abs/2609.03315) | — |
 | **Canonical** | **LEAP: Unlocking dLLM Parallelism via Lookahead Early-Convergence Token Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.10980) | — |
 | **Canonical** | **Learned Image Compression for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.16253) | — |
+| **Canonical** | **Learning from Fleet Experience: A Collective Learning Paradigm for Robots** | arXiv 2026 | Physical AI / fleet learning infrastructure | [Link](https://arxiv.org/abs/2610.25736) | — |
 | **Canonical** | **Learning from Teacher Continuations at Student States** | arXiv 2026 | efficient reasoning/agent systems / distillation / training efficiency | [Link](https://arxiv.org/abs/2609.36246) | — |
 | **Canonical** | **Learning to Sync at the Edge: Client-Side Adaptive Synchronization for Federated Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14268) | — |
 | **Canonical** | **Leto: Fast In-Place Recovery for LLM Training on Surviving Hardware** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00687) | — |
@@ -676,6 +736,7 @@
 | **Canonical** | **PRISM: Probabilistic Runtime Insights and Scalable Performance Modeling for Large-Scale Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.15596) | — |
 | **Canonical** | **PrismServe: Efficient LLM Serving on Heterogeneous Accelerator Clusters** | arXiv 2026 | LLM serving;heterogeneous accelerators;quantization | [Link](https://arxiv.org/abs/2508.09204) | — |
 | **Canonical** | **Privacy-Aligned Personalized Federated Learning with Compact Adaptation and Variable-Length Gaussian Communication** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15950) | — |
+| **Canonical** | **ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning** | arXiv 2026 | efficient RLVR rollout probing | [Link](https://arxiv.org/abs/2610.24515) | — |
 | **Canonical** | **Provisioning to Runtime Optimization of a 100 MW-Scale AI Cluster** | arXiv 2026 | edge_cloud | [Link](https://arxiv.org/abs/2605.24461) | — |
 | **Canonical** | **Purlin: Separating Orchestration from the Datapath of Collectives** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36954) | — |
 | **Canonical** | **R2CC: Reliable and Resilient Collective Communication for Distributed Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2512.25059) | — |
@@ -744,6 +805,7 @@
 | **Canonical** | **TurboPairFormer: Fast and Stable Protein Folding Model Training with an Optimized Triangle Attention Kernel** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05854) | — |
 | **Canonical** | **Understanding Quantization of Optimizer States in LLM Pre-training: Dynamics of State Staleness and Effectiveness of State Resets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.16731) | — |
 | **Canonical** | **UniPrefill: Universal Long-Context Prefill Acceleration via Block-wise Dynamic Sparsification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.06221) | — |
+| **Canonical** | **UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.26530) | — |
 | **Canonical** | **VarioPath: Workload-Aware All-to-All Communication for PCIe GPU Clusters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34340) | — |
 | **Canonical** | **VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19936) | — |
 | **Canonical** | **vidax: A Unified JAX Framework for Video Generative Models on Accelerator Meshes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18077) | — |
@@ -1060,6 +1122,7 @@
 | **Canonical** | **In-Context Multi-Objective Optimization** | ICLR 2026 | amortized transformer optimization for expensive black-box objectives | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/901b378426e1816eabb776a786c02f41-Abstract-Conference.html) | — |
 | **Canonical** | **InfLLM-V2: Dense-Sparse Switchable Attention for Seamless Short-to-Long Adaptation** | ICLR 2026 | trainable sparse attention for long-context LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/716e60181e1782f5bd0a629033f85310-Abstract-Conference.html) | — |
 | **Canonical** | **KVComm: Enabling Efficient LLM Communication through Selective KV Sharing** | ICLR 2026 | Selective KV-cache sharing for multi-agent LLM communication | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/883105b282fe15275991b411e6b200c5-Abstract-Conference.html) | — |
+| **Canonical** | **Learning to Orchestrate Agents in Natural Language with the Conductor** | ICLR 2026 | Efficient reasoning/agent systems; cost-aware multi-agent orchestration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/dbb8193ad7e6fcbc7bb62ed9ee835110-Abstract-Conference.html) | — |
 | **Canonical** | **Libra: Effective yet Efficient Load Balancing for Large-scale MoE Inference** | ICLR 2026 | distributed MoE inference load balancing | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9ff1ac9a659085fed0735362cafe5e53-Abstract-Conference.html) | — |
 | **Canonical** | **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** | ICLR 2026 | efficient attention / distributed context parallelism / benchmark | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) | — |
 | **Canonical** | **Mixture of Contexts for Long Video Generation** | ICLR 2026 | Sparse attention routing and long-context video-generation efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94bbcb744bbada8808fda05b9d9290d6-Abstract-Conference.html) | — |
@@ -1067,6 +1130,7 @@
 | **Canonical** | **MuonBP: Faster Muon via Block-Periodic Orthogonalization** | ICLR 2026 | Communication- and throughput-efficient distributed foundation-model training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1d485d337d5622bdb1462333f4247522-Abstract-Conference.html) | — |
 | **Canonical** | **Non-Convex Federated Optimization under Cost-Aware Client Selection** | ICLR 2026 | communication- and local-computation-efficient federated optimization | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/65798a76cc176c29b6bfefe84b0a03ff-Abstract-Conference.html) | — |
 | **Canonical** | **Not All Documents Are What You Need for Extracting Instruction Tuning Data** | ICLR 2026 | cost-efficient instruction-data extraction | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/61601ed3c6e34d0059abcbf0f41ac23b-Abstract-Conference.html) | — |
+| **Canonical** | **On Predictability of Reinforcement Learning Dynamics for Large Language Models** | ICLR 2026 | Distributed training/inference; efficient reasoning-model post-training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4c454d34f3a4c8d6b4ca85a918e5d7ba-Abstract-Conference.html) | — |
 | **Canonical** | **Out of the Memory Barrier: A Highly Memory-Efficient Training System for LLMs with Million-Token Contexts** | ICLR 2026 | memory-efficient million-token LLM training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b528459c99e929718a7d7e1697253d7f-Abstract-Conference.html) | — |
 | **Canonical** | **ParaRNN: Unlocking Parallel Training of Nonlinear RNNs for Large Language Models** | ICLR 2026 | parallel training of nonlinear recurrent LLMs | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/57d8ebf4c2f050a6485f370d47656a9e-Abstract-Conference.html) | — |
 | **Canonical** | **Prima.cpp: Fast 30-70B LLM Inference on Heterogeneous and Low-Resource Home Clusters** | ICLR 2026 | Heterogeneous distributed LLM serving on consumer hardware | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e991e5587c1daa49bbf9a818b3f02f9a-Abstract-Conference.html) | — |

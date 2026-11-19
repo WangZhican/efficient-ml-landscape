@@ -1,41 +1,14 @@
 # 03 · KV Cache / Long Context
 
-> **1152 canonical papers** mapped here, plus a broader **216-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1172 canonical papers** mapped here, plus a broader **241-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 216 tracked
+## 🆕 Latest 30 Days · 241 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
-| **P1 · Watch** | **TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.17331) | — |
-| **P0 · Strong** | **Towards Green Text Generation: Memory-Based Speculative Decoding** | arXiv 2026 | speculative decoding; energy-efficient inference | [Link](https://arxiv.org/abs/2611.16714) | — |
-| **P0 · Strong** | **Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination** | arXiv 2026 | LLM-agent serving; KV cache; scheduling | [Link](https://arxiv.org/abs/2611.16661) | — |
-| **P0 · Strong** | **SPARC: Accurate Photonic Matrix Multiplication via Representative Vectors** | arXiv 2026 | photonic accelerator; matrix multiplication | [Link](https://arxiv.org/abs/2611.16561) | — |
-| **P0 · Strong** | **HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse** | arXiv 2026 | VLA/WAM serving; KV-cache reuse | [Link](https://arxiv.org/abs/2611.16487) | — |
-| **P0 · Strong** | **Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression** | arXiv 2026 | long-context; selective context compression | [Link](https://arxiv.org/abs/2611.16384) | — |
-| **P2 · Relevant** | **Does a Self-Learning Migration Agent Learn? An Audited Evaluation of Evidence-Graded Experience Memory for Oracle-to-PostgreSQL Migration** | arXiv 2026 | agent_memory_evaluation | [Link](https://arxiv.org/abs/2611.16143) | — |
-| **P1 · Watch** | **Fewer Expert Transfers Without Changing Routing: Expert Eviction for MoE Offloading** | arXiv 2026 | MoE systems / accelerators | [Link](https://arxiv.org/abs/2611.15842) | — |
-| **P0 · Strong** | **TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models** | arXiv 2026 | KV cache / long-context | [Link](https://arxiv.org/abs/2611.15569) | [Repo](https://github.com/AK-DREAM/TraceKV) |
-| **P1 · Watch** | **LLMRunner: Closed Workload Model Performance Testing Framework for LLM Servings** | arXiv 2026 | LLM / multimodal serving | [Link](https://arxiv.org/abs/2611.15372) | — |
-| **P0 · Strong** | **MIGRO: A Decoupled and Portable Long-Term Memory System for Language Models** | arXiv 2026 | LLM long-term memory | [Link](https://arxiv.org/abs/2611.15315) | — |
-| **P0 · Strong** | **Recompute or Restore? Host-Tier KV for Multi-Model Agent Workflows on a Static-Graph NPU Serving Stack** | arXiv 2026 | KV cache / long-context | [Link](https://arxiv.org/abs/2611.15126) | — |
-| **P2 · Relevant** | **Keep Images in Sight: Visual Position Re-Anchoring for Long-Context MLLMs** | arXiv 2026 | KV cache / long-context | [Link](https://arxiv.org/abs/2611.15100) | — |
-| **P2 · Relevant** | **Mobility-Aware Task Offloading in Mobile Edge Computing-Empowered Space-Air-Ground Integrated Internet-of-Things Networks** | arXiv 2026 | efficient-ML technical adjacency | [Link](https://arxiv.org/abs/2611.14102) | — |
-| **P0 · Strong** | **Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study** | arXiv 2026 | core efficient-ML mechanism | [Link](https://arxiv.org/abs/2611.14051) | — |
-| **P1 · Watch** | **OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation** | arXiv 2026 | Pixel-space token compression for retrieval-augmented generation | [Link](https://arxiv.org/abs/2611.13675) | — |
-| **P0 · Strong** | **POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling** | arXiv 2026 | efficient attention / long-context prefill | [Link](https://arxiv.org/abs/2611.13578) | — |
-| **P2 · Relevant** | **BioMem: Agentic Memory for Biomedical LLM Agents** | arXiv 2026 | Agentic memory and retrieval for LLM systems | [Link](https://arxiv.org/abs/2611.13426) | — |
-| **P0 · Strong** | **Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders** | arXiv 2026 | Long-context LLM serving and recurrent KV-cache sharing | [Link](https://arxiv.org/abs/2611.13378) | — |
-| **P0 · Strong** | **Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding** | arXiv 2026 | Distributed LLM decoding and request-local attention/KV placement | [Link](https://arxiv.org/abs/2611.13293) | — |
-| **P0 · Strong** | **SHADOWPREFILL: Keeping Your Next Model Warm for Per-Step Model Routing in Agentic LLM Serving** | arXiv 2026 | Agentic LLM serving, model routing and cross-model prefix/KV cache reuse | [Link](https://arxiv.org/abs/2611.13176) | — |
-| **P2 · Relevant** | **Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems** | arXiv 2026 | Activation-guided graph retrieval for LLM memory | [Link](https://arxiv.org/abs/2611.13127) | — |
-| **P0 · Strong** | **Release Sooner, Expose Less: Offloading MoE Dispatch in NCCL-EP under Dual-Batch Overlap** | arXiv 2026 | llm_serving;moe | [Link](https://arxiv.org/abs/2611.12362) | — |
-| **P0 · Strong** | **Evolving Infra: Agent-Adaptive LLM Serving at Scale** | arXiv 2026 | llm_serving;kv;agent | [Link](https://arxiv.org/abs/2611.12304) | — |
-| **P0 · Strong** | **Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers** | arXiv 2026 | Hybrid-attention KV-cache translation / long-context handoff | [Link](https://arxiv.org/abs/2611.12062) | — |
-| **P1 · Watch** | **Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization** | arXiv 2026 | AI_infrastructure_agents;KV_cache;runtime | [Link](https://arxiv.org/abs/2611.11995) | — |
-| **P2 · Relevant** | **Correct Answers from Insufficient Histories: A Controlled Study of Agent Memory Evaluation** | arXiv 2026 | agent_memory_evaluation | [Link](https://arxiv.org/abs/2611.11840) | — |
-| **P0 · Strong** | **BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation** | arXiv 2026 | Prefill-decode disaggregation / KV-cache translation | [Link](https://arxiv.org/abs/2611.11761) | — |
+| **P1 · Watch** | **Editable Video Context: Mid-Context KV-Cache Reuse for Context-Managing Video LLMs** | arXiv 2026 | video_mllm_kv_cache_reuse | [Link](https://arxiv.org/abs/2611.18718) | — |
 | **P0 · Strong** | **Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive Video Generation** | arXiv 2026 | Autoregressive video generation / semantic KV-cache compression | [Link](https://arxiv.org/abs/2611.11452) | — |
 | **P0 · Strong** | **OOM: Offload-Optimized Full-Parameter MoE Training via Memory-Execution Co-Design** | arXiv 2026 | Distributed MoE training / host-GPU memory-execution co-design | [Link](https://arxiv.org/abs/2611.11364) | — |
 | **P0 · Strong** | **Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference** | arXiv 2026 | Long-context KV-cache compression / bounded attention | [Link](https://arxiv.org/abs/2611.11319) | — |
@@ -76,17 +49,6 @@
 | **P1 · Watch** | **LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time** | arXiv 2026 | KV cache / decode efficiency | [Link](https://arxiv.org/abs/2611.07025) | — |
 | **P2 · Relevant** | **LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis** | arXiv 2026 | kv;gen | [Link](https://arxiv.org/abs/2611.06856) | — |
 | **P0 · Strong** | **Visual Token Routing: Learning to keep tokens that matter** | arXiv 2026 | kv;multimodal | [Link](https://arxiv.org/abs/2611.06854) | — |
-| **P2 · Relevant** | **Where Should a KV-Cache Repair Budget Go? Distractor Structure and Contextual Compatibility in Non-Prefix Reuse** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2611.06397) | — |
-| **P0 · Strong** | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation** | arXiv 2026 | kv;quant;gen | [Link](https://arxiv.org/abs/2611.06377) | — |
-| **P0 · Strong** | **Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining** | arXiv 2026 | kv;sparse | [Link](https://arxiv.org/abs/2611.06133) | — |
-| **P0 · Strong** | **vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference** | arXiv 2026 | llm_serving;moe;dist | [Link](https://arxiv.org/abs/2611.06057) | — |
-| **P1 · Watch** | **DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion** | arXiv 2026 | video/diffusion acceleration; sparse attention; cache reuse | [Link](https://arxiv.org/abs/2611.05917) | — |
-| **P1 · Watch** | **EchoKV: Self-Corrective KV Cache Eviction via Iterative Query Feedback** | arXiv 2026 | KV cache; long-context inference; cache eviction | [Link](https://arxiv.org/abs/2611.05903) | — |
-| **P0 · Strong** | **Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning** | arXiv 2026 | Multi-agent LLM systems / shared KV cache / training efficiency | [Link](https://arxiv.org/abs/2611.06956) | — |
-| **P0 · Strong** | **Runway Characters: Serving a 57B Video Diffusion Transformer for Real-Time Conversation** | arXiv 2026 | Real-time video diffusion serving, KV cache and FP8 optimization | [Link](https://arxiv.org/abs/2611.05642) | — |
-| **P2 · Relevant** | **Hybrid LLM-Deterministic Pipelines for Enterprise-Scale Code Migration at Bloomberg** | arXiv 2026 | Hybrid LLM-deterministic enterprise automation pipelines | [Link](https://arxiv.org/abs/2611.05457) | — |
-| **P1 · Watch** | **You don't need long context** | arXiv 2026 | long_context_compaction | [Link](https://arxiv.org/abs/2611.05306) | — |
-| **P0 · Strong** | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers** | arXiv 2026 | kv_cache_quantization | [Link](https://arxiv.org/abs/2611.05304) | — |
 | **P0 · Strong** | **Accelerating Offloading-Based MoE Inference by Interleaving Concurrent Requests** | arXiv 2026 | moe_systems | [Link](https://arxiv.org/abs/2611.04794) | — |
 | **P0 · Strong** | **Anchor: Augmented Cross-Layer Recurrent State for Long-Context Retrieval in Test-Time Training** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2611.04327) | — |
 | **P0 · Strong** | **LoopKV: Loop-Aware KV Cache Compression for Serving Looped Transformers** | arXiv 2026 | looped-transformer KV-cache compression and serving | [Link](https://arxiv.org/abs/2611.04137) | — |
@@ -169,8 +131,10 @@
 | **P1 · Watch** | **RAQ-MLA: Role-Aware Quantization for Multi-Head Latent Attention Caches** | arXiv 2026 | KV cache / quantization | [Link](https://arxiv.org/abs/2610.33625) | — |
 | **P1 · Watch** | **COPE: Composable Performance Emulation for Mixture-of-Experts Offloading Policies** | arXiv 2026 | MoE serving | [Link](https://arxiv.org/abs/2610.33404) | — |
 | **P1 · Watch** | **LSTM-Style Looped Transformers with Shared KV Caches** | arXiv 2026 | KV cache | [Link](https://arxiv.org/abs/2610.33360) | — |
+| **P2 · Relevant** | **Nemo: Efficient Caching with Index Pushdown for Disaggregated OLTP Databases** | arXiv 2026 | disaggregated database caching and storage systems | [Link](https://arxiv.org/abs/2610.33306) | — |
 | **P1 · Watch** | **Migration as a Steady-State Execution Primitive: A Runtime for Virtual Stationarity in Low-Earth Orbit** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32720) | — |
 | **P1 · Watch** | **Lifelong Context Adaptation through Bidirectional Memory-Skill Learning** | arXiv 2026 | hardware_systems | [Link](https://arxiv.org/abs/2610.32295) | — |
+| **P2 · Relevant** | **MetaDB: Putting File-System Structure Back into Distributed Databases** | arXiv 2026 | distributed metadata storage and cloud infrastructure | [Link](https://arxiv.org/abs/2610.32247) | — |
 | **P0 · Strong** | **HyScale: Scaling Long-Context Training for Learned Sparse Attention** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32057) | — |
 | **P0 · Strong** | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning** | arXiv 2026 | Efficient attention/LLM training | [Link](https://arxiv.org/abs/2610.31911) | — |
 | **P0 · Strong** | **KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving** | arXiv 2026 | LLM serving/KV cache | [Link](https://arxiv.org/abs/2610.31827) | — |
@@ -197,35 +161,96 @@
 | **P0 · Strong** | **Kronecker Delta Rule for Long Context Linear Attention** | arXiv 2026 | kv,attn | [Link](https://arxiv.org/abs/2610.26834) | — |
 | **P1 · Watch** | **KEEP-Bench: Evaluating Evidence Preservation in Context Compression** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2610.26827) | — |
 | **P0 · Strong** | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning** | arXiv 2026 | llm_serving,kv,sparse,moe | [Link](https://arxiv.org/abs/2610.26754) | — |
-| **P2 · Relevant** | **Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26142) | — |
-| **P0 · Strong** | **The KV-Surgeon: Compensation-Aware Offline KV-Cache Compaction** | arXiv 2026 | KV-cache compression | [Link](https://arxiv.org/abs/2610.25933) | — |
-| **P1 · Watch** | **Weighted State Souping for Efficient Long-Context Retrieval** | arXiv 2026 | Long-context SSM / state caching | [Link](https://arxiv.org/abs/2610.25621) | — |
-| **P0 · Strong** | **StreamAhead: Real-Time Streaming Video Question Answering via Adaptive Precomputation** | arXiv 2026 | Streaming multimodal serving | [Link](https://arxiv.org/abs/2610.25551) | — |
-| **P2 · Relevant** | **DiaLong: Benchmarking Reminiscence in Long-Context Dialogues** | arXiv 2026 | long-context evaluation | [Link](https://arxiv.org/abs/2610.25463) | — |
-| **P2 · Relevant** | **System X: An LLM Decision Model That Replies from Its Own KV Cache** | arXiv 2026 | LLM KV reuse / decision models | [Link](https://arxiv.org/abs/2610.25456) | — |
-| **P0 · Strong** | **MOSAIC: Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers** | arXiv 2026 | KV-cache allocation | [Link](https://arxiv.org/abs/2610.25431) | — |
-| **P0 · Strong** | **PlaneZip: Lossless Bit-Plane Compression of Training Activations Offloaded over PCIe** | arXiv 2026 | Lossless training-activation compression over PCIe | [Link](https://arxiv.org/abs/2610.25033) | — |
-| **P0 · Strong** | **ReTrace: Visual Backtracking for Efficient Multimodal Large Language Models** | arXiv 2026 | Multimodal serving / token compression | [Link](https://arxiv.org/abs/2610.25005) | — |
-| **P0 · Strong** | **Certified Sparse Attention via Perturbed Retrieval** | arXiv 2026 | Sparse attention / certified approximation | [Link](https://arxiv.org/abs/2610.24991) | — |
-| **P0 · Strong** | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation** | arXiv 2026 | speculative decoding; CPU LLM serving | [Link](https://arxiv.org/abs/2610.28671) | — |
-| **P2 · Relevant** | **Task Offloading and Resource Allocation for Deterministic Service Provisioning in the IoT-Edge-Cloud Continuum** | arXiv 2026 | Edge-cloud offloading | [Link](https://arxiv.org/abs/2610.24617) | — |
-| **P0 · Strong** | **Write Once, Query Many: Evolving Compact Reusable Memory for Long Videos** | arXiv 2026 | Long-video memory / multimodal serving | [Link](https://arxiv.org/abs/2610.24537) | — |
-| **P0 · Strong** | **TideKV: Delayed KV Eviction via Layer-Wise Chunked Prefill for Memory-Efficient Long-Context LLM Inference** | arXiv 2026 | KV cache / long-context inference | [Link](https://arxiv.org/abs/2610.24499) | — |
-| **P2 · Relevant** | **Parametric Session States Recover Retrieval Intent without Replaying History** | arXiv 2026 | Agent memory / long context | [Link](https://arxiv.org/abs/2610.33047) | — |
+| **P1 · Watch** | **You don't need long context** | arXiv 2026 | long_context_compaction | [Link](https://arxiv.org/abs/2611.05306) | — |
+| **P0 · Strong** | **XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools** | arXiv 2026 | llm_serving;kv;sparse | [Link](https://arxiv.org/abs/2611.22280) | — |
+| **P2 · Relevant** | **Where Should a KV-Cache Repair Budget Go? Distractor Structure and Contextual Compatibility in Non-Prefix Reuse** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2611.06397) | — |
+| **P1 · Watch** | **What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges** | arXiv 2026 | long_conversation_agent_memory_compression | [Link](https://arxiv.org/abs/2611.19199) | — |
+| **P2 · Relevant** | **Weights & Caches: LLMs Can Program Tabular Foundation Models** | arXiv 2026 | llm_agent_model_programming | [Link](https://arxiv.org/abs/2611.20174) | — |
+| **P0 · Strong** | **vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference** | arXiv 2026 | llm_serving;moe;dist | [Link](https://arxiv.org/abs/2611.06057) | — |
+| **P2 · Relevant** | **Two-Tier Task Offloading for Satellite-Assisted Marine Networks: A Hybrid Stackelberg-Bargaining Game Approach** | arXiv 2026 | Physical-AI cloud-edge and heterogeneous task offloading | [Link](https://arxiv.org/abs/2611.13019) | — |
+| **P1 · Watch** | **TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.17331) | — |
+| **P0 · Strong** | **Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers** | arXiv 2026 | Hybrid-attention KV-cache translation / long-context handoff | [Link](https://arxiv.org/abs/2611.12062) | — |
+| **P0 · Strong** | **Transfer Once, Ask Locally: Compact Audio-Visual Memory for On-Device Question Answering** | arXiv 2026 | llm_serving;sparse;edge | [Link](https://arxiv.org/abs/2611.23085) | — |
+| **P0 · Strong** | **TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models** | arXiv 2026 | KV cache / long-context | [Link](https://arxiv.org/abs/2611.15569) | [Repo](https://github.com/AK-DREAM/TraceKV) |
+| **P0 · Strong** | **Towards Green Text Generation: Memory-Based Speculative Decoding** | arXiv 2026 | speculative decoding; energy-efficient inference | [Link](https://arxiv.org/abs/2611.16714) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
+| **P0 · Strong** | **TAILROLL: Tail-Aware Rollout Acceleration for RL-Based LLM Post-Training** | arXiv 2026 | Distributed training; LLM rollout serving; KV-cache migration | [Link](https://arxiv.org/abs/2611.22206) | — |
+| **P0 · Strong** | **SURMA: Efficient Fine-Grained Communication Offload for SuperPOD** | arXiv 2026 | gpu_scaleup_kv_cache_communication | [Link](https://arxiv.org/abs/2611.21274) | — |
+| **P1 · Watch** | **Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels** | arXiv 2026 | llm_serving;kv;attn | [Link](https://arxiv.org/abs/2611.23035) | — |
+| **P0 · Strong** | **SR-VLA: Stall-Reduced VLA Execution via Predicted-Input Lookahead and Selective KV Cache Repair** | arXiv 2026 | llm_serving;kv;multimodal;physical | [Link](https://arxiv.org/abs/2611.22356) | — |
+| **P0 · Strong** | **SPARC: Accurate Photonic Matrix Multiplication via Representative Vectors** | arXiv 2026 | photonic accelerator; matrix multiplication | [Link](https://arxiv.org/abs/2611.16561) | — |
+| **P0 · Strong** | **SMELL: Sparsity-aware Memory Efficient Federated Fine-tuning for Long-context LLMs** | arXiv 2026 | federated_long_context_llm_memory_efficiency | [Link](https://arxiv.org/abs/2611.19349) | — |
+| **P0 · Strong** | **SHADOWPREFILL: Keeping Your Next Model Warm for Per-Step Model Routing in Agentic LLM Serving** | arXiv 2026 | Agentic LLM serving, model routing and cross-model prefix/KV cache reuse | [Link](https://arxiv.org/abs/2611.13176) | — |
 | **P0 · Strong** | **SepLRM: A Foundation Model Paradigm for Recommendation** | Fresh / preprint | KV cache and long context | [Link](https://arxiv.org/abs/2611.10356) | — |
+| **P0 · Strong** | **Runway Characters: Serving a 57B Video Diffusion Transformer for Real-Time Conversation** | arXiv 2026 | Real-time video diffusion serving, KV cache and FP8 optimization | [Link](https://arxiv.org/abs/2611.05642) | — |
+| **P0 · Strong** | **RISA: Recoverable Sparse Attention for Block-Diffusion Language Models** | arXiv 2026 | Efficient attention; long-context; diffusion language-model inference | [Link](https://arxiv.org/abs/2611.22191) | — |
+| **P2 · Relevant** | **Revisiting What Makes a Good Context Subset: A Sparse Latent Basis Perspective** | arXiv 2026 | llm_serving_context_selection | [Link](https://arxiv.org/abs/2611.19220) | — |
+| **P1 · Watch** | **ReRead: Wrong Predictions, Useful Representations - Correcting Frozen Robot Policies by Re-reading Their Own Representations** | arXiv 2026 | vla_cache_reuse_action_correction | [Link](https://arxiv.org/abs/2611.20465) | — |
+| **P0 · Strong** | **Release Sooner, Expose Less: Offloading MoE Dispatch in NCCL-EP under Dual-Batch Overlap** | arXiv 2026 | llm_serving;moe | [Link](https://arxiv.org/abs/2611.12362) | — |
+| **P1 · Watch** | **Reference Forcing: Long Video Generation with Region-Guided Drift Correction** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2611.21559) | — |
+| **P0 · Strong** | **Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination** | arXiv 2026 | LLM-agent serving; KV cache; scheduling | [Link](https://arxiv.org/abs/2611.16661) | — |
+| **P0 · Strong** | **Recompute or Restore? Host-Tier KV for Multi-Model Agent Workflows on a Static-Graph NPU Serving Stack** | arXiv 2026 | KV cache / long-context | [Link](https://arxiv.org/abs/2611.15126) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
+| **P2 · Relevant** | **PUMA-Former: Uncertainty-Aware Agentic Computation Offloading in MEO-LEO Satellite Networks With Incomplete Information** | arXiv 2026 | satellite-edge-offloading | [Link](https://arxiv.org/abs/2611.18139) | — |
+| **P0 · Strong** | **POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling** | arXiv 2026 | efficient attention / long-context prefill | [Link](https://arxiv.org/abs/2611.13578) | — |
 | **P0 · Strong** | **Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN** | Fresh / preprint | LLM serving / KV cache / edge | [Link](https://arxiv.org/abs/2608.16477) | — |
+| **P1 · Watch** | **OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation** | arXiv 2026 | Pixel-space token compression for retrieval-augmented generation | [Link](https://arxiv.org/abs/2611.13675) | — |
+| **P0 · Strong** | **Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning** | arXiv 2026 | Multi-agent LLM systems / shared KV cache / training efficiency | [Link](https://arxiv.org/abs/2611.06956) | — |
+| **P0 · Strong** | **NVFP4-MLA: Unified FP4 KV-Cache Storage and Attention Computation for Multi-Head Latent Attention** | arXiv 2026 | FP4 MLA attention and KV storage | [Link](https://arxiv.org/abs/2611.18972) | — |
+| **P0 · Strong** | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation** | arXiv 2026 | kv;quant;gen | [Link](https://arxiv.org/abs/2611.06377) | — |
+| **P0 · Strong** | **MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos** | arXiv 2026 | video_generation_long_context_acceleration | [Link](https://arxiv.org/abs/2611.21339) | — |
 | **P0 · Strong** | **MoNe: Modular Neural Memory for Efficient Long Context Inference** | Fresh / preprint | long-context inference / neural memory | [Link](https://arxiv.org/abs/2608.17616) | — |
+| **P2 · Relevant** | **Mobility-Aware Task Offloading in Mobile Edge Computing-Empowered Space-Air-Ground Integrated Internet-of-Things Networks** | arXiv 2026 | efficient-ML technical adjacency | [Link](https://arxiv.org/abs/2611.14102) | — |
+| **P2 · Relevant** | **Mobile Edge Deployment and Resource Management for Maritime Wireless Networks** | arXiv 2026 | maritime-edge-compute-offloading | [Link](https://arxiv.org/abs/2611.17779) | — |
+| **P0 · Strong** | **MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression** | arXiv 2026 | Extreme KV-cache quantization | [Link](https://arxiv.org/abs/2611.21216) | — |
+| **P2 · Relevant** | **MIRAGE: Motion Identity Reduction via Autoregressive Generative Encoding for Privacy-Preserving Skeleton-based Motion Data** | arXiv 2026 | Streaming models; motion data; causal attention and KV cache | [Link](https://arxiv.org/abs/2611.22200) | — |
+| **P0 · Strong** | **MIGRO: A Decoupled and Portable Long-Term Memory System for Language Models** | arXiv 2026 | LLM long-term memory | [Link](https://arxiv.org/abs/2611.15315) | — |
+| **P0 · Strong** | **Memory-Efficient Speculative Decoding with Quantized Draft KV Cache** | arXiv 2026 | Speculative-decoding memory | [Link](https://arxiv.org/abs/2611.20565) | — |
+| **P1 · Watch** | **Lost in a Few Heads: Diagnosing and Repairing Block Selection in Sparse Attention** | arXiv 2026 | Efficient attention; sparse attention; long-context inference | [Link](https://arxiv.org/abs/2611.21917) | — |
+| **P0 · Strong** | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers** | arXiv 2026 | kv_cache_quantization | [Link](https://arxiv.org/abs/2611.05304) | — |
+| **P0 · Strong** | **Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders** | arXiv 2026 | Long-context LLM serving and recurrent KV-cache sharing | [Link](https://arxiv.org/abs/2611.13378) | — |
+| **P1 · Watch** | **LLMRunner: Closed Workload Model Performance Testing Framework for LLM Servings** | arXiv 2026 | LLM / multimodal serving | [Link](https://arxiv.org/abs/2611.15372) | — |
 | **P2 · Relevant** | **Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval** | arXiv | long_context_retrieval | [Link](https://arxiv.org/abs/2611.04169) | — |
+| **P0 · Strong** | **LaFlash: Capacity-Driven Acceleration for Coding Agent Workflows via QLC-HBF** | arXiv 2026 | llm_serving;kv;agent | [Link](https://arxiv.org/abs/2611.22746) | — |
+| **P0 · Strong** | **KVUse: Reusable-KV User Memory for Efficient LLM Recommenders** | arXiv 2026 | KV cache; LLM serving; prefill optimization | [Link](https://arxiv.org/abs/2611.21920) | — |
+| **P1 · Watch** | **KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants** | arXiv 2026 | KV cache; long-context; efficient reasoning and agent systems | [Link](https://arxiv.org/abs/2611.21998) | — |
+| **P2 · Relevant** | **Keep Images in Sight: Visual Position Re-Anchoring for Long-Context MLLMs** | arXiv 2026 | KV cache / long-context | [Link](https://arxiv.org/abs/2611.15100) | — |
+| **P1 · Watch** | **Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization** | arXiv 2026 | AI_infrastructure_agents;KV_cache;runtime | [Link](https://arxiv.org/abs/2611.11995) | — |
+| **P2 · Relevant** | **Information Limits of Replay-Free Recurrent State Migration** | arXiv 2026 | recurrent_state_memory | [Link](https://arxiv.org/abs/2611.19345) | — |
+| **P0 · Strong** | **HyCoInfer: Cloud-Edge Collaborative Inference for Large Language Models on Heterogeneous GPU-FPGA Architectures** | arXiv 2026 | Edge/cloud; heterogeneous AI systems; LLM serving; KV-cache compression | [Link](https://arxiv.org/abs/2611.22086) | — |
+| **P2 · Relevant** | **Hybrid LLM-Deterministic Pipelines for Enterprise-Scale Code Migration at Bloomberg** | arXiv 2026 | Hybrid LLM-deterministic enterprise automation pipelines | [Link](https://arxiv.org/abs/2611.05457) | — |
+| **P0 · Strong** | **HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse** | arXiv 2026 | VLA/WAM serving; KV-cache reuse | [Link](https://arxiv.org/abs/2611.16487) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
+| **P0 · Strong** | **GaugeRoPE: RoPE-Compatible Executable Latent Attention** | arXiv 2026 | kv_cache_executable_latent_compression | [Link](https://arxiv.org/abs/2611.20524) | — |
+| **P2 · Relevant** | **From Token Changes to Task Failures: Bit Flips in a Shared KV-Cache Block** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.22243) | — |
 | **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
+| **P0 · Strong** | **Frame First, Decode Once: Object-Centric Coordinates and Single-Pass Decoding for System-1 World Models** | arXiv 2026 | Single-pass low-latency decoding for action-conditioned world models | [Link](https://arxiv.org/abs/2611.18761) | — |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
+| **P1 · Watch** | **Fewer Expert Transfers Without Changing Routing: Expert Eviction for MoE Offloading** | arXiv 2026 | MoE systems / accelerators | [Link](https://arxiv.org/abs/2611.15842) | — |
+| **P0 · Strong** | **Exstill: The Most Efficient Single-Chip Processor for the Next Token** | arXiv 2026 | llm_decode_specialized_hardware | [Link](https://arxiv.org/abs/2611.18859) | — |
+| **P0 · Strong** | **Evolving Infra: Agent-Adaptive LLM Serving at Scale** | arXiv 2026 | llm_serving;kv;agent | [Link](https://arxiv.org/abs/2611.12304) | — |
+| **P1 · Watch** | **EfficientSkill: Learning Skills for Token-Efficient Multi-Turn Agents** | arXiv 2026 | efficient_agent_skill_compression | [Link](https://arxiv.org/abs/2611.19823) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
+| **P1 · Watch** | **EchoKV: Self-Corrective KV Cache Eviction via Iterative Query Feedback** | arXiv 2026 | KV cache; long-context inference; cache eviction | [Link](https://arxiv.org/abs/2611.05903) | — |
+| **P2 · Relevant** | **Does a Self-Learning Migration Agent Learn? An Audited Evaluation of Evidence-Graded Experience Memory for Oracle-to-PostgreSQL Migration** | arXiv 2026 | agent_memory_evaluation | [Link](https://arxiv.org/abs/2611.16143) | — |
+| **P2 · Relevant** | **Deep Latents, Long Memory: Latent persistence explains temporal correlations in transformer activations** | arXiv 2026 | LLM 长上下文表征与激活相关性 | [Link](https://arxiv.org/abs/2611.18089) | — |
+| **P1 · Watch** | **DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion** | arXiv 2026 | video/diffusion acceleration; sparse attention; cache reuse | [Link](https://arxiv.org/abs/2611.05917) | — |
+| **P0 · Strong** | **Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding** | arXiv 2026 | Distributed LLM decoding and request-local attention/KV placement | [Link](https://arxiv.org/abs/2611.13293) | — |
+| **P2 · Relevant** | **Correct Answers from Insufficient Histories: A Controlled Study of Agent Memory Evaluation** | arXiv 2026 | agent_memory_evaluation | [Link](https://arxiv.org/abs/2611.11840) | — |
+| **P0 · Strong** | **Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study** | arXiv 2026 | core efficient-ML mechanism | [Link](https://arxiv.org/abs/2611.14051) | — |
+| **P0 · Strong** | **Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model** | arXiv 2026 | physical_ai_action_generation_acceleration | [Link](https://arxiv.org/abs/2611.19709) | — |
+| **P2 · Relevant** | **Budgeted Decision-Model-Guided Joint-Action Search for Satellite Edge Computing** | arXiv 2026 | satellite_edge_compute_scheduling | [Link](https://arxiv.org/abs/2611.19225) | — |
+| **P0 · Strong** | **BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation** | arXiv 2026 | Prefill-decode disaggregation / KV-cache translation | [Link](https://arxiv.org/abs/2611.11761) | — |
+| **P2 · Relevant** | **BioMem: Agentic Memory for Biomedical LLM Agents** | arXiv 2026 | Agentic memory and retrieval for LLM systems | [Link](https://arxiv.org/abs/2611.13426) | — |
+| **P1 · Watch** | **Bilateral Log-Linear Attention** | arXiv 2026 | efficient_log_linear_attention_long_context | [Link](https://arxiv.org/abs/2611.18974) | — |
+| **P0 · Strong** | **Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression** | arXiv 2026 | long-context; selective context compression | [Link](https://arxiv.org/abs/2611.16384) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
+| **P0 · Strong** | **AR-WAM: efficient streaming world-action modeling for autonomous driving** | arXiv 2026 | Physical AI; WAM serving; streaming agents; temporal cache reuse | [Link](https://arxiv.org/abs/2611.21851) | — |
+| **P2 · Relevant** | **Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems** | arXiv 2026 | Activation-guided graph retrieval for LLM memory | [Link](https://arxiv.org/abs/2611.13127) | — |
+| **P0 · Strong** | **Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining** | arXiv 2026 | kv;sparse | [Link](https://arxiv.org/abs/2611.06133) | — |
 
-## 🏛️ Classical / Historical · 1022 canonical
+## 🏛️ Classical / Historical · 1032 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -342,6 +367,7 @@
 | **Canonical** | **A Universal Context-Reuse Layer for Cross-Model KV Sharing** | arXiv 2026 | KV cache / LLM serving / cross-model context reuse / multi-agent inference | [Link](https://arxiv.org/abs/2608.30963) | — |
 | **Canonical** | **A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies** | arXiv 2026 | LLM serving / agent systems / KV cache / streaming execution | [Link](https://arxiv.org/abs/2609.11231) | — |
 | **Canonical** | **AbridgeKV: Compressing Long Reasoning into the KV Cache of Learned Pause Tokens** | arXiv 2026 | kv_cache_reasoning_serving | [Link](https://arxiv.org/abs/2610.20641) | — |
+| **Canonical** | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation** | arXiv 2026 | speculative decoding; CPU LLM serving | [Link](https://arxiv.org/abs/2610.28671) | — |
 | **Canonical** | **Acoustic-to-Text KV Compression for Full-Duplex Speech Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31224) | — |
 | **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |
 | **Canonical** | **Activation Sparsity with Weight Approximation for Faster LLM Decoding on Offloaded Weights** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02598) | — |
@@ -382,6 +408,7 @@
 | **Canonical** | **Cartridges++: KV Cache Compression without Off-Context Derailment** | arXiv 2026 | llm_serving,kv | [Link](https://arxiv.org/abs/2609.35621) | — |
 | **Canonical** | **Cascadia: Resident 975B MoE Inference on Eleven AI PCs** | arXiv 2026 | MoE systems/accelerators; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2610.07219) | — |
 | **Canonical** | **CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention** | arXiv 2026 | efficient attention / long context / sparse routing / kernel acceleration | [Link](https://arxiv.org/abs/2609.07237) | — |
+| **Canonical** | **Certified Sparse Attention via Perturbed Retrieval** | arXiv 2026 | Sparse attention / certified approximation | [Link](https://arxiv.org/abs/2610.24991) | — |
 | **Canonical** | **ChampionKV: Head-Wise Adaptive Budget Allocation for KV Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18026) | — |
 | **Canonical** | **CommunityKV: Efficient Long-Context Decoding via Graph Partitioning** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00418) | — |
 | **Canonical** | **CompactAttention: Accelerating Chunked Prefill with Block-Union KV Selection** | arXiv 2026 | llm_serving,kv,sparse,attn | [Link](https://arxiv.org/abs/2605.16839) | — |
@@ -496,6 +523,7 @@
 | **Canonical** | **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving** | arXiv 2026 | llm_serving,kv,gen | [Link](https://arxiv.org/abs/2407.00079) | — |
 | **Canonical** | **MORCA: Offline-to-Online Reinforcement Learning for Adaptive Cache Reuse in Video Diffusion Acceleration** | arXiv 2026 | diffusion,video_generation,cache | [Link](https://arxiv.org/abs/2610.10457) | — |
 | **Canonical** | **More Value per Key: Asymmetric Sparse Attention for Faster LLM Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04753) | — |
+| **Canonical** | **MOSAIC: Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers** | arXiv 2026 | KV-cache allocation | [Link](https://arxiv.org/abs/2610.25431) | — |
 | **Canonical** | **MosaicKV: Serving Long-Context LLM with Dynamic Two-D KV Cache Compression** | arXiv 2026 | KV cache two-dimensional compression / long-context LLM serving | [Link](https://arxiv.org/abs/2607.00760) | — |
 | **Canonical** | **Multi-Turn LLM Conversations under the Least-Recently-Used Policy: Mean-Field Asymptotics and Hit Ratio Approximation** | arXiv 2026 | LLM serving / KV cache / multi-turn conversations / cache provisioning | [Link](https://arxiv.org/abs/2609.02027) | — |
 | **Canonical** | **NanoCP: Taming Load Imbalance in Data-Expert Parallel Decoding under Variable-Length Workloads** | arXiv 2026 | llm_serving,kv,moe,dist | [Link](https://arxiv.org/abs/2605.21100) | — |
@@ -520,6 +548,7 @@
 | **Canonical** | **Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36322) | — |
 | **Canonical** | **Periscope: Extending Frozen Language Models Beyond Their Context Window** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.04047) | — |
 | **Canonical** | **Physically Partitioned KVCache Format for CPU--GPU Load Balancing in MoE Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.14507) | — |
+| **Canonical** | **PlaneZip: Lossless Bit-Plane Compression of Training Activations Offloaded over PCIe** | arXiv 2026 | Lossless training-activation compression over PCIe | [Link](https://arxiv.org/abs/2610.25033) | — |
 | **Canonical** | **PORTER: Edge-Cloud Residency for Persistent 3D Scene Graph Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33258) | — |
 | **Canonical** | **Positional task conditioning for scalable defect detection across product families in large product catalogs** | arXiv 2026 | LLM serving / distillation / production inference cost | [Link](https://arxiv.org/abs/2609.09567) | — |
 | **Canonical** | **Post-Boundary Bridge: Must Local Attention Go Global Between Global Layers?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.02680) | — |
@@ -545,6 +574,7 @@
 | **Canonical** | **ResidualKV: Residual-Based KV Cache Compression for Efficient Long-Context Inference** | arXiv 2026 | kv,long_context,quant,sparse | [Link](https://arxiv.org/abs/2602.08005) | — |
 | **Canonical** | **ResidualQuant: KV Cache Quantization for Looped Transformers with 2-Bit Residuals** | arXiv 2026 | kv_cache,quantization,llm_serving | [Link](https://arxiv.org/abs/2610.10381) | — |
 | **Canonical** | **Resource-Efficient Speculative Decoding for Long-Context LLM Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33184) | — |
+| **Canonical** | **ReTrace: Visual Backtracking for Efficient Multimodal Large Language Models** | arXiv 2026 | Multimodal serving / token compression | [Link](https://arxiv.org/abs/2610.25005) | — |
 | **Canonical** | **RippleKV: Cross-Layer KV Cache Allocation via Perturbation Propagation** | arXiv 2026 | KV cache / long-context inference / cross-layer cache allocation | [Link](https://arxiv.org/abs/2608.08684) | — |
 | **Canonical** | **Risk-Controlled KV-Cache Eviction: From Memory Budgets to Risk Targets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.27981) | — |
 | **Canonical** | **RoLaQ: Joint Rotation and Range Calibration for 2-Bit KV Caches in Multi-Head Latent Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20686) | — |
@@ -577,9 +607,11 @@
 | **Canonical** | **Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading** | arXiv 2026 | llm_serving,spec,quant,moe,edge | [Link](https://arxiv.org/abs/2511.14102) | — |
 | **Canonical** | **SPLASH: Co-Designing Sparse Attention with High-Bandwidth Flash for Efficient Long-Context Inference** | arXiv 2026 | KV cache/long-context; sparse attention | [Link](https://arxiv.org/abs/2609.23816) | — |
 | **Canonical** | **Splitting Prompt Prefill from Response Replay for Context-Parallel Long-Context LLM Post-Training** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2609.33133) | — |
+| **Canonical** | **SplitZip: Ultra Fast Lossless KV Compression for Disaggregated LLM Serving** | arXiv 2026 | KV-cache compression and disaggregated serving | [Link](https://arxiv.org/abs/2605.01708) | — |
 | **Canonical** | **Squeezing the Cache, Preserving the Truth: Monotonic Equipotential Allocation with Geodesia-KV** | arXiv 2026 | KV cache / long-context / mixed-precision cache / sparse reading / vLLM runtime | [Link](https://arxiv.org/abs/2608.23599) | — |
 | **Canonical** | **StateMem: Single-State Residual Memory with Adaptive Inference for Vision-Language-Action Policies** | arXiv 2026 | VLA/Physical AI serving; cache reuse | [Link](https://arxiv.org/abs/2609.22684) | — |
 | **Canonical** | **StepKV: Step-Aware KV Cache Compression for LLM Agents** | arXiv 2026 | KV cache/long-context | [Link](https://arxiv.org/abs/2609.22158) | — |
+| **Canonical** | **StreamAhead: Real-Time Streaming Video Question Answering via Adaptive Precomputation** | arXiv 2026 | Streaming multimodal serving | [Link](https://arxiv.org/abs/2610.25551) | — |
 | **Canonical** | **StreamTTT: Reconciling Real-Time Perception and Long-Term Memory in Streaming VLMs** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2608.13416) | [Repo](https://github.com/zeyun-zhong/StreamTTT) |
 | **Canonical** | **Studying the Soupability of Documents in State Space Models** | arXiv 2026 | KV cache/long-context | [Link](https://arxiv.org/abs/2505.24033) | — |
 | **Canonical** | **Swarm Telepathy: Prefill-Free KV-Cache Transfer Across Families** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15095) | — |
@@ -590,7 +622,9 @@
 | **Canonical** | **Tessera: Demand-Driven KV Cache Management for Retrieval-Augmented LLM Serving** | arXiv 2026 | KV cache/long-context; LLM serving; agent systems | [Link](https://arxiv.org/abs/2609.32999) | — |
 | **Canonical** | **The Extender: A Log-Structured Transformer** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32759) | — |
 | **Canonical** | **The KV Cache Working Set: Online Capacity Planning for LLM Inference Systems** | arXiv 2026 | llm_serving,kv,agent | [Link](https://arxiv.org/abs/2609.27746) | — |
+| **Canonical** | **The KV-Surgeon: Compensation-Aware Offline KV-Cache Compaction** | arXiv 2026 | KV-cache compression | [Link](https://arxiv.org/abs/2610.25933) | — |
 | **Canonical** | **Throughput-Oriented LLM Inference via KV-Activation Hybrid Caching with a Single GPU** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2501.01792) | — |
+| **Canonical** | **TideKV: Delayed KV Eviction via Layer-Wise Chunked Prefill for Memory-Efficient Long-Context LLM Inference** | arXiv 2026 | KV cache / long-context inference | [Link](https://arxiv.org/abs/2610.24499) | — |
 | **Canonical** | **TierKV: Long-Context On-Device LLMs via Predictive Multi-Tier KV Caching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.21172) | — |
 | **Canonical** | **Token-Efficient Multi-Agent Collaboration via System One-Guided Computational Division of Labor** | arXiv 2026 | efficient reasoning/agent systems; LLM serving | [Link](https://arxiv.org/abs/2610.08155) | — |
 | **Canonical** | **TokenCake: A KV-Cache-centric Serving Framework for LLM-based Multi-Agent Applications** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.18586) | — |
@@ -619,6 +653,7 @@
 | **Canonical** | **When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33334) | — |
 | **Canonical** | **Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding** | arXiv 2026 | LLM sparsity / KV cache | [Link](https://arxiv.org/abs/2609.33889) | — |
 | **Canonical** | **Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context** | arXiv 2026 | speculative decoding; KV cache/long-context | [Link](https://arxiv.org/abs/2607.21535) | — |
+| **Canonical** | **Write Once, Query Many: Evolving Compact Reusable Memory for Long Videos** | arXiv 2026 | Long-video memory / multimodal serving | [Link](https://arxiv.org/abs/2610.24537) | — |
 | **Canonical** | **Written as a Record, Read as an Address: What a Forward Pass Leaves in an Operation's KV Cache** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24635) | — |
 | **Canonical** | **XWind: A Cross-site Router for Large Language Model Inference Serving at Renewable Energy Farms** | arXiv 2026 | LLM serving; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2605.23348) | — |
 | **Canonical** | **ZenFlow: Enabling Stall-Free Offloading for LLM Training** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2505.12242) | — |

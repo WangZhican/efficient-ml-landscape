@@ -1,34 +1,13 @@
 # 06 · Efficient Attention
 
-> **952 canonical papers** mapped here, plus a broader **216-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **971 canonical papers** mapped here, plus a broader **242-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 216 tracked
+## 🆕 Latest 30 Days · 242 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
-| **P2 · Relevant** | **ISLA: A Coordinate-Free, Measure-Weighted Transformer for Boundary-Driven PDEs** | arXiv 2026 | efficient attention adjacent | [Link](https://arxiv.org/abs/2611.17141) | — |
-| **P2 · Relevant** | **Safe and Efficient Navigation Considering Texting Pedestrians via Attention-Aware Cost-map Tuning** | arXiv 2026 | Physical AI; navigation | [Link](https://arxiv.org/abs/2611.16725) | — |
-| **P0 · Strong** | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models** | arXiv 2026 | multimodal diffusion acceleration; attention sparsity | [Link](https://arxiv.org/abs/2611.16345) | — |
-| **P0 · Strong** | **Starscream: Reimagining LLM Sharding on AMD Instinct GPUs with GPU Partitioning** | arXiv 2026 | GPU kernel / DSL / compilers | [Link](https://arxiv.org/abs/2611.15951) | — |
-| **P0 · Strong** | **Read Once, Answer Many: Parallel Prompting for Shared-Context LLM Inference** | arXiv 2026 | LLM / multimodal serving | [Link](https://arxiv.org/abs/2611.15130) | [Repo](https://github.com/jlab-nlp/parallel-prompting) |
-| **P2 · Relevant** | **CAppleNet: A Coordinate Attention-Based YOLO11 for Real-Time Apple Stem Cavity and Calyx Detection** | arXiv 2026 | Lightweight YOLO edge vision | [Link](https://arxiv.org/abs/2611.13920) | — |
-| **P2 · Relevant** | **Spatial-Spectral Coupling as Attention: Scaling Shape Correspondence to High-Resolution Surfaces** | arXiv 2026 | efficient-ML technical adjacency | [Link](https://arxiv.org/abs/2611.13870) | — |
-| **P2 · Relevant** | **picoEmergencyNet : Attention-Enhanced Ultra-Small Deep Learning Model for Aerial Image Classification in Emergency Monitoring** | arXiv 2026 | TinyML aerial-image classification on edge UAV hardware | [Link](https://arxiv.org/abs/2611.13638) | — |
-| **P2 · Relevant** | **One Byte, One Token: Byteifying a 27B Hybrid-Attention LLM with Self-Generated Data** | arXiv 2026 | LLM tokenization | [Link](https://arxiv.org/abs/2611.13607) | — |
-| **P0 · Strong** | **POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling** | arXiv 2026 | efficient attention / long-context prefill | [Link](https://arxiv.org/abs/2611.13578) | — |
-| **P2 · Relevant** | **TERM: Target-Free Jailbreak Defense via Entropy-Guided Residual Modulation** | arXiv 2026 | inference_time_runtime_control | [Link](https://arxiv.org/abs/2611.13577) | — |
-| **P0 · Strong** | **Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding** | arXiv 2026 | Distributed LLM decoding and request-local attention/KV placement | [Link](https://arxiv.org/abs/2611.13293) | — |
-| **P2 · Relevant** | **Multimodal Road Closure Mapping via Cross-Modal Graph Attention** | arXiv 2026 | Compact multimodal model for road-closure mapping | [Link](https://arxiv.org/abs/2611.13192) | — |
-| **P2 · Relevant** | **Anchor Behavior, Not Parameters: Rehearsal-Free Continual Learning with a Single Shared Prompt** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.12777) | — |
-| **P2 · Relevant** | **LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.12775) | — |
-| **P2 · Relevant** | **Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.12716) | — |
-| **P2 · Relevant** | **NearFormer: Linear-Size Sparse Attention via Randomized Near Neighbors** | arXiv 2026 | Efficient attention / graph transformers | [Link](https://arxiv.org/abs/2611.12186) | — |
-| **P1 · Watch** | **Real-Time Volumetric Light Transport Inference without a Path** | arXiv 2026 | real_time_neural_rendering_inference | [Link](https://arxiv.org/abs/2611.12103) | — |
-| **P1 · Watch** | **TSFFormer: A Frequency-Domain Spike Transformer for Green Human Activity Recognition** | arXiv 2026 | Spiking transformer / low-power wearable inference | [Link](https://arxiv.org/abs/2611.12090) | — |
-| **P0 · Strong** | **Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers** | arXiv 2026 | Hybrid-attention KV-cache translation / long-context handoff | [Link](https://arxiv.org/abs/2611.12062) | — |
-| **P2 · Relevant** | **Feel My Focus: Gaze-Triggered Digital Twin Creation for Remote Collaboration** | arXiv 2026 | gaze_triggered_one_shot_3d_reconstruction | [Link](https://arxiv.org/abs/2611.11640) | — |
 | **P0 · Strong** | **Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference** | arXiv 2026 | Long-context KV-cache compression / bounded attention | [Link](https://arxiv.org/abs/2611.11319) | — |
 | **P2 · Relevant** | **Think or Remember: The Exchange Rate of Agentic Inference** | arXiv 2026 | Long-context agent inference / compute-memory cost model | [Link](https://arxiv.org/abs/2611.10982) | — |
 | **P1 · Watch** | **FG-DSA: Frequency-Guided Depthwise Separable Attention for Efficient Dense Prediction** | arXiv 2026 | efficient_attention_diffusion_unet | [Link](https://arxiv.org/abs/2611.10653) | — |
@@ -60,19 +39,6 @@
 | **P1 · Watch** | **FastAFD: When Does Attention-FFN Disaggregation Pay on Rack-Scale NVLink?** | arXiv 2026 | LLM serving / MoE disaggregation | [Link](https://arxiv.org/abs/2611.07149) | — |
 | **P0 · Strong** | **Systolic Linear Attention: Co-Designing Tile-Grouped Gated Delta Attention for TPUs** | arXiv 2026 | attn;moe;kernel | [Link](https://arxiv.org/abs/2611.06828) | — |
 | **P1 · Watch** | **Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.06635) | — |
-| **P0 · Strong** | **HELIX: HEterogeneous LLM Inference with FleXible and Fine-Grained Partitioning** | arXiv 2026 | llm_serving;edge | [Link](https://arxiv.org/abs/2611.06513) | — |
-| **P0 · Strong** | **Tools Need Not Speak in Text: Latent Context Compression for Agents** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2611.06500) | — |
-| **P2 · Relevant** | **$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation** | arXiv 2026 | multimodal;physical | [Link](https://arxiv.org/abs/2611.06447) | — |
-| **P2 · Relevant** | **PARGAR: Pilot-Aware Graph Attention for Sparse-Pilot Neural OFDM Receivers** | arXiv 2026 | wireless_neural_receiver | [Link](https://arxiv.org/abs/2611.06432) | — |
-| **P0 · Strong** | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation** | arXiv 2026 | kv;quant;gen | [Link](https://arxiv.org/abs/2611.06377) | — |
-| **P0 · Strong** | **Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining** | arXiv 2026 | kv;sparse | [Link](https://arxiv.org/abs/2611.06133) | — |
-| **P0 · Strong** | **Ab Initio Accuracy Beyond the Cutoff: Distributed Message-Passing Equivariant Attention at Tens-of-Millions-of-Atom Scale** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.06122) | — |
-| **P0 · Strong** | **Shallow Encoding Emits Deep Memories** | arXiv 2026 | llm_serving;kv;agent | [Link](https://arxiv.org/abs/2611.06084) | — |
-| **P0 · Strong** | **RI-Prune: Relation and Information Aware Visual Token Pruning for Multi-Image Vision-Language Models** | arXiv 2026 | sparse;multimodal | [Link](https://arxiv.org/abs/2611.06047) | — |
-| **P2 · Relevant** | **ChanSFormer: A Channel Agnostic Vision Transformer for Multi-Channel Cell Painting Images** | arXiv 2026 | llm_serving;edge | [Link](https://arxiv.org/abs/2611.06015) | — |
-| **P1 · Watch** | **DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion** | arXiv 2026 | video/diffusion acceleration; sparse attention; cache reuse | [Link](https://arxiv.org/abs/2611.05917) | — |
-| **P1 · Watch** | **CHARM+: Cross-Hardware Attention with Re-Merge Multistream Mechanism** | arXiv 2026 | distributed training; efficient attention; cross-hardware communication | [Link](https://arxiv.org/abs/2611.05906) | — |
-| **P0 · Strong** | **Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning** | arXiv 2026 | Multi-agent LLM systems / shared KV cache / training efficiency | [Link](https://arxiv.org/abs/2611.06956) | — |
 | **P2 · Relevant** | **Learned Smartphone ISP on Mobile GPUs: Mobile AI 2026 Challenge Report** | arXiv 2026 | mobile_isp_inference | [Link](https://arxiv.org/abs/2611.05008) | — |
 | **P0 · Strong** | **LeanSparse: Memory-Efficient Serving for Native Sparse-Attention LLMs** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2611.04671) | — |
 | **P0 · Strong** | **Exploiting Biases in Attention for Transformers** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.04657) | — |
@@ -134,6 +100,7 @@
 | **P0 · Strong** | **ConvRoute-ViT: Convolutional Token Routing for Efficient Vision Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38284) | — |
 | **P0 · Strong** | **GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38210) | — |
 | **P0 · Strong** | **Multi-State Linear Attention with Generalized Second-Order Routing** | arXiv 2026 | efficient_attention_long_context | [Link](https://arxiv.org/abs/2610.37645) | — |
+| **P2 · Relevant** | **REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation** | arXiv 2026 | efficient_generative_recommendation | [Link](https://arxiv.org/abs/2610.37584) | — |
 | **P1 · Watch** | **GTFormer: A Syntax-Free Graph Network Alternative to Transformers for 8192$\times$ Length Extrapolation in Linear Time** | arXiv 2026 | kv,quant | [Link](https://arxiv.org/abs/2610.37524) | — |
 | **P0 · Strong** | **Request-Adaptive Execution for Efficient Hybrid LLM Inference** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.37432) | — |
 | **P0 · Strong** | **GPA-VGGT: Geometry-Preserving Acceleration of VGGT** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.37000) | — |
@@ -189,43 +156,102 @@
 | **P0 · Strong** | **MLIPS: Multi-Layer Indexer Pool Sharing** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27438) | — |
 | **P0 · Strong** | **LEAF: LUT-aware Efficient Attention on FPGAs** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27078) | — |
 | **P0 · Strong** | **Kronecker Delta Rule for Long Context Linear Attention** | arXiv 2026 | kv,attn | [Link](https://arxiv.org/abs/2610.26834) | — |
-| **P0 · Strong** | **Tandem: Serving Hybrid Linear-Attention GUI Agents on Mobile NPUs** | arXiv 2026 | llm_serving,spec,attn,edge | [Link](https://arxiv.org/abs/2610.26660) | — |
-| **P0 · Strong** | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion** | arXiv 2026 | llm_serving,kv,sparse,gen | [Link](https://arxiv.org/abs/2610.26262) | — |
-| **P0 · Strong** | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.26244) | — |
-| **P2 · Relevant** | **CheXFuse: Guided Differential Joint Attention Fusion for Robust Multimodal Chest X-Ray Classification in Data-Scarce Medical Settings** | arXiv 2026 | multimodal_attention_fusion | [Link](https://arxiv.org/abs/2610.25617) | — |
-| **P1 · Watch** | **CVTA: Cross-Variable Temporal Attention for Multivariate Irregular Time Series Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25584) | — |
-| **P0 · Strong** | **ReDT: Resolution-Decoupled Visual Geometry Transformer** | arXiv 2026 | efficient multimodal vision attention | [Link](https://arxiv.org/abs/2610.25517) | — |
-| **P2 · Relevant** | **Shared-Private Cross-Modal Discrepancy Learning for Imbalanced Multi-Source Audio-Visual Deepfake Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25301) | — |
-| **P1 · Watch** | **Improving the Expressive Power of Hybrid Sequence Models via Multi-Hop Retrieval** | arXiv 2026 | Efficient sequence models | [Link](https://arxiv.org/abs/2610.25250) | — |
-| **P0 · Strong** | **Certified Sparse Attention via Perturbed Retrieval** | arXiv 2026 | Sparse attention / certified approximation | [Link](https://arxiv.org/abs/2610.24991) | — |
-| **P2 · Relevant** | **Table Serialization Determines Which Relations Language Models Preserve** | arXiv 2026 | llm_context_serialization_and_reasoning | [Link](https://arxiv.org/abs/2610.24798) | — |
-| **P2 · Relevant** | **GazeAct: A Human-Gaze-Annotated Manipulation Dataset for Attention-Regularized Policies** | arXiv 2026 | Physical AI / gaze datasets | [Link](https://arxiv.org/abs/2610.24507) | — |
-| **P2 · Relevant** | **HiPPO Functional Memory: Coordinate-Queryable Attention for Irregular Time Series** | arXiv 2026 | reusable attention memory | [Link](https://arxiv.org/abs/2610.24501) | — |
-| **P2 · Relevant** | **Transformers as Adaptive Kernel Learners across Tasks for In-Context Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24441) | — |
-| **P2 · Relevant** | **Ask Less, Ask Better: Allocating User Attention in Proactive LLM Agents with Interruption Budgets** | arXiv 2026 | agent interaction budgeting | [Link](https://arxiv.org/abs/2610.24411) | — |
-| **P2 · Relevant** | **Morpheus-2.0: Multiscale Probabilistic Forecasting with Dual-Axis Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24321) | — |
 | **P2 · Relevant** | **Zero-Gated Cross-Attention** | arXiv | multimodal_adapters | [Link](https://arxiv.org/abs/2611.01116) | — |
+| **P0 · Strong** | **XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools** | arXiv 2026 | llm_serving;kv;sparse | [Link](https://arxiv.org/abs/2611.22280) | — |
+| **P2 · Relevant** | **Wear and Go: Calibration Free Sparse Inertial Motion Capture via Online Sensor Setup Estimation** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.22894) | — |
+| **P0 · Strong** | **VisHead-Spec: Head-Routed Visual Attention for Multimodal Speculative Decoding** | arXiv 2026 | Multimodal serving; speculative decoding; efficient attention | [Link](https://arxiv.org/abs/2611.21839) | — |
 | **P2 · Relevant** | **UniSpark: Exploring Hybrid Attention for Multimodal Understanding and Generation** | arXiv | multimodal generation; hybrid attention; low-priority architecture work | [Link](https://arxiv.org/abs/2611.16517) | — |
+| **P1 · Watch** | **TSFFormer: A Frequency-Domain Spike Transformer for Green Human Activity Recognition** | arXiv 2026 | Spiking transformer / low-power wearable inference | [Link](https://arxiv.org/abs/2611.12090) | — |
+| **P0 · Strong** | **Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers** | arXiv 2026 | Hybrid-attention KV-cache translation / long-context handoff | [Link](https://arxiv.org/abs/2611.12062) | — |
+| **P1 · Watch** | **Training-Free Acceleration of Multi-View 3D Transformers via Regime-Aware Attention Approximation** | arXiv 2026 | 3d-transformer-acceleration | [Link](https://arxiv.org/abs/2611.17629) | — |
+| **P0 · Strong** | **Tools Need Not Speak in Text: Latent Context Compression for Agents** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2611.06500) | — |
 | **P2 · Relevant** | **TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention** | arXiv 2026 | video generation / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2611.16897) | — |
+| **P1 · Watch** | **Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs** | arXiv 2026 | video-diffusion-attention | [Link](https://arxiv.org/abs/2611.17930) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
+| **P0 · Strong** | **The State Is Not the Bottleneck: A Paged-State Gated-DeltaNet Tile on a Tri-Mode Multicast Mesh, Bit-Exact from RTL to Silicon** | arXiv 2026 | edge-linear-attention-decoding-accelerator | [Link](https://arxiv.org/abs/2611.18422) | — |
+| **P1 · Watch** | **The Kernel Reality Check: Benchmarking and Distilling Efficient Attention at Scale** | arXiv 2026 | attn | [Link](https://arxiv.org/abs/2611.22947) | — |
+| **P2 · Relevant** | **TERM: Target-Free Jailbreak Defense via Entropy-Guided Residual Modulation** | arXiv 2026 | inference_time_runtime_control | [Link](https://arxiv.org/abs/2611.13577) | — |
+| **P1 · Watch** | **TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks** | arXiv 2026 | Distributed training/inference; MoE; speculative decoding; agent runtime; heterogeneous chips | [Link](https://arxiv.org/abs/2611.22115) | — |
+| **P1 · Watch** | **SWAM: Saliency-Weighted Asymmetric Merging for Efficient Vision Transformers** | arXiv 2026 | vit-token-merging | [Link](https://arxiv.org/abs/2611.18057) | — |
+| **P1 · Watch** | **Structure-Guided Multi-Granularity Spatiotemporal Transformer for Efficient Monocular 3D Human Pose Estimation** | arXiv 2026 | efficient_spatiotemporal_pose_transformer | [Link](https://arxiv.org/abs/2611.20361) | — |
+| **P1 · Watch** | **Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels** | arXiv 2026 | llm_serving;kv;attn | [Link](https://arxiv.org/abs/2611.23035) | — |
+| **P0 · Strong** | **Starscream: Reimagining LLM Sharding on AMD Instinct GPUs with GPU Partitioning** | arXiv 2026 | GPU kernel / DSL / compilers | [Link](https://arxiv.org/abs/2611.15951) | — |
 | **P0 · Strong** | **SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation** | Fresh / preprint | video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.16585) | — |
+| **P0 · Strong** | **Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models** | arXiv 2026 | llm_serving;kernel;multimodal | [Link](https://arxiv.org/abs/2611.23228) | — |
+| **P2 · Relevant** | **Spatial-Spectral Coupling as Attention: Scaling Shape Correspondence to High-Resolution Surfaces** | arXiv 2026 | efficient-ML technical adjacency | [Link](https://arxiv.org/abs/2611.13870) | — |
+| **P2 · Relevant** | **Sparse Attention for Visual Generation: Toward Algorithm-System Co-Design** | arXiv 2026 | Sparse attention survey | [Link](https://arxiv.org/abs/2611.21029) | — |
+| **P2 · Relevant** | **Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.12716) | — |
+| **P0 · Strong** | **Shallow Encoding Emits Deep Memories** | arXiv 2026 | llm_serving;kv;agent | [Link](https://arxiv.org/abs/2611.06084) | — |
 | **P0 · Strong** | **SFA: A Statistical Physics-Inspired Diffusion Transformer for Efficient and High-Quality Image Generation** | arXiv 2026 | Diffusion acceleration / efficient attention | [Link](https://arxiv.org/abs/2611.00027) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **P1 · Watch** | **SCANO: Restoring Boundary-Condition Completeness in Sampled Meshes with a Sliced-Cross-Attention Neural Operator for 3D Thermal Fields** | arXiv | neural_operator_efficiency | [Link](https://arxiv.org/abs/2611.04603) | — |
+| **P2 · Relevant** | **Safe and Efficient Navigation Considering Texting Pedestrians via Attention-Aware Cost-map Tuning** | arXiv 2026 | Physical AI; navigation | [Link](https://arxiv.org/abs/2611.16725) | — |
+| **P1 · Watch** | **Runtime Verification of Multiple Natural Language Criteria for Agent Governance** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2611.23074) | — |
+| **P0 · Strong** | **RISA: Recoverable Sparse Attention for Block-Diffusion Language Models** | arXiv 2026 | Efficient attention; long-context; diffusion language-model inference | [Link](https://arxiv.org/abs/2611.22191) | — |
+| **P0 · Strong** | **RI-Prune: Relation and Information Aware Visual Token Pruning for Multi-Image Vision-Language Models** | arXiv 2026 | sparse;multimodal | [Link](https://arxiv.org/abs/2611.06047) | — |
+| **P0 · Strong** | **Rethinking KV Caching for LLM Decode: Free-Space Optical KV Regeneration for Reduction of Memory Traffic** | arXiv 2026 | Decode-attention accelerator architecture | [Link](https://arxiv.org/abs/2611.19279) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
+| **P1 · Watch** | **Real-Time Volumetric Light Transport Inference without a Path** | arXiv 2026 | real_time_neural_rendering_inference | [Link](https://arxiv.org/abs/2611.12103) | — |
 | **P2 · Relevant** | **Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits** | arXiv 2026 | heterogeneous and non-von-Neumann ML hardware | [Link](https://arxiv.org/abs/2611.05355) | — |
+| **P0 · Strong** | **Read Once, Answer Many: Parallel Prompting for Shared-Context LLM Inference** | arXiv 2026 | LLM / multimodal serving | [Link](https://arxiv.org/abs/2611.15130) | [Repo](https://github.com/jlab-nlp/parallel-prompting) |
+| **P0 · Strong** | **QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing** | arXiv 2026 | Sparse attention for video editing | [Link](https://arxiv.org/abs/2611.20704) | — |
+| **P0 · Strong** | **POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling** | arXiv 2026 | efficient attention / long-context prefill | [Link](https://arxiv.org/abs/2611.13578) | — |
+| **P0 · Strong** | **PoCoAttn: Position-Content Collaborative Sparse Attention for Fast and High-Fidelity Video Generation** | arXiv 2026 | Sparse attention for video diffusion | [Link](https://arxiv.org/abs/2611.20307) | — |
+| **P2 · Relevant** | **picoEmergencyNet : Attention-Enhanced Ultra-Small Deep Learning Model for Aerial Image Classification in Emergency Monitoring** | arXiv 2026 | TinyML aerial-image classification on edge UAV hardware | [Link](https://arxiv.org/abs/2611.13638) | — |
+| **P1 · Watch** | **PhyVGGT: Feed-Forward Articulated Object Reconstruction from Monocular Videos** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.22244) | — |
+| **P0 · Strong** | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation** | arXiv 2026 | quant;sparse;multimodal;gen | [Link](https://arxiv.org/abs/2611.22717) | — |
 | **P2 · Relevant** | **Patch Attention Wisely: Understanding Patch Length in Attention-Based Forecasting** | arXiv 2026 | efficient attention architecture / time-series forecasting | [Link](https://arxiv.org/abs/2611.08160) | — |
+| **P2 · Relevant** | **PARGAR: Pilot-Aware Graph Attention for Sparse-Pilot Neural OFDM Receivers** | arXiv 2026 | wireless_neural_receiver | [Link](https://arxiv.org/abs/2611.06432) | — |
+| **P2 · Relevant** | **PANO: Parallel Latent Space Neural Operator for Solving PDEs** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.22782) | — |
+| **P2 · Relevant** | **One Byte, One Token: Byteifying a 27B Hybrid-Attention LLM with Self-Generated Data** | arXiv 2026 | LLM tokenization | [Link](https://arxiv.org/abs/2611.13607) | — |
+| **P0 · Strong** | **Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning** | arXiv 2026 | Multi-agent LLM systems / shared KV cache / training efficiency | [Link](https://arxiv.org/abs/2611.06956) | — |
+| **P0 · Strong** | **NVFP4-MLA: Unified FP4 KV-Cache Storage and Attention Computation for Multi-Head Latent Attention** | arXiv 2026 | FP4 MLA attention and KV storage | [Link](https://arxiv.org/abs/2611.18972) | — |
+| **P2 · Relevant** | **NearFormer: Linear-Size Sparse Attention via Randomized Near Neighbors** | arXiv 2026 | Efficient attention / graph transformers | [Link](https://arxiv.org/abs/2611.12186) | — |
+| **P0 · Strong** | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation** | arXiv 2026 | kv;quant;gen | [Link](https://arxiv.org/abs/2611.06377) | — |
+| **P2 · Relevant** | **Multimodal Road Closure Mapping via Cross-Modal Graph Attention** | arXiv 2026 | Compact multimodal model for road-closure mapping | [Link](https://arxiv.org/abs/2611.13192) | — |
+| **P1 · Watch** | **MMFlash: Faster Speculative Decoding for Vision-Language Models** | arXiv 2026 | multimodal-speculation | [Link](https://arxiv.org/abs/2611.18482) | — |
+| **P2 · Relevant** | **MIRAGE: Motion Identity Reduction via Autoregressive Generative Encoding for Privacy-Preserving Skeleton-based Motion Data** | arXiv 2026 | Streaming models; motion data; causal attention and KV cache | [Link](https://arxiv.org/abs/2611.22200) | — |
+| **P1 · Watch** | **Lost in a Few Heads: Diagnosing and Repairing Block Selection in Sparse Attention** | arXiv 2026 | Efficient attention; sparse attention; long-context inference | [Link](https://arxiv.org/abs/2611.21917) | — |
+| **P0 · Strong** | **LoopPrune: Recurrent Pruning for Looped Diffusion Transformers** | arXiv 2026 | sparse;gen | [Link](https://arxiv.org/abs/2611.22757) | — |
+| **P2 · Relevant** | **LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.12775) | — |
 | **P2 · Relevant** | **Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval** | arXiv | long_context_retrieval | [Link](https://arxiv.org/abs/2611.04169) | — |
+| **P2 · Relevant** | **ISLA: A Coordinate-Free, Measure-Weighted Transformer for Boundary-Driven PDEs** | arXiv 2026 | efficient attention adjacent | [Link](https://arxiv.org/abs/2611.17141) | — |
+| **P2 · Relevant** | **Infrastructure-Based Multi-Agent Reinforcement Learning with Attention for Highway Ramp Merging** | arXiv 2026 | physical_ai_multi_agent_traffic_control | [Link](https://arxiv.org/abs/2611.20078) | — |
+| **P0 · Strong** | **How well does graph superoptimization transfer? Adapting tensor-graph superoptimizer to a Triton-based NPU** | arXiv 2026 | kernel;edge | [Link](https://arxiv.org/abs/2611.22844) | — |
+| **P0 · Strong** | **HELIX: HEterogeneous LLM Inference with FleXible and Fine-Grained Partitioning** | arXiv 2026 | llm_serving;edge | [Link](https://arxiv.org/abs/2611.06513) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
+| **P0 · Strong** | **GaugeRoPE: RoPE-Compatible Executable Latent Attention** | arXiv 2026 | kv_cache_executable_latent_compression | [Link](https://arxiv.org/abs/2611.20524) | — |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **P0 · Strong** | **FlashAttention for Scalable Vector Architectures** | Fresh / preprint | efficient attention / CPU vector architecture / llama.cpp | [Link](https://arxiv.org/abs/2608.18656) | — |
+| **P2 · Relevant** | **Feel My Focus: Gaze-Triggered Digital Twin Creation for Remote Collaboration** | arXiv 2026 | gaze_triggered_one_shot_3d_reconstruction | [Link](https://arxiv.org/abs/2611.11640) | — |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
+| **P0 · Strong** | **Efficient Wide-Beam Generative Retrieval with Model-Native Trie Decoding and Shared-Context Attention** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.22309) | — |
+| **P0 · Strong** | **Efficient Multi-View Generation with Iterative Global-Local Proxy Attention** | arXiv 2026 | diffusion_multiview_proxy_attention | [Link](https://arxiv.org/abs/2611.20703) | — |
+| **P1 · Watch** | **EcoVGGT: Pinned-Key Inference for Efficient and Streamable Feed-Forward 3D Reconstruction from Long Videos** | arXiv 2026 | 3d-reconstruction-inference | [Link](https://arxiv.org/abs/2611.18099) | — |
+| **P0 · Strong** | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models** | arXiv 2026 | multimodal diffusion acceleration; attention sparsity | [Link](https://arxiv.org/abs/2611.16345) | — |
+| **P2 · Relevant** | **DRaGAN: Dynamic Graph Attention Network for Multi-Radar Point Cloud Encoding in Automotive Radar Perception** | arXiv 2026 | physical_ai_perception_sparsity | [Link](https://arxiv.org/abs/2611.21162) | — |
+| **P0 · Strong** | **dit.xpu : Taming DiT Sparse Inference on Mobile SoCs** | arXiv 2026 | diffusion_transformer_sparse_mobile_inference | [Link](https://arxiv.org/abs/2611.19261) | — |
+| **P0 · Strong** | **DiffWAM: Learning World Action Model from Consecutive Visual Difference** | arXiv 2026 | physical_ai_wam_moe_inference | [Link](https://arxiv.org/abs/2611.19904) | — |
+| **P1 · Watch** | **DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion** | arXiv 2026 | video/diffusion acceleration; sparse attention; cache reuse | [Link](https://arxiv.org/abs/2611.05917) | — |
+| **P0 · Strong** | **Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding** | arXiv 2026 | Distributed LLM decoding and request-local attention/KV placement | [Link](https://arxiv.org/abs/2611.13293) | — |
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
+| **P0 · Strong** | **DAQ: Decision-Aligned Post-Training Quantization for Spiking Transformers** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2611.22611) | — |
+| **P1 · Watch** | **CHARM+: Cross-Hardware Attention with Re-Merge Multistream Mechanism** | arXiv 2026 | distributed training; efficient attention; cross-hardware communication | [Link](https://arxiv.org/abs/2611.05906) | — |
+| **P2 · Relevant** | **ChanSFormer: A Channel Agnostic Vision Transformer for Multi-Channel Cell Painting Images** | arXiv 2026 | llm_serving;edge | [Link](https://arxiv.org/abs/2611.06015) | — |
+| **P2 · Relevant** | **CAppleNet: A Coordinate Attention-Based YOLO11 for Real-Time Apple Stem Cavity and Calyx Detection** | arXiv 2026 | Lightweight YOLO edge vision | [Link](https://arxiv.org/abs/2611.13920) | — |
 | **P2 · Relevant** | **BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model** | arXiv 26 | Physical AI / autonomous-driving world models / video diffusion | [Link](https://arxiv.org/abs/2611.14815) | — |
+| **P1 · Watch** | **Bilateral Log-Linear Attention** | arXiv 2026 | efficient_log_linear_attention_long_context | [Link](https://arxiv.org/abs/2611.18974) | — |
 | **P2 · Relevant** | **AttnSR: Attention Step Reward for Long-Horizon Agentic RL** | arXiv 2026 | efficient agent learning / reinforcement learning | [Link](https://arxiv.org/abs/2611.07932) | — |
+| **P2 · Relevant** | **Attention at Absolute Zero** | arXiv 2026 | hard attention and large-scale retrieval | [Link](https://arxiv.org/abs/2611.11937) | — |
 | **P2 · Relevant** | **ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals** | arXiv | looped_transformers | [Link](https://arxiv.org/abs/2611.05234) | — |
+| **P2 · Relevant** | **Anchor Behavior, Not Parameters: Rehearsal-Free Continual Learning with a Single Shared Prompt** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.12777) | — |
+| **P0 · Strong** | **Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining** | arXiv 2026 | kv;sparse | [Link](https://arxiv.org/abs/2611.06133) | — |
+| **P0 · Strong** | **Ab Initio Accuracy Beyond the Cutoff: Distributed Message-Passing Equivariant Attention at Tens-of-Millions-of-Atom Scale** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2611.06122) | — |
+| **P2 · Relevant** | **A Transformer-Derived Iterative Preconditioner** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2611.22941) | — |
+| **P2 · Relevant** | **A Temporal Convolutional Network with Multi-Head Attention Model: A Surrogate for Parallel DEVS Semiconductor Fab Simulation** | arXiv 2026 | ml_surrogate_simulation_acceleration | [Link](https://arxiv.org/abs/2611.20493) | — |
+| **P2 · Relevant** | **$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation** | arXiv 2026 | multimodal;physical | [Link](https://arxiv.org/abs/2611.06447) | — |
 
-## 🏛️ Classical / Historical · 845 canonical
+## 🏛️ Classical / Historical · 851 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -353,6 +379,7 @@
 | **Canonical** | **CARE: Certifying Acceleration for Vision-Language-Action Inference** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.08917) | — |
 | **Canonical** | **CascadeEP: Asynchronous Expert Execution for MoE Prefill under Attention Imbalance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33252) | — |
 | **Canonical** | **CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention** | arXiv 2026 | efficient attention / long context / sparse routing / kernel acceleration | [Link](https://arxiv.org/abs/2609.07237) | — |
+| **Canonical** | **Certified Sparse Attention via Perturbed Retrieval** | arXiv 2026 | Sparse attention / certified approximation | [Link](https://arxiv.org/abs/2610.24991) | — |
 | **Canonical** | **CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids** | arXiv 2026 | VLA/WAM/Physical AI / multimodal perception / efficient attention / edge inference | [Link](https://arxiv.org/abs/2609.09881) | — |
 | **Canonical** | **Compact Attention: Exploiting Structured Spatio-Temporal Sparsity for Fast Video Generation** | arXiv 2026 | image_video_generation_acceleration | [Link](https://arxiv.org/abs/2508.12969) | — |
 | **Canonical** | **CompactAttention: Accelerating Chunked Prefill with Block-Union KV Selection** | arXiv 2026 | llm_serving,kv,sparse,attn | [Link](https://arxiv.org/abs/2605.16839) | — |
@@ -376,6 +403,7 @@
 | **Canonical** | **DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction** | arXiv 2026 | llm_serving,kv,kernel,gen | [Link](https://arxiv.org/abs/2610.22130) | — |
 | **Canonical** | **Dual Dimensionality for Local and Global Attention** | arXiv 2026 | KV cache;long-context inference | [Link](https://arxiv.org/abs/2606.18587) | — |
 | **Canonical** | **DualKV: Shared-Prompt Flash Attention for Efficient RL Training with Large Rollouts and Long Contexts** | arXiv 2026 | shared_prompt_attention_kernel | [Link](https://arxiv.org/abs/2605.15422) | — |
+| **Canonical** | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion** | arXiv 2026 | llm_serving,kv,sparse,gen | [Link](https://arxiv.org/abs/2610.26262) | — |
 | **Canonical** | **ECO: Energy-Oriented Configuration Optimization for Attention FFN Disaggregated LLM Serving** | arXiv 2026 | LLM serving; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2610.08373) | — |
 | **Canonical** | **EDiS: Edge Disjoint Subgraph Sparsification Framework for Graph Neural Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09059) | — |
 | **Canonical** | **Efficient FlashAttention on Blackwell via Fixed-Shift Softmax and Persistent Scheduling** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02229) | — |
@@ -444,6 +472,7 @@
 | **Canonical** | **MassAlloc Attention: Let Attention Allocate Its Own Compute** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32712) | — |
 | **Canonical** | **MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06801) | — |
 | **Canonical** | **Memory Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28399) | — |
+| **Canonical** | **MI-Pruner: Crossmodal Mutual Information-guided Token Pruner for Efficient MLLMs** | arXiv 2026 | mllm_visual_token_pruning | [Link](https://arxiv.org/abs/2604.03072) | — |
 | **Canonical** | **mKernel: Fast Multi-GPU, Multi-Node Fused Kernels** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.13585) | — |
 | **Canonical** | **MOIRA: Mass-Oriented Indexing with Ragged Attention for Long-Context Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04313) | — |
 | **Canonical** | **More Value per Key: Asymmetric Sparse Attention for Faster LLM Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04753) | — |
@@ -478,8 +507,10 @@
 | **Canonical** | **RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models** | arXiv 2026 | efficient attention / KV cache/long-context | [Link](https://arxiv.org/abs/2609.20971) | — |
 | **Canonical** | **Reaching Every Position Without Searching: Rotating Sparse Wiring on the Hypercube as a Substitute for Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18145) | — |
 | **Canonical** | **ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20503) | — |
+| **Canonical** | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.26244) | — |
 | **Canonical** | **Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation** | arXiv 2026 | video_generation_kv | [Link](https://arxiv.org/abs/2609.19729) | — |
 | **Canonical** | **RedKnot: Efficient Long-Context LLM Serving with Head-Aware KV Reuse and SegPagedAttention** | arXiv 2026 | KV cache/long-context; LLM serving | [Link](https://arxiv.org/abs/2606.06256) | — |
+| **Canonical** | **ReDT: Resolution-Decoupled Visual Geometry Transformer** | arXiv 2026 | efficient multimodal vision attention | [Link](https://arxiv.org/abs/2610.25517) | — |
 | **Canonical** | **RefRoute: Decoupling Conditioning Cost from References via Compact Residual Conditioning and Spatial Routing** | arXiv 2026 | image generation / efficient attention | [Link](https://arxiv.org/abs/2610.07720) | — |
 | **Canonical** | **RegVGGT: Sustainable Visual Geometry Grounding for Streaming via Regulated Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23286) | — |
 | **Canonical** | **RelaxKV: Recomputation Guided by the Query with Sparse Context Attention for Efficient KV Cache Reuse** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33503) | — |
@@ -513,6 +544,7 @@
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
 | **Canonical** | **Streaming-Aware Diffusion for Real-Time Video Super-Resolution via Cross-Step Attention** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.11746) | — |
 | **Canonical** | **Switching Linear Attention** | arXiv 2026 | efficient_attention,linear_attention | [Link](https://arxiv.org/abs/2609.39034) | — |
+| **Canonical** | **Tandem: Serving Hybrid Linear-Attention GUI Agents on Mobile NPUs** | arXiv 2026 | llm_serving,spec,attn,edge | [Link](https://arxiv.org/abs/2610.26660) | — |
 | **Canonical** | **TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09074) | — |
 | **Canonical** | **The Extender: A Log-Structured Transformer** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32759) | — |
 | **Canonical** | **The World Model Hardware Accelerator** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.16244) | — |
